@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "src": "assets/short-hook-vo.wav",
+  "sha": "10f3038f0e631937c327ad584ff93bd6277d673d3874930fe24c283b8d4d52df",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "words": [],
+  "language": "auto",
+  "generatedWordsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "createdAt": "2026-11-21T11:12:32.450Z"
+}

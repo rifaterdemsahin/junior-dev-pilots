@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#0A1020}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Inter,sans-serif;color:#EAF2F5;background-color:#0A1020;background-image:linear-gradient(rgba(11,181,164,.085) 2px,transparent 2px),linear-gradient(90deg,rgba(11,181,164,.085) 2px,transparent 2px);background-size:64px 64px}
+.glow{position:absolute;left:-260px;top:1080px;width:1600px;height:1100px;background:radial-gradient(ellipse at 50% 42%,rgba(11,181,164,.24),rgba(11,181,164,0) 66%);pointer-events:none}
+.glow-or{position:absolute;left:420px;top:-160px;width:900px;height:900px;background:radial-gradient(circle at 50% 50%,rgba(255,122,47,.15),rgba(255,122,47,0) 62%);pointer-events:none}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 46%,rgba(10,16,32,0) 52%,rgba(5,9,20,.68) 100%);pointer-events:none;z-index:1}
+
+/* Top HUD */
+.hud{position:absolute;left:96px;top:148px;width:820px;display:flex;align-items:center;justify-content:space-between;font:600 22px/1 'JetBrains Mono',monospace;letter-spacing:.13em;color:#8EA0B8;z-index:4}
+.hud-left{display:flex;align-items:center;gap:12px}
+.hud-dot{width:11px;height:11px;border-radius:50%;background:#FF7A2F;box-shadow:0 0 14px rgba(255,122,47,.95)}
+.hud-tag{padding:6px 14px;border:1.5px solid rgba(255,122,47,.55);border-radius:999px;color:#FF7A2F;background:rgba(255,122,47,.1);font-size:20px}
+
+/* Headers */
+.hd{position:absolute;left:96px;top:206px;width:820px;font:800 88px/1.0 Outfit,sans-serif;letter-spacing:-.025em;color:#EAF2F5;z-index:4}
+.tl{color:#0BB5A4}
+.or{color:#FF7A2F}
+
+/* === ACT 0: WHAT'S IN IT FOR ME (WIIFM) HOOK (0s - 6.2s) === */
+#wiifm{position:absolute;left:96px;top:206px;width:820px;z-index:8}
+.wi-badge{display:inline-flex;align-items:center;gap:10px;padding:10px 22px;border-radius:999px;background:rgba(255,122,47,.16);border:2px solid #FF7A2F;color:#FF7A2F;font:700 24px/1 'JetBrains Mono',monospace;letter-spacing:.1em;margin-bottom:22px;box-shadow:0 0 28px rgba(255,122,47,.25)}
+.wi-title{font:800 84px/1.02 Outfit,sans-serif;letter-spacing:-.025em;color:#EAF2F5;margin-bottom:18px}
+.wi-sub{font:500 32px/1.3 Inter,sans-serif;color:#B7C7D1;margin-bottom:44px}
+.wi-cards{display:flex;flex-direction:column;gap:24px}
+.wi-card{display:flex;align-items:center;gap:24px;padding:28px 30px;border-radius:26px;background:linear-gradient(135deg,rgba(15,24,41,.94),rgba(11,181,164,.08));border:2px solid rgba(11,181,164,.38);box-shadow:0 12px 36px rgba(0,0,0,.35)}
+.wi-card.hi{border-color:#FF7A2F;background:linear-gradient(135deg,rgba(255,122,47,.16),rgba(15,24,41,.94));box-shadow:0 0 40px rgba(255,122,47,.2)}
+.wi-num{flex:0 0 74px;height:74px;border-radius:20px;display:flex;align-items:center;justify-content:center;font:800 32px/1 'JetBrains Mono',monospace;color:#0BB5A4;background:rgba(11,181,164,.14);border:2px solid rgba(11,181,164,.45)}
+.wi-card.hi .wi-num{color:#FF7A2F;background:rgba(255,122,47,.16);border-color:#FF7A2F}
+.wi-text h3{font:800 38px/1.1 Outfit,sans-serif;color:#EAF2F5;margin-bottom:6px}
+.wi-text p{font:500 26px/1.25 Inter,sans-serif;color:#B7C7D1}
+
+/* Hook Lanes & Callouts (Act 1) */
+.hook-banner{position:absolute;left:96px;top:418px;width:820px;padding:18px 26px;border:2px solid rgba(255,122,47,.6);border-radius:20px;background:linear-gradient(90deg,rgba(255,122,47,.16),rgba(15,24,41,.92));display:flex;align-items:center;justify-content:space-between;z-index:5;box-shadow:0 0 36px rgba(255,122,47,.18)}
+.hook-kicker{font:700 32px/1.1 Outfit,sans-serif;letter-spacing:-.01em;color:#EAF2F5}
+.hook-pill{padding:8px 18px;border-radius:999px;background:#FF7A2F;color:#0A1020;font:700 22px/1 'JetBrains Mono',monospace;letter-spacing:.08em}
+
+.hl{position:absolute;left:96px;width:820px;height:0;border-top:5px dotted rgba(234,242,245,.32);z-index:2}
+.h-streak{position:absolute;left:96px;height:10px;border-radius:999px;transform-origin:0% 50%;z-index:3}
+.h-tag{position:absolute;right:164px;padding:8px 20px;border-radius:12px;font:700 26px/1 'JetBrains Mono',monospace;letter-spacing:.06em;z-index:5;opacity:0}
+.h-tag.t1{top:554px;color:#8EA0B8;border:2px solid rgba(142,160,184,.45);background:rgba(15,24,41,.9)}
+.h-tag.t2{top:792px;color:#EAF2F5;border:2px solid rgba(234,242,245,.45);background:rgba(15,24,41,.9)}
+.h-tag.t3{top:1062px;color:#0BB5A4;border:2px solid #0BB5A4;background:rgba(11,181,164,.14);box-shadow:0 0 28px rgba(11,181,164,.3)}
+
+/* Vehicles */
+.veh{position:absolute;left:128px;z-index:7}
+.veh svg{display:block}
+
+/* Three Spacious Vertical-Fit Tier Cards */
+.cd{position:absolute;left:96px;width:820px;height:284px;border:2px solid rgba(11,181,164,.28);border-radius:32px;background:linear-gradient(135deg,rgba(15,24,41,.9),rgba(255,255,255,.04));z-index:3}
+.cd.pl{border-color:#0BB5A4;background:linear-gradient(135deg,rgba(11,181,164,.14),rgba(15,24,41,.94) 60%,rgba(255,122,47,.07));box-shadow:0 0 64px rgba(11,181,164,.3),inset 0 1px 0 rgba(255,255,255,.14)}
+.nm{position:absolute;left:34px;top:24px;font:800 50px/1.1 Outfit,sans-serif;letter-spacing:-.015em}
+.ds{position:absolute;left:34px;top:90px;font:500 31px/1.24 Inter,sans-serif;color:#B7C7D1;white-space:nowrap}
+.ds span{opacity:.35}
+.tk{position:absolute;left:34px;top:178px;width:752px;height:0;border-top:4px dashed rgba(234,242,245,.22)}
+.tr{position:absolute;left:84px;top:175px;height:10px;border-radius:5px;transform-origin:0% 50%}
+.rg{position:absolute;right:34px;top:224px;font:600 28px/1 'JetBrains Mono',monospace;letter-spacing:.07em}
+.mp{position:absolute;right:28px;top:24px;padding:7px 20px;border:2px solid #FF7A2F;border-radius:999px;font:600 26px/1 'JetBrains Mono',monospace;color:#FF7A2F;background:rgba(255,122,47,.12);box-shadow:0 0 22px rgba(255,122,47,.2)}
+
+/* CTA Hero Elements */
+.big{position:absolute;left:96px;top:736px;font:400 276px/1 'Archivo Black',sans-serif;letter-spacing:-.03em;color:#0BB5A4;text-shadow:0 0 64px rgba(11,181,164,.42);z-index:4}
+.fs{position:absolute;left:100px;top:1022px;font:800 62px/1.1 Outfit,sans-serif;color:#EAF2F5;z-index:4}
+.sk{position:absolute;left:100px;top:1114px;padding:16px 32px;border:2.5px solid #FF7A2F;border-radius:999px;font:600 34px/1 'JetBrains Mono',monospace;color:#EAF2F5;background:rgba(15,24,41,.94);box-shadow:0 0 34px rgba(255,122,47,.28);z-index:4}
+
+/* Post-VO Closing WIIFM Payoff Strip (50.6s - 60.0s) */
+#payoff{position:absolute;left:96px;top:1232px;width:820px;padding:26px 30px;border-radius:26px;background:linear-gradient(135deg,rgba(11,181,164,.12),rgba(15,24,41,.92));border:2px solid rgba(11,181,164,.45);z-index:4;opacity:0}
+.po-kicker{font:700 22px/1 'JetBrains Mono',monospace;letter-spacing:.12em;color:#FF7A2F;margin-bottom:18px}
+.po-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.po-item{padding:16px 14px;border-radius:16px;background:rgba(10,16,32,.72);border:1.5px solid rgba(11,181,164,.25);text-align:center}
+.po-item strong{display:block;font:800 26px/1.15 Outfit,sans-serif;color:#EAF2F5;margin-bottom:6px}
+.po-item span{font:500 20px/1.2 Inter,sans-serif;color:#8EA0B8}
+
+/* Bottom Animated Kinetic Subtitles */
+#cap{position:absolute;left:96px;top:1612px;width:820px;height:158px;z-index:20}
+.cg{position:absolute;left:0;top:0;width:820px;height:158px;display:flex;flex-wrap:wrap;gap:6px .28em;align-items:center;justify-content:center;align-content:center;text-align:center;font:800 62px/1.12 Outfit,sans-serif;color:#EAF2F5;opacity:0;visibility:hidden;overflow:visible;padding:14px 26px;border-radius:26px;background:rgba(10,16,32,.84);border:1.5px solid rgba(11,181,164,.32);box-shadow:0 14px 44px rgba(0,0,0,.55);text-shadow:0 4px 20px rgba(10,16,32,.95)}
+.cg span{display:inline-block;transform-origin:50% 60%;padding:0 4px;border-radius:10px}
+
+/* Bottom Flight Deck Progress Bar (anchored beneath bottom subtitles) */
+.deck{position:absolute;left:96px;top:1804px;width:820px;z-index:4}
+.deck-track{width:100%;height:8px;border-radius:999px;background:rgba(234,242,245,.12);overflow:hidden;margin-bottom:14px}
+.deck-fill{width:100%;height:100%;border-radius:999px;background:linear-gradient(90deg,#FF7A2F,#0BB5A4 55%,#FF7A2F);transform-origin:0% 50%;transform:scaleX(0)}
+.deck-steps{display:flex;justify-content:space-between;font:600 20px/1 'JetBrains Mono',monospace;letter-spacing:.08em;color:#5D708A}
+.deck-step{display:flex;align-items:center;gap:8px;opacity:.45}
+.deck-pip{width:9px;height:9px;border-radius:50%;background:currentColor}
+</style>
+</head>
+<body>
+<div data-hf-id="hf-v3-root" id="root" data-composition-id="short-rider-driver-pilot-v3" data-start="0" data-duration="60" data-width="1080" data-height="1920">
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="ic-bike" viewBox="0 0 80 48"><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="34" r="11"/><circle cx="66" cy="34" r="11"/><path d="M14 34 L30 34 L42 12 L58 12 M30 34 L52 34 L42 12 M52 34 L62 14 M42 12 L40 6 L33 6 M58 12 L66 34"/></g></symbol>
+<symbol id="ic-car" viewBox="0 0 96 48"><path fill="currentColor" d="M4 34 L4 27 Q4 22 10 21 L24 19 L34 8 Q36 6 40 6 L62 6 Q66 6 68 8 L78 19 L88 21 Q93 22 93 27 L93 34 Z"/><circle cx="24" cy="36" r="9" fill="currentColor" stroke="#0F1829" stroke-width="4"/><circle cx="73" cy="36" r="9" fill="currentColor" stroke="#0F1829" stroke-width="4"/></symbol>
+<symbol id="ic-plane" viewBox="0 0 64 64"><path fill="currentColor" d="M32 2 Q35 2 36 8 L37 24 L61 38 L61 44 L37 37 L36 53 L44 58 L44 62 L32 59 L20 62 L20 58 L28 53 L27 37 L3 44 L3 38 L27 24 L28 8 Q29 2 32 2 Z"/></symbol>
+</defs></svg>
+
+<div class="glow"></div>
+<div class="glow-or"></div>
+<div class="vig"></div>
+
+<!-- Top HUD -->
+<div class="hud" data-layout-ignore>
+  <div class="hud-left"><span class="hud-dot"></span><span>FLIGHT BRIEF // 60S EDITION</span></div>
+  <span class="hud-tag">03 LEVELS</span>
+</div>
+
+<!-- ACT 0: WHAT'S IN IT FOR ME (WIIFM) HOOK -->
+<div id="wiifm">
+  <div class="wi-badge" id="wi-badge">WHAT'S IN IT FOR YOU?</div>
+  <div class="wi-title" id="wi-title">SHIP 10× FASTER.<br><span class="tl">STAY IN CONTROL.</span></div>
+  <div class="wi-sub" id="wi-sub">In 60 seconds, see how top junior devs turn AI into leverage:</div>
+  <div class="wi-cards">
+    <div class="wi-card" id="wic1">
+      <div class="wi-num">01</div>
+      <div class="wi-text"><h3>Command AI Agents</h3><p>Stop blindly copy-pasting chatbot answers.</p></div>
+    </div>
+    <div class="wi-card" id="wic2">
+      <div class="wi-num">02</div>
+      <div class="wi-text"><h3>Ship Production Specs</h3><p>Flight plan → Autopilot → Take control.</p></div>
+    </div>
+    <div class="wi-card hi" id="wic3">
+      <div class="wi-num">$0</div>
+      <div class="wi-text"><h3>Free Cockpit Access</h3><p>100% free for students to train today.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- Headers (Act 1-3) -->
+<div class="hd hd1">WHICH ONE<br><span class="tl">ARE YOU?</span></div>
+<div class="hd hd2">JOIN<br><span class="tl">DELIVERY PILOT</span></div>
+
+<!-- Hook Banner & Lanes (6.2s - 11.4s) -->
+<div class="hook-banner" id="hook-banner">
+  <span class="hook-kicker">STOP CODING LIKE A <span class="or">PASSENGER</span></span>
+  <span class="hook-pill">3 TIERS</span>
+</div>
+
+<div class="hl" style="top:656px"></div>
+<div class="hl" style="top:926px"></div>
+<div class="hl" style="top:1196px;border-top-color:rgba(11,181,164,.55)"></div>
+
+<div class="h-streak" id="hs1" style="top:651px;width:230px;background:linear-gradient(90deg,rgba(142,160,184,0),#8EA0B8)"></div>
+<div class="h-streak" id="hs2" style="top:921px;width:470px;background:linear-gradient(90deg,rgba(234,242,245,0),#EAF2F5)"></div>
+<div class="h-streak" id="hs3" style="top:1191px;width:820px;background:linear-gradient(90deg,rgba(11,181,164,0),#0BB5A4 65%,#FF7A2F)"></div>
+
+<div class="h-tag t1" id="ht1">01 · GET CARRIED</div>
+<div class="h-tag t2" id="ht2">02 · GET THERE</div>
+<div class="h-tag t3" id="ht3">03 · GO THE DISTANCE</div>
+
+<!-- Three Spacious Vertical-Fit Tier Cards -->
+<div id="c1" class="cd" style="top:420px">
+  <div class="nm" style="color:#8EA0B8">RIDER</div>
+  <div class="ds">Copies chatbot answers and hopes.</div>
+  <div class="tk"></div>
+  <div class="tr" style="width:128px;background:#8EA0B8"></div>
+  <div class="rg" style="color:#8EA0B8">AROUND THE BLOCK</div>
+</div>
+
+<div id="c2" class="cd" style="top:732px">
+  <div class="nm">DRIVER</div>
+  <div class="ds">Hands on the wheel. AI is the satnav.</div>
+  <div class="tk"></div>
+  <div class="tr" style="width:340px;background:#EAF2F5"></div>
+  <div class="rg" style="color:#EAF2F5">CITY TO CITY</div>
+</div>
+
+<div id="c3" class="cd pl" style="top:1044px">
+  <div class="nm tl" style="font-size:44px;padding-top:2px">DELIVERY PILOT</div>
+  <div class="mp">MY OWN TERM</div>
+  <div class="ds"><span>Flight plan</span> → <span>Autopilot</span> → <span>Take control</span></div>
+  <div class="tk"></div>
+  <div class="tr" style="width:684px;background:linear-gradient(90deg,#0BB5A4,#2EE6D6 75%,#FF7A2F)"></div>
+  <div class="rg tl">VAST DISTANCES</div>
+</div>
+
+<!-- Vehicles -->
+<div id="v1" class="veh" style="top:569px;width:96px;height:58px;color:#8EA0B8"><svg width="96" height="58" viewBox="0 0 96 58"><use href="#ic-bike" width="96" height="58"/></svg></div>
+<div id="v2" class="veh" style="top:881px;width:96px;height:58px;color:#EAF2F5"><svg width="96" height="58" viewBox="0 0 96 58"><use href="#ic-car" width="96" height="58"/></svg></div>
+<div id="v3" class="veh" style="top:1193px;width:58px;height:58px;color:#0BB5A4"><svg width="58" height="58" viewBox="0 0 58 58" style="transform:rotate(90deg)"><use href="#ic-plane" width="58" height="58"/></svg></div>
+
+<!-- CTA Hero -->
+<div id="dl" class="big">$0</div>
+<div id="fs" class="fs">FREE FOR STUDENTS</div>
+<div id="sk" class="sk"><span class="or">→</span> skool.com/delivery-pilot-8938</div>
+
+<!-- Closing WIIFM Payoff Card (50.6s - 60s) -->
+<div id="payoff">
+  <div class="po-kicker">YOUR COCKPIT INCLUDES</div>
+  <div class="po-grid">
+    <div class="po-item"><strong>Flight Plans</strong><span>Spec-first builds</span></div>
+    <div class="po-item"><strong>AI Agents</strong><span>Autopilot workflows</span></div>
+    <div class="po-item"><strong class="or">$0 Free</strong><span>For all students</span></div>
+  </div>
+</div>
+
+<!-- Bottom Animated Subtitles Container -->
+<div id="cap"></div>
+
+<!-- Bottom Flight Deck Progress Bar -->
+<div class="deck" data-layout-ignore>
+  <div class="deck-track"><div class="deck-fill" id="deck-fill"></div></div>
+  <div class="deck-steps">
+    <div class="deck-step" id="st-wiifm"><span class="deck-pip"></span><span>WHY WATCH</span></div>
+    <div class="deck-step" id="st-hook"><span class="deck-pip"></span><span>3 TIERS</span></div>
+    <div class="deck-step" id="st-rider"><span class="deck-pip"></span><span>RIDER</span></div>
+    <div class="deck-step" id="st-driver"><span class="deck-pip"></span><span>DRIVER</span></div>
+    <div class="deck-step" id="st-pilot"><span class="deck-pip"></span><span>PILOT</span></div>
+    <div class="deck-step" id="st-cta"><span class="deck-pip"></span><span>JOIN $0</span></div>
+  </div>
+</div>
+
+<!-- Audio Mix (60s total: VO starts at 6.2s after WIIFM Hook) -->
+<audio id="short-bed" class="clip" src="assets/underscore.mp3" data-start="0" data-duration="60" data-track-index="21" data-volume="0.15" data-fade-in="0.5" data-fade-out="2.5"></audio>
+<audio id="short-vo" class="clip" src="assets/short-rdp-voice.wav" data-start="6.2" data-duration="44.4" data-track-index="20" data-volume="0.95"></audio>
+<audio id="sfx-wiifm-1" class="clip" src="assets/sfx-cta.wav" data-start="0.1" data-duration="0.45" data-track-index="24" data-volume="0.22"></audio>
+<audio id="sfx-wiifm-2" class="clip" src="assets/sfx-tick.wav" data-start="1.6" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-wiifm-3" class="clip" src="assets/sfx-tick.wav" data-start="2.6" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-wiifm-4" class="clip" src="assets/sfx-tick.wav" data-start="3.6" data-duration="0.09" data-track-index="23" data-volume="0.20"></audio>
+<audio id="sfx-wiifm-out" class="clip" src="assets/sfx-whoosh.wav" data-start="5.75" data-duration="0.45" data-track-index="22" data-volume="0.20"></audio>
+<audio id="sfx-whoosh-1" class="clip" src="assets/sfx-whoosh.wav" data-start="9.1" data-duration="0.45" data-track-index="22" data-volume="0.24"></audio>
+<audio id="sfx-tick-1" class="clip" src="assets/sfx-tick.wav" data-start="33.4" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-tick-2" class="clip" src="assets/sfx-tick.wav" data-start="36.4" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-tick-3" class="clip" src="assets/sfx-tick.wav" data-start="38.8" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-whoosh-2" class="clip" src="assets/sfx-whoosh.wav" data-start="41.2" data-duration="0.45" data-track-index="22" data-volume="0.24"></audio>
+<audio id="sfx-whoosh-3" class="clip" src="assets/sfx-whoosh.wav" data-start="42.8" data-duration="0.45" data-track-index="22" data-volume="0.18"></audio>
+<audio id="sfx-cta" class="clip" src="assets/sfx-cta.wav" data-start="45.96" data-duration="0.45" data-track-index="24" data-volume="0.24"></audio>
+<audio id="sfx-payoff" class="clip" src="assets/sfx-cta.wav" data-start="51.0" data-duration="0.45" data-track-index="24" data-volume="0.20"></audio>
+</div>
+
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+const q=s=>Array.from(document.querySelectorAll(s));
+const rise=(sel,at,d)=>tl.fromTo(q(sel),{opacity:0,y:36},{opacity:1,y:0,duration:d||.55,ease:"power3.out"},at);
+
+const OFF=6.2;
+
+const HOOK_CAP=[
+  {"s":0.15,"e":2.1,"w":[["What's",0.15,0.55],["in",0.55,0.8],["it",0.8,1.0],["for",1.0,1.25],["you?",1.25,1.95]]},
+  {"s":2.15,"e":4.15,"w":[["Ship",2.15,2.55],["10×",2.55,3.05],["faster",3.05,3.5],["with",3.5,3.72],["AI.",3.72,4.05]]},
+  {"s":4.2,"e":6.0,"w":[["Claim",4.2,4.55],["your",4.55,4.8],["$0",4.8,5.25],["student",5.25,5.6],["seat.",5.6,5.92]]}
+];
+
+const VO_CAP=[{"s":0.3,"e":1.66,"w":[["Riders",0.3,0.68],["get",0.77,0.9],["carried.",0.94,1.47]]},{"s":1.66,"e":2.89,"w":[["Drivers",1.66,2.05],["get",2.13,2.26],["there.",2.35,2.69]]},{"s":2.9,"e":4.5,"w":[["Pilots",2.9,3.33],["go",3.41,3.54],["the",3.58,3.67],["distance.",3.71,4.3]]},{"s":5.05,"e":6.32,"w":[["Now,",5.05,5.35],["the",5.47,5.6],["analogy:",5.65,6.12]]},{"s":6.33,"e":8.58,"w":[["rider,",6.33,6.86],["driver,",7.01,7.5],["pilot.",7.65,8.38]]},{"s":8.68,"e":10.17,"w":[["A",8.68,8.76],["rider",8.8,9.1],["uses",9.14,9.36],["AI",9.53,9.87],["like",10.0,10.13]]},{"s":10.17,"e":11.14,"w":[["a",10.17,10.25],["passenger.",10.3,10.94]]},{"s":11.15,"e":12.26,"w":[["They",11.15,11.28],["copy",11.32,11.49],["answers",11.62,11.96],["from",12.05,12.13],["a",12.17,12.22]]},{"s":12.26,"e":13.95,"w":[["chatbot",12.26,12.73],["and",12.86,12.9],["hope",12.94,13.07],["they",13.15,13.24],["work.",13.28,13.75]]},{"s":14.01,"e":15.67,"w":[["Their",14.01,14.14],["range",14.18,14.39],["is",14.61,14.65],["around",14.78,14.9],["the",14.99,15.07],["block.",15.12,15.48]]},{"s":15.67,"e":17.54,"w":[["A",15.67,15.75],["driver",15.79,16.14],["is",16.22,16.26],["the",16.31,16.43],["classic",16.48,16.82],["developer:",16.86,17.37]]},{"s":17.54,"e":18.7,"w":[["hands",17.54,17.8],["on",17.93,18.01],["the",18.06,18.14],["wheel,",18.18,18.5]]},{"s":18.7,"e":20.06,"w":[["writing",18.7,18.91],["most",19.08,19.21],["of",19.34,19.38],["the",19.42,19.46],["code,",19.51,19.87]]},{"s":20.06,"e":21.95,"w":[["with",20.06,20.23],["AI",20.32,20.62],["as",20.79,20.83],["the",20.87,20.96],["satnav.",21.0,21.75]]},{"s":22.11,"e":23.99,"w":[["Drivers",22.11,22.49],["go",22.54,22.66],["from",22.75,22.83],["city",22.92,23.09],["to",23.22,23.3],["city.",23.35,23.79]]},{"s":24.07,"e":25.01,"w":[["And",24.07,24.16],["a",24.2,24.24],["pilot",24.29,24.67],["is",24.71,24.8],["what",24.84,24.97]]},{"s":25.01,"e":26.68,"w":[["I'm",25.01,25.14],["calling",25.18,25.31],["a",25.48,25.52],["Delivery",25.57,25.78],["Pilot.",25.91,26.48]]},{"s":26.72,"e":28.0,"w":[["They",26.72,26.89],["set",26.93,27.06],["the",27.1,27.19],["flight",27.23,27.4],["plan,",27.48,27.85]]},{"s":28.0,"e":29.12,"w":[["which",28.0,28.08],["is",28.17,28.21],["the",28.25,28.38],["spec.",28.42,28.92]]},{"s":29.25,"e":30.23,"w":[["They",29.25,29.38],["run",29.42,29.55],["the",29.59,29.67],["agents",29.72,30.02],["on",30.1,30.19]]},{"s":30.23,"e":32.19,"w":[["autopilot,",30.23,30.98],["watch",31.12,31.25],["the",31.34,31.47],["instruments,",31.51,32.02]]},{"s":32.19,"e":32.95,"w":[["and",32.19,32.36],["take",32.41,32.58],["control",32.62,32.75]]},{"s":33.0,"e":33.97,"w":[["when",33.0,33.13],["it",33.17,33.22],["matters.",33.26,33.77]]},{"s":34.03,"e":34.91,"w":[["Their",34.03,34.15],["range?",34.2,34.71]]},{"s":35.01,"e":36.45,"w":[["Vast",35.01,35.35],["distances.",35.56,36.25]]},{"s":37.25,"e":38.61,"w":[["Delivery",37.25,37.55],["Pilot",37.68,38.02],["is",38.15,38.27],["where",38.32,38.4],["you",38.44,38.57]]},{"s":38.61,"e":39.77,"w":[["train",38.61,38.83],["to",38.91,39.0],["become",39.04,39.08],["one.",39.3,39.6]]},{"s":39.77,"e":41.01,"w":[["It's",39.77,39.94],["free",39.98,40.15],["for",40.19,40.28],["students:",40.32,40.81]]},{"s":41.13,"e":42.19,"w":[["if",41.13,41.22],["you're",41.26,41.39],["studying,",41.43,41.98]]},{"s":42.24,"e":43.31,"w":[["your",42.24,42.41],["seat",42.45,42.62],["in",42.67,42.75],["the",42.8,42.84],["cockpit",42.88,43.22]]},{"s":43.31,"e":44.4,"w":[["costs",43.31,43.61],["nothing.",43.73,44.2]]}];
+
+const OUTRO_CAP=[
+  {"s":51.1,"e":55.2,"w":[["Train",51.1,51.6],["for",51.6,52.0],["$0",52.0,52.8],["free",52.8,53.5],["today.",53.5,55.0]]},
+  {"s":55.3,"e":59.6,"w":[["Join",55.3,55.9],["Delivery",55.9,56.8],["Pilot",56.8,57.7],["→",57.7,58.2],["link",58.2,58.8],["in",58.8,59.1],["bio.",59.1,59.5]]}
+];
+
+const CAP=[
+  ...HOOK_CAP,
+  ...VO_CAP.map(g=>({s:+(g.s+OFF).toFixed(2),e:+(g.e+OFF).toFixed(2),w:g.w.map(w=>[w[0],+(w[1]+OFF).toFixed(2),+(w[2]+OFF).toFixed(2)])})),
+  ...OUTRO_CAP
+];
+
+const POWER_WORDS=new Set(["you?","10×","$0","Pilots","distance.","Delivery","Pilot.","Pilot","Vast","distances.","free","students:","nothing.","today.","bio."]);
+
+/* Ambient + 60s Flight Deck Progress */
+tl.fromTo("#root .glow",{opacity:0},{opacity:1,duration:1.1},0);
+tl.fromTo("#root .glow-or",{opacity:0},{opacity:1,duration:1.4},0);
+tl.fromTo("#root",{backgroundPositionY:0},{backgroundPositionY:-300,duration:60,ease:"none"},0);
+tl.to("#deck-fill",{scaleX:1,duration:60,ease:"none"},0);
+
+const setStep=(id,at)=>{
+  ["#st-wiifm","#st-hook","#st-rider","#st-driver","#st-pilot","#st-cta"].forEach(s=>{
+    tl.to(s,{opacity:s===id?1:.35,color:s===id?(id==="#st-wiifm"||id==="#st-cta"?"#FF7A2F":"#0BB5A4"):"#5D708A",duration:.3},at);
+  });
+};
+setStep("#st-wiifm",0);
+setStep("#st-hook",OFF);
+setStep("#st-rider",OFF+8.5);
+setStep("#st-driver",OFF+15.4);
+setStep("#st-pilot",OFF+23.8);
+setStep("#st-cta",OFF+36.4);
+
+/* Initial Hidden States */
+tl.set([".hd1",".hd2","#hook-banner",".hl",".h-streak",".h-tag",".cd",".ds",".rg",".mp","#dl","#fs","#sk","#payoff"],{opacity:0},0);
+tl.set(".hl,.h-streak",{scaleX:0},0);
+tl.set("#v1",{x:-20,y:58,scale:2,transformOrigin:"0% 50%",opacity:0},0);
+tl.set("#v2",{x:-20,y:16,scale:2,transformOrigin:"0% 50%",opacity:0},0);
+tl.set("#v3",{x:-20,y:-24,scale:2,transformOrigin:"0% 50%",opacity:0},0);
+
+/* === ACT 0: WHAT'S IN IT FOR ME (WIIFM) HOOK (0.0s - 6.2s) === */
+tl.fromTo(".hud",{opacity:0,y:-14},{opacity:1,y:0,duration:.4,ease:"power2.out"},0);
+tl.fromTo("#wi-badge",{opacity:0,y:20,scale:.9},{opacity:1,y:0,scale:1,duration:.45,ease:"back.out(1.7)"},0.06);
+tl.fromTo("#wi-title",{opacity:0,y:28},{opacity:1,y:0,duration:.5,ease:"power3.out"},0.22);
+tl.fromTo("#wi-sub",{opacity:0,y:18},{opacity:1,y:0,duration:.45,ease:"power2.out"},0.55);
+tl.fromTo("#wic1",{opacity:0,x:-36},{opacity:1,x:0,duration:.48,ease:"power3.out"},1.6);
+tl.fromTo("#wic2",{opacity:0,x:-36},{opacity:1,x:0,duration:.48,ease:"power3.out"},2.6);
+tl.fromTo("#wic3",{opacity:0,x:-36,scale:.95},{opacity:1,x:0,scale:1,duration:.5,ease:"back.out(1.5)"},3.6);
+tl.to("#wiifm",{opacity:0,y:-36,duration:.42,ease:"power2.in"},5.72);
+
+/* === ACT 1: 3-TIER VISUAL HOOK (6.2s - 11.4s) === */
+tl.fromTo(".hd1",{opacity:0,y:28},{opacity:1,y:0,duration:.45,ease:"power3.out"},OFF);
+tl.fromTo("#hook-banner",{opacity:0,y:18,scale:.95},{opacity:1,y:0,scale:1,duration:.42,ease:"back.out(1.6)"},OFF+0.08);
+tl.fromTo(".hl",{scaleX:0,opacity:1,transformOrigin:"0% 50%"},{scaleX:1,duration:.42,ease:"power2.out",stagger:.12},OFF+0.12);
+
+/* Bike */
+tl.to("#v1",{opacity:1,duration:.18},OFF+0.25);
+tl.to("#v1",{x:210,duration:.95,ease:"power2.out"},OFF+0.3);
+tl.fromTo("#hs1",{scaleX:0,opacity:.9},{scaleX:1,opacity:.55,duration:.95,ease:"power2.out"},OFF+0.3);
+tl.fromTo("#ht1",{opacity:0,x:24},{opacity:1,x:0,duration:.35,ease:"power3.out"},OFF+0.42);
+
+/* Car */
+tl.to("#v2",{opacity:1,duration:.2},OFF+1.45);
+tl.to("#v2",{x:450,duration:1.1,ease:"power2.out"},OFF+1.55);
+tl.fromTo("#hs2",{scaleX:0,opacity:.95},{scaleX:1,opacity:.65,duration:1.1,ease:"power2.out"},OFF+1.55);
+tl.fromTo("#ht2",{opacity:0,x:24},{opacity:1,x:0,duration:.35,ease:"power3.out"},OFF+1.68);
+
+/* Plane */
+tl.to("#v3",{opacity:1,duration:.2},OFF+2.75);
+tl.to("#v3",{x:1020,duration:1.3,ease:"power2.in"},OFF+2.9);
+tl.fromTo("#hs3",{scaleX:0,opacity:1},{scaleX:1,opacity:.85,duration:1.15,ease:"power2.in"},OFF+2.9);
+tl.fromTo("#ht3",{opacity:0,scale:.88},{opacity:1,scale:1,duration:.38,ease:"back.out(1.8)"},OFF+3.05);
+
+/* Exit Hook Lanes + Vehicle Return Glides */
+tl.to(["#hook-banner",".hl",".h-streak",".h-tag"],{opacity:0,y:-16,duration:.38,ease:"power2.in"},OFF+4.35);
+tl.set("#v3",{opacity:0,x:0,y:0,scale:1},OFF+4.5);
+tl.to("#v1",{x:0,y:0,scale:1,duration:.88,ease:"power3.inOut"},OFF+4.5);
+tl.to("#v2",{x:0,y:0,scale:1,duration:.88,ease:"power3.inOut"},OFF+4.68);
+
+/* === ACT 2: THE ANALOGY (12.53s - 42.5s) === */
+tl.fromTo("#c1",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},OFF+6.33);
+tl.fromTo("#c2",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},OFF+7.0);
+tl.fromTo("#c3",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},OFF+7.65);
+tl.fromTo("#v3",{opacity:0},{opacity:1,duration:.4},OFF+7.65);
+
+const focus=(i,at)=>{
+  [1,2,3].forEach(j=>{
+    tl.to(["#c"+j,"#v"+j],{opacity:j===i?1:.38,duration:.4,ease:"power2.out"},at);
+  });
+};
+focus(1,OFF+8.5);
+focus(2,OFF+15.4);
+focus(3,OFF+23.8);
+
+/* Rider */
+rise("#c1 .ds",OFF+8.67,.5);
+tl.fromTo("#c1 .rg",{opacity:0},{opacity:1,duration:.4},OFF+14.0);
+tl.fromTo("#c1 .tr",{scaleX:0},{scaleX:1,duration:1.2,ease:"power2.out"},OFF+14.55);
+tl.to("#v1",{x:128,duration:1.2,ease:"power2.out"},OFF+14.55);
+
+/* Driver */
+rise("#c2 .ds",OFF+15.67,.5);
+tl.fromTo("#c2 .rg",{opacity:0},{opacity:1,duration:.4},OFF+22.1);
+tl.fromTo("#c2 .tr",{scaleX:0},{scaleX:1,duration:1.5,ease:"power2.out"},OFF+22.3);
+tl.to("#v2",{x:340,duration:1.5,ease:"power2.out"},OFF+22.3);
+
+/* Delivery Pilot */
+rise("#c3 .ds",OFF+24.07,.5);
+tl.fromTo("#c3 .mp",{opacity:0,scale:.78,transformOrigin:"100% 50%"},{opacity:1,scale:1,duration:.5,ease:"back.out(2)"},OFF+25.57);
+const sp=q("#c3 .ds span");
+tl.to(sp[0],{opacity:1,color:"#0BB5A4",duration:.3},OFF+27.2);
+tl.to(sp[1],{opacity:1,color:"#0BB5A4",duration:.3},OFF+30.2);
+tl.to(sp[2],{opacity:1,color:"#0BB5A4",duration:.3},OFF+32.6);
+tl.fromTo("#c3 .rg",{opacity:0},{opacity:1,duration:.4},OFF+34.1);
+tl.fromTo("#c3 .tr",{scaleX:0},{scaleX:1,duration:1.5,ease:"power2.inOut"},OFF+35.0);
+tl.to("#v3",{x:684,duration:1.5,ease:"power2.inOut"},OFF+35.0);
+
+/* === ACT 3: CTA HERO + CLOSING PAYOFF (42.5s - 60.0s) === */
+tl.to(".hd1",{opacity:0,y:-28,duration:.4},OFF+36.3);
+tl.to(["#c1","#c2","#v1","#v2"],{opacity:0,duration:.42},OFF+36.4);
+tl.to(["#c3","#v3"],{y:-624,duration:.8,ease:"power3.inOut"},OFF+36.6);
+tl.fromTo(".hd2",{opacity:0,y:36},{opacity:1,y:0,duration:.55,ease:"power3.out"},OFF+36.9);
+tl.fromTo("#dl",{opacity:0,scale:.6,transformOrigin:"0% 50%"},{opacity:1,scale:1,duration:.55,ease:"back.out(1.8)"},OFF+39.76);
+rise("#fs",OFF+40.05,.55);
+rise("#sk",OFF+41.10,.55);
+tl.to("#sk",{scale:1.05,transformOrigin:"0% 50%",duration:.55,yoyo:true,repeat:19,ease:"sine.inOut"},OFF+41.9);
+tl.fromTo("#payoff",{opacity:0,y:28},{opacity:1,y:0,duration:.6,ease:"power3.out"},51.0);
+
+/* === BOTTOM ANIMATED KINETIC SUBTITLES === */
+const capEl=document.getElementById("cap");
+const fit=window.__hyperframes&&window.__hyperframes.fitTextFontSize;
+CAP.forEach(g=>{
+  const el=document.createElement("div");
+  el.className="cg";
+  const spans=g.w.map(w=>{
+    const s=document.createElement("span");
+    s.textContent=w[0];
+    el.appendChild(s);
+    el.appendChild(document.createTextNode(" "));
+    return s;
+  });
+  capEl.appendChild(el);
+  if(fit){
+    const fs=Math.min(62,fit(g.w.map(w=>w[0]).join(" "),{fontFamily:"Outfit",fontWeight:800,maxWidth:750}).fontSize);
+    el.style.fontSize=fs+"px";
+  }
+  tl.set(el,{visibility:"visible"},g.s);
+  tl.fromTo(el,{opacity:0,y:24,scale:.93},{opacity:1,y:0,scale:1,duration:.16,ease:"back.out(1.6)"},g.s);
+  g.w.forEach((w,i)=>{
+    const hi=POWER_WORDS.has(w[0])?"#FF7A2F":"#0BB5A4";
+    const bg=POWER_WORDS.has(w[0])?"rgba(255,122,47,.18)":"rgba(11,181,164,.16)";
+    tl.to(spans[i],{color:hi,backgroundColor:bg,scale:1.13,y:-4,duration:.08,ease:"power2.out"},w[1]);
+    tl.to(spans[i],{color:"#EAF2F5",backgroundColor:"rgba(0,0,0,0)",scale:1,y:0,duration:.12,ease:"power2.inOut"},w[2]);
+  });
+  tl.to(el,{opacity:0,y:-12,duration:.12,ease:"power2.in"},g.e-.12);
+  tl.set(el,{opacity:0,visibility:"hidden"},g.e);
+});
+
+window.__timelines["short-rider-driver-pilot-v3"]=tl;
+tl.seek(0);
+</script>
+</body>
+</html>
