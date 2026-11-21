@@ -1095,8 +1095,8 @@
   },
   "checks": {
     "latest": {
-      "revision": null,
-      "id": "69c2e799-aa92-4eb2-a59e-3cf9c2ecd936"
+      "revision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
+      "id": "b2628676-846e-44e2-be91-be08539a9d60"
     },
     "revisions": {
       "18f24328-7873-4a30-abbe-2f29d1d3d90a": [],
@@ -1171,6 +1171,43 @@
           "contentHash": "c793241261e36e2ccc108f501d9f58234bab0b8b63786a7a23ec8a3545c4e534",
           "revision": "570857ef-c8b6-4185-b646-05abceb1cc34",
           "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "d8c91037-6a9c-43bf-9673-07c60e27f1d5": [
+        {
+          "id": "b2628676-846e-44e2-be91-be08539a9d60",
+          "scope": "project",
+          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/b2628676-846e-44e2-be91-be08539a9d60.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1795258093175,
+          "contentHash": "c793241261e36e2ccc108f501d9f58234bab0b8b63786a7a23ec8a3545c4e534",
+          "revision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
+          "inputFingerprint": "89a2a69ee6ea2dad79ff6c6e254ddd5ff5346f1fb166970a30b02f1bef261387",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }
