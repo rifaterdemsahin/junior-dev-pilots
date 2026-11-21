@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🖼️ YouTube Thumbnails, Titles & Descriptions — Junior Developers Become Delivery Pilots</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #070b14;
+    --card: #0e1626;
+    --card-2: #121d32;
+    --border: rgba(11, 181, 164, 0.25);
+    --teal: #0bb5a4;
+    --orange: #e5470e;
+    --ink: #eaf2f5;
+    --muted: #93a7b5;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(circle at 20% 0%, #101d35 0%, var(--bg) 60%);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    padding-bottom: 64px;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 28px;
+    background: rgba(7, 11, 20, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--teal);
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: rgba(11, 181, 164, 0.08);
+  }
+  .nav-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .nav-links a {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 7px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.14);
+    background: rgba(255,255,255,0.04);
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .nav-links a:hover {
+    border-color: var(--teal);
+    background: rgba(11, 181, 164, 0.14);
+  }
+  main {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 32px 24px 0;
+  }
+  .hero {
+    margin-bottom: 32px;
+  }
+  .hero h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  .hero p {
+    color: var(--muted);
+    font-size: 15px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .kit-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  }
+  .kit-top {
+    display: grid;
+    grid-template-columns: minmax(300px, 520px) 1fr;
+    gap: 24px;
+    padding: 24px;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .kit-top { grid-template-columns: 1fr; }
+  }
+  .thumb-col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .thumb-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.14);
+    background: #050810;
+  }
+  .thumb-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .thumb-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .meta-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .option-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--teal);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .option-tag.orange { color: var(--orange); }
+  .field-box {
+    background: var(--card-2);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .field-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    gap: 8px;
+  }
+  .field-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+  .title-text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+  }
+  .desc-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    color: #d6e4ec;
+    white-space: pre-wrap;
+    max-height: 240px;
+    overflow-y: auto;
+    padding-right: 6px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.16);
+    background: rgba(255,255,255,0.06);
+    color: var(--ink);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  }
+  .btn:hover {
+    border-color: var(--teal);
+    background: rgba(11, 181, 164, 0.16);
+  }
+  .btn:active { transform: scale(0.98); }
+  .btn.primary {
+    background: var(--teal);
+    color: #070b14;
+    border-color: var(--teal);
+  }
+  .btn.primary:hover {
+    background: #14d4c0;
+  }
+  .btn.copied {
+    background: #16a34a !important;
+    border-color: #16a34a !important;
+    color: #fff !important;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span>🖼️ YouTube Publishing Kit</span>
+    <span class="badge">FAL.AI THUMBNAILS + COPY</span>
+  </div>
+  <div class="nav-links">
+    <a href="/">▶️ Interactive Video Player</a>
+    <a href="/mood_board.png" target="_blank">🎨 Mood Board</a>
+    <a href="https://github.com/rifaterdemsahin/junior-dev-pilots" target="_blank">🐙 GitHub Repo</a>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>✈️ Junior Developers Become Delivery Pilots (2027)</h1>
+    <p>3 fal.ai-generated 16:9 YouTube thumbnails paired with high-CTR titles and ready-to-paste descriptions. Click any button to download or copy directly to your clipboard.</p>
+  </div>
+
+  <div class="grid" id="kitGrid"></div>
+</main>
+
+<script>
+const KITS = [
+  {
+    id: 'kit-1',
+    tag: '⭐ Option 1 · Legacy to AI Future (Recommended)',
+    accent: '',
+    img: '/thumbnails/thumb-1.png',
+    downloadName: 'junior-dev-pilots-thumbnail-1-delivery-pilot.png',
+    title: "Junior Developer Jobs Aren't Dead. They're Becoming Delivery Pilots (2027)",
+    description: `✈️ Junior developer jobs aren't dying — they're being upgraded.
+
+UK entry-level tech roles fell 46% in 2024 (and are projected to hit 53% by the end of 2026). Globally, new-grad hiring at major tech firms is ~65% below 2019. So why am I more optimistic about junior careers than ever?
+
+Because this isn't the end of the line — it's the bottom of a Productivity J-Curve.
+🤖 AI took continuous integration (writing drafts, running tests, fixing lint, opening PRs).
+🧑‍✈️ Humans got delivery (specs, stakeholders, cloud/token ROI, and shipping safely).
+
+🔗 Interactive Video & Repo:
+• Live Player: https://junior-dev-pilots.fly.dev/
+• GitHub Repo & Notes: https://github.com/rifaterdemsahin/junior-dev-pilots
+
+⏱️ Chapters:
+00:00 🪝 Hook: UK entry-level roles down by half
+00:30 📉 The UK numbers & the bottom of the J-Curve
+03:30 🤖 AI took CI. Humans got delivery.
+06:30 🚲🚗✈️ Rider → Driver → Pilot
+09:30 🆙 Nobody got demoted — everyone got upgraded
+12:00 🧑‍✈️ What is a Delivery Pilot? (COBALTS Framework)
+14:30 🛫 Your 90-Day Flight Plan
+16:30 📣 Join Delivery Pilot (Free for students)
+
+#DeliveryPilot #JuniorDeveloper #SoftwareEngineering #AICareers #TechCareers2027 #DevOps #AIAgents`
+  },
+  {
+    id: 'kit-2',
+    tag: '🚲➡️🚗➡️✈️ Option 2 · Career Ladder Progression',
+    accent: '',
+    img: '/thumbnails/thumb-2.png',
+    downloadName: 'junior-dev-pilots-thumbnail-2-rider-driver-pilot.png',
+    title: "Rider → Driver → Pilot: The New Tech Career Ladder for 2027",
+    description: `🚲 Riders get carried. 🚗 Drivers get there. ✈️ Pilots go the distance.
+
+In 2027, there are three levels of working with AI in software engineering:
+• 🚲 Rider — copies answers from a chatbot and hopes they work (range: around the block)
+• 🚗 Driver — hands on the wheel writing most code with AI as satnav (range: city to city)
+• ✈️ Delivery Pilot — sets the flight plan (spec), runs agents on autopilot, watches instruments & costs, and lands the release safely (range: vast distances)
+
+Nobody gets demoted — everyone moves up a seat. Here's the exact COBALTS framework and 90-day flight plan to move from Rider/Driver into the cockpit.
+
+🔗 Resources:
+• Interactive Player: https://junior-dev-pilots.fly.dev/
+• Full Storyboard & GitHub: https://github.com/rifaterdemsahin/junior-dev-pilots
+
+🧭 COBALTS — What a Delivery Pilot does daily:
+🎨 C — Creator (demos, docs, proof of work)
+🛠️ O/B — Builder (builds & operates agents end to end)
+🧭 L — Leader (owns stakeholders & delivery outcomes)
+💰 T — Treasurer (watches token spend, cloud cost & ROI)
+♟️ S — Strategist (decides what to build next & why)
+
+#RiderDriverPilot #DeliveryPilot #SoftwareEngineer #AICoding #TechCareer #JuniorDev #EngineeringLeadership`
+  },
+  {
+    id: 'kit-3',
+    tag: '📉➡️📈 Option 3 · Data & J-Curve Hook',
+    accent: 'orange',
+    img: '/thumbnails/thumb-3.png',
+    downloadName: 'junior-dev-pilots-thumbnail-3-j-curve.png',
+    title: "The UK Junior Dev Crash Is a J-Curve (And Here's the Upswing)",
+    description: `📉 The bottom of the J-Curve feels like the end. It's actually the launch point.
+
+Let's look honestly at the numbers behind the junior developer hiring crash:
+• 🇬🇧 UK entry-level tech roles dropped 46% in 2024 (projected 53% by end of 2026)
+• 🌍 SignalFire 2026: big tech new-grad hiring is ~65% below 2019
+• 🧪 Harvard (62M workers): GenAI-adopting firms cut junior dev roles 9–10% while senior hiring kept rising
+• ⚖️ Honesty beat: LinkedIn Economic Graph shows interest rates explain most hiring swings over the past decade
+
+📈 Now look at the early signs of the upswing:
+• 🇪🇺 Linux Foundation reports a 27% AI-driven tech hiring surge in Europe
+• 🏢 IBM tripling entry-level hires (disclosure: I work at IBM), Cognizant quadrupling US grads, Cloudflare scaling internships from ~60 to 1,111
+
+Companies that freeze junior hiring now face a senior shortage by 2031. Here's how juniors become Delivery Pilots and own the upswing.
+
+🔗 Links:
+• Watch Interactive Version: https://junior-dev-pilots.fly.dev/
+• Repo & Sources: https://github.com/rifaterdemsahin/junior-dev-pilots
+
+#UKTech #JCurve #JuniorDeveloper #TechHiring #AIJobs #DeliveryPilot #SoftwareEngineering`
+  }
+];
+
+function copyText(text, btn, originalLabel) {
+  navigator.clipboard.writeText(text).then(() => {
+    btn.classList.add('copied');
+    btn.textContent = '✓ Copied!';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.textContent = originalLabel;
+    }, 1800);
+  });
+}
+
+const grid = document.getElementById('kitGrid');
+KITS.forEach(kit => {
+  const card = document.createElement('article');
+  card.className = 'kit-card';
+  card.innerHTML = `
+    <div class="kit-top">
+      <div class="thumb-col">
+        <div class="thumb-frame">
+          <img src="${kit.img}" alt="${kit.title.replace(/"/g, '&quot;')}">
+        </div>
+        <div class="thumb-actions">
+          <a class="btn primary" href="${kit.img}" download="${kit.downloadName}">⬇️ Download PNG</a>
+          <a class="btn" href="${kit.img}" target="_blank">🔍 Full Size</a>
+          <button class="btn" data-copy="both">📋 Copy Title + Description</button>
+        </div>
+      </div>
+      <div class="meta-col">
+        <div class="option-tag ${kit.accent}">${kit.tag}</div>
+
+        <div class="field-box">
+          <div class="field-header">
+            <span class="field-label">🏷️ YouTube Title</span>
+            <button class="btn" data-copy="title">📋 Copy Title</button>
+          </div>
+          <div class="title-text"></div>
+        </div>
+
+        <div class="field-box">
+          <div class="field-header">
+            <span class="field-label">📝 YouTube Description</span>
+            <button class="btn" data-copy="desc">📋 Copy Description</button>
+          </div>
+          <div class="desc-text"></div>
+        </div>
+      </div>
+    </div>
+  `;
+  card.querySelector('.title-text').textContent = kit.title;
+  card.querySelector('.desc-text').textContent = kit.description;
+
+  const titleBtn = card.querySelector('[data-copy="title"]');
+  titleBtn.addEventListener('click', () => copyText(kit.title, titleBtn, '📋 Copy Title'));
+
+  const descBtn = card.querySelector('[data-copy="desc"]');
+  descBtn.addEventListener('click', () => copyText(kit.description, descBtn, '📋 Copy Description'));
+
+  const bothBtn = card.querySelector('[data-copy="both"]');
+  bothBtn.addEventListener('click', () => copyText(`${kit.title}\n\n${kit.description}`, bothBtn, '📋 Copy Title + Description'));
+
+  grid.appendChild(card);
+});
+</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "dd157d4d-443f-4aeb-b30f-6c213494683e",
+  "currentRevision": "37eb3ab5-892e-4518-9ee5-c754cc925987",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -369,8 +369,8 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/09/09c5b2da65b7235bebfe9f6a72a6bdd4735a56ed9c229183d068e487403bc9cf"
     },
     "README.md": {
-      "hash": "665057491ec705c8c97319d8b843f2ffe63f5d2a23be459fcd58a3276dfb7546",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/66/665057491ec705c8c97319d8b843f2ffe63f5d2a23be459fcd58a3276dfb7546"
+      "hash": "4c495bd3b5dea2fa7d201e829db0ae30f050758651294ff85a4082a15e16fc98",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/4c/4c495bd3b5dea2fa7d201e829db0ae30f050758651294ff85a4082a15e16fc98"
     },
     "mood_board.png": {
       "hash": "3279e1d4df4fc17d87f233de5d069d1611c62cfb9dfe85f2860a73dcc2ee674e",
@@ -401,16 +401,16 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/2f/2f693536f2d711a9b1aec1a68d1b83b9329d124cc3137946736830c59622ec0b"
     },
     "player.html": {
-      "hash": "be335d6c8f3bd8d325629f04b907d95b3e70609694072fe4c530418e63c2a7b3",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/be/be335d6c8f3bd8d325629f04b907d95b3e70609694072fe4c530418e63c2a7b3"
+      "hash": "1935e76b44a84922cfb2049448d3ef070f500a991d8d6333d25230ec22e6d0c0",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/19/1935e76b44a84922cfb2049448d3ef070f500a991d8d6333d25230ec22e6d0c0"
     },
     "nginx.conf": {
       "hash": "7a8972017fd4ae6719b5f94df917fb29347c031343ae66669694583b8ab005b7",
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/7a/7a8972017fd4ae6719b5f94df917fb29347c031343ae66669694583b8ab005b7"
     },
     "Dockerfile": {
-      "hash": "bb7d3a301a5b3fd9fe608b767cd30321906e96800e2e7883389f60adf9d8be08",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/bb/bb7d3a301a5b3fd9fe608b767cd30321906e96800e2e7883389f60adf9d8be08"
+      "hash": "5c627da438e9385e76a74e72df36bb9c984f04c5016b9b8512bafb678dab7f92",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/5c/5c627da438e9385e76a74e72df36bb9c984f04c5016b9b8512bafb678dab7f92"
     },
     "fly.toml": {
       "hash": "354c606cfcecdb4b4b5e6ca6a253b8794b00ec3360c71fa93b5374aa2f9c388f",
@@ -427,6 +427,22 @@
     "assets/vo-03.transcript.json": {
       "hash": "f1365f6936b9df8b68ef0d45a3fe2b2ee2d27584a9de47f83aaa3f4a64c4b77f",
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/f1/f1365f6936b9df8b68ef0d45a3fe2b2ee2d27584a9de47f83aaa3f4a64c4b77f"
+    },
+    "thumbnails.html": {
+      "hash": "6d621c74d3c7bdee4db9df7a130185d58f5b3ecb6c071d4fa0752896e652cd03",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/6d/6d621c74d3c7bdee4db9df7a130185d58f5b3ecb6c071d4fa0752896e652cd03"
+    },
+    "thumbnails/thumb-3.png": {
+      "hash": "8d16f3dfcf59f0b5cbe3f5ffe1627ce009c6566c74be207b0876f7ff23d294d1",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/8d/8d16f3dfcf59f0b5cbe3f5ffe1627ce009c6566c74be207b0876f7ff23d294d1"
+    },
+    "thumbnails/thumb-2.png": {
+      "hash": "d32e55800d18ca51f9346bcc14a3ca3193dea9bd580f918887e9af08b80353d3",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d3/d32e55800d18ca51f9346bcc14a3ca3193dea9bd580f918887e9af08b80353d3"
+    },
+    "thumbnails/thumb-1.png": {
+      "hash": "71751aa634c1d21a9591da3948fc24e2630884e76d539fdc7cd5d6739a59de97",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/71/71751aa634c1d21a9591da3948fc24e2630884e76d539fdc7cd5d6739a59de97"
     }
   },
   "revisions": {
@@ -936,6 +952,78 @@
         "README.md": {
           "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b1/b1d0eefdfb179387ef29f014a95d409eb8bb50d901cc7e1b7e984b1d89008753",
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/66/665057491ec705c8c97319d8b843f2ffe63f5d2a23be459fcd58a3276dfb7546"
+        }
+      }
+    },
+    "63b5a0dc-7362-4fa8-b47a-5135dc97f0f5": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795252424985,
+      "endedAt": 1795252430552,
+      "files": {
+        "Dockerfile": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/bb/bb7d3a301a5b3fd9fe608b767cd30321906e96800e2e7883389f60adf9d8be08",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/5c/5c627da438e9385e76a74e72df36bb9c984f04c5016b9b8512bafb678dab7f92"
+        },
+        "player.html": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/be/be335d6c8f3bd8d325629f04b907d95b3e70609694072fe4c530418e63c2a7b3",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/19/1935e76b44a84922cfb2049448d3ef070f500a991d8d6333d25230ec22e6d0c0"
+        },
+        "README.md": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/66/665057491ec705c8c97319d8b843f2ffe63f5d2a23be459fcd58a3276dfb7546",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/4c/4c495bd3b5dea2fa7d201e829db0ae30f050758651294ff85a4082a15e16fc98"
+        },
+        "thumbnails.html": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/6d/6d621c74d3c7bdee4db9df7a130185d58f5b3ecb6c071d4fa0752896e652cd03"
+        }
+      }
+    },
+    "4bf4bde8-7e50-46c0-a52d-b9ba296744ce": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795252500434,
+      "endedAt": 1795252502888,
+      "files": {
+        "thumbnails/thumb-3.png": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/8d/8d16f3dfcf59f0b5cbe3f5ffe1627ce009c6566c74be207b0876f7ff23d294d1"
+        }
+      }
+    },
+    "92e2e318-4561-43f3-b78e-adbe46b99873": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795252505718,
+      "endedAt": 1795252508123,
+      "files": {
+        "thumbnails/thumb-2.png": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d3/d32e55800d18ca51f9346bcc14a3ca3193dea9bd580f918887e9af08b80353d3"
+        }
+      }
+    },
+    "37eb3ab5-892e-4518-9ee5-c754cc925987": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795252512439,
+      "endedAt": 1795252514932,
+      "files": {
+        "thumbnails/thumb-1.png": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/71/71751aa634c1d21a9591da3948fc24e2630884e76d539fdc7cd5d6739a59de97"
         }
       }
     }

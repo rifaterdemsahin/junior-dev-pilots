@@ -4,6 +4,7 @@
 
 🔗 **Repo:** [github.com/rifaterdemsahin/junior-dev-pilots](https://github.com/rifaterdemsahin/junior-dev-pilots)
 🚀 **Live Interactive Player (Fly.io):** [https://junior-dev-pilots.fly.dev/](https://junior-dev-pilots.fly.dev/)
+🖼️ **YouTube Thumbnails, Titles & Descriptions Kit:** [https://junior-dev-pilots.fly.dev/thumbnails.html](https://junior-dev-pilots.fly.dev/thumbnails.html)
 ⏱️ **Format:** Long-form, 15–18 min (~17.5 min HyperFrames composition), plus 5 Shorts cut-downs
 🎯 **Audience:** Juniors, students, career switchers, and the managers hiring them
 🎞️ **Production Engine:** [HyperFrames](https://hyperframes.heygen.com) (HTML + CSS + GSAP seekable timeline)
