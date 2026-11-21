@@ -1,8 +1,8 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "570857ef-c8b6-4185-b646-05abceb1cc34",
-  "pendingChanges": true,
+  "currentRevision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
+  "pendingChanges": false,
   "files": {
     "AGENTS.md": {
       "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
@@ -453,8 +453,8 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/52/520ea696f50d1ebf01c2211fb1b77a49810b50993a2ea4830ba9f773f5558438"
     },
     "compositions/short-rider-driver-pilot.html": {
-      "hash": "b73e87a1ec7515af4fc9c51c3c9ca37dc5ca49c9a7905e83ff9586f6fcca4324",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b7/b73e87a1ec7515af4fc9c51c3c9ca37dc5ca49c9a7905e83ff9586f6fcca4324"
+      "hash": "3140832fb2776ef018373bd66f3eef11377acaeef4e1c7cdb63b3e1ebb939224",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/31/3140832fb2776ef018373bd66f3eef11377acaeef4e1c7cdb63b3e1ebb939224"
     }
   },
   "revisions": {
@@ -1066,6 +1066,29 @@
         "index.html": {
           "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d3/d3d649c389bbbaf77414fe3ee97a578bc0b807985486979ed165b0393228ce79",
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/a2/a2442ba8e7c61faebdab0d7270f60aa2b818b75c53008fac1f3db402cbe3ad4c"
+        }
+      }
+    },
+    "d8c91037-6a9c-43bf-9673-07c60e27f1d5": {
+      "actor": {
+        "kind": "agent",
+        "name": "Framey"
+      },
+      "label": "\"Rider, driver or pilot\" > Reuse the voiceover. >Make it vertical. > Keep it separate. >Add captions.",
+      "startedAt": 1795256534771,
+      "endedAt": 1795257038880.4473,
+      "files": {
+        "assets/short-rdp-voice.transcript.json": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/52/520ea696f50d1ebf01c2211fb1b77a49810b50993a2ea4830ba9f773f5558438"
+        },
+        "assets/short-rdp-voice.wav": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/56/56bf5f2b43abe69af2670b66ab5430d9fa39d6787e6e670617cfb28d84b1e7c6"
+        },
+        "compositions/short-rider-driver-pilot.html": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/31/3140832fb2776ef018373bd66f3eef11377acaeef4e1c7cdb63b3e1ebb939224"
         }
       }
     }

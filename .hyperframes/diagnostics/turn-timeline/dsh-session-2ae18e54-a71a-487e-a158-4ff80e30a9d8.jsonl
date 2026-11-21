@@ -242,3 +242,5 @@
 {"at":1795257035457,"session":"session-2ae18e54-a71a-487e-a158-4ff80e30a9d8","agent":null,"type":"tool-end","call":"toolu_01T3tre8Nn24EsB4oepj3WPY","tool":"bash","durationMs":310.38958299998194,"isError":false}
 {"at":1795257035555,"session":"session-2ae18e54-a71a-487e-a158-4ff80e30a9d8","agent":null,"type":"model-start","request":"8a732277-d6c7-40ba-98ea-6f86d5dc4ec6","model":"claude-sonnet-5-5"}
 {"at":1795257037554,"session":"session-2ae18e54-a71a-487e-a158-4ff80e30a9d8","agent":null,"type":"model-end","request":"8a732277-d6c7-40ba-98ea-6f86d5dc4ec6","model":"claude-sonnet-5-5","durationMs":1998.1688330000034,"finish":"error","status":"failed"}
+{"at":1795257104936,"session":"session-2ae18e54-a71a-487e-a158-4ff80e30a9d8","agent":null,"type":"model-start","request":"8b65f725-f233-42ba-ad35-53d00eedb6ab","model":"claude-sonnet-5-5"}
+{"at":1795257106251,"session":"session-2ae18e54-a71a-487e-a158-4ff80e30a9d8","agent":null,"type":"model-end","request":"8b65f725-f233-42ba-ad35-53d00eedb6ab","model":"claude-sonnet-5-5","durationMs":1315.214375,"finish":"error","status":"failed"}
