@@ -1,0 +1,895 @@
+{
+  "version": 1,
+  "src": "assets/short-rdp-voice.wav",
+  "sha": "56bf5f2b43abe69af2670b66ab5430d9fa39d6787e6e670617cfb28d84b1e7c6",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Riders",
+      "start": 0.54,
+      "end": 0.9,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "get",
+      "start": 0.92,
+      "end": 1.08,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "carried.",
+      "start": 1.14,
+      "end": 1.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "Drivers",
+      "start": 1.9,
+      "end": 2.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "get",
+      "start": 2.32,
+      "end": 2.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "there.",
+      "start": 2.56,
+      "end": 2.74,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "Pilots",
+      "start": 3.16,
+      "end": 3.58,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w7",
+      "text": "go",
+      "start": 3.62,
+      "end": 3.72,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w8",
+      "text": "the",
+      "start": 3.76,
+      "end": 3.82,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w9",
+      "text": "distance.",
+      "start": 3.86,
+      "end": 4.34,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w10",
+      "text": "Now,",
+      "start": 5.08,
+      "end": 5.22,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w11",
+      "text": "the",
+      "start": 5.48,
+      "end": 5.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w12",
+      "text": "analogy:",
+      "start": 5.58,
+      "end": 6.06,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w13",
+      "text": "rider,",
+      "start": 6.4,
+      "end": 6.72,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w14",
+      "text": "driver,",
+      "start": 7.02,
+      "end": 7.38,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w15",
+      "text": "pilot.",
+      "start": 7.72,
+      "end": 8.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w16",
+      "text": "A",
+      "start": 8.7,
+      "end": 8.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w17",
+      "text": "rider",
+      "start": 8.8,
+      "end": 9.12,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w18",
+      "text": "uses",
+      "start": 9.2,
+      "end": 9.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w19",
+      "text": "AI",
+      "start": 9.6,
+      "end": 9.94,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w20",
+      "text": "like",
+      "start": 9.98,
+      "end": 10.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w21",
+      "text": "a",
+      "start": 10.16,
+      "end": 10.22,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w22",
+      "text": "passenger.",
+      "start": 10.26,
+      "end": 10.74,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w23",
+      "text": "They",
+      "start": 11.14,
+      "end": 11.24,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w24",
+      "text": "copy",
+      "start": 11.28,
+      "end": 11.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w25",
+      "text": "answers",
+      "start": 11.6,
+      "end": 11.96,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w26",
+      "text": "from",
+      "start": 12,
+      "end": 12.08,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w27",
+      "text": "a",
+      "start": 12.12,
+      "end": 12.18,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w28",
+      "text": "chatbot",
+      "start": 12.24,
+      "end": 12.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w29",
+      "text": "and",
+      "start": 12.78,
+      "end": 12.88,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w30",
+      "text": "hope",
+      "start": 12.92,
+      "end": 13.08,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w31",
+      "text": "they",
+      "start": 13.12,
+      "end": 13.24,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w32",
+      "text": "work.",
+      "start": 13.3,
+      "end": 13.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w33",
+      "text": "Their",
+      "start": 14,
+      "end": 14.14,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w34",
+      "text": "range",
+      "start": 14.18,
+      "end": 14.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w35",
+      "text": "is",
+      "start": 14.56,
+      "end": 14.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w36",
+      "text": "around",
+      "start": 14.7,
+      "end": 14.92,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w37",
+      "text": "the",
+      "start": 14.96,
+      "end": 15.04,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w38",
+      "text": "block.",
+      "start": 15.06,
+      "end": 15.4,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w39",
+      "text": "A",
+      "start": 15.92,
+      "end": 15.98,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w40",
+      "text": "driver",
+      "start": 16.02,
+      "end": 16.36,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w41",
+      "text": "is",
+      "start": 16.4,
+      "end": 16.48,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w42",
+      "text": "the",
+      "start": 16.52,
+      "end": 16.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w43",
+      "text": "classic",
+      "start": 16.66,
+      "end": 17.02,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w44",
+      "text": "developer,",
+      "start": 17.06,
+      "end": 17.48,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w45",
+      "text": "hands",
+      "start": 17.82,
+      "end": 18.08,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w46",
+      "text": "on",
+      "start": 18.12,
+      "end": 18.2,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w47",
+      "text": "the",
+      "start": 18.22,
+      "end": 18.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w48",
+      "text": "wheel,",
+      "start": 18.34,
+      "end": 18.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w49",
+      "text": "writing",
+      "start": 18.92,
+      "end": 19.22,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w50",
+      "text": "most",
+      "start": 19.26,
+      "end": 19.46,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w51",
+      "text": "of",
+      "start": 19.48,
+      "end": 19.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w52",
+      "text": "the",
+      "start": 19.56,
+      "end": 19.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w53",
+      "text": "code",
+      "start": 19.68,
+      "end": 19.98,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w54",
+      "text": "with",
+      "start": 20.32,
+      "end": 20.4,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w55",
+      "text": "AI",
+      "start": 20.56,
+      "end": 20.86,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w56",
+      "text": "as",
+      "start": 20.9,
+      "end": 21.02,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w57",
+      "text": "the",
+      "start": 21.04,
+      "end": 21.14,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w58",
+      "text": "satnav.",
+      "start": 21.18,
+      "end": 21.68,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w59",
+      "text": "Drivers",
+      "start": 22.32,
+      "end": 22.7,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w60",
+      "text": "go",
+      "start": 22.72,
+      "end": 22.88,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w61",
+      "text": "from",
+      "start": 22.92,
+      "end": 23.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w62",
+      "text": "city",
+      "start": 23.14,
+      "end": 23.36,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w63",
+      "text": "to",
+      "start": 23.4,
+      "end": 23.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w64",
+      "text": "city.",
+      "start": 23.54,
+      "end": 23.82,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w65",
+      "text": "And",
+      "start": 24.26,
+      "end": 24.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w66",
+      "text": "a",
+      "start": 24.36,
+      "end": 24.42,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w67",
+      "text": "pilot",
+      "start": 24.48,
+      "end": 24.86,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w68",
+      "text": "is",
+      "start": 24.9,
+      "end": 25,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w69",
+      "text": "what",
+      "start": 25.02,
+      "end": 25.12,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w70",
+      "text": "I'm",
+      "start": 25.18,
+      "end": 25.3,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w71",
+      "text": "calling",
+      "start": 25.34,
+      "end": 25.58,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w72",
+      "text": "a",
+      "start": 25.62,
+      "end": 25.66,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w73",
+      "text": "Delivery",
+      "start": 25.68,
+      "end": 26.02,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w74",
+      "text": "Pilot.",
+      "start": 26.12,
+      "end": 26.46,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w75",
+      "text": "They",
+      "start": 26.96,
+      "end": 27.08,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w76",
+      "text": "set",
+      "start": 27.12,
+      "end": 27.26,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w77",
+      "text": "the",
+      "start": 27.28,
+      "end": 27.36,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w78",
+      "text": "flight",
+      "start": 27.4,
+      "end": 27.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w79",
+      "text": "plan,",
+      "start": 27.68,
+      "end": 27.96,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w80",
+      "text": "which",
+      "start": 28.16,
+      "end": 28.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w81",
+      "text": "is",
+      "start": 28.32,
+      "end": 28.4,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w82",
+      "text": "the",
+      "start": 28.44,
+      "end": 28.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w83",
+      "text": "spec.",
+      "start": 28.62,
+      "end": 28.88,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w84",
+      "text": "They",
+      "start": 29.44,
+      "end": 29.58,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w85",
+      "text": "run",
+      "start": 29.62,
+      "end": 29.74,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w86",
+      "text": "the",
+      "start": 29.78,
+      "end": 29.86,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w87",
+      "text": "agents",
+      "start": 29.92,
+      "end": 30.26,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w88",
+      "text": "on",
+      "start": 30.3,
+      "end": 30.38,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w89",
+      "text": "autopilot,",
+      "start": 30.44,
+      "end": 31.06,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w90",
+      "text": "watch",
+      "start": 31.32,
+      "end": 31.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w91",
+      "text": "the",
+      "start": 31.56,
+      "end": 31.62,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w92",
+      "text": "instruments,",
+      "start": 31.66,
+      "end": 32.14,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w93",
+      "text": "and",
+      "start": 32.439,
+      "end": 32.56,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w94",
+      "text": "take",
+      "start": 32.6,
+      "end": 32.759,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w95",
+      "text": "control",
+      "start": 32.8,
+      "end": 33.18,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w96",
+      "text": "when",
+      "start": 33.2,
+      "end": 33.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w97",
+      "text": "it",
+      "start": 33.32,
+      "end": 33.38,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w98",
+      "text": "matters.",
+      "start": 33.42,
+      "end": 33.78,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w99",
+      "text": "Their",
+      "start": 34.22,
+      "end": 34.36,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w100",
+      "text": "range?",
+      "start": 34.4,
+      "end": 34.74,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w101",
+      "text": "Vast",
+      "start": 35.34,
+      "end": 35.66,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w102",
+      "text": "distances.",
+      "start": 35.7,
+      "end": 36.24,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w103",
+      "text": "Delivery",
+      "start": 37.26,
+      "end": 37.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w104",
+      "text": "Pilot",
+      "start": 37.7,
+      "end": 38.06,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w105",
+      "text": "is",
+      "start": 38.18,
+      "end": 38.26,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w106",
+      "text": "where",
+      "start": 38.3,
+      "end": 38.42,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w107",
+      "text": "you",
+      "start": 38.46,
+      "end": 38.56,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w108",
+      "text": "train",
+      "start": 38.62,
+      "end": 38.86,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w109",
+      "text": "to",
+      "start": 38.9,
+      "end": 38.96,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w110",
+      "text": "become",
+      "start": 38.98,
+      "end": 39.26,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w111",
+      "text": "one.",
+      "start": 39.32,
+      "end": 39.48,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w112",
+      "text": "It's",
+      "start": 39.76,
+      "end": 39.92,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w113",
+      "text": "free",
+      "start": 39.96,
+      "end": 40.12,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w114",
+      "text": "for",
+      "start": 40.16,
+      "end": 40.26,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w115",
+      "text": "students.",
+      "start": 40.28,
+      "end": 40.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w116",
+      "text": "If",
+      "start": 41.14,
+      "end": 41.22,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w117",
+      "text": "you're",
+      "start": 41.24,
+      "end": 41.34,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w118",
+      "text": "studying,",
+      "start": 41.42,
+      "end": 41.84,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w119",
+      "text": "your",
+      "start": 42.26,
+      "end": 42.4,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w120",
+      "text": "seat",
+      "start": 42.44,
+      "end": 42.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w121",
+      "text": "in",
+      "start": 42.64,
+      "end": 42.7,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w122",
+      "text": "the",
+      "start": 42.72,
+      "end": 42.8,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w123",
+      "text": "cockpit",
+      "start": 42.84,
+      "end": 43.2,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w124",
+      "text": "costs",
+      "start": 43.3,
+      "end": 43.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w125",
+      "text": "nothing.",
+      "start": 43.7,
+      "end": 44.02,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "3fb2d171ae784f4f7b4064fc4fb6ba950b1d1a96a6c6fe6c14c969ad2d161347",
+  "createdAt": "2026-11-21T10:24:45.906Z"
+}

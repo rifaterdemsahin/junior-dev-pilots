@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#0A1020}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Inter,sans-serif;color:#EAF2F5;background-color:#0A1020;background-image:linear-gradient(rgba(11,181,164,.09) 2px,transparent 2px),linear-gradient(90deg,rgba(11,181,164,.09) 2px,transparent 2px);background-size:72px 72px}
+.glow{position:absolute;left:-300px;top:900px;width:1680px;height:1100px;background:radial-gradient(ellipse at 50% 40%,rgba(11,181,164,.2),rgba(11,181,164,0) 65%)}
+.kk{position:absolute;left:80px;top:120px;font:600 28px 'JetBrains Mono',monospace;letter-spacing:.14em;color:#0BB5A4}
+.hd{position:absolute;left:80px;top:166px;font:800 96px/1.02 Outfit,sans-serif;letter-spacing:-.02em;color:#EAF2F5}
+.tl{color:#0BB5A4}
+.hl{position:absolute;left:90px;width:900px;height:0;border-top:5px dotted rgba(234,242,245,.35)}
+.veh{position:absolute;left:116px;z-index:6}
+.veh svg{display:block}
+.cd{position:absolute;left:80px;width:860px;height:260px;border:2px solid rgba(11,181,164,.3);border-radius:32px;background:rgba(255,255,255,.05);z-index:2}
+.cd.pl{border-color:#0BB5A4;box-shadow:0 0 60px rgba(11,181,164,.25)}
+.nm{position:absolute;left:34px;top:18px;font:800 52px/1.1 Outfit,sans-serif;letter-spacing:-.01em}
+.ds{position:absolute;left:34px;top:84px;font:500 32px/1.2 Inter,sans-serif;color:#B7C7D1;white-space:nowrap}
+.ds span{opacity:.35}
+.tk{position:absolute;left:34px;top:166px;width:788px;height:0;border-top:4px dashed rgba(234,242,245,.22)}
+.tr{position:absolute;left:89px;top:164px;height:8px;border-radius:4px;transform-origin:0% 50%}
+.rg{position:absolute;right:34px;top:206px;font:600 28px 'JetBrains Mono',monospace;letter-spacing:.06em}
+.mp{position:absolute;right:30px;top:22px;padding:8px 20px;border:2px solid #0BB5A4;border-radius:999px;font:600 28px 'JetBrains Mono',monospace;color:#0BB5A4}
+.big{position:absolute;left:80px;top:690px;font:400 330px/1 'Archivo Black',sans-serif;letter-spacing:-.03em;color:#0BB5A4}
+.fs{position:absolute;left:84px;top:1040px;font:800 64px/1.1 Outfit,sans-serif;color:#EAF2F5}
+.sk{position:absolute;left:84px;top:1134px;padding:12px 30px;border:2px solid #0BB5A4;border-radius:999px;font:600 38px 'JetBrains Mono',monospace;color:#0BB5A4;background:#0A1020}
+#cap{position:absolute;left:90px;top:1290px;width:900px;height:140px;z-index:20}
+.cg{position:absolute;left:0;top:0;width:900px;height:140px;display:flex;align-items:center;justify-content:center;text-align:center;font:800 72px/1.1 Outfit,sans-serif;color:#EAF2F5;opacity:0;visibility:hidden;overflow:visible;text-shadow:0 4px 24px rgba(10,16,32,.9)}
+</style>
+</head>
+<body>
+<div data-hf-id="hf-sh-root" id="root" data-composition-id="short-rider-driver-pilot" data-start="0" data-duration="45.8" data-width="1080" data-height="1920">
+<svg data-hf-id="hf-sh-icons" width="0" height="0" style="position:absolute"><defs>
+<symbol id="ic-bike" viewBox="0 0 80 48"><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="34" r="11"/><circle cx="66" cy="34" r="11"/><path d="M14 34 L30 34 L42 12 L58 12 M30 34 L52 34 L42 12 M52 34 L62 14 M42 12 L40 6 L33 6 M58 12 L66 34"/></g></symbol>
+<symbol id="ic-car" viewBox="0 0 96 48"><path fill="currentColor" d="M4 34 L4 27 Q4 22 10 21 L24 19 L34 8 Q36 6 40 6 L62 6 Q66 6 68 8 L78 19 L88 21 Q93 22 93 27 L93 34 Z"/><circle cx="24" cy="36" r="9" fill="currentColor" stroke="#0F1829" stroke-width="4"/><circle cx="73" cy="36" r="9" fill="currentColor" stroke="#0F1829" stroke-width="4"/></symbol>
+<symbol id="ic-plane" viewBox="0 0 64 64"><path fill="currentColor" d="M32 2 Q35 2 36 8 L37 24 L61 38 L61 44 L37 37 L36 53 L44 58 L44 62 L32 59 L20 62 L20 58 L28 53 L27 37 L3 44 L3 38 L27 24 L28 8 Q29 2 32 2 Z"/></symbol>
+</defs></svg>
+<div data-hf-id="hf-sh-glow" class="glow"></div>
+<div data-hf-id="hf-sh-kicker" class="kk">RIDER → DRIVER → PILOT</div>
+<div data-hf-id="hf-sh-head" class="hd">WHICH ONE<br><span class="tl">ARE YOU?</span></div>
+<div data-hf-id="hf-sh-head2" class="hd hd2">JOIN<br><span class="tl">DELIVERY PILOT</span></div>
+<div data-hf-id="hf-sh-hl1" class="hl" style="top:520px"></div>
+<div data-hf-id="hf-sh-hl2" class="hl" style="top:800px"></div>
+<div data-hf-id="hf-sh-hl3" class="hl" style="top:1080px;border-top-color:rgba(11,181,164,.5)"></div>
+<div data-hf-id="hf-sh-c1" id="c1" class="cd" style="top:400px">
+<div data-hf-id="hf-sh-nm1" class="nm" style="color:#8EA0B8">RIDER</div>
+<div data-hf-id="hf-sh-ds1" class="ds">Copies chatbot answers and hopes.</div>
+<div data-hf-id="hf-sh-tk1" class="tk"></div>
+<div data-hf-id="hf-sh-tr1" class="tr" style="width:130px;background:#8EA0B8"></div>
+<div data-hf-id="hf-sh-rg1" class="rg" style="color:#8EA0B8">AROUND THE BLOCK</div>
+</div>
+<div data-hf-id="hf-sh-c2" id="c2" class="cd" style="top:690px">
+<div data-hf-id="hf-sh-nm2" class="nm">DRIVER</div>
+<div data-hf-id="hf-sh-ds2" class="ds">Hands on the wheel. AI is the satnav.</div>
+<div data-hf-id="hf-sh-tk2" class="tk"></div>
+<div data-hf-id="hf-sh-tr2" class="tr" style="width:360px;background:#EAF2F5"></div>
+<div data-hf-id="hf-sh-rg2" class="rg" style="color:#EAF2F5">CITY TO CITY</div>
+</div>
+<div data-hf-id="hf-sh-c3" id="c3" class="cd pl" style="top:980px">
+<div data-hf-id="hf-sh-nm3" class="nm tl" style="font-size:46px;padding-top:4px">DELIVERY PILOT</div>
+<div data-hf-id="hf-sh-mp3" class="mp">MY OWN TERM</div>
+<div data-hf-id="hf-sh-ds3" class="ds"><span>Flight plan</span> → <span>Autopilot</span> → <span>Take control</span></div>
+<div data-hf-id="hf-sh-tk3" class="tk"></div>
+<div data-hf-id="hf-sh-tr3" class="tr" style="width:678px;background:#0BB5A4"></div>
+<div data-hf-id="hf-sh-rg3" class="rg tl">VAST DISTANCES</div>
+</div>
+<div data-hf-id="hf-sh-v1" id="v1" class="veh" style="top:535px;width:110px;height:66px;color:#8EA0B8"><svg width="110" height="66" viewBox="0 0 110 66"><use href="#ic-bike" width="110" height="66"/></svg></div>
+<div data-hf-id="hf-sh-v2" id="v2" class="veh" style="top:825px;width:110px;height:66px;color:#EAF2F5"><svg width="110" height="66" viewBox="0 0 110 66"><use href="#ic-car" width="110" height="66"/></svg></div>
+<div data-hf-id="hf-sh-v3" id="v3" class="veh" style="top:1115px;width:66px;height:66px;color:#0BB5A4"><svg width="66" height="66" viewBox="0 0 66 66" style="transform:rotate(90deg)"><use href="#ic-plane" width="66" height="66"/></svg></div>
+<div data-hf-id="hf-sh-dl" id="dl" class="big">$0</div>
+<div data-hf-id="hf-sh-fs" id="fs" class="fs">FREE FOR STUDENTS</div>
+<div data-hf-id="hf-sh-sk" id="sk" class="sk">skool.com/delivery-pilot-8938</div>
+<div data-hf-id="hf-sh-cap" id="cap"></div>
+<audio data-hf-id="hf-sh-vo" id="short-vo" class="clip" src="assets/short-rdp-voice.wav" data-start="0" data-duration="44.4" data-track-index="20" data-volume="0.85"></audio>
+<audio data-hf-id="hf-sh-bed" id="short-bed" class="clip" src="assets/underscore.mp3" data-start="0" data-duration="45.8" data-track-index="21" data-volume="0.14" data-fade-out="2"></audio>
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+const q=s=>Array.from(document.querySelectorAll(s));
+const rise=(sel,at,d)=>tl.fromTo(q(sel),{opacity:0,y:40},{opacity:1,y:0,duration:d||.6,ease:"power3.out"},at);
+const CAP=[{"s":0.3,"e":1.66,"w":[["Riders",0.3,0.68],["get",0.77,0.9],["carried.",0.94,1.47]]},{"s":1.66,"e":2.89,"w":[["Drivers",1.66,2.05],["get",2.13,2.26],["there.",2.35,2.69]]},{"s":2.9,"e":4.5,"w":[["Pilots",2.9,3.33],["go",3.41,3.54],["the",3.58,3.67],["distance.",3.71,4.3]]},{"s":5.05,"e":6.32,"w":[["Now,",5.05,5.35],["the",5.47,5.6],["analogy:",5.65,6.12]]},{"s":6.33,"e":8.58,"w":[["rider,",6.33,6.86],["driver,",7.01,7.5],["pilot.",7.65,8.38]]},{"s":8.68,"e":10.17,"w":[["A",8.68,8.76],["rider",8.8,9.1],["uses",9.14,9.36],["AI",9.53,9.87],["like",10.0,10.13]]},{"s":10.17,"e":11.14,"w":[["a",10.17,10.25],["passenger.",10.3,10.94]]},{"s":11.15,"e":12.26,"w":[["They",11.15,11.28],["copy",11.32,11.49],["answers",11.62,11.96],["from",12.05,12.13],["a",12.17,12.22]]},{"s":12.26,"e":13.95,"w":[["chatbot",12.26,12.73],["and",12.86,12.9],["hope",12.94,13.07],["they",13.15,13.24],["work.",13.28,13.75]]},{"s":14.01,"e":15.67,"w":[["Their",14.01,14.14],["range",14.18,14.39],["is",14.61,14.65],["around",14.78,14.9],["the",14.99,15.07],["block.",15.12,15.48]]},{"s":15.67,"e":17.54,"w":[["A",15.67,15.75],["driver",15.79,16.14],["is",16.22,16.26],["the",16.31,16.43],["classic",16.48,16.82],["developer:",16.86,17.37]]},{"s":17.54,"e":18.7,"w":[["hands",17.54,17.8],["on",17.93,18.01],["the",18.06,18.14],["wheel,",18.18,18.5]]},{"s":18.7,"e":20.06,"w":[["writing",18.7,18.91],["most",19.08,19.21],["of",19.34,19.38],["the",19.42,19.46],["code,",19.51,19.87]]},{"s":20.06,"e":21.95,"w":[["with",20.06,20.23],["AI",20.32,20.62],["as",20.79,20.83],["the",20.87,20.96],["satnav.",21.0,21.75]]},{"s":22.11,"e":23.99,"w":[["Drivers",22.11,22.49],["go",22.54,22.66],["from",22.75,22.83],["city",22.92,23.09],["to",23.22,23.3],["city.",23.35,23.79]]},{"s":24.07,"e":25.01,"w":[["And",24.07,24.16],["a",24.2,24.24],["pilot",24.29,24.67],["is",24.71,24.8],["what",24.84,24.97]]},{"s":25.01,"e":26.68,"w":[["I'm",25.01,25.14],["calling",25.18,25.31],["a",25.48,25.52],["Delivery",25.57,25.78],["Pilot.",25.91,26.48]]},{"s":26.72,"e":28.0,"w":[["They",26.72,26.89],["set",26.93,27.06],["the",27.1,27.19],["flight",27.23,27.4],["plan,",27.48,27.85]]},{"s":28.0,"e":29.12,"w":[["which",28.0,28.08],["is",28.17,28.21],["the",28.25,28.38],["spec.",28.42,28.92]]},{"s":29.25,"e":30.23,"w":[["They",29.25,29.38],["run",29.42,29.55],["the",29.59,29.67],["agents",29.72,30.02],["on",30.1,30.19]]},{"s":30.23,"e":32.19,"w":[["autopilot,",30.23,30.98],["watch",31.12,31.25],["the",31.34,31.47],["instruments,",31.51,32.02]]},{"s":32.19,"e":32.95,"w":[["and",32.19,32.36],["take",32.41,32.58],["control",32.62,32.75]]},{"s":33.0,"e":33.97,"w":[["when",33.0,33.13],["it",33.17,33.22],["matters.",33.26,33.77]]},{"s":34.03,"e":34.91,"w":[["Their",34.03,34.15],["range?",34.2,34.71]]},{"s":35.01,"e":36.45,"w":[["Vast",35.01,35.35],["distances.",35.56,36.25]]},{"s":37.25,"e":38.61,"w":[["Delivery",37.25,37.55],["Pilot",37.68,38.02],["is",38.15,38.27],["where",38.32,38.4],["you",38.44,38.57]]},{"s":38.61,"e":39.77,"w":[["train",38.61,38.83],["to",38.91,39.0],["become",39.04,39.08],["one.",39.3,39.6]]},{"s":39.77,"e":41.01,"w":[["It's",39.77,39.94],["free",39.98,40.15],["for",40.19,40.28],["students:",40.32,40.81]]},{"s":41.13,"e":42.19,"w":[["if",41.13,41.22],["you're",41.26,41.39],["studying,",41.43,41.98]]},{"s":42.24,"e":43.31,"w":[["your",42.24,42.41],["seat",42.45,42.62],["in",42.67,42.75],["the",42.8,42.84],["cockpit",42.88,43.22]]},{"s":43.31,"e":44.4,"w":[["costs",43.31,43.61],["nothing.",43.73,44.2]]}];
+const T1=6.33;
+const T2=7;
+const T3=7.65;
+tl.fromTo("#root .glow",{opacity:0},{opacity:1,duration:1.2},0);
+tl.fromTo("#root",{backgroundPositionY:0},{backgroundPositionY:-200,duration:45.8,ease:"none"},0);
+rise(".kk",0.1,.5);
+rise(".hd:not(.hd2)",0.1,.7);
+tl.set(".hd2",{opacity:0},0);
+tl.fromTo(".hl",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:.5,ease:"power2.out",stagger:.15},0.2);
+tl.set("#v1",{x:-26,y:-48,scale:2.2,transformOrigin:"0% 50%"},0);
+tl.set("#v2",{x:-26,y:-58,scale:2.2,transformOrigin:"0% 50%"},0);
+tl.set("#v3",{x:-26,y:-68,scale:2.2,transformOrigin:"0% 50%"},0);
+tl.set(".cd",{opacity:0},0);
+tl.set(".ds,.rg,.mp",{opacity:0},0);
+tl.set("#dl,#fs,#sk",{opacity:0},0);
+tl.fromTo("#v1",{opacity:0},{opacity:1,duration:.25},0.2);
+tl.to("#v1",{x:200,duration:1,ease:"power2.out"},0.4);
+tl.fromTo("#v2",{opacity:0},{opacity:1,duration:.25},1.4);
+tl.to("#v2",{x:520,duration:1.15,ease:"power2.out"},1.55);
+tl.fromTo("#v3",{opacity:0},{opacity:1,duration:.25},2.7);
+tl.to("#v3",{x:1050,duration:1.4,ease:"power2.in"},2.9);
+tl.to(".hl",{opacity:0,duration:.35},4.4);
+tl.set("#v3",{opacity:0,x:0,y:0,scale:1},4.5);
+tl.to("#v1",{x:0,y:0,scale:1,duration:.8,ease:"power3.inOut"},5.5);
+tl.to("#v2",{x:0,y:0,scale:1,duration:.8,ease:"power3.inOut"},6.2);
+tl.fromTo("#v3",{opacity:0},{opacity:1,duration:.4},T3);
+tl.fromTo("#c1",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},T1);
+tl.fromTo("#c2",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},T2);
+tl.fromTo("#c3",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},T3);
+const focus=(i,at)=>{
+[1,2,3].forEach(j=>{
+tl.to(["#c"+j,"#v"+j],{opacity:j===i?1:.4,duration:.4,ease:"power2.out"},at);
+});
+};
+focus(1,8.5);
+focus(2,15.4);
+focus(3,23.8);
+rise("#c1 .ds",8.67,.5);
+tl.fromTo("#c1 .rg",{opacity:0},{opacity:1,duration:.4},14);
+tl.fromTo("#c1 .tr",{scaleX:0},{scaleX:1,duration:1.2,ease:"power2.out"},14.55);
+tl.to("#v1",{x:130,duration:1.2,ease:"power2.out"},14.55);
+rise("#c2 .ds",15.67,.5);
+tl.fromTo("#c2 .rg",{opacity:0},{opacity:1,duration:.4},22.1);
+tl.fromTo("#c2 .tr",{scaleX:0},{scaleX:1,duration:1.5,ease:"power2.out"},22.3);
+tl.to("#v2",{x:360,duration:1.5,ease:"power2.out"},22.3);
+rise("#c3 .ds",24.07,.5);
+tl.fromTo("#c3 .mp",{opacity:0,scale:.8,transformOrigin:"100% 50%"},{opacity:1,scale:1,duration:.5,ease:"back.out(2)"},25.57);
+const sp=q("#c3 .ds span");
+tl.to(sp[0],{opacity:1,color:"#0BB5A4",duration:.3},27.2);
+tl.to(sp[1],{opacity:1,color:"#0BB5A4",duration:.3},30.2);
+tl.to(sp[2],{opacity:1,color:"#0BB5A4",duration:.3},32.6);
+tl.fromTo("#c3 .rg",{opacity:0},{opacity:1,duration:.4},34.1);
+tl.fromTo("#c3 .tr",{scaleX:0},{scaleX:1,duration:1.5,ease:"power2.inOut"},35);
+tl.to("#v3",{x:678,duration:1.5,ease:"power2.inOut"},35);
+tl.to([".kk",".hd:not(.hd2)"],{opacity:0,y:-30,duration:.4},36.3);
+tl.to(["#c1","#c2","#v1","#v2"],{opacity:0,duration:.45},36.4);
+tl.to(["#c3","#v3"],{y:-580,duration:.8,ease:"power3.inOut"},36.6);
+tl.fromTo(".hd2",{opacity:0,y:40},{opacity:1,y:0,duration:.6,ease:"power3.out"},36.9);
+tl.fromTo("#dl",{opacity:0,scale:.6,transformOrigin:"0% 50%"},{opacity:1,scale:1,duration:.6,ease:"back.out(1.8)"},39.85);
+rise("#fs",40.1,.6);
+rise("#sk",41.15,.6);
+tl.to("#sk",{scale:1.06,transformOrigin:"0% 50%",duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"},42);
+const capEl=document.getElementById("cap");
+const fit=window.__hyperframes&&window.__hyperframes.fitTextFontSize;
+CAP.forEach(g=>{
+const el=document.createElement("div");
+el.className="cg";
+const spans=g.w.map(w=>{
+const s=document.createElement("span");
+s.textContent=w[0];
+el.appendChild(s);
+el.appendChild(document.createTextNode(" "));
+return s;
+});
+capEl.appendChild(el);
+if(fit){
+el.style.fontSize=fit(g.w.map(w=>w[0]).join(" "),{fontFamily:"Outfit",fontWeight:800,maxWidth:880}).fontSize+"px";
+}
+tl.set(el,{opacity:1,visibility:"visible"},g.s);
+g.w.forEach((w,i)=>{
+tl.set(spans[i],{color:"#0BB5A4"},w[1]);
+tl.set(spans[i],{color:"#EAF2F5"},w[2]);
+});
+tl.to(el,{opacity:0,duration:.12,ease:"power2.in"},g.e-.12);
+tl.set(el,{opacity:0,visibility:"hidden"},g.e);
+});
+window.__timelines["short-rider-driver-pilot"]=tl;
+tl.seek(0);
+</script>
+</body>
+</html>

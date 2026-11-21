@@ -2,7 +2,7 @@
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
   "currentRevision": "570857ef-c8b6-4185-b646-05abceb1cc34",
-  "pendingChanges": false,
+  "pendingChanges": true,
   "files": {
     "AGENTS.md": {
       "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
@@ -443,6 +443,18 @@
     "thumbnails/thumb-1.png": {
       "hash": "71751aa634c1d21a9591da3948fc24e2630884e76d539fdc7cd5d6739a59de97",
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/71/71751aa634c1d21a9591da3948fc24e2630884e76d539fdc7cd5d6739a59de97"
+    },
+    "assets/short-rdp-voice.wav": {
+      "hash": "56bf5f2b43abe69af2670b66ab5430d9fa39d6787e6e670617cfb28d84b1e7c6",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/56/56bf5f2b43abe69af2670b66ab5430d9fa39d6787e6e670617cfb28d84b1e7c6"
+    },
+    "assets/short-rdp-voice.transcript.json": {
+      "hash": "520ea696f50d1ebf01c2211fb1b77a49810b50993a2ea4830ba9f773f5558438",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/52/520ea696f50d1ebf01c2211fb1b77a49810b50993a2ea4830ba9f773f5558438"
+    },
+    "compositions/short-rider-driver-pilot.html": {
+      "hash": "a6be1c7a0133630b663af70a8fa83cdcccafaf100bd23d9859106bccd88c8123",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/a6/a6be1c7a0133630b663af70a8fa83cdcccafaf100bd23d9859106bccd88c8123"
     }
   },
   "revisions": {
