@@ -1,0 +1,447 @@
+File: "index.html"
+body
+  #root div composition="main"
+    hf-8rgt svg
+      hf-mh0t defs
+        #ic-bike symbol
+          hf-gdnc g
+            hf-6nzq, hf-boyn circle
+            hf-0aa2 path
+        #ic-car symbol
+          hf-gmot path
+          hf-wf0g, hf-nn0k circle
+        #ic-plane symbol
+          hf-ya61 path
+    #s01 section class="clip scene"
+      hf-usrk div.kick "00:00 · HOOK"
+      hf-phd4 div.tc "UK ENTRY-LEVEL TECH"
+      hf-krk5 div.big.org "≈ −50%"
+      hf-0do4 div.sub "UK entry-level tech roles are down by about half."
+      hf-f8aa svg
+        hf-mrt1 line
+        hf-dvri path
+        hf-7zcl path.ln
+        hf-lzkj, hf-vfdh circle
+        hf-j55u text "THE LOW POINT"
+    #s02 section class="clip scene"
+      hf-4mjk div.kick "00:07 · HOOK · THE TURN"
+      hf-apkh div.tc "J-CURVE"
+      hf-vd0q div.big "J"
+      hf-xi2q div.h "Why am I than ever?"
+        hf-37f0 strong "more optimistic"
+      hf-bxbc div.sub "Freeze the graph at the bottom. Draw a J over it."
+      hf-c9di svg
+        hf-twgp line
+        hf-wkbt path.ln
+        hf-4s1z path.dt
+        hf-9mrl, hf-odsf circle
+    #s03 section class="clip scene"
+      hf-h19d div.kick "00:16 · THE UK NUMBERS"
+      hf-u9f3 div.tc "THE BOTTOM OF THE J"
+      hf-qk10 div.h "UK entry-level tech roles"
+      hf-o6y7 div.big.org "−46%"
+      hf-bflr div class="sub" "in 2024 · measured"
+      hf-vihy div.big.gr "→ −53%"
+      hf-wjcs div class="sub" "by end of 2026 · projected"
+      hf-9efu div.card
+        hf-thc8 div class="mono" "ROLES REMAINING (2023 = 100)"
+        hf-4nll div
+          hf-icfm, hf-etkg, hf-nuvy div
+        hf-j326 div class="mono"
+          hf-d28j span "2023"
+          hf-b2pe span "2024"
+          hf-ptdi span "2026 est."
+      hf-5zm3 div.src "VERIFY BEFORE AIR: DEV COMMUNITY POST → TRACE ORIGINAL UK SOURCE"
+    #s04 section class="clip scene"
+      hf-ubsp div.kick "00:44 · GLOBAL"
+      hf-419z div.tc "SIGNALFIRE 2026"
+      hf-ooqi div.h "New-grad hiring at the biggest tech firms"
+      hf-g4dk div.big.org "−65%"
+      hf-ffr2 div.sub "below 2019 levels"
+      hf-mr4w div
+        hf-hv86, hf-hbqu div
+      hf-wpth div.mono
+        hf-4u4a span "2019"
+        hf-7lb8 span "2026"
+      hf-kawh div.src "VERIFY BEFORE AIR: CHECK THE SIGNALFIRE REPORT, NOT THE BLOG QUOTING IT"
+    #s05 section class="clip scene"
+      hf-87g5 div.kick "00:59 · HARVARD STUDY"
+      hf-hj6r div.tc "62M WORKERS · 285K US FIRMS"
+      hf-vwwn div.h "After adopting generative AI, roles fell. roles kept rising."
+        hf-128i em "junior"
+        hf-7zli strong "Senior"
+      hf-t7yp svg
+        hf-8lv5, hf-p3r2 line
+        hf-o87m, hf-bpue path.ln
+        hf-oh36, hf-50d3 circle
+        hf-ueu9 text "AI ADOPTED"
+        hf-dvf7 text "+6 QUARTERS"
+      hf-t9j2 div class="card"
+        hf-2y9n div.mono.tl "SENIOR"
+        hf-prrs div.num.tl "▲ rising"
+      hf-93m2 div class="card"
+        hf-d5h6 div.mono.org "JUNIOR"
+        hf-bp8k div.num.org "−9–10%"
+      hf-hlfx div.src "VERIFY BEFORE AIR: PULL THE ORIGINAL HARVARD PAPER"
+    #s06 section class="clip scene"
+      hf-f6cb div.kick "01:22 · THE PRODUCTIVITY J-CURVE"
+      hf-mq6w div.tc "BRYNJOLFSSON · ROCK · SYVERSON"
+      hf-foha div.h "New technology: productivity and hiring ."
+        hf-nt7i em "dip first"
+      hf-x8kq svg
+        hf-xyqj, hf-dos2 line
+        hf-im3q path.ln
+        hf-89d2 path.dt
+        hf-xv0c, hf-5qtf circle
+        hf-nsxn text "WE ARE HERE"
+        hf-sed3 text "TOOLS · NEW PROCESSES · RETRAINING"
+        hf-4j7u text "GAINS SHOW UP"
+      hf-2d2k div.chip "A MODEL, NOT A PROMISE: THE DIP IS MEASURED. THE UPSWING IS THE BET."
+    #s07 section class="clip scene"
+      hf-keay div.kick "01:49 · THE HONEST CAVEAT"
+      hf-suto div.tc "LINKEDIN ECONOMIC GRAPH · FEB 2026"
+      hf-yq7u div.card
+        hf-irxj div.mono.org "ONE HONEST SENTENCE"
+        hf-6yxe div "Interest rates explain most of the swings in software hiring this decade."
+        hf-1ic7 div "How much of today's drop is AI? Still unclear."
+      hf-niyd svg
+        hf-ui9a path
+        hf-6jwy path.ln
+        hf-wxca text "RATES"
+        hf-6mtl text "HIRING"
+    #s08 section class="clip scene"
+      hf-zuc3 div.kick "02:01 · SIGNS OF THE UPSWING"
+      hf-7ey3 div.tc "THE BOTTOM OF THE J IS THE LAUNCH POINT"
+      hf-77l4 div.h "The upswing is already ."
+        hf-oadq strong "showing up"
+      hf-32x1 div class="card"
+        hf-y85j div.mono.tl "EUROPE · LINUX FOUNDATION"
+        hf-y3hk div.num.tl "+27%"
+        hf-agnq p "tech hiring surge, driven by AI"
+      hf-166j div class="card"
+        hf-gv78 div.mono.tl "IBM · 2026"
+        hf-6aan div.num.tl "3×"
+        hf-k0xq p "entry-level hires"
+      hf-yqrb div class="card"
+        hf-1jiz div.mono.tl "COGNIZANT · US"
+        hf-yvl8 div.num.tl "4×"
+        hf-r0yn p "graduate pipeline"
+      hf-tuy4 div class="card"
+        hf-7u3o div.mono.tl "CLOUDFLARE"
+        hf-1mg1 div.num.tl "60→1,111"
+        hf-irv9 p "internships"
+      hf-adqi div.chip "DISCLOSURE: I WORK AT IBM"
+    #s09 section class="clip scene"
+      hf-t5b9 div.kick "02:27 · AI TOOK CONTINUOUS INTEGRATION"
+      hf-n0u5 div.tc "AI DOES, AND RE-RUNS"
+      hf-mwp3 div.h "AI took ."
+        hf-ga6m em "continuous integration"
+      hf-7p2a div
+        hf-gh8z div class="card"
+          hf-mnfb div.mono.tl "✓"
+          hf-sut3 h3 "Writes the first draft"
+        hf-em84 div
+        hf-4j3n div class="card"
+          hf-yxhz div.mono.tl "✓"
+          hf-zfw6 h3 "Runs tests, fixes lint"
+        hf-3gos div
+        hf-44sm div class="card"
+          hf-yj6y div.mono.tl "✓"
+          hf-vzm4 h3 "Re-runs the pipeline"
+        hf-29rp div
+        hf-3qhl div class="card"
+          hf-y4vx div.mono.tl "✓"
+          hf-njbp h3 "Opens PRs, merges simple conflicts"
+        hf-2o2q div
+        hf-3c6k div class="card"
+          hf-0x14 div.mono.tl "✓"
+          hf-vq0i h3 "Triages first-line incidents"
+      hf-mueg div.sub "All green. No human needed for any of it."
+    #s10 section class="clip scene"
+      hf-w8c8 div.kick "03:18 · HUMANS GOT DELIVERY"
+      hf-5x3m div.tc "WHAT STAYS HUMAN"
+      hf-bvye div.h "Humans got ."
+        hf-ivfm strong "delivery"
+      hf-dkgl div
+        hf-nkzk div class="card"
+          hf-ttx0 div.mono.tl "01"
+          hf-ynvw h3 "Decide what to build, and why"
+        hf-tp88 div class="card"
+          hf-ol0t div.mono.tl "02"
+          hf-dvc6 h3 "Write the spec agents follow"
+        hf-sib5 div class="card"
+          hf-ozbu div.mono.tl "03"
+          hf-mgli h3 "Judge if the output is right"
+        hf-swm6 div class="card"
+          hf-v0u3 div.mono.tl "04"
+          hf-fmmt h3 "Keep delivery profitable"
+        hf-rpp3 div class="card"
+          hf-vf54 div.mono.tl "05"
+          hf-qu29 h3 "Own the stakeholder"
+      hf-778b div.sub "\"CI became AI's job. \""
+        hf-g8x6 span.tl "Delivery became yours."
+    #s11 section class="clip scene"
+      hf-86xc div.kick "03:56 · MY STORY · ONBOARDING"
+      hf-k8v9 div.tc "PLACEHOLDER: USE AN OBP OR SRE STORY"
+      hf-ke1l div.h "The pipeline was never the hard part."
+      hf-v6rb div class="card"
+        hf-ynbt div.gr.mono "THE PIPELINE"
+        hf-0ob7 div.num.tl "✓ green"
+        hf-l25j p "Solved. AI does this now."
+      hf-3enp div
+      hf-qi4p div class="card"
+        hf-xcsw div.mono.org "THE HARD PART"
+        hf-9z4e div.num "Getting a market participant live."
+        hf-91ik p "Safely. On time."
+    #s12 section class="clip scene"
+      hf-h32s div.kick "04:21 · THE ANALOGY"
+      hf-7k83 div.tc "RIDER → DRIVER → PILOT"
+      hf-g0dq div.h "Rider. Driver."
+        hf-x28i strong "Pilot."
+      hf-16rq div class="card"
+        hf-yr13 svg
+          hf-9t2e use
+        hf-st7u div class="gr mono" "RIDER"
+        hf-odyc h3 "Passenger"
+        hf-1ti8 p "Copies answers from a chatbot and hopes they work."
+        hf-04j3 div class="gr mono" "RANGE: AROUND THE BLOCK"
+        hf-p87h div
+          hf-onhy div
+      hf-u514 div class="card"
+        hf-icpe svg
+          hf-xrdr use
+        hf-t9ip div class="mono" "DRIVER"
+        hf-tx0j h3 "Hands on the wheel"
+        hf-1719 p "Writes most of the code. AI is the satnav."
+        hf-yiy6 div class="mono" "RANGE: CITY TO CITY"
+        hf-fbb5 div
+          hf-u2w1 div
+      hf-ek7y div class="card"
+        hf-vvc9 svg
+          hf-11gq use
+        hf-k3zv div class="mono tl" "DELIVERY PILOT"
+        hf-2jaw h3 "Flight plan, autopilot"
+        hf-qelj p "Sets the spec, runs agents, watches the instruments, takes control when it matters."
+        hf-jav9 div class="mono tl" "RANGE: VAST DISTANCES"
+        hf-yrdh div
+          hf-6sil div
+      hf-kw6e div.chip "\"DELIVERY PILOT\" IS WHAT I'M CALLING IT"
+    #s13 section class="clip dark scene"
+      hf-hyn6 div.kick "05:06 · THE PILOT"
+      hf-qefm div.tc "ONE PILOT, WHAT USED TO TAKE A TEAM"
+      hf-e5kp div.h "A pilot doesn't flap the wings."
+      hf-ktic div.sub "Plans the route. Trusts the instruments. Watches for risk. Lands safely."
+      hf-vekf div
+        hf-90z1 div
+          hf-uywi svg
+            hf-mlr5 circle
+            hf-jymu circle
+            hf-3l1m, hf-zywd path
+            hf-2tkp circle
+          hf-hd6x div.mono.tl "PLAN THE ROUTE"
+        hf-f469 div
+          hf-00za svg
+            hf-zfed circle
+            hf-0kca circle
+            hf-n5f6 path
+            hf-mq52 line
+            hf-mqnp circle
+          hf-g1hr div.mono.tl "TRUST THE INSTRUMENTS"
+        hf-gb3c div
+          hf-0fab svg
+            hf-7f7z circle
+            hf-2l1c circle
+            hf-n8vq path
+            hf-5xv0 line
+            hf-y0z5 circle
+          hf-6hc7 div.mono.org "WATCH FOR RISK"
+        hf-fwsb div
+          hf-0tlc svg
+            hf-0mbg, hf-0ynb circle
+            hf-5esx, hf-sa53 path
+            hf-mj9j use
+          hf-dtf1 div.mono.tl "LAND SAFELY"
+    #s14 section class="clip scene"
+      hf-wu1e div.kick "06:06 · EVERYONE GOT UPGRADED"
+      hf-934i div.tc "NOBODY GOT DEMOTED"
+      hf-0taa div.h "Everyone moves up ."
+        hf-7qai strong "a seat"
+      hf-g60x div
+        hf-qudv div class="card"
+          hf-bvc2 div.gr.mono "STUDENTS & SWITCHERS"
+          hf-pcn4 svg
+            hf-sanh use
+          hf-61hu div.num.org "→"
+          hf-n4ap svg
+            hf-l2h2 use
+          hf-l371 div "Drivers faster than ever. AI is a patient tutor."
+        hf-rewt div class="card"
+          hf-dzex div.mono.tl "JUNIORS"
+          hf-hf2t svg
+            hf-obm2 use
+          hf-n39y div.num.org "→"
+          hf-iqd3 svg
+            hf-57j6 use
+          hf-tal2 div "Delivery Pilots. Own outcomes, not tickets."
+        hf-yilv div class="card"
+          hf-nlik div class="mono" "SENIORS"
+          hf-pwc7 svg
+            hf-zl8m use
+          hf-nhkz div.num.org "→"
+          hf-u69j div class="mono" "COMMANDER"
+          hf-v22r div "Run fleets of pilots and agents."
+        hf-y4au div class="card"
+          hf-6jsv div class="mono" "MANAGERS"
+          hf-cdst div.num.org "→"
+          hf-hbfl div class="mono" "AIR TRAFFIC CONTROL"
+          hf-6hjv div "Strategy, priorities, safety."
+    #s15 section class="clip scene"
+      hf-9lka div.kick "06:53 · THE BUSINESS REALITY"
+      hf-r5mg div.tc "GATHER THE RIGHT RESOURCES"
+      hf-r808 div.h "Invest in pilots now, or ."
+        hf-v8cg em "face a senior shortage"
+      hf-02y2 svg
+        hf-rifn line
+        hf-7yxo path.ln
+        hf-9zz1 path.dt
+        hf-qo1n line
+        hf-bf7v text "SENIOR SHORTAGE"
+        hf-76ru text "2026"
+        hf-11il text "≈2031"
+        hf-w6d4 text "KEEP INVESTING"
+        hf-f6p7 text "FREEZE"
+      hf-70n8 div
+        hf-ihye div class="card"
+          hf-f5b1 h3 "The right people"
+        hf-o7vu div class="card"
+          hf-uvyt h3 "The right agent tooling"
+        hf-om6v div class="card"
+          hf-pmuk h3 "The right skills"
+        hf-1zr9 div.sub "Today's juniors are tomorrow's seniors."
+    #s16 section class="clip scene"
+      hf-sqzq div.kick "07:27 · WHAT IS A DELIVERY PILOT?"
+      hf-bzd5 div.tc "COBALTS"
+      hf-pptr div.h "The pilot"
+        hf-t9qm strong "COBALTS"
+      hf-5o90 div
+        hf-d1tj div class="card"
+          hf-1ei8 div.num.tl "C"
+          hf-gbi0 h3 "Creator"
+          hf-uw0s p "Content, demos and docs that show the work."
+        hf-3053 div class="card"
+          hf-zsih div.num.tl "O/B"
+          hf-qs1r h3 "Builder"
+          hf-a9b8 p "Builds and runs agents end to end."
+        hf-2lu2 div class="card"
+          hf-rdxp div.num.tl "L"
+          hf-oyzt h3 "Leader"
+          hf-1jm5 p "Owns the stakeholder and the delivery."
+        hf-27j1 div class="card"
+          hf-4z9h div.num.tl "T"
+          hf-5rbt h3 "Treasurer"
+          hf-kurd p "Token spend, cloud cost and ROI."
+        hf-4zo8 div class="card"
+          hf-7reo div.num.tl "S"
+          hf-mhay h3 "Strategist"
+          hf-pudi p "Picks what to build next, and why."
+    #s17 section class="clip dark scene"
+      hf-kk4s div.kick "08:09 · A DAY IN THE LIFE"
+      hf-7euo div.tc "FLIGHT PLAN"
+      hf-x2ih div.h "A day in the life of a pilot"
+      hf-anif svg
+        hf-t1zr path
+        hf-mrbq g
+          hf-crna circle
+          hf-x071 text "WRITE SPEC"
+          hf-trco circle
+          hf-n060 text "SEND TO AGENTS"
+          hf-u3rd circle
+          hf-kh9w text "REVIEW OUTPUT"
+          hf-mq77 circle
+          hf-97r8 text "CHECK COSTS"
+          hf-5h4x circle
+          hf-b2vl text "DEMO"
+          hf-rep9 circle
+          hf-tawx text "LAND RELEASE"
+        hf-j1l3 use
+    #s18 section class="clip scene"
+      hf-yfln div.kick "08:41 · YOUR 90-DAY FLIGHT PLAN"
+      hf-xcpe div.tc "3 LEGS · 12 WEEKS"
+      hf-igfu div.h "Your 90-day flight plan"
+      hf-nunr div
+      hf-u07r div class="card"
+        hf-4lz8 div.mono.org "WEEKS 1–4"
+        hf-12hs h3 "Learn to write specs"
+        hf-jevi p "Not just code. Module 1.1:"
+        hf-e3gp div class="mono" "Role · ContextTask · Constraints"
+          hf-x5px br
+      hf-d51w div class="card"
+        hf-aab0 div.mono.org "WEEKS 5–8"
+        hf-mpxy h3 "Build one agent, end to end"
+        hf-y5wc p "Run it. Publish its logs."
+      hf-waqe div class="card"
+        hf-2ntb div.mono.tl "WEEKS 9–12"
+        hf-m8q5 h3 "Get certified"
+        hf-naj7 p "A frontier-lab certification such as CCA-F, as proof you can fly."
+    #s19 section class="clip dark scene"
+      hf-kukd div.kick "09:51 · JOIN DELIVERY PILOT"
+      hf-etk2 div.tc "YOUR SEAT IN THE COCKPIT"
+      hf-0qnb div.h "Delivery"
+        hf-9r9k strong "Pilot"
+      hf-ym9q div.sub "Where you train to become one."
+      hf-r834 div
+        hf-6qsu div class="card"
+          hf-zs9c div.num.tl "$0"
+          hf-2cqe h3 "Free for students"
+          hf-f43o p "Your seat costs nothing."
+        hf-q2ia div class="card"
+          hf-q7iu div.num.tl "▶"
+          hf-vi55 h3 "Full course on YouTube"
+          hf-ulfn p "Free, start to finish."
+        hf-qgtb div class="card"
+          hf-63ry div.num.tl "◎"
+          hf-a6op h3 "The Skool room"
+          hf-k4xs p "Build, review and certify together."
+        hf-qv4c div class="card"
+          hf-qbk4 div.num.tl "✈"
+          hf-tuv4 h3 "Real bots, real companies"
+          hf-74lb p "Certified pilots build them."
+      hf-tz2w div.chip "github.com/rifaterdemsahin/junior-to-pilot"
+    #s20 section class="clip dark scene"
+      hf-cpwb div.kick "10:11 · CLOSING LINE"
+      hf-dhau div.tc "SEE YOU IN THE COCKPIT"
+      hf-21ud div
+        hf-ebkq div "Riders get carried."
+          hf-5zbi svg
+            hf-3ieb use
+        hf-gue2 div "Drivers get there."
+          hf-7fm2 svg
+            hf-5w5s use
+        hf-nbjn div "Pilots go the distance."
+          hf-eryh svg
+            hf-f0o5 use
+      hf-ivlp div.sub "See you in the cockpit. ✈"
+    #vo01 audio class="clip" src="assets/vo-01.wav"
+    #vo02 audio class="clip" src="assets/vo-02.wav"
+    #vo03 audio class="clip" src="assets/vo-03.wav"
+    #vo04 audio class="clip" src="assets/vo-04.wav"
+    #vo05 audio class="clip" src="assets/vo-05.wav"
+    #vo06 audio class="clip" src="assets/vo-06.wav"
+    #vo07 audio class="clip" src="assets/vo-07.wav"
+    #vo08 audio class="clip" src="assets/vo-08.wav"
+    #vo09 audio class="clip" src="assets/vo-09.wav"
+    #vo10 audio class="clip" src="assets/vo-10.wav"
+    #vo11 audio class="clip" src="assets/vo-11.wav"
+    #vo12 audio class="clip" src="assets/vo-12.wav"
+    #vo13 audio class="clip" src="assets/vo-13.wav"
+    #vo14 audio class="clip" src="assets/vo-14.wav"
+    #vo15 audio class="clip" src="assets/vo-15.wav"
+    #vo16 audio class="clip" src="assets/vo-16.wav"
+    #vo17 audio class="clip" src="assets/vo-17.wav"
+    #vo18 audio class="clip" src="assets/vo-18.wav"
+    #vo19 audio class="clip" src="assets/vo-19.wav"
+    #vo20 audio class="clip" src="assets/vo-20.wav"
+    #bed1 audio class="clip" src="assets/underscore.mp3"
+    #bed2 audio class="clip" src="assets/underscore.mp3"
+    #bed3 audio class="clip" src="assets/underscore.mp3"
+    #bed4 audio class="clip" src="assets/underscore.mp3"

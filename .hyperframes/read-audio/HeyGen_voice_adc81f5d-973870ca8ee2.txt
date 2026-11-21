@@ -1,0 +1,18 @@
+assets/HeyGen voice adc81f5d.wav · 8.9 s
+overall: This soundtrack features only a single, clean male voice speaking in a calm, informative, and measured tone from 0.25 to 8.93 seconds, with no musical accompaniment or background sounds. The speaker begins the first phrase smoothly at 0.25 seconds before pausing briefly at 3.5 seconds, then resumes with slightly more emphasis at 4.1 seconds until another pause at 6.6 seconds. The final statement starts at 6.9 seconds and continues steadily with a clear, conversational rhythm and a dry, close-mic feel until the audio concludes at 8.93 seconds.
+voice-free mix: .hyperframes/read-audio/stems/973870ca8ee2/no-vocals.wav
+stems: .hyperframes/read-audio/stems/973870ca8ee2/
+
+vocals  -17 dB · 0.25–8.93
+  This stem holds a single, clean male voice speaking in a calm, informative, and measured tone with no musical accompaniment or background bleed. The speaker delivers the first phrase smoothly from the beginning until pausing briefly at 3.5 seconds. At 4.1 seconds, the voice resumes with slightly more emphasis to deliver the second sentence, pausing again at 6.6 seconds. The final statement begins at 6.9 seconds and continues steadily until the audio concludes at 8.9 seconds. Throughout the clip, the vocal delivery maintains a clear, conversational rhythm and a dry, close-mic recording feel.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 3 lines, 0 pauses, mean 4 words/s, median pitch 103 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–4.1  voice    "Freeze the graph at its lowest point, and draw a J over it."  3.4 words/s (mean 4)  pitch 148 Hz (median 103)  falling end
+4.5–6.9  voice    "That shape is the whole story of this video."  3.8 words/s (mean 4)
+7.3–8.8  voice    "The bottom is not the end of the line."  5.9 words/s (mean 4)

@@ -1,0 +1,17 @@
+assets/HeyGen voice 24798f8b.wav · 31.3 s · not separated
+voice: 10 lines, 0 pauses, mean 3.3 words/s, median pitch 123 Hz
+effects: 0 in 0 sounds
+
+0.3–2.5    voice    "Here's a day in the life of a Delivery Pilot."  4.6 words/s (mean 3.3)
+2.7–5.1    voice    "It starts with coffee, and then you write the spec."  4.1 words/s (mean 3.3)
+5.4–9.8    voice    "Next, send that spec to your agents, and let them do the heavy lifting."  3.2 words/s (mean 3.3)  falling end
+10.1–11.3  voice    "Then review the output."  3.1 words/s (mean 3.3)
+11.5–14.3  voice    "Does it solve the real problem, or only the ticket?"  3.7 words/s (mean 3.3)  pitch 182 Hz (median 123)  falling end
+14.5–19.3  voice    "Check the costs: token spend, cloud bills, and whether the return is there."  2.7 words/s (mean 3.3)  rising end
+19.6–23.4  voice    "Demo it to the stakeholder, show them the work, and take their feedback."  3.4 words/s (mean 3.3)  pitch 160 Hz (median 123)  falling end
+23.6–26.5  voice    "And finally, land the release, safely."  2.1 words/s (mean 3.3)
+26.8–27.6  voice    "That's the loop."  3.8 words/s (mean 3.3)
+27.9–31.1  voice    "Notice there's no step called type all the code by hand."  3.4 words/s (mean 3.3)  falling end
+
+! not separated into stems: the stems service answered 402: HyperFrames generation needs a HyperFrames plan: the person already saw this in this chat. Don't stop, ask or repeat it, and don't call HeyGen's tools again this turn; finish without that media and say in one line at the end what was left out, ending with [See plans](hf:place:plan).
+! without stems, effects under speech are not found and music is not read

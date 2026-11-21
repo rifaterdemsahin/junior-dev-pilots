@@ -1,0 +1,571 @@
+{
+  "audio": "assets/HeyGen voice 452feeeb.wav",
+  "language": null,
+  "words": [
+    {
+      "text": "So",
+      "start": 0.299,
+      "end": 0.4267
+    },
+    {
+      "text": "what",
+      "start": 0.469,
+      "end": 0.597
+    },
+    {
+      "text": "is",
+      "start": 0.64,
+      "end": 0.725
+    },
+    {
+      "text": "a",
+      "start": 0.768,
+      "end": 0.853
+    },
+    {
+      "text": "Delivery",
+      "start": 0.896,
+      "end": 1.152
+    },
+    {
+      "text": "Pilot,",
+      "start": 1.323,
+      "end": 1.835
+    },
+    {
+      "text": "day",
+      "start": 1.963,
+      "end": 2.133
+    },
+    {
+      "text": "to",
+      "start": 2.176,
+      "end": 2.261
+    },
+    {
+      "text": "day?",
+      "start": 2.304,
+      "end": 2.795
+    },
+    {
+      "text": "I",
+      "start": 3.115,
+      "end": 3.2
+    },
+    {
+      "text": "call",
+      "start": 3.243,
+      "end": 3.371
+    },
+    {
+      "text": "the",
+      "start": 3.413,
+      "end": 3.4987
+    },
+    {
+      "text": "framework",
+      "start": 3.541,
+      "end": 4.0107
+    },
+    {
+      "text": "COBALTS.",
+      "start": 4.224,
+      "end": 5.077
+    },
+    {
+      "text": "C",
+      "start": 5.333,
+      "end": 5.5467
+    },
+    {
+      "text": "is",
+      "start": 5.717,
+      "end": 5.8027
+    },
+    {
+      "text": "for",
+      "start": 5.888,
+      "end": 6.016
+    },
+    {
+      "text": "Creator.",
+      "start": 6.059,
+      "end": 6.72
+    },
+    {
+      "text": "Creators",
+      "start": 6.955,
+      "end": 7.4667
+    },
+    {
+      "text": "make",
+      "start": 7.509,
+      "end": 7.68
+    },
+    {
+      "text": "content,",
+      "start": 7.765,
+      "end": 8.277
+    },
+    {
+      "text": "demos",
+      "start": 8.576,
+      "end": 8.96
+    },
+    {
+      "text": "and",
+      "start": 9.216,
+      "end": 9.301
+    },
+    {
+      "text": "docs",
+      "start": 9.344,
+      "end": 9.728
+    },
+    {
+      "text": "that",
+      "start": 9.813,
+      "end": 9.8987
+    },
+    {
+      "text": "show",
+      "start": 9.941,
+      "end": 10.112
+    },
+    {
+      "text": "the",
+      "start": 10.197,
+      "end": 10.2827
+    },
+    {
+      "text": "work,",
+      "start": 10.325,
+      "end": 10.731
+    },
+    {
+      "text": "because",
+      "start": 10.965,
+      "end": 11.1787
+    },
+    {
+      "text": "work",
+      "start": 11.221,
+      "end": 11.4347
+    },
+    {
+      "text": "nobody",
+      "start": 11.563,
+      "end": 11.776
+    },
+    {
+      "text": "can",
+      "start": 11.947,
+      "end": 12.0747
+    },
+    {
+      "text": "see",
+      "start": 12.117,
+      "end": 12.3307
+    },
+    {
+      "text": "doesn't",
+      "start": 12.416,
+      "end": 12.672
+    },
+    {
+      "text": "count.",
+      "start": 12.715,
+      "end": 13.227
+    },
+    {
+      "text": "O",
+      "start": 13.568,
+      "end": 13.653
+    },
+    {
+      "text": "and",
+      "start": 13.739,
+      "end": 13.867
+    },
+    {
+      "text": "B",
+      "start": 13.909,
+      "end": 14.037
+    },
+    {
+      "text": "make",
+      "start": 14.293,
+      "end": 14.464
+    },
+    {
+      "text": "the",
+      "start": 14.549,
+      "end": 14.6347
+    },
+    {
+      "text": "Builder.",
+      "start": 14.677,
+      "end": 14.964
+    },
+    {
+      "text": "Builders",
+      "start": 15.038,
+      "end": 15.422
+    },
+    {
+      "text": "build",
+      "start": 15.507,
+      "end": 15.7206
+    },
+    {
+      "text": "and",
+      "start": 15.934,
+      "end": 16.019
+    },
+    {
+      "text": "run",
+      "start": 16.062,
+      "end": 16.2326
+    },
+    {
+      "text": "agents",
+      "start": 16.275,
+      "end": 16.6166
+    },
+    {
+      "text": "end",
+      "start": 16.745,
+      "end": 16.958
+    },
+    {
+      "text": "to",
+      "start": 17.086,
+      "end": 17.214
+    },
+    {
+      "text": "end,",
+      "start": 17.257,
+      "end": 17.662
+    },
+    {
+      "text": "from",
+      "start": 17.897,
+      "end": 18.025
+    },
+    {
+      "text": "the",
+      "start": 18.067,
+      "end": 18.11
+    },
+    {
+      "text": "first",
+      "start": 18.153,
+      "end": 18.4086
+    },
+    {
+      "text": "prompt",
+      "start": 18.494,
+      "end": 18.75
+    },
+    {
+      "text": "to",
+      "start": 18.878,
+      "end": 18.963
+    },
+    {
+      "text": "production.",
+      "start": 19.006,
+      "end": 19.667
+    },
+    {
+      "text": "L",
+      "start": 20.073,
+      "end": 20.2006
+    },
+    {
+      "text": "is",
+      "start": 20.329,
+      "end": 20.414
+    },
+    {
+      "text": "for",
+      "start": 20.457,
+      "end": 20.5846
+    },
+    {
+      "text": "Leader.",
+      "start": 20.627,
+      "end": 21.139
+    },
+    {
+      "text": "The",
+      "start": 21.395,
+      "end": 21.523
+    },
+    {
+      "text": "leader",
+      "start": 21.566,
+      "end": 21.7366
+    },
+    {
+      "text": "owns",
+      "start": 21.865,
+      "end": 22.1206
+    },
+    {
+      "text": "the",
+      "start": 22.163,
+      "end": 22.2486
+    },
+    {
+      "text": "stakeholder",
+      "start": 22.291,
+      "end": 22.8886
+    },
+    {
+      "text": "and",
+      "start": 22.974,
+      "end": 23.1446
+    },
+    {
+      "text": "the",
+      "start": 23.187,
+      "end": 23.315
+    },
+    {
+      "text": "delivery,",
+      "start": 23.358,
+      "end": 23.742
+    },
+    {
+      "text": "and",
+      "start": 23.955,
+      "end": 24.211
+    },
+    {
+      "text": "is",
+      "start": 24.254,
+      "end": 24.2966
+    },
+    {
+      "text": "the",
+      "start": 24.339,
+      "end": 24.4246
+    },
+    {
+      "text": "person",
+      "start": 24.467,
+      "end": 24.638
+    },
+    {
+      "text": "everyone",
+      "start": 24.809,
+      "end": 25.107
+    },
+    {
+      "text": "calls",
+      "start": 25.278,
+      "end": 25.534
+    },
+    {
+      "text": "when",
+      "start": 25.747,
+      "end": 25.875
+    },
+    {
+      "text": "something",
+      "start": 25.918,
+      "end": 26.046
+    },
+    {
+      "text": "matters.",
+      "start": 26.217,
+      "end": 26.835
+    },
+    {
+      "text": "T",
+      "start": 27.113,
+      "end": 27.283
+    },
+    {
+      "text": "is",
+      "start": 27.625,
+      "end": 27.7526
+    },
+    {
+      "text": "for",
+      "start": 27.795,
+      "end": 27.923
+    },
+    {
+      "text": "Treasurer.",
+      "start": 27.966,
+      "end": 28.55
+    },
+    {
+      "text": "Treasurers",
+      "start": 28.751,
+      "end": 29.2627
+    },
+    {
+      "text": "watch",
+      "start": 29.305,
+      "end": 29.476
+    },
+    {
+      "text": "token",
+      "start": 29.604,
+      "end": 29.817
+    },
+    {
+      "text": "spend,",
+      "start": 29.988,
+      "end": 30.521
+    },
+    {
+      "text": "cloud",
+      "start": 30.799,
+      "end": 31.0547
+    },
+    {
+      "text": "cost",
+      "start": 31.183,
+      "end": 31.4387
+    },
+    {
+      "text": "and",
+      "start": 31.652,
+      "end": 31.737
+    },
+    {
+      "text": "return",
+      "start": 31.78,
+      "end": 31.865
+    },
+    {
+      "text": "on",
+      "start": 32.121,
+      "end": 32.2067
+    },
+    {
+      "text": "investment,",
+      "start": 32.292,
+      "end": 32.911
+    },
+    {
+      "text": "because",
+      "start": 33.103,
+      "end": 33.273
+    },
+    {
+      "text": "profitable",
+      "start": 33.316,
+      "end": 33.7
+    },
+    {
+      "text": "delivery",
+      "start": 33.828,
+      "end": 34.084
+    },
+    {
+      "text": "is",
+      "start": 34.34,
+      "end": 34.3827
+    },
+    {
+      "text": "the",
+      "start": 34.425,
+      "end": 34.553
+    },
+    {
+      "text": "job.",
+      "start": 34.596,
+      "end": 35.044
+    },
+    {
+      "text": "And",
+      "start": 35.321,
+      "end": 35.449
+    },
+    {
+      "text": "S",
+      "start": 35.535,
+      "end": 35.748
+    },
+    {
+      "text": "is",
+      "start": 36.004,
+      "end": 36.089
+    },
+    {
+      "text": "for",
+      "start": 36.175,
+      "end": 36.3027
+    },
+    {
+      "text": "Strategist,",
+      "start": 36.345,
+      "end": 37.028
+    },
+    {
+      "text": "who",
+      "start": 37.199,
+      "end": 37.3267
+    },
+    {
+      "text": "picks",
+      "start": 37.369,
+      "end": 37.54
+    },
+    {
+      "text": "what",
+      "start": 37.625,
+      "end": 37.8387
+    },
+    {
+      "text": "to",
+      "start": 37.924,
+      "end": 38.009
+    },
+    {
+      "text": "build",
+      "start": 38.052,
+      "end": 38.18
+    },
+    {
+      "text": "next,",
+      "start": 38.308,
+      "end": 38.649
+    },
+    {
+      "text": "and",
+      "start": 38.82,
+      "end": 39.033
+    },
+    {
+      "text": "why.",
+      "start": 39.076,
+      "end": 39.609
+    },
+    {
+      "text": "Five",
+      "start": 39.929,
+      "end": 40.185
+    },
+    {
+      "text": "roles,",
+      "start": 40.313,
+      "end": 40.719
+    },
+    {
+      "text": "one",
+      "start": 40.953,
+      "end": 41.209
+    },
+    {
+      "text": "pilot.",
+      "start": 41.295,
+      "end": 41.87
+    }
+  ]
+}

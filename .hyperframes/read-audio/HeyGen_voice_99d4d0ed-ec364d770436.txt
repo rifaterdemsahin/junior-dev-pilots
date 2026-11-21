@@ -1,0 +1,36 @@
+assets/HeyGen voice 99d4d0ed.wav · 51.2 s
+overall: This 51.2-second soundtrack consists entirely of a clear, dry male voice speaking in a British accent with a calm, informative, and measured pace from 0.25 to 51 seconds. From 0.25 to 30 seconds, the speaker enumerates a five-point checklist with a steady, rhythmic cadence and brief pauses between each item. At 30 seconds, the delivery shifts to a slightly more conversational and reflective tone as the speaker summarizes the points, before adopting a more serious, emphatic feel around 40 seconds with deliberate pauses until concluding at 51 seconds. There is no background music or sound effects present in the recording.
+voice-free mix: .hyperframes/read-audio/stems/ec364d770436/no-vocals.wav
+stems: .hyperframes/read-audio/stems/ec364d770436/
+
+vocals  -17 dB · 0.25–51
+  This vocals stem features a clear, dry male voice speaking in a British accent with a calm, informative, and measured pace throughout the 51.2-second track. From 0 to 30 seconds, the speaker enumerates a five-point checklist with a steady, rhythmic cadence and brief pauses between each numbered item. At 30 seconds, the delivery shifts from a structured list to a slightly more conversational and reflective tone as the speaker summarizes the points and directs attention to a screen. Around 40 seconds, the voice adopts a more serious, emphatic feel, using deliberate pauses to highlight three consecutive statements starting with the word "nobody" until the speech concludes at 51 seconds. There are no sound effects, background music, or bleed from other stems present in the recording.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 20 lines, 1 pauses, mean 3.2 words/s, median pitch 110 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–1.1    voice    "Here's what changed."  3.5 words/s (mean 3.2)
+1.4–3.7    voice    "AI took continuous integration."  1.7 words/s (mean 3.2)
+4.0–7.9    voice    "First, it writes the first draft of the code, so nobody starts from a blank"  3.9 words/s (mean 3.2)  falling end
+8.0–8.9    voice    "page anymore."  2.3 words/s (mean 3.2)  pitch 80 Hz (median 110)
+8.9–9.3    pause    0.4 s; during it: sound continues at -40 dBFS
+9.3–13.6   voice    "Second, it runs the tests and fixes the lint errors before a human ever sees"  3.5 words/s (mean 3.2)
+13.7–14.0  voice    "them."  4.4 words/s (mean 3.2)
+14.1–18.3  voice    "Third, it re- runs the pipeline every time something fails, as many times"  3.1 words/s (mean 3.2)  falling end
+18.4–19.1  voice    "as it takes."  4 words/s (mean 3.2)  pitch 83 Hz (median 110)
+19.5–23.4  voice    "Fourth, it opens pull requests and resolves the simple merge conflicts"  2.8 words/s (mean 3.2)
+23.5–24.2  voice    "on its own."  4.3 words/s (mean 3.2)
+24.5–28.8  voice    "And fifth, it triages first- line incidents, so the pager goes to the agent"  3.2 words/s (mean 3.2)  pitch 136 Hz (median 110)  falling end
+28.9–29.5  voice    "first."  1.8 words/s (mean 3.2)
+29.8–33.2  voice    "That's the whole checklist that used to keep a junior busy, waiting for a"  4.1 words/s (mean 3.2)
+33.2–34.8  voice    "senior to review their work."  3.3 words/s (mean 3.2)  pitch 86 Hz (median 110)
+35.1–39.3  voice    "Look at the screen: everything is green, and no human was needed for any of"  3.6 words/s (mean 3.2)
+39.4–39.8  voice    "it."  2.2 words/s (mean 3.2)
+40.1–42.0  voice    "But notice what's missing from that list."  3.7 words/s (mean 3.2)  falling end
+42.3–44.9  voice    "Nobody decided what to build, or why."  2.7 words/s (mean 3.2)  falling end
+45.1–47.8  voice    "Nobody judged whether the output was actually right."  3 words/s (mean 3.2)  falling end
+48.1–51.0  voice    "Nobody owned the conversation with the stakeholder."  2.4 words/s (mean 3.2)  rising end

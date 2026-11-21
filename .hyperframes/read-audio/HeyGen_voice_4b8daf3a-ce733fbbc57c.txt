@@ -1,0 +1,30 @@
+assets/HeyGen voice 4b8daf3a.wav · 37.2 s
+overall: This soundtrack consists solely of a single, clean male voice speaking in a measured, informational tone with a British accent from 0.25s to 37.17s. The speech follows a structured, list-like rhythm with brief pauses between five numbered points at roughly 3.3s, 9.6s, 14.9s, 20.1s, and 25.4s. The delivery remains steady and authoritative throughout, shifting to a slightly more conclusive cadence around 31.1s for the final summary statement. There are no background instruments or sound effects present anywhere in the track.
+voice-free mix: .hyperframes/read-audio/stems/ce733fbbc57c/no-vocals.wav
+stems: .hyperframes/read-audio/stems/ce733fbbc57c/
+
+vocals  -17 dB · 0.25–37.17
+  This stem holds a single, clean male voice speaking in a measured, informational tone with a British accent. The speech begins immediately at 0.1s and follows a structured, list-like rhythm with brief pauses between five numbered points at roughly 3.3s, 9.6s, 14.9s, 20.1s, and 25.4s. The delivery remains steady and authoritative throughout, shifting to a slightly more conclusive cadence at 31.1s for the final summary statement before ending cleanly at 36.8s. There are no sound effects, background instruments, or noticeable bleed from other stems present in the track.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 15 lines, 0 pauses, mean 2.8 words/s, median pitch 108 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–1.6    voice    "Humans got delivery."  2.2 words/s (mean 2.8)  pitch 186 Hz (median 108)
+2.0–3.3    voice    "Here's what stays human."  3.1 words/s (mean 2.8)
+3.6–6.5    voice    "First, deciding what to build, and why."  2.4 words/s (mean 2.8)  pitch 129 Hz (median 108)  rising end
+6.9–9.3    voice    "That's judgment no pipeline can supply."  2.5 words/s (mean 2.8)
+9.5–12.3   voice    "Second, writing the spec the agents follow."  2.5 words/s (mean 2.8)  falling end
+12.6–14.4  voice    "Your words become their instructions."  2.8 words/s (mean 2.8)  pitch 87 Hz (median 108)
+14.7–18.4  voice    "Third, judging whether the output is actually right, not just whether the"  3.2 words/s (mean 2.8)  rising end
+18.5–19.4  voice    "tests pass."  2.1 words/s (mean 2.8)
+19.7–22.0  voice    "Fourth, keeping delivery profitable."  1.8 words/s (mean 2.8)  pitch 145 Hz (median 108)  falling end
+22.3–25.1  voice    "Cost, time and risk all have to add up."  3.1 words/s (mean 2.8)
+25.4–28.8  voice    "And fifth, owning the relationship with the stakeholder, from the first"  3.3 words/s (mean 2.8)  pitch 133 Hz (median 108)  falling end
+28.9–30.5  voice    "request to the final demo."  3.2 words/s (mean 2.8)  falling end
+30.8–33.5  voice    "Notice that none of these are about typing code faster."  3.7 words/s (mean 2.8)  falling end
+33.7–35.4  voice    "CI became AI's job."  2.3 words/s (mean 2.8)  pitch 89 Hz (median 108)  falling end
+35.7–36.9  voice    "Delivery became yours."  2.4 words/s (mean 2.8)  pitch 87 Hz (median 108)

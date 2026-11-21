@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice 5ef86502.wav",
+  "sha": "5e8fbb57a18c125e49664d1b287f7b500e72b7c08e30d36e4380580445166725",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "It",
+      "start": 0.299,
+      "end": 0.384
+    },
+    {
+      "id": "w1",
+      "text": "isn't",
+      "start": 0.427,
+      "end": 0.64
+    },
+    {
+      "id": "w2",
+      "text": "just",
+      "start": 0.683,
+      "end": 0.768
+    },
+    {
+      "id": "w3",
+      "text": "the",
+      "start": 0.853,
+      "end": 0.9387
+    },
+    {
+      "id": "w4",
+      "text": "UK.",
+      "start": 0.981,
+      "end": 1.493
+    },
+    {
+      "id": "w5",
+      "text": "Globally,",
+      "start": 1.707,
+      "end": 2.283
+    },
+    {
+      "id": "w6",
+      "text": "new-",
+      "start": 2.475,
+      "end": 2.688
+    },
+    {
+      "id": "w7",
+      "text": "grad",
+      "start": 2.688,
+      "end": 2.901
+    },
+    {
+      "id": "w8",
+      "text": "and",
+      "start": 3.072,
+      "end": 3.1147
+    },
+    {
+      "id": "w9",
+      "text": "entry-",
+      "start": 3.157,
+      "end": 3.456
+    },
+    {
+      "id": "w10",
+      "text": "level",
+      "start": 3.456,
+      "end": 3.584
+    },
+    {
+      "id": "w11",
+      "text": "hiring",
+      "start": 3.669,
+      "end": 4.0107
+    },
+    {
+      "id": "w12",
+      "text": "at",
+      "start": 4.139,
+      "end": 4.181
+    },
+    {
+      "id": "w13",
+      "text": "the",
+      "start": 4.224,
+      "end": 4.2667
+    },
+    {
+      "id": "w14",
+      "text": "biggest",
+      "start": 4.309,
+      "end": 4.437
+    },
+    {
+      "id": "w15",
+      "text": "tech",
+      "start": 4.608,
+      "end": 4.7787
+    },
+    {
+      "id": "w16",
+      "text": "firms",
+      "start": 4.864,
+      "end": 5.12
+    },
+    {
+      "id": "w17",
+      "text": "is",
+      "start": 5.248,
+      "end": 5.2907
+    },
+    {
+      "id": "w18",
+      "text": "about",
+      "start": 5.376,
+      "end": 5.504
+    },
+    {
+      "id": "w19",
+      "text": "sixty-",
+      "start": 5.589,
+      "end": 6.016
+    },
+    {
+      "id": "w20",
+      "text": "five",
+      "start": 6.016,
+      "end": 6.1867
+    },
+    {
+      "id": "w21",
+      "text": "percent",
+      "start": 6.272,
+      "end": 6.4
+    },
+    {
+      "id": "w22",
+      "text": "below",
+      "start": 6.613,
+      "end": 6.784
+    },
+    {
+      "id": "w23",
+      "text": "2019,",
+      "start": 6.955,
+      "end": 7.893
+    },
+    {
+      "id": "w24",
+      "text": "according",
+      "start": 8.149,
+      "end": 8.32
+    },
+    {
+      "id": "w25",
+      "text": "to",
+      "start": 8.405,
+      "end": 8.533
+    },
+    {
+      "id": "w26",
+      "text": "SignalFire's",
+      "start": 8.576,
+      "end": 9.216
+    },
+    {
+      "id": "w27",
+      "text": "2026",
+      "start": 9.259,
+      "end": 9.8987
+    },
+    {
+      "id": "w28",
+      "text": "report.",
+      "start": 10.027,
+      "end": 10.435
+    },
+    {
+      "id": "w29",
+      "text": "Same",
+      "start": 10.757,
+      "end": 10.9706
+    },
+    {
+      "id": "w30",
+      "text": "story,",
+      "start": 11.013,
+      "end": 11.461
+    },
+    {
+      "id": "w31",
+      "text": "bigger",
+      "start": 11.653,
+      "end": 11.781
+    },
+    {
+      "id": "w32",
+      "text": "scale:",
+      "start": 11.909,
+      "end": 12.379
+    },
+    {
+      "id": "w33",
+      "text": "fewer",
+      "start": 12.592,
+      "end": 12.8906
+    },
+    {
+      "id": "w34",
+      "text": "doors",
+      "start": 12.933,
+      "end": 13.1466
+    },
+    {
+      "id": "w35",
+      "text": "at",
+      "start": 13.317,
+      "end": 13.36
+    },
+    {
+      "id": "w36",
+      "text": "the",
+      "start": 13.403,
+      "end": 13.4879
+    },
+    {
+      "id": "w37",
+      "text": "bottom",
+      "start": 13.531,
+      "end": 13.6159
+    },
+    {
+      "id": "w38",
+      "text": "of",
+      "start": 13.744,
+      "end": 13.787
+    },
+    {
+      "id": "w39",
+      "text": "the",
+      "start": 13.829,
+      "end": 13.9146
+    },
+    {
+      "id": "w40",
+      "text": "ladder.",
+      "start": 13.957,
+      "end": 14.391
+    }
+  ],
+  "generatedWordsHash": "1f2949b23131dbf52309bc9500e408076354ac77ef580a43120290d82cc412a1",
+  "createdAt": "2026-11-21T01:38:10.017Z"
+}

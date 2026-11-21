@@ -1,0 +1,4067 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 22,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 483 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split coherent scenes or layers into separate .html files under compositions/, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 20 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s01\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s01",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s01\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s02\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s02",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s02\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s03\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s03",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s03\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s04\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s04",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s04\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s05\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s05",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s05\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s06\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s06",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s06\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s07\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s07",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s07\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s08\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s08",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s08\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s09\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s09",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s09\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s10\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s10",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s10\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s11\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s11",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s11\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s12\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s12",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s12\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s13\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s13",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s13\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s14\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s14",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s14\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s15\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s15",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s15\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s16\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s16",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s16\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s17\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s17",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s17\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s18\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s18",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s18\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s19\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s19",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s19\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s20\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s20",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s20\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 67,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target null not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target null not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target null not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s09 div[style*=\"width:70px\"]:nth-of-type(1) not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s09 div[style*=\"width:70px\"]:nth-of-type(3) not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s12 .card:nth-of-type(1) > div:last-child > div not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s12 .card:nth-of-type(2) > div:last-child > div not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s12 .card:nth-of-type(3) > div:last-child > div not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s13 div[style*='width:380px']:nth-of-type(2) line not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s13 div[style*='width:380px']:nth-of-type(3) svg not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s18 .card:nth-of-type(1) > *:not(:first-child) not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s18 .card:nth-of-type(2) > *:not(:first-child) not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #s18 .card:nth-of-type(3) > *:not(:first-child) not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 291.667,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 408.333,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 525,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 758.333,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 875,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target  not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-root",
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "1050",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 191.068,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 13,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 14.35,
+        "selector": "#s01 > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 49.99,
+          "top": 81.89,
+          "right": 1231.05,
+          "bottom": 419.01,
+          "width": 1181.06,
+          "height": 337.12
+        },
+        "containerSelector": "#s02 > div:nth-of-type(4)",
+        "text": "≈ −50%",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-krk5"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 49.99,
+          "y": 81.89,
+          "width": 1181.06,
+          "height": 337.12
+        },
+        "firstSeen": 14.35,
+        "lastSeen": 14.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 30.35,
+        "selector": "#s02 > div:nth-of-type(4)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 66.45,
+          "top": 105.64,
+          "right": 1484.97,
+          "bottom": 215.26,
+          "width": 1418.52,
+          "height": 109.62
+        },
+        "containerSelector": "#s03 > div:nth-of-type(3)",
+        "text": "Why am I more optimistic than ever?",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-xi2q"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 66.45,
+          "y": 105.64,
+          "width": 1418.52,
+          "height": 109.62
+        },
+        "firstSeen": 30.35,
+        "lastSeen": 30.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          30.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 30.35,
+        "selector": "#s02 > div:nth-of-type(4) > strong:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 439.8,
+          "top": 105.64,
+          "right": 1058.07,
+          "bottom": 215.26,
+          "width": 618.27,
+          "height": 109.62
+        },
+        "containerSelector": "#s03 > div:nth-of-type(3)",
+        "text": "more optimistic",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-37f0"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 439.8,
+          "y": 105.64,
+          "width": 618.27,
+          "height": 109.62
+        },
+        "firstSeen": 30.35,
+        "lastSeen": 30.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          30.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 30.35,
+        "selector": "#s02 > div:nth-of-type(5)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 66.45,
+          "top": 386.94,
+          "right": 874.15,
+          "bottom": 429.34,
+          "width": 807.7,
+          "height": 42.4
+        },
+        "containerSelector": "#s03 > div:nth-of-type(4)",
+        "text": "Freeze the graph at the bottom. Draw a J over it.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-bxbc"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 66.45,
+          "y": 386.94,
+          "width": 807.7,
+          "height": 42.4
+        },
+        "firstSeen": 30.35,
+        "lastSeen": 30.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          30.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 75.35,
+        "selector": "#s03 > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 66.02,
+          "top": 95.08,
+          "right": 1017.31,
+          "bottom": 204.76,
+          "width": 951.29,
+          "height": 109.68
+        },
+        "containerSelector": "#s04 > div:nth-of-type(3)",
+        "text": "UK entry-level tech roles",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-qk10"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 66.02,
+          "y": 95.08,
+          "width": 951.29,
+          "height": 109.68
+        },
+        "firstSeen": 75.35,
+        "lastSeen": 75.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          75.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 75.35,
+        "selector": "#s03 > div:nth-of-type(4)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 49.46,
+          "top": 276.15,
+          "right": 1030.8,
+          "bottom": 647.61,
+          "width": 981.34,
+          "height": 371.46
+        },
+        "containerSelector": "#s04 > div:nth-of-type(4)",
+        "text": "−46%",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-o6y7"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 49.46,
+          "y": 276.15,
+          "width": 981.34,
+          "height": 371.46
+        },
+        "firstSeen": 75.35,
+        "lastSeen": 75.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          75.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 100.35,
+        "selector": "#s04 > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 66.19,
+          "top": 95.16,
+          "right": 1666.29,
+          "bottom": 204.82,
+          "width": 1600.1,
+          "height": 109.66
+        },
+        "containerSelector": "#s05 > div:nth-of-type(3)",
+        "text": "New-grad hiring at the biggest tech firms",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-ooqi"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 66.19,
+          "y": 95.16,
+          "width": 1600.1,
+          "height": 109.66
+        },
+        "firstSeen": 100.35,
+        "lastSeen": 100.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          100.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 130.435,
+        "selector": "#s05 > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 66.02,
+          "top": 95.08,
+          "right": 1654.06,
+          "bottom": 295.15,
+          "width": 1588.04,
+          "height": 200.07
+        },
+        "containerSelector": "#s06 > div:nth-of-type(3)",
+        "text": "After adopting generative AI, junior roles fell. Senior roles kept rising.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-vwwn"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 66.02,
+          "y": 95.08,
+          "width": 1588.04,
+          "height": 200.07
+        },
+        "firstSeen": 130.435,
+        "lastSeen": 130.435,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          130.435
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 180.35,
+        "selector": "#s07 > div:nth-of-type(3) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 130.57,
+          "top": 313.51,
+          "right": 1050.59,
+          "bottom": 557.16,
+          "width": 920.02,
+          "height": 243.65
+        },
+        "containerSelector": "#s08 > div:nth-of-type(4) > div:nth-of-type(1)",
+        "text": "Interest rates explain most of the swings in software hiring this decade.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-6yxe"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 130.57,
+          "y": 313.51,
+          "width": 920.02,
+          "height": 243.65
+        },
+        "firstSeen": 180.35,
+        "lastSeen": 180.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          180.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 180.35,
+        "selector": "#s07 > div:nth-of-type(3) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 130.57,
+          "top": 590.05,
+          "right": 932.84,
+          "bottom": 635.55,
+          "width": 802.27,
+          "height": 45.5
+        },
+        "containerSelector": "#s08 > div:nth-of-type(4) > p:nth-of-type(1)",
+        "text": "How much of today's drop is AI? Still unclear.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-1ic7"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 130.57,
+          "y": 590.05,
+          "width": 802.27,
+          "height": 45.5
+        },
+        "firstSeen": 180.35,
+        "lastSeen": 180.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          180.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 208.696,
+        "selector": "#s08 > div:nth-of-type(4) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 106.99,
+          "top": 468.74,
+          "right": 738.39,
+          "bottom": 602.99,
+          "width": 631.4,
+          "height": 134.25
+        },
+        "containerSelector": "#s08 > div:nth-of-type(5) > div:nth-of-type(2)",
+        "text": "60→1,111",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-y3hk"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 106.99,
+          "y": 468.74,
+          "width": 631.4,
+          "height": 134.25
+        },
+        "firstSeen": 208.696,
+        "lastSeen": 208.696,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          208.696
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 390.35,
+        "selector": "#s11 > div:nth-of-type(4) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 105.34,
+          "top": 438.6,
+          "right": 731.32,
+          "bottom": 608.29,
+          "width": 625.98,
+          "height": 169.69
+        },
+        "containerSelector": "#s12 > div:nth-of-type(4) > div:nth-of-type(1)",
+        "text": "✓ green",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-0ob7"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 105.34,
+          "y": 438.6,
+          "width": 625.98,
+          "height": 169.69
+        },
+        "firstSeen": 390.35,
+        "lastSeen": 390.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          390.35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 390.35,
+        "selector": "#s11 > div:nth-of-type(4) > p:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 105.34,
+          "top": 633.12,
+          "right": 451.25,
+          "bottom": 668.3,
+          "width": 345.91,
+          "height": 35.18
+        },
+        "containerSelector": "#s12 > div:nth-of-type(4) > p:nth-of-type(1)",
+        "text": "Solved. AI does this now.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-l25j"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 105.34,
+          "y": 633.12,
+          "width": 345.91,
+          "height": 35.18
+        },
+        "firstSeen": 390.35,
+        "lastSeen": 390.35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          390.35
+        ]
+      }
+    ],
+    "duration": 1050,
+    "samples": [
+      58.333,
+      175,
+      291.667,
+      408.333,
+      525,
+      641.667,
+      758.333,
+      875,
+      991.667
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 13,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 6,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.72:1; WCAG AA requires 3:1.",
+        "text": "00:30 · THE UK NUMBERS",
+        "fg": "rgb(255,91,31)",
+        "bg": "rgb(243,240,232)",
+        "ratio": 2.72,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(242,86,29)",
+        "large": true,
+        "selector": "div > section:nth-of-type(3) > div:nth-of-type(1)",
+        "dataAttributes": {
+          "data-hf-id": "hf-h19d"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 77.25117492675781,
+          "y": 53.67078399658203,
+          "width": 432.46649169921875,
+          "height": 35.759498596191406
+        },
+        "time": 58.333,
+        "times": [
+          58.333
+        ],
+        "frame": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/.hyperframes/artifacts/snapshots/65977228-be9d-4a4c-9738-a98480e0809d/finding-frame-00-at-58.333s.png",
+        "frameTime": 58.333,
+        "inspect": {
+          "generation": "628ff068-2975-48e4-b8ab-e7d961e15a23",
+          "sourceVersion": "562c4f1f92ca26d7b79fb95320758f98ed6dfcfbddf3c34a86374bb8fab015a7",
+          "reused": true,
+          "results": [
+            {
+              "target": 0,
+              "status": "found",
+              "candidates": [
+                {
+                  "ref": "hfi:628ff068-2975-48e4-b8ab-e7d961e15a23:1",
+                  "tag": "div",
+                  "id": "",
+                  "hfId": "hf-h19d",
+                  "classes": [
+                    "kick"
+                  ],
+                  "composition": "main",
+                  "withinId": "s03"
+                }
+              ],
+              "candidatesOmitted": 0,
+              "animations": 1,
+              "coTargets": [],
+              "unmappedAnimations": 0,
+              "scopeTruncated": false
+            }
+          ],
+          "snippets": [
+            {
+              "id": "index.html:14-14",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".kick{position:absolute;left:96px;top:64px;font:600 26px 'JetBrains Mono',monospace;letter-spacing:.14em;color:var(--orange)}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:40-40",
+              "kind": [
+                "composition root"
+              ],
+              "code": "<div data-hf-id=\"hf-root\" id=\"root\" data-composition-id=\"main\" data-start=\"0\" data-duration=\"1050\" data-width=\"1920\" data-height=\"1080\">\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:78-78",
+              "kind": [
+                "html opening tag"
+              ],
+              "code": "<div data-hf-id=\"hf-h19d\" class=\"kick\">00:30 · THE UK NUMBERS</div>\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:342-345",
+              "kind": [
+                "animation source dependency"
+              ],
+              "code": "const tl=gsap.timeline({paused:true});\nconst T={s01:0,s02:14,s03:30,s04:75,s05:100,s06:130,s07:165,s08:180,s09:210,s10:290,s11:345,s12:390,s13:470,s14:570,s15:650,s16:720,s17:800,s18:870,s19:990,s20:1030};\nconst D={s01:14,s02:16,s03:45,s04:25,s05:30,s06:35,s07:15,s08:30,s09:80,s10:55,s11:45,s12:80,s13:100,s14:80,s15:70,s16:80,s17:70,s18:120,s19:40,s20:20};\nconst ids=Object.keys(T);\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:357-367",
+              "kind": [
+                "animation caller",
+                "animation source dependency",
+                "animation creation"
+              ],
+              "code": "ids.forEach((id,i)=>{\nconst t=T[id];\nconst sel=\"#\"+id;\nif(i>0){\ntl.fromTo(sel,{clipPath:\"inset(0 100% 0 0)\"},{clipPath:\"inset(0 0% 0 0)\",duration:.7,ease:\"power3.inOut\"},t);\n}\ntl.fromTo(sel,{scale:1},{scale:1.035,duration:D[id]+(i<19?.7:0),ease:\"none\",transformOrigin:\"50% 50%\"},t);\ntl.from(sel+\" .kick\",{opacity:0,x:-30,duration:.6,ease:\"power3.out\"},t+.5);\ntl.from(sel+\" .tc\",{opacity:0,duration:.6},t+.6);\ntl.from(gsap.utils.toArray(sel+\" .h\"),{opacity:0,y:40,duration:.8,ease:\"power3.out\"},t+.7);\n});\n",
+              "uniqueInFile": true
+            }
+          ],
+          "omitted": [],
+          "omittedCount": 0,
+          "nextOffset": null,
+          "recordLimitReached": false,
+          "hooked": true,
+          "debugAvailable": true,
+          "elapsedMs": 20
+        }
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.72:1; WCAG AA requires 3:1.",
+        "text": "THE BOTTOM OF THE J",
+        "fg": "rgb(138,147,163)",
+        "bg": "rgb(243,240,232)",
+        "ratio": 2.72,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(130,139,154)",
+        "large": true,
+        "selector": "div > section:nth-of-type(3) > div:nth-of-type(2)",
+        "dataAttributes": {
+          "data-hf-id": "hf-u9f3"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1489.4481201171875,
+          "y": 53.67078399658203,
+          "width": 353.3006591796875,
+          "height": 35.759498596191406
+        },
+        "time": 58.333,
+        "times": [
+          58.333
+        ],
+        "frame": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/.hyperframes/artifacts/snapshots/65977228-be9d-4a4c-9738-a98480e0809d/finding-frame-00-at-58.333s.png",
+        "frameTime": 58.333,
+        "inspect": {
+          "generation": "628ff068-2975-48e4-b8ab-e7d961e15a23",
+          "sourceVersion": "562c4f1f92ca26d7b79fb95320758f98ed6dfcfbddf3c34a86374bb8fab015a7",
+          "reused": true,
+          "results": [
+            {
+              "target": 0,
+              "status": "found",
+              "candidates": [
+                {
+                  "ref": "hfi:628ff068-2975-48e4-b8ab-e7d961e15a23:2",
+                  "tag": "div",
+                  "id": "",
+                  "hfId": "hf-u9f3",
+                  "classes": [
+                    "tc"
+                  ],
+                  "composition": "main",
+                  "withinId": "s03"
+                }
+              ],
+              "candidatesOmitted": 0,
+              "animations": 1,
+              "coTargets": [],
+              "unmappedAnimations": 0,
+              "scopeTruncated": false
+            }
+          ],
+          "snippets": [
+            {
+              "id": "index.html:16-16",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".tc{position:absolute;right:96px;top:64px;font:500 26px 'JetBrains Mono',monospace;letter-spacing:.1em;color:var(--grey)}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:40-40",
+              "kind": [
+                "composition root"
+              ],
+              "code": "<div data-hf-id=\"hf-root\" id=\"root\" data-composition-id=\"main\" data-start=\"0\" data-duration=\"1050\" data-width=\"1920\" data-height=\"1080\">\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:79-79",
+              "kind": [
+                "html opening tag"
+              ],
+              "code": "<div data-hf-id=\"hf-u9f3\" class=\"tc\">THE BOTTOM OF THE J</div>\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:342-345",
+              "kind": [
+                "animation source dependency"
+              ],
+              "code": "const tl=gsap.timeline({paused:true});\nconst T={s01:0,s02:14,s03:30,s04:75,s05:100,s06:130,s07:165,s08:180,s09:210,s10:290,s11:345,s12:390,s13:470,s14:570,s15:650,s16:720,s17:800,s18:870,s19:990,s20:1030};\nconst D={s01:14,s02:16,s03:45,s04:25,s05:30,s06:35,s07:15,s08:30,s09:80,s10:55,s11:45,s12:80,s13:100,s14:80,s15:70,s16:80,s17:70,s18:120,s19:40,s20:20};\nconst ids=Object.keys(T);\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:357-367",
+              "kind": [
+                "animation caller",
+                "animation source dependency",
+                "animation creation"
+              ],
+              "code": "ids.forEach((id,i)=>{\nconst t=T[id];\nconst sel=\"#\"+id;\nif(i>0){\ntl.fromTo(sel,{clipPath:\"inset(0 100% 0 0)\"},{clipPath:\"inset(0 0% 0 0)\",duration:.7,ease:\"power3.inOut\"},t);\n}\ntl.fromTo(sel,{scale:1},{scale:1.035,duration:D[id]+(i<19?.7:0),ease:\"none\",transformOrigin:\"50% 50%\"},t);\ntl.from(sel+\" .kick\",{opacity:0,x:-30,duration:.6,ease:\"power3.out\"},t+.5);\ntl.from(sel+\" .tc\",{opacity:0,duration:.6},t+.6);\ntl.from(gsap.utils.toArray(sel+\" .h\"),{opacity:0,y:40,duration:.8,ease:\"power3.out\"},t+.7);\n});\n",
+              "uniqueInFile": true
+            }
+          ],
+          "omitted": [],
+          "omittedCount": 0,
+          "nextOffset": null,
+          "recordLimitReached": false,
+          "hooked": true,
+          "debugAvailable": true,
+          "elapsedMs": 2
+        }
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.72:1; WCAG AA requires 3:1.",
+        "text": "−46%",
+        "fg": "rgb(255,91,31)",
+        "bg": "rgb(243,240,232)",
+        "ratio": 2.72,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(242,86,29)",
+        "large": true,
+        "selector": "div > section:nth-of-type(3) > div:nth-of-type(4)",
+        "dataAttributes": {
+          "data-hf-id": "hf-o6y7"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 60.903968811035156,
+          "y": 294.7919921875,
+          "width": 969.0026245117188,
+          "height": 337.1610107421875
+        },
+        "time": 58.333,
+        "times": [
+          58.333
+        ],
+        "frame": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/.hyperframes/artifacts/snapshots/65977228-be9d-4a4c-9738-a98480e0809d/finding-frame-00-at-58.333s.png",
+        "frameTime": 58.333,
+        "inspect": {
+          "generation": "628ff068-2975-48e4-b8ab-e7d961e15a23",
+          "sourceVersion": "562c4f1f92ca26d7b79fb95320758f98ed6dfcfbddf3c34a86374bb8fab015a7",
+          "reused": true,
+          "results": [
+            {
+              "target": 0,
+              "status": "found",
+              "candidates": [
+                {
+                  "ref": "hfi:628ff068-2975-48e4-b8ab-e7d961e15a23:3",
+                  "tag": "div",
+                  "id": "",
+                  "hfId": "hf-o6y7",
+                  "classes": [
+                    "big",
+                    "org"
+                  ],
+                  "composition": "main",
+                  "withinId": "s03"
+                }
+              ],
+              "candidatesOmitted": 0,
+              "animations": 1,
+              "coTargets": [],
+              "unmappedAnimations": 0,
+              "scopeTruncated": false
+            }
+          ],
+          "snippets": [
+            {
+              "id": "index.html:23-23",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".big{position:absolute;font:400 300px/1 'Archivo Black',sans-serif;letter-spacing:-.03em}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:33-33",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".org{color:var(--orange)}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:40-40",
+              "kind": [
+                "composition root"
+              ],
+              "code": "<div data-hf-id=\"hf-root\" id=\"root\" data-composition-id=\"main\" data-start=\"0\" data-duration=\"1050\" data-width=\"1920\" data-height=\"1080\">\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:81-81",
+              "kind": [
+                "html opening tag"
+              ],
+              "code": "<div data-hf-id=\"hf-o6y7\" class=\"big org\" style=\"left:80px;top:300px;font-size:330px\">−46%</div>\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:342-343",
+              "kind": [
+                "animation source dependency"
+              ],
+              "code": "const tl=gsap.timeline({paused:true});\nconst T={s01:0,s02:14,s03:30,s04:75,s05:100,s06:130,s07:165,s08:180,s09:210,s10:290,s11:345,s12:390,s13:470,s14:570,s15:650,s16:720,s17:800,s18:870,s19:990,s20:1030};\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:351-356",
+              "kind": [
+                "animation source dependency",
+                "animation creation"
+              ],
+              "code": "const count=(sel,at,d,to,fmt)=>{\nconst el=document.querySelector(sel);\nconst o={v:0};\ntl.fromTo(el,{opacity:0},{opacity:1,duration:.3},at);\ntl.to(o,{v:to,duration:d,ease:\"power2.out\",onUpdate:()=>{el.textContent=fmt(o.v)}},at);\n};\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:380-381",
+              "kind": [
+                "animation source dependency",
+                "animation caller"
+              ],
+              "code": "const s03=T.s03;\ncount(\"#s03 .big.org\",s03+1,2.5,46,v=>\"−\"+Math.round(v)+\"%\");\n",
+              "uniqueInFile": true
+            }
+          ],
+          "omitted": [],
+          "omittedCount": 0,
+          "nextOffset": null,
+          "recordLimitReached": false,
+          "hooked": true,
+          "debugAvailable": true,
+          "elapsedMs": 2
+        }
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.72:1; WCAG AA requires 3:1.",
+        "text": "→ −53%",
+        "fg": "rgb(138,147,163)",
+        "bg": "rgb(243,240,232)",
+        "ratio": 2.72,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(130,139,154)",
+        "large": true,
+        "selector": "div > section:nth-of-type(3) > div:nth-of-type(6)",
+        "dataAttributes": {
+          "data-hf-id": "hf-vihy"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 60.903968811035156,
+          "y": 703.4719848632812,
+          "width": 635.561279296875,
+          "height": 153.2550048828125
+        },
+        "time": 58.333,
+        "times": [
+          58.333
+        ],
+        "frame": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/.hyperframes/artifacts/snapshots/65977228-be9d-4a4c-9738-a98480e0809d/finding-frame-00-at-58.333s.png",
+        "frameTime": 58.333,
+        "inspect": {
+          "generation": "628ff068-2975-48e4-b8ab-e7d961e15a23",
+          "sourceVersion": "562c4f1f92ca26d7b79fb95320758f98ed6dfcfbddf3c34a86374bb8fab015a7",
+          "reused": true,
+          "results": [
+            {
+              "target": 0,
+              "status": "found",
+              "candidates": [
+                {
+                  "ref": "hfi:628ff068-2975-48e4-b8ab-e7d961e15a23:4",
+                  "tag": "div",
+                  "id": "",
+                  "hfId": "hf-vihy",
+                  "classes": [
+                    "big",
+                    "gr"
+                  ],
+                  "composition": "main",
+                  "withinId": "s03"
+                }
+              ],
+              "candidatesOmitted": 0,
+              "animations": 1,
+              "coTargets": [],
+              "unmappedAnimations": 0,
+              "scopeTruncated": false
+            }
+          ],
+          "snippets": [
+            {
+              "id": "index.html:23-23",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".big{position:absolute;font:400 300px/1 'Archivo Black',sans-serif;letter-spacing:-.03em}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:35-35",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".gr{color:var(--grey)}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:40-40",
+              "kind": [
+                "composition root"
+              ],
+              "code": "<div data-hf-id=\"hf-root\" id=\"root\" data-composition-id=\"main\" data-start=\"0\" data-duration=\"1050\" data-width=\"1920\" data-height=\"1080\">\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:83-83",
+              "kind": [
+                "html opening tag"
+              ],
+              "code": "<div data-hf-id=\"hf-vihy\" class=\"big gr\" style=\"left:80px;top:700px;font-size:150px\">→ −53%</div>\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:342-343",
+              "kind": [
+                "animation source dependency"
+              ],
+              "code": "const tl=gsap.timeline({paused:true});\nconst T={s01:0,s02:14,s03:30,s04:75,s05:100,s06:130,s07:165,s08:180,s09:210,s10:290,s11:345,s12:390,s13:470,s14:570,s15:650,s16:720,s17:800,s18:870,s19:990,s20:1030};\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:346-346",
+              "kind": [
+                "animation creation",
+                "animation source dependency"
+              ],
+              "code": "const rise=(sel,at,o)=>tl.from(gsap.utils.toArray(sel),Object.assign({opacity:0,y:50,duration:.8,ease:\"power3.out\"},o),at);\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:380-380",
+              "kind": [
+                "animation source dependency"
+              ],
+              "code": "const s03=T.s03;\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:386-386",
+              "kind": [
+                "animation caller"
+              ],
+              "code": "rise(\"#s03 .big.gr\",s03+12);\n",
+              "uniqueInFile": true
+            }
+          ],
+          "omitted": [],
+          "omittedCount": 0,
+          "nextOffset": null,
+          "recordLimitReached": false,
+          "hooked": true,
+          "debugAvailable": true,
+          "elapsedMs": 2
+        }
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.1:1; WCAG AA requires 4.5:1.",
+        "text": "ROLES REMAINING (2023 = 100)",
+        "fg": "rgb(138,147,163)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 3.1,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(112,119,132)",
+        "large": false,
+        "selector": "div > section:nth-of-type(3) > div:nth-of-type(8) > div:nth-of-type(1)",
+        "dataAttributes": {
+          "data-hf-id": "hf-thc8"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1172.5135498046875,
+          "y": 323.39959716796875,
+          "width": 631.41064453125,
+          "height": 29.629302978515625
+        },
+        "time": 58.333,
+        "times": [
+          58.333
+        ],
+        "frame": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/.hyperframes/artifacts/snapshots/65977228-be9d-4a4c-9738-a98480e0809d/finding-frame-00-at-58.333s.png",
+        "frameTime": 58.333,
+        "inspect": {
+          "generation": "628ff068-2975-48e4-b8ab-e7d961e15a23",
+          "sourceVersion": "562c4f1f92ca26d7b79fb95320758f98ed6dfcfbddf3c34a86374bb8fab015a7",
+          "reused": true,
+          "results": [
+            {
+              "target": 0,
+              "status": "found",
+              "candidates": [
+                {
+                  "ref": "hfi:628ff068-2975-48e4-b8ab-e7d961e15a23:5",
+                  "tag": "div",
+                  "id": "",
+                  "hfId": "hf-thc8",
+                  "classes": [
+                    "mono"
+                  ],
+                  "composition": "main",
+                  "withinId": "s03"
+                }
+              ],
+              "candidatesOmitted": 0,
+              "animations": 0,
+              "coTargets": [],
+              "unmappedAnimations": 0,
+              "scopeTruncated": false
+            }
+          ],
+          "snippets": [
+            {
+              "id": "index.html:24-24",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".mono{font-family:'JetBrains Mono',monospace}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:40-40",
+              "kind": [
+                "composition root"
+              ],
+              "code": "<div data-hf-id=\"hf-root\" id=\"root\" data-composition-id=\"main\" data-start=\"0\" data-duration=\"1050\" data-width=\"1920\" data-height=\"1080\">\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:86-86",
+              "kind": [
+                "html opening tag"
+              ],
+              "code": "<div data-hf-id=\"hf-thc8\" class=\"mono\" style=\"font-size:22px;color:#8A93A3;letter-spacing:.1em;margin-bottom:28px\">ROLES REMAINING (2023 = 100)</div>\n",
+              "uniqueInFile": true
+            }
+          ],
+          "omitted": [],
+          "omittedCount": 0,
+          "nextOffset": null,
+          "recordLimitReached": false,
+          "hooked": true,
+          "debugAvailable": true,
+          "elapsedMs": 1
+        }
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.72:1; WCAG AA requires 4.5:1.",
+        "text": "VERIFY BEFORE AIR: DEV COMMUNITY POST → TRACE ORIG",
+        "fg": "rgb(138,147,163)",
+        "bg": "rgb(243,240,232)",
+        "ratio": 2.72,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(103,110,122)",
+        "large": false,
+        "selector": "div > section:nth-of-type(3) > div:nth-of-type(9)",
+        "dataAttributes": {
+          "data-hf-id": "hf-5zm3"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 77.25117492675781,
+          "y": 1020.198974609375,
+          "width": 836.9639282226562,
+          "height": 26.564208984375
+        },
+        "time": 58.333,
+        "times": [
+          58.333
+        ],
+        "frame": "/Users/rifaterdemsahin/.hyperframes-studio/Untitled 2/.hyperframes/artifacts/snapshots/65977228-be9d-4a4c-9738-a98480e0809d/finding-frame-00-at-58.333s.png",
+        "frameTime": 58.333,
+        "inspect": {
+          "generation": "628ff068-2975-48e4-b8ab-e7d961e15a23",
+          "sourceVersion": "562c4f1f92ca26d7b79fb95320758f98ed6dfcfbddf3c34a86374bb8fab015a7",
+          "reused": true,
+          "results": [
+            {
+              "target": 0,
+              "status": "found",
+              "candidates": [
+                {
+                  "ref": "hfi:628ff068-2975-48e4-b8ab-e7d961e15a23:6",
+                  "tag": "div",
+                  "id": "",
+                  "hfId": "hf-5zm3",
+                  "classes": [
+                    "src"
+                  ],
+                  "composition": "main",
+                  "withinId": "s03"
+                }
+              ],
+              "candidatesOmitted": 0,
+              "animations": 0,
+              "coTargets": [],
+              "unmappedAnimations": 0,
+              "scopeTruncated": false
+            }
+          ],
+          "snippets": [
+            {
+              "id": "index.html:22-22",
+              "kind": [
+                "matched CSS candidate"
+              ],
+              "code": ".src{position:absolute;left:96px;bottom:44px;font:500 20px 'JetBrains Mono',monospace;color:var(--grey);letter-spacing:.04em}\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:40-40",
+              "kind": [
+                "composition root"
+              ],
+              "code": "<div data-hf-id=\"hf-root\" id=\"root\" data-composition-id=\"main\" data-start=\"0\" data-duration=\"1050\" data-width=\"1920\" data-height=\"1080\">\n",
+              "uniqueInFile": true
+            },
+            {
+              "id": "index.html:94-94",
+              "kind": [
+                "html opening tag"
+              ],
+              "code": "<div data-hf-id=\"hf-5zm3\" class=\"src\">VERIFY BEFORE AIR: DEV COMMUNITY POST → TRACE ORIGINAL UK SOURCE</div>\n",
+              "uniqueInFile": true
+            }
+          ],
+          "omitted": [],
+          "omittedCount": 0,
+          "nextOffset": null,
+          "recordLimitReached": false,
+          "hooked": true,
+          "debugAvailable": true,
+          "elapsedMs": 1
+        }
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      58.333,
+      291.667,
+      525,
+      758.333,
+      991.667
+    ],
+    "checked": 16,
+    "passed": 10
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 1050 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"ROLES REMAINING (2023 = 100)\" (4 words) is on screen 1.10 s (±0.05 s), under its 1.27 s floor: hold it about 0.5 s + 0.3 s a word (1.70 s here) before it leaves or changes; see references/motion.md.",
+        "text": "ROLES REMAINING (2023 = 100)",
+        "selector": "#s03 > div:nth-of-type(8) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1175.22,
+          "y": 320.64,
+          "width": 446.1600000000001,
+          "height": 30.00999999999999
+        },
+        "time": 74.5,
+        "words": 4,
+        "seconds": 1.096,
+        "floorSeconds": 1.275,
+        "measured": [
+          {
+            "time": 70.117,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 71.87,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 73.623,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 75.376,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 77.129,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 78.881,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 80.634,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 90 text elements stay under it for 0.5 s or more, the smallest \"VERIFY BEFORE AIR: CHECK THE SIGNALFI...\" at 20 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VERIFY BEFORE AIR: CHECK THE SIGNALFIRE REPORT, NOT THE BLOG QUOTING IT",
+        "selector": "#s04 > div:nth-of-type(8)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 95.57,
+          "y": 1010.23,
+          "width": 909.25,
+          "height": 26.02
+        },
+        "time": 75.376,
+        "times": [
+          0,
+          0,
+          15.776,
+          31.553,
+          31.553,
+          31.553,
+          31.553,
+          31.553,
+          31.553,
+          31.553,
+          75.376,
+          75.376,
+          77.129,
+          101.669,
+          101.669,
+          101.669,
+          101.669,
+          101.669,
+          101.669,
+          108.681,
+          131.469,
+          131.469,
+          131.469,
+          131.469,
+          134.975,
+          166.528,
+          166.528,
+          166.528,
+          171.786,
+          171.786,
+          180.551,
+          180.551,
+          182.304,
+          185.81,
+          189.316,
+          192.821,
+          198.08,
+          212.104,
+          212.104,
+          290.985,
+          290.985,
+          294.491,
+          299.75,
+          306.761,
+          312.02,
+          317.279,
+          345.326,
+          347.078,
+          347.078,
+          347.078,
+          390.902,
+          390.902,
+          390.902,
+          390.902,
+          390.902,
+          390.902,
+          390.902,
+          390.902,
+          438.23,
+          471.536,
+          471.536,
+          571.452,
+          571.452,
+          652.087,
+          652.087,
+          653.84,
+          653.84,
+          659.098,
+          664.357,
+          681.886,
+          722.204,
+          722.204,
+          801.085,
+          801.085,
+          806.344,
+          815.109,
+          823.873,
+          832.638,
+          841.402,
+          850.167,
+          871.202,
+          871.202,
+          871.202,
+          871.202,
+          871.202,
+          871.202,
+          992.154,
+          992.154,
+          1030.718,
+          1032.471
+        ],
+        "fontPx": 20.01,
+        "floorPx": 28,
+        "seconds": 26.294,
+        "elements": [
+          {
+            "selector": "#s04 > div:nth-of-type(8)",
+            "text": "VERIFY BEFORE AIR: CHECK THE SIGNALFIRE REPORT, NOT THE BLOG QUOTING IT",
+            "fontPx": 20.01,
+            "time": 75.376,
+            "seconds": 26.294
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(9)",
+            "text": "VERIFY BEFORE AIR: DEV COMMUNITY POST → TRACE ORIGINAL UK SOURCE",
+            "fontPx": 20.02,
+            "time": 31.553,
+            "seconds": 43.823
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(6)",
+            "text": "VERIFY BEFORE AIR: PULL THE ORIGINAL HARVARD PAPER",
+            "fontPx": 20.04,
+            "time": 101.669,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(7)",
+            "text": "\"DELIVERY PILOT\" IS WHAT I'M CALLING IT",
+            "fontPx": 20.42,
+            "time": 438.23,
+            "seconds": 33.306
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "EUROPE · LINUX FOUNDATION",
+            "fontPx": 22.01,
+            "time": 180.551,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "IBM · 2026",
+            "fontPx": 22.01,
+            "time": 185.81,
+            "seconds": 26.294
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "COGNIZANT · US",
+            "fontPx": 22.01,
+            "time": 189.316,
+            "seconds": 22.788
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(7) > div:nth-of-type(1)",
+            "text": "CLOUDFLARE",
+            "fontPx": 22.01,
+            "time": 192.821,
+            "seconds": 19.283
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(4) > div:nth-of-type(2)",
+            "text": "RANGE: AROUND THE BLOCK",
+            "fontPx": 22.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(5) > div:nth-of-type(2)",
+            "text": "RANGE: CITY TO CITY",
+            "fontPx": 22.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(6) > div:nth-of-type(2)",
+            "text": "RANGE: VAST DISTANCES",
+            "fontPx": 22.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(8) > div:nth-of-type(1)",
+            "text": "ROLES REMAINING (2023 = 100)",
+            "fontPx": 22.03,
+            "time": 31.553,
+            "seconds": 45.576
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(8) > div:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "2023",
+            "fontPx": 22.03,
+            "time": 31.553,
+            "seconds": 45.576
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(8) > div:nth-of-type(3) > span:nth-of-type(2)",
+            "text": "2024",
+            "fontPx": 22.03,
+            "time": 31.553,
+            "seconds": 45.576
+          },
+          {
+            "selector": "div.mono > span:nth-of-type(3)",
+            "text": "2026 est.",
+            "fontPx": 22.03,
+            "time": 31.553,
+            "seconds": 45.576
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "SENIOR",
+            "fontPx": 22.04,
+            "time": 101.669,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "JUNIOR",
+            "fontPx": 22.04,
+            "time": 108.681,
+            "seconds": 22.788
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "THE PIPELINE",
+            "fontPx": 24,
+            "time": 345.326,
+            "seconds": 45.576
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "RIDER",
+            "fontPx": 24.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "DRIVER",
+            "fontPx": 24.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "DELIVERY PILOT",
+            "fontPx": 24.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s06 > svg:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "GAINS SHOW UP",
+            "fontPx": 24.03,
+            "time": 131.469,
+            "seconds": 35.059
+          },
+          {
+            "selector": "#s06 > div:nth-of-type(4)",
+            "text": "A MODEL, NOT A PROMISE: THE DIP IS MEASURED. THE UPSWING IS THE BET.",
+            "fontPx": 24.03,
+            "time": 131.469,
+            "seconds": 35.059
+          },
+          {
+            "selector": "#s06 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "TOOLS · NEW PROCESSES · RETRAINING",
+            "fontPx": 24.03,
+            "time": 134.975,
+            "seconds": 31.553
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "THE HARD PART",
+            "fontPx": 24.04,
+            "time": 347.078,
+            "seconds": 43.824
+          },
+          {
+            "selector": "#s05 > svg:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "AI ADOPTED",
+            "fontPx": 24.05,
+            "time": 101.669,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s05 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "+6 QUARTERS",
+            "fontPx": 24.05,
+            "time": 101.669,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "2026",
+            "fontPx": 24.05,
+            "time": 653.84,
+            "seconds": 66.611
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "≈2031",
+            "fontPx": 24.05,
+            "time": 653.84,
+            "seconds": 66.611
+          },
+          {
+            "selector": "#s07 > svg:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "RATES",
+            "fontPx": 24.08,
+            "time": 171.786,
+            "seconds": 8.765
+          },
+          {
+            "selector": "#s07 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "HIRING",
+            "fontPx": 24.08,
+            "time": 171.786,
+            "seconds": 8.765
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(8)",
+            "text": "DISCLOSURE: I WORK AT IBM",
+            "fontPx": 24.49,
+            "time": 198.08,
+            "seconds": 12.271
+          },
+          {
+            "selector": "#s04 > div:nth-of-type(1)",
+            "text": "01:15 · GLOBAL",
+            "fontPx": 26.01,
+            "time": 75.376,
+            "seconds": 26.294
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(1)",
+            "text": "06:30 · THE ANALOGY",
+            "fontPx": 26.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(2)",
+            "text": "RIDER → DRIVER → PILOT",
+            "fontPx": 26.01,
+            "time": 390.902,
+            "seconds": 80.634
+          },
+          {
+            "selector": "#s13 > div:nth-of-type(1)",
+            "text": "07:50 · THE PILOT",
+            "fontPx": 26.01,
+            "time": 471.536,
+            "seconds": 99.916
+          },
+          {
+            "selector": "#s13 > div:nth-of-type(2)",
+            "text": "ONE PILOT, WHAT USED TO TAKE A TEAM",
+            "fontPx": 26.01,
+            "time": 471.536,
+            "seconds": 99.916
+          },
+          {
+            "selector": "#s17 > div:nth-of-type(1)",
+            "text": "13:20 · A DAY IN THE LIFE",
+            "fontPx": 26.01,
+            "time": 801.085,
+            "seconds": 70.117
+          },
+          {
+            "selector": "#s17 > div:nth-of-type(2)",
+            "text": "FLIGHT PLAN",
+            "fontPx": 26.01,
+            "time": 801.085,
+            "seconds": 70.117
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(1)",
+            "text": "14:30 · YOUR 90-DAY FLIGHT PLAN",
+            "fontPx": 26.01,
+            "time": 871.202,
+            "seconds": 119.199
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(2)",
+            "text": "3 LEGS · 12 WEEKS",
+            "fontPx": 26.01,
+            "time": 871.202,
+            "seconds": 120.952
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "WEEKS 1–4",
+            "fontPx": 26.01,
+            "time": 871.202,
+            "seconds": 119.199
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(5) > div:nth-of-type(2)",
+            "text": "Role · ContextTask · Constraints",
+            "fontPx": 26.01,
+            "time": 871.202,
+            "seconds": 119.199
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "WEEKS 5–8",
+            "fontPx": 26.01,
+            "time": 871.202,
+            "seconds": 119.199
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(7) > div:nth-of-type(1)",
+            "text": "WEEKS 9–12",
+            "fontPx": 26.01,
+            "time": 871.202,
+            "seconds": 120.952
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(2)",
+            "text": "THE BOTTOM OF THE J IS THE LAUNCH POINT",
+            "fontPx": 26.02,
+            "time": 180.551,
+            "seconds": 31.553
+          },
+          {
+            "selector": "#s09 > div:nth-of-type(1)",
+            "text": "03:30 · AI TOOK CONTINUOUS INTEGRATION",
+            "fontPx": 26.02,
+            "time": 212.104,
+            "seconds": 78.881
+          },
+          {
+            "selector": "#s09 > div:nth-of-type(2)",
+            "text": "AI DOES, AND RE-RUNS",
+            "fontPx": 26.02,
+            "time": 212.104,
+            "seconds": 78.881
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(1)",
+            "text": "04:50 · HUMANS GOT DELIVERY",
+            "fontPx": 26.02,
+            "time": 290.985,
+            "seconds": 56.094
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(2)",
+            "text": "WHAT STAYS HUMAN",
+            "fontPx": 26.02,
+            "time": 290.985,
+            "seconds": 56.094
+          },
+          {
+            "selector": "#s14 > div:nth-of-type(1)",
+            "text": "09:30 · EVERYONE GOT UPGRADED",
+            "fontPx": 26.02,
+            "time": 571.452,
+            "seconds": 78.882
+          },
+          {
+            "selector": "#s14 > div:nth-of-type(2)",
+            "text": "NOBODY GOT DEMOTED",
+            "fontPx": 26.02,
+            "time": 571.452,
+            "seconds": 80.635
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(1)",
+            "text": "00:30 · THE UK NUMBERS",
+            "fontPx": 26.03,
+            "time": 31.553,
+            "seconds": 43.823
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(2)",
+            "text": "THE BOTTOM OF THE J",
+            "fontPx": 26.03,
+            "time": 31.553,
+            "seconds": 45.576
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26.03,
+            "time": 317.279,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s15 > div:nth-of-type(1)",
+            "text": "10:50 · THE BUSINESS REALITY",
+            "fontPx": 26.03,
+            "time": 652.087,
+            "seconds": 68.364
+          },
+          {
+            "selector": "#s15 > div:nth-of-type(2)",
+            "text": "GATHER THE RIGHT RESOURCES",
+            "fontPx": 26.03,
+            "time": 652.087,
+            "seconds": 70.117
+          },
+          {
+            "selector": "#s16 > div:nth-of-type(1)",
+            "text": "12:00 · WHAT IS A DELIVERY PILOT?",
+            "fontPx": 26.03,
+            "time": 722.204,
+            "seconds": 78.881
+          },
+          {
+            "selector": "#s16 > div:nth-of-type(2)",
+            "text": "COBALTS",
+            "fontPx": 26.03,
+            "time": 722.204,
+            "seconds": 78.881
+          },
+          {
+            "selector": "#s20 > div:nth-of-type(1)",
+            "text": "17:10 · CLOSING LINE",
+            "fontPx": 26.03,
+            "time": 1030.718,
+            "seconds": 19.282
+          },
+          {
+            "selector": "#s06 > div:nth-of-type(1)",
+            "text": "02:10 · THE PRODUCTIVITY J-CURVE",
+            "fontPx": 26.04,
+            "time": 131.469,
+            "seconds": 35.059
+          },
+          {
+            "selector": "#s06 > div:nth-of-type(2)",
+            "text": "BRYNJOLFSSON · ROCK · SYVERSON",
+            "fontPx": 26.04,
+            "time": 131.469,
+            "seconds": 35.059
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(1)",
+            "text": "05:45 · MY STORY · ONBOARDING",
+            "fontPx": 26.04,
+            "time": 347.078,
+            "seconds": 43.824
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(2)",
+            "text": "PLACEHOLDER: USE AN OBP OR SRE STORY",
+            "fontPx": 26.04,
+            "time": 347.078,
+            "seconds": 43.824
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(1)",
+            "text": "01:40 · HARVARD STUDY",
+            "fontPx": 26.05,
+            "time": 101.669,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(2)",
+            "text": "62M WORKERS · 285K US FIRMS",
+            "fontPx": 26.05,
+            "time": 101.669,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s19 > div:nth-of-type(1)",
+            "text": "16:30 · JOIN DELIVERY PILOT",
+            "fontPx": 26.05,
+            "time": 992.154,
+            "seconds": 38.564
+          },
+          {
+            "selector": "#s19 > div:nth-of-type(2)",
+            "text": "YOUR SEAT IN THE COCKPIT",
+            "fontPx": 26.05,
+            "time": 992.154,
+            "seconds": 38.564
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(1)",
+            "text": "03:00 · SIGNS OF THE UPSWING",
+            "fontPx": 26.07,
+            "time": 182.304,
+            "seconds": 28.047
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26.07,
+            "time": 294.491,
+            "seconds": 50.835
+          },
+          {
+            "selector": "#s04 > div:nth-of-type(2)",
+            "text": "SIGNALFIRE 2026",
+            "fontPx": 26.08,
+            "time": 77.129,
+            "seconds": 24.541
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "WRITE SPEC",
+            "fontPx": 26.08,
+            "time": 806.344,
+            "seconds": 64.858
+          },
+          {
+            "selector": "#s07 > div:nth-of-type(1)",
+            "text": "02:45 · THE HONEST CAVEAT",
+            "fontPx": 26.09,
+            "time": 166.528,
+            "seconds": 14.023
+          },
+          {
+            "selector": "#s07 > div:nth-of-type(2)",
+            "text": "LINKEDIN ECONOMIC GRAPH · FEB 2026",
+            "fontPx": 26.09,
+            "time": 166.528,
+            "seconds": 14.023
+          },
+          {
+            "selector": "#s07 > div:nth-of-type(3) > div:nth-of-type(1)",
+            "text": "ONE HONEST SENTENCE",
+            "fontPx": 26.09,
+            "time": 166.528,
+            "seconds": 14.023
+          },
+          {
+            "selector": "#s02 > div:nth-of-type(1)",
+            "text": "00:14 · HOOK · THE TURN",
+            "fontPx": 26.1,
+            "time": 15.776,
+            "seconds": 15.777
+          },
+          {
+            "selector": "#s01 > div:nth-of-type(1)",
+            "text": "00:00 · HOOK",
+            "fontPx": 26.11,
+            "time": 0,
+            "seconds": 15.776
+          },
+          {
+            "selector": "#s01 > div:nth-of-type(2)",
+            "text": "UK ENTRY-LEVEL TECH",
+            "fontPx": 26.11,
+            "time": 0,
+            "seconds": 15.776
+          },
+          {
+            "selector": "#s20 > div:nth-of-type(2)",
+            "text": "SEE YOU IN THE COCKPIT",
+            "fontPx": 26.11,
+            "time": 1032.471,
+            "seconds": 17.529
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(4)",
+            "text": "KEEP INVESTING",
+            "fontPx": 26.12,
+            "time": 659.098,
+            "seconds": 61.353
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26.16,
+            "time": 299.75,
+            "seconds": 47.329
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(5)",
+            "text": "FREEZE",
+            "fontPx": 26.18,
+            "time": 664.357,
+            "seconds": 56.094
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "SEND TO AGENTS",
+            "fontPx": 26.2,
+            "time": 815.109,
+            "seconds": 56.093
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26.27,
+            "time": 306.761,
+            "seconds": 40.318
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "REVIEW OUTPUT",
+            "fontPx": 26.31,
+            "time": 823.873,
+            "seconds": 47.329
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26.36,
+            "time": 312.02,
+            "seconds": 35.059
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "SENIOR SHORTAGE",
+            "fontPx": 26.41,
+            "time": 681.886,
+            "seconds": 38.565
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(4)",
+            "text": "CHECK COSTS",
+            "fontPx": 26.42,
+            "time": 832.638,
+            "seconds": 38.564
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(5)",
+            "text": "DEMO",
+            "fontPx": 26.53,
+            "time": 841.402,
+            "seconds": 29.8
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(6)",
+            "text": "LAND RELEASE",
+            "fontPx": 26.64,
+            "time": 850.167,
+            "seconds": 21.035
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"COGNIZANT · US\" (2 words) is on screen 0.33 s (±0.05 s), under its 0.40 s floor: hold it about 0.5 s + 0.3 s a word (1.10 s here) before it leaves or changes; see references/motion.md.",
+        "text": "COGNIZANT · US",
+        "selector": "#s08 > div:nth-of-type(6) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1005.52,
+          "y": 362.05,
+          "width": 191.21000000000004,
+          "height": 30
+        },
+        "time": 210.132,
+        "words": 2,
+        "seconds": 0.329,
+        "floorSeconds": 0.4,
+        "measured": [
+          {
+            "time": 205.092,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 206.845,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 208.598,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 210.351,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 212.104,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 213.856,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 215.609,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 1.7530000000000001,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

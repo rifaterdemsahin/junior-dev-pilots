@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice eb7a7c96.wav",
+  "sha": "7eacb3a4b3df3f7cd0266dd093adfcbb83e52240e7c25f4104a59b5064ed463c",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Delivery",
+      "start": 0.299,
+      "end": 0.597
+    },
+    {
+      "id": "w1",
+      "text": "Pilot",
+      "start": 0.725,
+      "end": 1.109
+    },
+    {
+      "id": "w2",
+      "text": "is",
+      "start": 1.152,
+      "end": 1.237
+    },
+    {
+      "id": "w3",
+      "text": "where",
+      "start": 1.28,
+      "end": 1.408
+    },
+    {
+      "id": "w4",
+      "text": "you",
+      "start": 1.451,
+      "end": 1.5787
+    },
+    {
+      "id": "w5",
+      "text": "train",
+      "start": 1.621,
+      "end": 1.877
+    },
+    {
+      "id": "w6",
+      "text": "to",
+      "start": 2.005,
+      "end": 2.091
+    },
+    {
+      "id": "w7",
+      "text": "become",
+      "start": 2.133,
+      "end": 2.176
+    },
+    {
+      "id": "w8",
+      "text": "one.",
+      "start": 2.389,
+      "end": 2.88
+    },
+    {
+      "id": "w9",
+      "text": "It's",
+      "start": 3.157,
+      "end": 3.285
+    },
+    {
+      "id": "w10",
+      "text": "free",
+      "start": 3.371,
+      "end": 3.584
+    },
+    {
+      "id": "w11",
+      "text": "for",
+      "start": 3.627,
+      "end": 3.7547
+    },
+    {
+      "id": "w12",
+      "text": "students:",
+      "start": 3.797,
+      "end": 4.267
+    },
+    {
+      "id": "w13",
+      "text": "if",
+      "start": 4.523,
+      "end": 4.608
+    },
+    {
+      "id": "w14",
+      "text": "you're",
+      "start": 4.651,
+      "end": 4.7787
+    },
+    {
+      "id": "w15",
+      "text": "studying,",
+      "start": 4.821,
+      "end": 5.291
+    },
+    {
+      "id": "w16",
+      "text": "your",
+      "start": 5.504,
+      "end": 5.632
+    },
+    {
+      "id": "w17",
+      "text": "seat",
+      "start": 5.675,
+      "end": 5.9307
+    },
+    {
+      "id": "w18",
+      "text": "in",
+      "start": 5.973,
+      "end": 6.059
+    },
+    {
+      "id": "w19",
+      "text": "the",
+      "start": 6.101,
+      "end": 6.144
+    },
+    {
+      "id": "w20",
+      "text": "cockpit",
+      "start": 6.187,
+      "end": 6.528
+    },
+    {
+      "id": "w21",
+      "text": "costs",
+      "start": 6.571,
+      "end": 6.869
+    },
+    {
+      "id": "w22",
+      "text": "nothing.",
+      "start": 6.955,
+      "end": 7.381
+    },
+    {
+      "id": "w23",
+      "text": "The",
+      "start": 7.68,
+      "end": 7.808
+    },
+    {
+      "id": "w24",
+      "text": "full",
+      "start": 7.851,
+      "end": 7.9787
+    },
+    {
+      "id": "w25",
+      "text": "course",
+      "start": 8.021,
+      "end": 8.2347
+    },
+    {
+      "id": "w26",
+      "text": "is",
+      "start": 8.363,
+      "end": 8.448
+    },
+    {
+      "id": "w27",
+      "text": "free",
+      "start": 8.533,
+      "end": 8.789
+    },
+    {
+      "id": "w28",
+      "text": "on",
+      "start": 8.832,
+      "end": 8.96
+    },
+    {
+      "id": "w29",
+      "text": "YouTube.",
+      "start": 9.003,
+      "end": 9.579
+    },
+    {
+      "id": "w30",
+      "text": "The",
+      "start": 10.027,
+      "end": 10.112
+    },
+    {
+      "id": "w31",
+      "text": "Skool",
+      "start": 10.155,
+      "end": 10.368
+    },
+    {
+      "id": "w32",
+      "text": "room",
+      "start": 10.411,
+      "end": 10.581
+    },
+    {
+      "id": "w33",
+      "text": "is",
+      "start": 10.667,
+      "end": 10.752
+    },
+    {
+      "id": "w34",
+      "text": "where",
+      "start": 10.795,
+      "end": 10.923
+    },
+    {
+      "id": "w35",
+      "text": "we",
+      "start": 10.965,
+      "end": 11.0507
+    },
+    {
+      "id": "w36",
+      "text": "build,",
+      "start": 11.093,
+      "end": 11.499
+    },
+    {
+      "id": "w37",
+      "text": "review",
+      "start": 11.691,
+      "end": 11.8187
+    },
+    {
+      "id": "w38",
+      "text": "and",
+      "start": 12.16,
+      "end": 12.288
+    },
+    {
+      "id": "w39",
+      "text": "certify",
+      "start": 12.331,
+      "end": 12.672
+    },
+    {
+      "id": "w40",
+      "text": "together.",
+      "start": 12.885,
+      "end": 13.287
+    },
+    {
+      "id": "w41",
+      "text": "And",
+      "start": 13.432,
+      "end": 13.56
+    },
+    {
+      "id": "w42",
+      "text": "certified",
+      "start": 13.603,
+      "end": 13.901
+    },
+    {
+      "id": "w43",
+      "text": "pilots",
+      "start": 14.115,
+      "end": 14.4987
+    },
+    {
+      "id": "w44",
+      "text": "go",
+      "start": 14.627,
+      "end": 14.7547
+    },
+    {
+      "id": "w45",
+      "text": "on",
+      "start": 14.797,
+      "end": 14.8827
+    },
+    {
+      "id": "w46",
+      "text": "to",
+      "start": 14.925,
+      "end": 15.053
+    },
+    {
+      "id": "w47",
+      "text": "build",
+      "start": 15.096,
+      "end": 15.224
+    },
+    {
+      "id": "w48",
+      "text": "real",
+      "start": 15.352,
+      "end": 15.565
+    },
+    {
+      "id": "w49",
+      "text": "bots",
+      "start": 15.693,
+      "end": 15.949
+    },
+    {
+      "id": "w50",
+      "text": "for",
+      "start": 16.163,
+      "end": 16.376
+    },
+    {
+      "id": "w51",
+      "text": "real",
+      "start": 16.419,
+      "end": 16.632
+    },
+    {
+      "id": "w52",
+      "text": "companies.",
+      "start": 16.76,
+      "end": 17.379
+    },
+    {
+      "id": "w53",
+      "text": "The",
+      "start": 17.827,
+      "end": 17.869
+    },
+    {
+      "id": "w54",
+      "text": "link",
+      "start": 17.912,
+      "end": 18.0827
+    },
+    {
+      "id": "w55",
+      "text": "is",
+      "start": 18.125,
+      "end": 18.2107
+    },
+    {
+      "id": "w56",
+      "text": "in",
+      "start": 18.253,
+      "end": 18.339
+    },
+    {
+      "id": "w57",
+      "text": "the",
+      "start": 18.381,
+      "end": 18.424
+    },
+    {
+      "id": "w58",
+      "text": "description.",
+      "start": 18.467,
+      "end": 19.144
+    }
+  ],
+  "generatedWordsHash": "f834e26c5ba2967937bc7665afaccdfb77233bf0390b1ac554764b30711d29bc",
+  "createdAt": "2026-11-21T01:43:54.027Z"
+}

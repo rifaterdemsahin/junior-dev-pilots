@@ -1,0 +1,17 @@
+assets/HeyGen voice f1932b5b.wav · 6.7 s
+overall: This 6.74-second soundtrack consists entirely of spoken vocals with no background music or sound effects. From 0.25 to 6.5 seconds, a male voice with a British accent speaks in a clear, conversational, and inquisitive tone. He begins with a declarative statement, pauses briefly, and then continues with a rhetorical question, maintaining a steady rhythm with slight upward inflections for emphasis. The audio remains clean and isolated throughout.
+voice-free mix: .hyperframes/read-audio/stems/797dfbf77d11/no-vocals.wav
+stems: .hyperframes/read-audio/stems/797dfbf77d11/
+
+vocals  -16 dB · 0.25–6.5
+  A male voice with a British accent speaks in a clear, conversational, and inquisitive tone throughout the stem. He delivers a declarative statement until 00:02, followed by a brief pause before continuing at 00:03 with a rhetorical question. The delivery maintains a steady, natural speech rhythm with a slight upward inflection on key words for emphasis. The audio is clean and isolated, with no background bleed or sound effects present.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 2 lines, 0 pauses, mean 3.9 words/s, median pitch 118 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–3.1  voice    "UK entry- level tech roles are down by about half."  3.5 words/s (mean 3.9)
+3.5–6.5  voice    "So why am I more optimistic about junior careers than I've ever been?"  4.3 words/s (mean 3.9)  falling end

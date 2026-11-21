@@ -1,0 +1,527 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice 7eefef50.wav",
+  "sha": "9c5cb2a247d28981cdb62f46cb8eba958653e5e8c6f1140dfd9ffbf3ec1c379b",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Now,",
+      "start": 0.341,
+      "end": 0.683
+    },
+    {
+      "id": "w1",
+      "text": "the",
+      "start": 0.853,
+      "end": 0.9387
+    },
+    {
+      "id": "w2",
+      "text": "business",
+      "start": 0.981,
+      "end": 1.109
+    },
+    {
+      "id": "w3",
+      "text": "reality.",
+      "start": 1.323,
+      "end": 1.877
+    },
+    {
+      "id": "w4",
+      "text": "To",
+      "start": 2.176,
+      "end": 2.261
+    },
+    {
+      "id": "w5",
+      "text": "stay",
+      "start": 2.304,
+      "end": 2.4747
+    },
+    {
+      "id": "w6",
+      "text": "profitable",
+      "start": 2.517,
+      "end": 2.944
+    },
+    {
+      "id": "w7",
+      "text": "through",
+      "start": 3.072,
+      "end": 3.2
+    },
+    {
+      "id": "w8",
+      "text": "the",
+      "start": 3.243,
+      "end": 3.328
+    },
+    {
+      "id": "w9",
+      "text": "J-",
+      "start": 3.371,
+      "end": 3.627
+    },
+    {
+      "id": "w10",
+      "text": "curve,",
+      "start": 3.627,
+      "end": 4.096
+    },
+    {
+      "id": "w11",
+      "text": "companies",
+      "start": 4.267,
+      "end": 4.5227
+    },
+    {
+      "id": "w12",
+      "text": "have",
+      "start": 4.693,
+      "end": 4.864
+    },
+    {
+      "id": "w13",
+      "text": "to",
+      "start": 4.907,
+      "end": 4.992
+    },
+    {
+      "id": "w14",
+      "text": "gather",
+      "start": 5.035,
+      "end": 5.205
+    },
+    {
+      "id": "w15",
+      "text": "resources.",
+      "start": 5.333,
+      "end": 5.973
+    },
+    {
+      "id": "w16",
+      "text": "Look",
+      "start": 6.315,
+      "end": 6.443
+    },
+    {
+      "id": "w17",
+      "text": "at",
+      "start": 6.485,
+      "end": 6.528
+    },
+    {
+      "id": "w18",
+      "text": "the",
+      "start": 6.571,
+      "end": 6.613
+    },
+    {
+      "id": "w19",
+      "text": "two",
+      "start": 6.656,
+      "end": 6.784
+    },
+    {
+      "id": "w20",
+      "text": "lines.",
+      "start": 6.827,
+      "end": 7.253
+    },
+    {
+      "id": "w21",
+      "text": "Keep",
+      "start": 7.509,
+      "end": 7.68
+    },
+    {
+      "id": "w22",
+      "text": "investing",
+      "start": 7.808,
+      "end": 8.1067
+    },
+    {
+      "id": "w23",
+      "text": "in",
+      "start": 8.192,
+      "end": 8.277
+    },
+    {
+      "id": "w24",
+      "text": "pilots",
+      "start": 8.32,
+      "end": 8.576
+    },
+    {
+      "id": "w25",
+      "text": "now,",
+      "start": 8.704,
+      "end": 9.024
+    },
+    {
+      "id": "w26",
+      "text": "and",
+      "start": 9.173,
+      "end": 9.301
+    },
+    {
+      "id": "w27",
+      "text": "the",
+      "start": 9.344,
+      "end": 9.3867
+    },
+    {
+      "id": "w28",
+      "text": "line",
+      "start": 9.429,
+      "end": 9.6
+    },
+    {
+      "id": "w29",
+      "text": "climbs.",
+      "start": 9.685,
+      "end": 10.261
+    },
+    {
+      "id": "w30",
+      "text": "Freeze,",
+      "start": 10.453,
+      "end": 10.987
+    },
+    {
+      "id": "w31",
+      "text": "and",
+      "start": 11.136,
+      "end": 11.264
+    },
+    {
+      "id": "w32",
+      "text": "it",
+      "start": 11.307,
+      "end": 11.349
+    },
+    {
+      "id": "w33",
+      "text": "flattens",
+      "start": 11.392,
+      "end": 11.733
+    },
+    {
+      "id": "w34",
+      "text": "out.",
+      "start": 11.776,
+      "end": 12.177
+    },
+    {
+      "id": "w35",
+      "text": "The",
+      "start": 12.407,
+      "end": 12.5346
+    },
+    {
+      "id": "w36",
+      "text": "companies",
+      "start": 12.577,
+      "end": 12.705
+    },
+    {
+      "id": "w37",
+      "text": "that",
+      "start": 12.919,
+      "end": 13.0466
+    },
+    {
+      "id": "w38",
+      "text": "freeze",
+      "start": 13.089,
+      "end": 13.4306
+    },
+    {
+      "id": "w39",
+      "text": "will",
+      "start": 13.559,
+      "end": 13.6866
+    },
+    {
+      "id": "w40",
+      "text": "face",
+      "start": 13.729,
+      "end": 13.8999
+    },
+    {
+      "id": "w41",
+      "text": "a",
+      "start": 13.985,
+      "end": 14.0279
+    },
+    {
+      "id": "w42",
+      "text": "senior",
+      "start": 14.071,
+      "end": 14.4119
+    },
+    {
+      "id": "w43",
+      "text": "shortage",
+      "start": 14.455,
+      "end": 14.8386
+    },
+    {
+      "id": "w44",
+      "text": "around",
+      "start": 14.967,
+      "end": 15.0946
+    },
+    {
+      "id": "w45",
+      "text": "2031,",
+      "start": 15.18,
+      "end": 16.183
+    },
+    {
+      "id": "w46",
+      "text": "because",
+      "start": 16.417,
+      "end": 16.6306
+    },
+    {
+      "id": "w47",
+      "text": "today's",
+      "start": 16.673,
+      "end": 17.0146
+    },
+    {
+      "id": "w48",
+      "text": "juniors",
+      "start": 17.057,
+      "end": 17.441
+    },
+    {
+      "id": "w49",
+      "text": "are",
+      "start": 17.569,
+      "end": 17.7399
+    },
+    {
+      "id": "w50",
+      "text": "tomorrow's",
+      "start": 17.783,
+      "end": 18.1666
+    },
+    {
+      "id": "w51",
+      "text": "seniors.",
+      "start": 18.252,
+      "end": 18.785
+    },
+    {
+      "id": "w52",
+      "text": "If",
+      "start": 19.02,
+      "end": 19.105
+    },
+    {
+      "id": "w53",
+      "text": "you",
+      "start": 19.148,
+      "end": 19.233
+    },
+    {
+      "id": "w54",
+      "text": "stop",
+      "start": 19.276,
+      "end": 19.4039
+    },
+    {
+      "id": "w55",
+      "text": "hiring",
+      "start": 19.447,
+      "end": 19.745
+    },
+    {
+      "id": "w56",
+      "text": "juniors,",
+      "start": 19.873,
+      "end": 20.385
+    },
+    {
+      "id": "w57",
+      "text": "you",
+      "start": 20.556,
+      "end": 20.641
+    },
+    {
+      "id": "w58",
+      "text": "stop",
+      "start": 20.684,
+      "end": 20.8546
+    },
+    {
+      "id": "w59",
+      "text": "making",
+      "start": 20.897,
+      "end": 21.025
+    },
+    {
+      "id": "w60",
+      "text": "seniors.",
+      "start": 21.196,
+      "end": 21.815
+    },
+    {
+      "id": "w61",
+      "text": "To",
+      "start": 22.049,
+      "end": 22.0919
+    },
+    {
+      "id": "w62",
+      "text": "keep",
+      "start": 22.135,
+      "end": 22.305
+    },
+    {
+      "id": "w63",
+      "text": "climbing,",
+      "start": 22.348,
+      "end": 22.775
+    },
+    {
+      "id": "w64",
+      "text": "a",
+      "start": 22.903,
+      "end": 23.1159
+    },
+    {
+      "id": "w65",
+      "text": "company",
+      "start": 23.159,
+      "end": 23.3719
+    },
+    {
+      "id": "w66",
+      "text": "needs",
+      "start": 23.5,
+      "end": 23.713
+    },
+    {
+      "id": "w67",
+      "text": "three",
+      "start": 23.841,
+      "end": 24.0546
+    },
+    {
+      "id": "w68",
+      "text": "things.",
+      "start": 24.14,
+      "end": 24.704
+    },
+    {
+      "id": "w69",
+      "text": "The",
+      "start": 25.055,
+      "end": 25.1829
+    },
+    {
+      "id": "w70",
+      "text": "right",
+      "start": 25.226,
+      "end": 25.3536
+    },
+    {
+      "id": "w71",
+      "text": "people.",
+      "start": 25.439,
+      "end": 25.972
+    },
+    {
+      "id": "w72",
+      "text": "The",
+      "start": 26.335,
+      "end": 26.42
+    },
+    {
+      "id": "w73",
+      "text": "right",
+      "start": 26.463,
+      "end": 26.6336
+    },
+    {
+      "id": "w74",
+      "text": "agent",
+      "start": 26.719,
+      "end": 27.06
+    },
+    {
+      "id": "w75",
+      "text": "tooling.",
+      "start": 27.146,
+      "end": 27.722
+    },
+    {
+      "id": "w76",
+      "text": "And",
+      "start": 27.999,
+      "end": 28.0416
+    },
+    {
+      "id": "w77",
+      "text": "the",
+      "start": 28.084,
+      "end": 28.212
+    },
+    {
+      "id": "w78",
+      "text": "right",
+      "start": 28.255,
+      "end": 28.34
+    },
+    {
+      "id": "w79",
+      "text": "skills.",
+      "start": 28.468,
+      "end": 29.194
+    },
+    {
+      "id": "w80",
+      "text": "Remember:",
+      "start": 29.663,
+      "end": 30.218
+    },
+    {
+      "id": "w81",
+      "text": "today's",
+      "start": 30.516,
+      "end": 30.8576
+    },
+    {
+      "id": "w82",
+      "text": "juniors",
+      "start": 30.9,
+      "end": 31.284
+    },
+    {
+      "id": "w83",
+      "text": "are",
+      "start": 31.455,
+      "end": 31.7109
+    },
+    {
+      "id": "w84",
+      "text": "tomorrow's",
+      "start": 31.754,
+      "end": 32.18
+    },
+    {
+      "id": "w85",
+      "text": "seniors.",
+      "start": 32.266,
+      "end": 32.942
+    }
+  ],
+  "generatedWordsHash": "a22697e5eb2310cfd28083f02712d9b9844e5ccab43995c36a90e85f5141cbe0",
+  "createdAt": "2026-11-21T01:43:12.336Z"
+}

@@ -1,0 +1,376 @@
+{
+  "audio": "assets/HeyGen voice 236b0dbc.wav",
+  "language": null,
+  "words": [
+    {
+      "text": "So",
+      "start": 0.341,
+      "end": 0.469
+    },
+    {
+      "text": "why",
+      "start": 0.512,
+      "end": 0.64
+    },
+    {
+      "text": "am",
+      "start": 0.683,
+      "end": 0.725
+    },
+    {
+      "text": "I",
+      "start": 0.768,
+      "end": 0.853
+    },
+    {
+      "text": "still",
+      "start": 0.896,
+      "end": 1.0667
+    },
+    {
+      "text": "optimistic?",
+      "start": 1.109,
+      "end": 1.813
+    },
+    {
+      "text": "Because",
+      "start": 2.176,
+      "end": 2.389
+    },
+    {
+      "text": "of",
+      "start": 2.432,
+      "end": 2.4747
+    },
+    {
+      "text": "a",
+      "start": 2.517,
+      "end": 2.6027
+    },
+    {
+      "text": "well-",
+      "start": 2.645,
+      "end": 2.901
+    },
+    {
+      "text": "known",
+      "start": 2.901,
+      "end": 3.029
+    },
+    {
+      "text": "idea",
+      "start": 3.115,
+      "end": 3.285
+    },
+    {
+      "text": "called",
+      "start": 3.541,
+      "end": 3.712
+    },
+    {
+      "text": "the",
+      "start": 3.797,
+      "end": 3.8827
+    },
+    {
+      "text": "Productivity",
+      "start": 3.925,
+      "end": 4.5227
+    },
+    {
+      "text": "J-",
+      "start": 4.693,
+      "end": 4.992
+    },
+    {
+      "text": "curve,",
+      "start": 4.992,
+      "end": 5.44
+    },
+    {
+      "text": "from",
+      "start": 5.632,
+      "end": 5.8027
+    },
+    {
+      "text": "Brynjolfsson,",
+      "start": 5.845,
+      "end": 6.592
+    },
+    {
+      "text": "Rock",
+      "start": 6.699,
+      "end": 6.912
+    },
+    {
+      "text": "and",
+      "start": 6.997,
+      "end": 7.04
+    },
+    {
+      "text": "Syverson.",
+      "start": 7.083,
+      "end": 7.808
+    },
+    {
+      "text": "When",
+      "start": 8.064,
+      "end": 8.149
+    },
+    {
+      "text": "a",
+      "start": 8.192,
+      "end": 8.2347
+    },
+    {
+      "text": "general-",
+      "start": 8.277,
+      "end": 8.661
+    },
+    {
+      "text": "purpose",
+      "start": 8.661,
+      "end": 8.832
+    },
+    {
+      "text": "technology",
+      "start": 9.003,
+      "end": 9.3867
+    },
+    {
+      "text": "arrives,",
+      "start": 9.557,
+      "end": 10.069
+    },
+    {
+      "text": "productivity",
+      "start": 10.283,
+      "end": 10.837
+    },
+    {
+      "text": "and",
+      "start": 11.051,
+      "end": 11.1787
+    },
+    {
+      "text": "hiring",
+      "start": 11.221,
+      "end": 11.605
+    },
+    {
+      "text": "dip",
+      "start": 11.733,
+      "end": 11.904
+    },
+    {
+      "text": "first.",
+      "start": 11.989,
+      "end": 12.518
+    },
+    {
+      "text": "Companies",
+      "start": 12.79,
+      "end": 13.1737
+    },
+    {
+      "text": "spend",
+      "start": 13.259,
+      "end": 13.4297
+    },
+    {
+      "text": "on",
+      "start": 13.515,
+      "end": 13.6
+    },
+    {
+      "text": "tools,",
+      "start": 13.643,
+      "end": 14.176
+    },
+    {
+      "text": "rebuild",
+      "start": 14.454,
+      "end": 14.88
+    },
+    {
+      "text": "processes",
+      "start": 15.008,
+      "end": 15.6057
+    },
+    {
+      "text": "and",
+      "start": 15.776,
+      "end": 15.904
+    },
+    {
+      "text": "retrain",
+      "start": 15.99,
+      "end": 16.416
+    },
+    {
+      "text": "people",
+      "start": 16.544,
+      "end": 16.715
+    },
+    {
+      "text": "before",
+      "start": 16.843,
+      "end": 16.971
+    },
+    {
+      "text": "the",
+      "start": 17.099,
+      "end": 17.1417
+    },
+    {
+      "text": "gains",
+      "start": 17.184,
+      "end": 17.44
+    },
+    {
+      "text": "show",
+      "start": 17.526,
+      "end": 17.696
+    },
+    {
+      "text": "up.",
+      "start": 17.739,
+      "end": 18.102
+    },
+    {
+      "text": "We're",
+      "start": 18.379,
+      "end": 18.507
+    },
+    {
+      "text": "in",
+      "start": 18.55,
+      "end": 18.635
+    },
+    {
+      "text": "that",
+      "start": 18.678,
+      "end": 18.763
+    },
+    {
+      "text": "dip",
+      "start": 18.806,
+      "end": 18.976
+    },
+    {
+      "text": "right",
+      "start": 19.062,
+      "end": 19.232
+    },
+    {
+      "text": "now.",
+      "start": 19.275,
+      "end": 19.616
+    },
+    {
+      "text": "And",
+      "start": 19.787,
+      "end": 20.086
+    },
+    {
+      "text": "let",
+      "start": 20.128,
+      "end": 20.214
+    },
+    {
+      "text": "me",
+      "start": 20.256,
+      "end": 20.299
+    },
+    {
+      "text": "be",
+      "start": 20.342,
+      "end": 20.427
+    },
+    {
+      "text": "honest:",
+      "start": 20.47,
+      "end": 20.854
+    },
+    {
+      "text": "this",
+      "start": 21.11,
+      "end": 21.2377
+    },
+    {
+      "text": "is",
+      "start": 21.28,
+      "end": 21.366
+    },
+    {
+      "text": "a",
+      "start": 21.408,
+      "end": 21.451
+    },
+    {
+      "text": "model,",
+      "start": 21.494,
+      "end": 21.856
+    },
+    {
+      "text": "not",
+      "start": 22.048,
+      "end": 22.176
+    },
+    {
+      "text": "a",
+      "start": 22.219,
+      "end": 22.2617
+    },
+    {
+      "text": "promise.",
+      "start": 22.304,
+      "end": 22.838
+    },
+    {
+      "text": "The",
+      "start": 23.158,
+      "end": 23.243
+    },
+    {
+      "text": "dip",
+      "start": 23.286,
+      "end": 23.499
+    },
+    {
+      "text": "is",
+      "start": 23.67,
+      "end": 23.883
+    },
+    {
+      "text": "measured.",
+      "start": 23.926,
+      "end": 24.502
+    },
+    {
+      "text": "The",
+      "start": 24.736,
+      "end": 24.8217
+    },
+    {
+      "text": "upswing",
+      "start": 24.864,
+      "end": 25.3337
+    },
+    {
+      "text": "is",
+      "start": 25.504,
+      "end": 25.76
+    },
+    {
+      "text": "the",
+      "start": 25.803,
+      "end": 25.931
+    },
+    {
+      "text": "bet.",
+      "start": 25.974,
+      "end": 26.47
+    }
+  ]
+}

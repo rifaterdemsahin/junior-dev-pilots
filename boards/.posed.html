@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, height=1080">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+:root{--paper:#F3F0E8;--ink:#0E1626;--grey:#8A93A3;--orange:#FF5B1F;--teal:#0BB5A4;--card:#FFFFFF}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1920px;height:1080px;font-family:Inter,sans-serif;color:var(--ink)}
+.scene{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;background-color:var(--paper);background-image:linear-gradient(rgba(14,22,38,.055) 2px,transparent 2px),linear-gradient(90deg,rgba(14,22,38,.055) 2px,transparent 2px);background-size:96px 96px;color:var(--ink)}
+.scene.dark{background-color:#0A1020;background-image:linear-gradient(rgba(11,181,164,.09) 2px,transparent 2px),linear-gradient(90deg,rgba(11,181,164,.09) 2px,transparent 2px);color:#EAF2F5}
+.kick{position:absolute;left:96px;top:64px;font:600 26px 'JetBrains Mono',monospace;letter-spacing:.14em;color:var(--orange)}
+.dark .kick{color:var(--teal)}
+.tc{position:absolute;right:96px;top:64px;font:500 26px 'JetBrains Mono',monospace;letter-spacing:.1em;color:var(--grey)}
+.h{position:absolute;left:96px;top:120px;max-width:1650px;font:800 84px/1.04 Outfit,sans-serif;letter-spacing:-.02em}
+.h em{font-style:normal;color:var(--orange)}
+.h strong{color:var(--teal)}
+.sub{position:absolute;left:96px;font:500 34px/1.35 Inter,sans-serif;color:#4A5568;max-width:1300px}
+.dark .sub{color:#9FB3BD}
+.src{position:absolute;left:96px;bottom:44px;font:500 20px 'JetBrains Mono',monospace;color:var(--grey);letter-spacing:.04em}
+.big{position:absolute;font:400 300px/1 'Archivo Black',sans-serif;letter-spacing:-.03em}
+.mono{font-family:'JetBrains Mono',monospace}
+.chip{position:absolute;padding:12px 26px;border:2px solid var(--ink);border-radius:999px;font:600 24px 'JetBrains Mono',monospace;background:var(--paper)}
+.dark .chip{border-color:var(--teal);color:var(--teal);background:transparent}
+.card{position:absolute;background:var(--card);border:2px solid rgba(14,22,38,.12);border-radius:28px;box-shadow:0 24px 60px rgba(14,22,38,.09);padding:36px}
+.dark .card{background:rgba(255,255,255,.05);border-color:rgba(11,181,164,.35);box-shadow:none}
+.card h3{font:800 44px/1.05 Outfit,sans-serif;margin-bottom:14px}
+.card p{font:500 28px/1.35 Inter,sans-serif;color:#4A5568}
+.dark .card p{color:#9FB3BD}
+.num{font:400 120px/1 'Archivo Black',sans-serif;letter-spacing:-.03em}
+.org{color:var(--orange)}
+.tl{color:var(--teal)}
+.gr{color:var(--grey)}
+svg{overflow:visible}
+</style>
+</head>
+<body>
+<div data-hf-id="hf-root" id="root" data-composition-id="main" data-start="0" data-duration="1050" data-width="1920" data-height="1080">
+<svg data-hf-id="hf-8rgt" width="0" height="0" style="position:absolute"><defs data-hf-id="hf-mh0t">
+<symbol data-hf-id="hf-v6ih" id="ic-bike" viewBox="0 0 80 48"><g data-hf-id="hf-gdnc" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><circle data-hf-id="hf-6nzq" cx="14" cy="34" r="11"/><circle data-hf-id="hf-boyn" cx="66" cy="34" r="11"/><path data-hf-id="hf-0aa2" d="M14 34 L30 34 L42 12 L58 12 M30 34 L52 34 L42 12 M52 34 L62 14 M42 12 L40 6 L33 6 M58 12 L66 34"/></g></symbol>
+<symbol data-hf-id="hf-ndit" id="ic-car" viewBox="0 0 96 48"><path data-hf-id="hf-gmot" fill="currentColor" d="M4 34 L4 27 Q4 22 10 21 L24 19 L34 8 Q36 6 40 6 L62 6 Q66 6 68 8 L78 19 L88 21 Q93 22 93 27 L93 34 Z"/><circle data-hf-id="hf-wf0g" cx="24" cy="36" r="9" fill="currentColor" stroke="#F3F0E8" stroke-width="4"/><circle data-hf-id="hf-nn0k" cx="73" cy="36" r="9" fill="currentColor" stroke="#F3F0E8" stroke-width="4"/></symbol>
+<symbol data-hf-id="hf-tx52" id="ic-plane" viewBox="0 0 64 64"><path data-hf-id="hf-ya61" fill="currentColor" d="M32 2 Q35 2 36 8 L37 24 L61 38 L61 44 L37 37 L36 53 L44 58 L44 62 L32 59 L20 62 L20 58 L28 53 L27 37 L3 44 L3 38 L27 24 L28 8 Q29 2 32 2 Z"/></symbol>
+</defs></svg>
+
+<section data-hf-id="hf-1hqj" id="s01" class="scene clip" data-start="0" data-duration="14" data-track-index="0">
+<div data-hf-id="hf-usrk" class="kick">00:00 · HOOK</div>
+<div data-hf-id="hf-phd4" class="tc">UK ENTRY-LEVEL TECH</div>
+<div data-hf-id="hf-krk5" class="big org" style="left:80px;top:110px">≈ −50%</div>
+<div data-hf-id="hf-0do4" class="sub" style="top:440px">UK entry-level tech roles are down by about half.</div>
+<svg data-hf-id="hf-f8aa" width="1728" height="460" viewBox="0 0 1728 460" style="position:absolute;left:96px;top:540px">
+<line data-hf-id="hf-mrt1" x1="0" y1="440" x2="1728" y2="440" stroke="#0E1626" stroke-width="3"/>
+<path data-hf-id="hf-dvri" d="M0 30 C300 30 420 60 560 140 S900 400 1100 410 L1100 440 L0 440 Z" fill="rgba(255,91,31,.12)"/>
+<path data-hf-id="hf-7zcl" d="M0 30 C300 30 420 60 560 140 S900 400 1100 410" fill="none" stroke="#FF5B1F" stroke-width="12" stroke-linecap="round"/>
+<circle data-hf-id="hf-lzkj" cx="1100" cy="410" r="34" fill="rgba(255,91,31,.2)"/>
+<circle data-hf-id="hf-vfdh" cx="1100" cy="410" r="16" fill="#FF5B1F"/>
+<text data-hf-id="hf-j55u" x="1150" y="400" font-family="JetBrains Mono" font-size="28" font-weight="600" fill="#0E1626">THE LOW POINT</text>
+</svg>
+</section>
+
+<section data-hf-id="hf-ypqv" id="s02" class="scene clip" data-start="14" data-duration="16" data-track-index="0">
+<div data-hf-id="hf-4mjk" class="kick">00:14 · HOOK · THE TURN</div>
+<div data-hf-id="hf-apkh" class="tc">J-CURVE</div>
+<div data-hf-id="hf-vd0q" class="big" style="right:60px;top:60px;font-size:1000px;line-height:.9;color:transparent;-webkit-text-stroke:8px rgba(11,181,164,.4)">J</div>
+<div data-hf-id="hf-xi2q" class="h" style="top:130px">Why am I <strong data-hf-id="hf-37f0">more optimistic</strong> than ever?</div>
+<div data-hf-id="hf-bxbc" class="sub" style="top:390px">Freeze the graph at the bottom. Draw a J over it.</div>
+<svg data-hf-id="hf-c9di" width="1728" height="460" viewBox="0 0 1728 460" style="position:absolute;left:96px;top:540px">
+<line data-hf-id="hf-twgp" x1="0" y1="440" x2="1728" y2="440" stroke="#0E1626" stroke-width="3"/>
+<path data-hf-id="hf-wkbt" d="M0 30 C300 30 420 60 560 140 S900 400 1100 410" fill="none" stroke="#FF5B1F" stroke-width="12" stroke-linecap="round"/>
+<path data-hf-id="hf-4s1z" d="M1100 410 C1300 420 1480 300 1728 20" fill="none" stroke="#0BB5A4" stroke-width="12" stroke-linecap="round" stroke-dasharray="4 26"/>
+<circle data-hf-id="hf-9mrl" cx="1100" cy="410" r="34" fill="rgba(11,181,164,.25)"/>
+<circle data-hf-id="hf-odsf" cx="1100" cy="410" r="16" fill="#0BB5A4"/>
+</svg>
+</section>
+
+<section data-hf-id="hf-gqvw" id="s03" class="scene clip" data-start="30" data-duration="45" data-track-index="0">
+<div data-hf-id="hf-h19d" class="kick">00:30 · THE UK NUMBERS</div>
+<div data-hf-id="hf-u9f3" class="tc">THE BOTTOM OF THE J</div>
+<div data-hf-id="hf-qk10" class="h">UK entry-level tech roles</div>
+<div data-hf-id="hf-o6y7" class="big org" style="left:80px;top:300px;font-size:330px">−46%</div>
+<div data-hf-id="hf-bflr" class="sub" style="left:100px;top:640px;color:#0E1626;font-weight:700">in 2024 · measured</div>
+<div data-hf-id="hf-vihy" class="big gr" style="left:80px;top:700px;font-size:150px">→ −53%</div>
+<div data-hf-id="hf-wjcs" class="sub" style="left:100px;top:880px">by end of 2026 · projected</div>
+<div data-hf-id="hf-9efu" class="card" style="left:1130px;top:290px;width:694px;height:520px">
+<div data-hf-id="hf-thc8" class="mono" style="font-size:22px;color:#8A93A3;letter-spacing:.1em;margin-bottom:28px">ROLES REMAINING (2023 = 100)</div>
+<div data-hf-id="hf-4nll" style="display:flex;align-items:flex-end;gap:36px;height:340px">
+<div data-hf-id="hf-icfm" style="width:170px;height:340px;background:#0E1626;border-radius:12px 12px 0 0"></div>
+<div data-hf-id="hf-etkg" style="width:170px;height:184px;background:#FF5B1F;border-radius:12px 12px 0 0"></div>
+<div data-hf-id="hf-nuvy" style="width:170px;height:160px;border:4px dashed #FF5B1F;border-bottom:none;border-radius:12px 12px 0 0"></div>
+</div>
+<div data-hf-id="hf-j326" class="mono" style="display:flex;gap:36px;font-size:22px;margin-top:16px"><span data-hf-id="hf-d28j" style="width:170px">2023</span><span data-hf-id="hf-b2pe" style="width:170px">2024</span><span data-hf-id="hf-ptdi" style="width:170px">2026 est.</span></div>
+</div>
+<div data-hf-id="hf-5zm3" class="src">VERIFY BEFORE AIR: DEV COMMUNITY POST → TRACE ORIGINAL UK SOURCE</div>
+</section>
+
+<section data-hf-id="hf-86os" id="s04" class="scene clip" data-start="75" data-duration="25" data-track-index="0">
+<div data-hf-id="hf-ubsp" class="kick">01:15 · GLOBAL</div>
+<div data-hf-id="hf-419z" class="tc">SIGNALFIRE 2026</div>
+<div data-hf-id="hf-ooqi" class="h">New-grad hiring at the biggest tech firms</div>
+<div data-hf-id="hf-g4dk" class="big org" style="left:80px;top:360px;font-size:330px">−65%</div>
+<div data-hf-id="hf-ffr2" class="sub" style="left:100px;top:760px;color:#0E1626;font-weight:700">below 2019 levels</div>
+<div data-hf-id="hf-mr4w" style="position:absolute;left:1180px;top:330px;width:644px;height:560px;display:flex;align-items:flex-end;gap:60px">
+<div data-hf-id="hf-hv86" style="width:260px;height:520px;background:#0E1626;border-radius:16px 16px 0 0"></div>
+<div data-hf-id="hf-hbqu" style="width:260px;height:182px;background:#FF5B1F;border-radius:16px 16px 0 0"></div>
+</div>
+<div data-hf-id="hf-wpth" class="mono" style="position:absolute;left:1180px;top:900px;font-size:30px;font-weight:600;display:flex;gap:60px"><span data-hf-id="hf-4u4a" style="width:260px">2019</span><span data-hf-id="hf-7lb8" style="width:260px">2026</span></div>
+<div data-hf-id="hf-kawh" class="src">VERIFY BEFORE AIR: CHECK THE SIGNALFIRE REPORT, NOT THE BLOG QUOTING IT</div>
+</section>
+
+<section data-hf-id="hf-73y0" id="s05" class="scene clip" data-start="100" data-duration="30" data-track-index="0">
+<div data-hf-id="hf-87g5" class="kick">01:40 · HARVARD STUDY</div>
+<div data-hf-id="hf-hj6r" class="tc">62M WORKERS · 285K US FIRMS</div>
+<div data-hf-id="hf-vwwn" class="h">After adopting generative AI, <em data-hf-id="hf-128i">junior</em> roles fell. <strong data-hf-id="hf-7zli">Senior</strong> roles kept rising.</div>
+<svg data-hf-id="hf-t7yp" width="1300" height="560" viewBox="0 0 1300 560" style="position:absolute;left:96px;top:390px">
+<line data-hf-id="hf-8lv5" x1="0" y1="540" x2="1300" y2="540" stroke="#0E1626" stroke-width="3"/>
+<line data-hf-id="hf-p3r2" x1="0" y1="280" x2="1300" y2="280" stroke="#8A93A3" stroke-width="2" stroke-dasharray="10 12"/>
+<path data-hf-id="hf-o87m" d="M0 280 C300 270 700 200 1260 70" fill="none" stroke="#0BB5A4" stroke-width="12" stroke-linecap="round"/>
+<path data-hf-id="hf-bpue" d="M0 280 C300 290 700 340 1260 420" fill="none" stroke="#FF5B1F" stroke-width="12" stroke-linecap="round"/>
+<circle data-hf-id="hf-oh36" cx="1260" cy="70" r="16" fill="#0BB5A4"/>
+<circle data-hf-id="hf-50d3" cx="1260" cy="420" r="16" fill="#FF5B1F"/>
+<text data-hf-id="hf-ueu9" x="0" y="590" font-family="JetBrains Mono" font-size="24" fill="#8A93A3">AI ADOPTED</text>
+<text data-hf-id="hf-dvf7" x="1300" y="590" text-anchor="end" font-family="JetBrains Mono" font-size="24" fill="#8A93A3">+6 QUARTERS</text>
+</svg>
+<div data-hf-id="hf-t9j2" class="card" style="left:1440px;top:400px;width:384px;height:240px;border-color:#0BB5A4"><div data-hf-id="hf-2y9n" class="mono tl" style="font-size:22px;font-weight:600">SENIOR</div><div data-hf-id="hf-prrs" class="num tl" style="font-size:64px;margin-top:20px">▲ rising</div></div>
+<div data-hf-id="hf-93m2" class="card" style="left:1440px;top:680px;width:384px;height:240px;border-color:#FF5B1F"><div data-hf-id="hf-d5h6" class="mono org" style="font-size:22px;font-weight:600">JUNIOR</div><div data-hf-id="hf-bp8k" class="num org" style="font-size:64px;margin-top:20px">−9–10%</div></div>
+<div data-hf-id="hf-hlfx" class="src">VERIFY BEFORE AIR: PULL THE ORIGINAL HARVARD PAPER</div>
+</section>
+
+<section data-hf-id="hf-615d" id="s06" class="scene clip" data-start="130" data-duration="35" data-track-index="0">
+<div data-hf-id="hf-f6cb" class="kick">02:10 · THE PRODUCTIVITY J-CURVE</div>
+<div data-hf-id="hf-mq6w" class="tc">BRYNJOLFSSON · ROCK · SYVERSON</div>
+<div data-hf-id="hf-foha" class="h" style="font-size:72px">New technology: productivity and hiring <em data-hf-id="hf-nt7i">dip first</em>.</div>
+<svg data-hf-id="hf-x8kq" width="1728" height="560" viewBox="0 0 1728 560" style="position:absolute;left:96px;top:380px">
+<line data-hf-id="hf-xyqj" x1="0" y1="540" x2="1728" y2="540" stroke="#0E1626" stroke-width="3"/>
+<line data-hf-id="hf-dos2" x1="0" y1="0" x2="0" y2="540" stroke="#0E1626" stroke-width="3"/>
+<path data-hf-id="hf-im3q" d="M20 120 C300 130 520 450 820 450 S1300 300 1700 20" fill="none" stroke="#0E1626" stroke-width="12" stroke-linecap="round"/>
+<path data-hf-id="hf-89d2" d="M820 450 C1000 450 1300 300 1700 20" fill="none" stroke="#0BB5A4" stroke-width="12" stroke-linecap="round" stroke-dasharray="4 26"/>
+<circle data-hf-id="hf-xv0c" cx="820" cy="450" r="40" fill="rgba(255,91,31,.22)"/>
+<circle data-hf-id="hf-5qtf" cx="820" cy="450" r="18" fill="#FF5B1F"/>
+<text data-hf-id="hf-nsxn" x="820" y="530" text-anchor="middle" font-family="JetBrains Mono" font-size="30" font-weight="700" fill="#FF5B1F">WE ARE HERE</text>
+<text data-hf-id="hf-sed3" x="40" y="60" font-family="JetBrains Mono" font-size="24" fill="#8A93A3">TOOLS · NEW PROCESSES · RETRAINING</text>
+<text data-hf-id="hf-4j7u" x="1690" y="-10" text-anchor="end" font-family="JetBrains Mono" font-size="24" fill="#0BB5A4">GAINS SHOW UP</text>
+</svg>
+<div data-hf-id="hf-2d2k" class="chip" style="left:96px;top:980px">A MODEL, NOT A PROMISE: THE DIP IS MEASURED. THE UPSWING IS THE BET.</div>
+</section>
+
+<section data-hf-id="hf-u8c4" id="s07" class="scene clip" data-start="165" data-duration="15" data-track-index="0">
+<div data-hf-id="hf-keay" class="kick">02:45 · THE HONEST CAVEAT</div>
+<div data-hf-id="hf-suto" class="tc">LINKEDIN ECONOMIC GRAPH · FEB 2026</div>
+<div data-hf-id="hf-yq7u" class="card" style="left:96px;top:200px;width:1080px;height:640px;padding:60px">
+<div data-hf-id="hf-irxj" class="mono org" style="font-size:26px;font-weight:600;letter-spacing:.12em;margin-bottom:30px">ONE HONEST SENTENCE</div>
+<div data-hf-id="hf-6yxe" style="font:800 68px/1.1 Outfit,sans-serif;letter-spacing:-.02em">Interest rates explain most of the swings in software hiring this decade.</div>
+<div data-hf-id="hf-1ic7" style="font:500 36px/1.4 Inter;color:#4A5568;margin-top:34px">How much of today's drop is AI? Still unclear.</div>
+</div>
+<svg data-hf-id="hf-niyd" width="560" height="640" viewBox="0 0 560 640" style="position:absolute;left:1264px;top:200px">
+<path data-hf-id="hf-ui9a" d="M0 500 C100 420 180 120 300 140 S480 460 560 520" fill="none" stroke="#8A93A3" stroke-width="8" stroke-dasharray="4 18" stroke-linecap="round"/>
+<path data-hf-id="hf-6jwy" d="M0 480 C100 400 200 100 320 180 S480 420 560 540" fill="none" stroke="#0E1626" stroke-width="10" stroke-linecap="round"/>
+<text data-hf-id="hf-wxca" x="0" y="610" font-family="JetBrains Mono" font-size="24" fill="#8A93A3">RATES</text>
+<text data-hf-id="hf-6mtl" x="560" y="610" text-anchor="end" font-family="JetBrains Mono" font-size="24" fill="#0E1626">HIRING</text>
+</svg>
+</section>
+
+<section data-hf-id="hf-ddt1" id="s08" class="scene clip" data-start="180" data-duration="30" data-track-index="0">
+<div data-hf-id="hf-zuc3" class="kick">03:00 · SIGNS OF THE UPSWING</div>
+<div data-hf-id="hf-7ey3" class="tc">THE BOTTOM OF THE J IS THE LAUNCH POINT</div>
+<div data-hf-id="hf-77l4" class="h">The upswing is already <strong data-hf-id="hf-oadq">showing up</strong>.</div>
+<div data-hf-id="hf-32x1" class="card" style="left:96px;top:330px;width:405px;height:560px"><div data-hf-id="hf-y85j" class="mono tl" style="font-size:22px;font-weight:600">EUROPE · LINUX FOUNDATION</div><div data-hf-id="hf-y3hk" class="num tl" style="margin-top:50px">+27%</div><p data-hf-id="hf-agnq" style="margin-top:20px">tech hiring surge, driven by AI</p></div>
+<div data-hf-id="hf-166j" class="card" style="left:531px;top:330px;width:405px;height:560px"><div data-hf-id="hf-gv78" class="mono tl" style="font-size:22px;font-weight:600">IBM · 2026</div><div data-hf-id="hf-6aan" class="num tl" style="margin-top:50px">3×</div><p data-hf-id="hf-k0xq" style="margin-top:20px">entry-level hires</p></div>
+<div data-hf-id="hf-yqrb" class="card" style="left:966px;top:330px;width:405px;height:560px"><div data-hf-id="hf-1jiz" class="mono tl" style="font-size:22px;font-weight:600">COGNIZANT · US</div><div data-hf-id="hf-yvl8" class="num tl" style="margin-top:50px">4×</div><p data-hf-id="hf-r0yn" style="margin-top:20px">graduate pipeline</p></div>
+<div data-hf-id="hf-tuy4" class="card" style="left:1401px;top:330px;width:423px;height:560px"><div data-hf-id="hf-7u3o" class="mono tl" style="font-size:22px;font-weight:600">CLOUDFLARE</div><div data-hf-id="hf-1mg1" class="num tl" style="margin-top:70px;font-size:60px">60→1,111</div><p data-hf-id="hf-irv9" style="margin-top:20px">internships</p></div>
+<div data-hf-id="hf-adqi" class="chip" style="left:96px;top:950px">DISCLOSURE: I WORK AT IBM</div>
+</section>
+
+<section data-hf-id="hf-9sgv" id="s09" class="scene clip" data-start="210" data-duration="80" data-track-index="0">
+<div data-hf-id="hf-t5b9" class="kick">03:30 · AI TOOK CONTINUOUS INTEGRATION</div>
+<div data-hf-id="hf-n0u5" class="tc">AI DOES, AND RE-RUNS</div>
+<div data-hf-id="hf-mwp3" class="h">AI took <em data-hf-id="hf-ga6m">continuous integration</em>.</div>
+<div data-hf-id="hf-7p2a" style="position:absolute;left:96px;top:420px;width:1728px;display:flex;align-items:center;gap:0">
+<div data-hf-id="hf-gh8z" class="card" style="position:relative;width:300px;height:300px;padding:30px"><div data-hf-id="hf-mnfb" class="mono tl" style="font-size:44px">✓</div><h3 data-hf-id="hf-sut3" style="margin-top:34px;font-size:38px">Writes the first draft</h3></div>
+<div data-hf-id="hf-em84" style="width:70px;height:6px;background:#0BB5A4"></div>
+<div data-hf-id="hf-4j3n" class="card" style="position:relative;width:300px;height:300px;padding:30px"><div data-hf-id="hf-yxhz" class="mono tl" style="font-size:44px">✓</div><h3 data-hf-id="hf-zfw6" style="margin-top:34px;font-size:38px">Runs tests, fixes lint</h3></div>
+<div data-hf-id="hf-3gos" style="width:70px;height:6px;background:#0BB5A4"></div>
+<div data-hf-id="hf-44sm" class="card" style="position:relative;width:300px;height:300px;padding:30px"><div data-hf-id="hf-yj6y" class="mono tl" style="font-size:44px">✓</div><h3 data-hf-id="hf-vzm4" style="margin-top:34px;font-size:38px">Re-runs the pipeline</h3></div>
+<div data-hf-id="hf-29rp" style="width:70px;height:6px;background:#0BB5A4"></div>
+<div data-hf-id="hf-3qhl" class="card" style="position:relative;width:300px;height:300px;padding:30px"><div data-hf-id="hf-y4vx" class="mono tl" style="font-size:44px">✓</div><h3 data-hf-id="hf-njbp" style="margin-top:34px;font-size:38px">Opens PRs, merges simple conflicts</h3></div>
+<div data-hf-id="hf-2o2q" style="width:70px;height:6px;background:#0BB5A4"></div>
+<div data-hf-id="hf-3c6k" class="card" style="position:relative;width:300px;height:300px;padding:30px"><div data-hf-id="hf-0x14" class="mono tl" style="font-size:44px">✓</div><h3 data-hf-id="hf-vq0i" style="margin-top:34px;font-size:38px">Triages first-line incidents</h3></div>
+</div>
+<div data-hf-id="hf-mueg" class="sub" style="top:820px;font-size:44px;color:#0E1626;font-weight:700">All green. No human needed for any of it.</div>
+</section>
+
+<section data-hf-id="hf-w1dr" id="s10" class="scene clip" data-start="290" data-duration="55" data-track-index="0">
+<div data-hf-id="hf-w8c8" class="kick">04:50 · HUMANS GOT DELIVERY</div>
+<div data-hf-id="hf-5x3m" class="tc">WHAT STAYS HUMAN</div>
+<div data-hf-id="hf-bvye" class="h">Humans got <strong data-hf-id="hf-ivfm">delivery</strong>.</div>
+<div data-hf-id="hf-dkgl" style="position:absolute;left:96px;top:320px;width:1728px;display:flex;gap:24px">
+<div data-hf-id="hf-nkzk" class="card" style="position:relative;width:322px;height:420px;padding:30px;border-color:#0BB5A4"><div data-hf-id="hf-ttx0" class="mono tl" style="font-size:26px;font-weight:600">01</div><h3 data-hf-id="hf-ynvw" style="margin-top:36px;font-size:40px">Decide what to build, and why</h3></div>
+<div data-hf-id="hf-tp88" class="card" style="position:relative;width:322px;height:420px;padding:30px;border-color:#0BB5A4"><div data-hf-id="hf-ol0t" class="mono tl" style="font-size:26px;font-weight:600">02</div><h3 data-hf-id="hf-dvc6" style="margin-top:36px;font-size:40px">Write the spec agents follow</h3></div>
+<div data-hf-id="hf-sib5" class="card" style="position:relative;width:322px;height:420px;padding:30px;border-color:#0BB5A4"><div data-hf-id="hf-ozbu" class="mono tl" style="font-size:26px;font-weight:600">03</div><h3 data-hf-id="hf-mgli" style="margin-top:36px;font-size:40px">Judge if the output is right</h3></div>
+<div data-hf-id="hf-swm6" class="card" style="position:relative;width:322px;height:420px;padding:30px;border-color:#0BB5A4"><div data-hf-id="hf-v0u3" class="mono tl" style="font-size:26px;font-weight:600">04</div><h3 data-hf-id="hf-fmmt" style="margin-top:36px;font-size:40px">Keep delivery profitable</h3></div>
+<div data-hf-id="hf-rpp3" class="card" style="position:relative;width:322px;height:420px;padding:30px;border-color:#0BB5A4"><div data-hf-id="hf-vf54" class="mono tl" style="font-size:26px;font-weight:600">05</div><h3 data-hf-id="hf-qu29" style="margin-top:36px;font-size:40px">Own the stakeholder</h3></div>
+</div>
+<div data-hf-id="hf-778b" class="sub" style="top:850px;font-size:56px;color:#0E1626;font-weight:800;font-family:Outfit">"CI became AI's job. <span data-hf-id="hf-g8x6" class="tl">Delivery became yours.</span>"</div>
+</section>
+
+<section data-hf-id="hf-j2fo" id="s11" class="scene clip" data-start="345" data-duration="45" data-track-index="0">
+<div data-hf-id="hf-86xc" class="kick">05:45 · MY STORY · ONBOARDING</div>
+<div data-hf-id="hf-k8v9" class="tc">PLACEHOLDER: USE AN OBP OR SRE STORY</div>
+<div data-hf-id="hf-ke1l" class="h">The pipeline was never the hard part.</div>
+<div data-hf-id="hf-v6rb" class="card" style="left:96px;top:330px;width:780px;height:520px"><div data-hf-id="hf-ynbt" class="mono gr" style="font-size:24px;font-weight:600;letter-spacing:.1em">THE PIPELINE</div><div data-hf-id="hf-0ob7" class="num tl" style="margin-top:50px;font-size:150px">✓ green</div><p data-hf-id="hf-l25j" style="margin-top:30px">Solved. AI does this now.</p></div>
+<div data-hf-id="hf-3enp" style="position:absolute;left:880px;top:582px;width:160px;height:0;border-top:6px dashed #0E1626"></div>
+<div data-hf-id="hf-qi4p" class="card" style="left:1044px;top:330px;width:780px;height:520px;border-color:#FF5B1F"><div data-hf-id="hf-xcsw" class="mono org" style="font-size:24px;font-weight:600;letter-spacing:.1em">THE HARD PART</div><div data-hf-id="hf-9z4e" class="num" style="margin-top:40px;font-size:76px;line-height:1.1">Getting a market participant live.</div><p data-hf-id="hf-91ik" style="margin-top:30px;color:#0E1626;font-weight:700">Safely. On time.</p></div>
+</section>
+
+<section data-hf-id="hf-qylu" id="s12" class="scene clip" data-start="390" data-duration="80" data-track-index="0">
+<div data-hf-id="hf-h32s" class="kick">06:30 · THE ANALOGY</div>
+<div data-hf-id="hf-7k83" class="tc">RIDER → DRIVER → PILOT</div>
+<div data-hf-id="hf-g0dq" class="h" style="font-size:72px">Rider. Driver. <strong data-hf-id="hf-x28i">Pilot.</strong></div>
+<div data-hf-id="hf-16rq" class="card" style="left:96px;top:330px;width:540px;height:620px"><svg data-hf-id="hf-yr13" width="200" height="120" style="color:#8A93A3"><use data-hf-id="hf-9t2e" href="#ic-bike" width="200" height="120"/></svg><div data-hf-id="hf-st7u" class="mono gr" style="font-size:24px;font-weight:600;margin:20px 0 10px">RIDER</div><h3 data-hf-id="hf-odyc">Passenger</h3><p data-hf-id="hf-1ti8">Copies answers from a chatbot and hopes they work.</p><div data-hf-id="hf-04j3" class="mono gr" style="margin-top:34px;font-size:22px">RANGE: AROUND THE BLOCK</div><div data-hf-id="hf-p87h" style="margin-top:12px;height:14px;background:#E3DFD3;border-radius:9px"><div data-hf-id="hf-onhy" style="width:14%;height:14px;background:#8A93A3;border-radius:9px"></div></div></div>
+<div data-hf-id="hf-u514" class="card" style="left:690px;top:330px;width:540px;height:620px"><svg data-hf-id="hf-icpe" width="240" height="120" style="color:#0E1626"><use data-hf-id="hf-xrdr" href="#ic-car" width="240" height="120"/></svg><div data-hf-id="hf-t9ip" class="mono" style="font-size:24px;font-weight:600;margin:20px 0 10px">DRIVER</div><h3 data-hf-id="hf-tx0j">Hands on the wheel</h3><p data-hf-id="hf-1719">Writes most of the code. AI is the satnav.</p><div data-hf-id="hf-yiy6" class="mono" style="margin-top:34px;font-size:22px">RANGE: CITY TO CITY</div><div data-hf-id="hf-fbb5" style="margin-top:12px;height:14px;background:#E3DFD3;border-radius:9px"><div data-hf-id="hf-u2w1" style="width:45%;height:14px;background:#0E1626;border-radius:9px"></div></div></div>
+<div data-hf-id="hf-ek7y" class="card" style="left:1284px;top:290px;width:540px;height:700px;background:#0A1020;border-color:#0BB5A4;color:#EAF2F5"><svg data-hf-id="hf-vvc9" width="140" height="140" style="color:#0BB5A4"><use data-hf-id="hf-11gq" href="#ic-plane" width="140" height="140"/></svg><div data-hf-id="hf-k3zv" class="mono tl" style="font-size:24px;font-weight:600;margin:20px 0 10px">DELIVERY PILOT</div><h3 data-hf-id="hf-2jaw">Flight plan, autopilot</h3><p data-hf-id="hf-qelj" style="color:#9FB3BD">Sets the spec, runs agents, watches the instruments, takes control when it matters.</p><div data-hf-id="hf-jav9" class="mono tl" style="margin-top:34px;font-size:22px">RANGE: VAST DISTANCES</div><div data-hf-id="hf-yrdh" style="margin-top:12px;height:14px;background:rgba(255,255,255,.12);border-radius:9px"><div data-hf-id="hf-6sil" style="width:100%;height:14px;background:#0BB5A4;border-radius:9px"></div></div></div>
+<div data-hf-id="hf-kw6e" class="chip" style="left:1284px;top:1010px;font-size:20px;padding:8px 20px">"DELIVERY PILOT" IS WHAT I'M CALLING IT</div>
+</section>
+
+<section data-hf-id="hf-cj39" id="s13" class="scene dark clip" data-start="470" data-duration="100" data-track-index="0">
+<div data-hf-id="hf-hyn6" class="kick">07:50 · THE PILOT</div>
+<div data-hf-id="hf-qefm" class="tc">ONE PILOT, WHAT USED TO TAKE A TEAM</div>
+<div data-hf-id="hf-e5kp" class="h">A pilot doesn't flap the wings.</div>
+<div data-hf-id="hf-ktic" class="sub" style="top:220px">Plans the route. Trusts the instruments. Watches for risk. Lands safely.</div>
+<div data-hf-id="hf-vekf" style="position:absolute;left:96px;top:420px;width:1728px;display:flex;justify-content:space-between">
+<div data-hf-id="hf-90z1" style="width:380px;text-align:center"><svg data-hf-id="hf-uywi" width="360" height="360" viewBox="0 0 360 360"><circle data-hf-id="hf-mlr5" cx="180" cy="180" r="160" fill="none" stroke="#0BB5A4" stroke-width="6"/><circle data-hf-id="hf-jymu" cx="180" cy="180" r="130" fill="rgba(11,181,164,.08)"/><path data-hf-id="hf-3l1m" d="M60 180 L300 180 M180 60 L180 300" stroke="rgba(11,181,164,.35)" stroke-width="3"/><path data-hf-id="hf-zywd" d="M80 260 C130 200 210 240 280 100" fill="none" stroke="#EAF2F5" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 18"/><circle data-hf-id="hf-2tkp" cx="280" cy="100" r="12" fill="#0BB5A4"/></svg><div data-hf-id="hf-hd6x" class="mono tl" style="font-size:28px;font-weight:600;margin-top:20px">PLAN THE ROUTE</div></div>
+<div data-hf-id="hf-f469" style="width:380px;text-align:center"><svg data-hf-id="hf-00za" width="360" height="360" viewBox="0 0 360 360"><circle data-hf-id="hf-zfed" cx="180" cy="180" r="160" fill="none" stroke="#0BB5A4" stroke-width="6"/><circle data-hf-id="hf-0kca" cx="180" cy="180" r="130" fill="rgba(11,181,164,.08)"/><path data-hf-id="hf-n5f6" d="M70 230 A130 130 0 0 1 290 230" fill="none" stroke="rgba(11,181,164,.5)" stroke-width="14"/><line data-hf-id="hf-mq52" x1="180" y1="200" x2="250" y2="120" stroke="#EAF2F5" stroke-width="8" stroke-linecap="round"/><circle data-hf-id="hf-mqnp" cx="180" cy="200" r="14" fill="#0BB5A4"/></svg><div data-hf-id="hf-g1hr" class="mono tl" style="font-size:28px;font-weight:600;margin-top:20px">TRUST THE INSTRUMENTS</div></div>
+<div data-hf-id="hf-gb3c" style="width:380px;text-align:center"><svg data-hf-id="hf-0fab" width="360" height="360" viewBox="0 0 360 360"><circle data-hf-id="hf-7f7z" cx="180" cy="180" r="160" fill="none" stroke="#FF5B1F" stroke-width="6"/><circle data-hf-id="hf-2l1c" cx="180" cy="180" r="130" fill="rgba(255,91,31,.1)"/><path data-hf-id="hf-n8vq" d="M180 90 L270 250 L90 250 Z" fill="none" stroke="#FF5B1F" stroke-width="10" stroke-linejoin="round"/><line data-hf-id="hf-5xv0" x1="180" y1="140" x2="180" y2="200" stroke="#FF5B1F" stroke-width="10" stroke-linecap="round"/><circle data-hf-id="hf-y0z5" cx="180" cy="228" r="7" fill="#FF5B1F"/></svg><div data-hf-id="hf-6hc7" class="mono org" style="font-size:28px;font-weight:600;margin-top:20px">WATCH FOR RISK</div></div>
+<div data-hf-id="hf-fwsb" style="width:380px;text-align:center"><svg data-hf-id="hf-0tlc" width="360" height="360" viewBox="0 0 360 360"><circle data-hf-id="hf-0mbg" cx="180" cy="180" r="160" fill="none" stroke="#0BB5A4" stroke-width="6"/><circle data-hf-id="hf-0ynb" cx="180" cy="180" r="130" fill="rgba(11,181,164,.08)"/><path data-hf-id="hf-5esx" d="M50 250 L310 250" stroke="#EAF2F5" stroke-width="8"/><path data-hf-id="hf-sa53" d="M60 110 L270 232" stroke="#0BB5A4" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 16"/><use data-hf-id="hf-mj9j" href="#ic-plane" x="250" y="160" width="70" height="70" style="color:#0BB5A4"/></svg><div data-hf-id="hf-dtf1" class="mono tl" style="font-size:28px;font-weight:600;margin-top:20px">LAND SAFELY</div></div>
+</div>
+</section>
+
+<section data-hf-id="hf-21pg" id="s14" class="scene clip" data-start="570" data-duration="80" data-track-index="0">
+<div data-hf-id="hf-wu1e" class="kick">09:30 · EVERYONE GOT UPGRADED</div>
+<div data-hf-id="hf-934i" class="tc">NOBODY GOT DEMOTED</div>
+<div data-hf-id="hf-0taa" class="h" style="font-size:72px">Everyone moves up <strong data-hf-id="hf-7qai">a seat</strong>.</div>
+<div data-hf-id="hf-g60x" style="position:absolute;left:96px;top:290px;width:1728px;display:flex;flex-direction:column;gap:22px">
+<div data-hf-id="hf-qudv" class="card" style="position:relative;height:150px;padding:28px 40px;display:flex;align-items:center;gap:30px"><div data-hf-id="hf-bvc2" class="mono gr" style="width:340px;font-size:28px;font-weight:600">STUDENTS & SWITCHERS</div><svg data-hf-id="hf-pcn4" width="90" height="50" style="color:#8A93A3"><use data-hf-id="hf-sanh" href="#ic-bike" width="90" height="50"/></svg><div data-hf-id="hf-61hu" class="num org" style="font-size:56px">→</div><svg data-hf-id="hf-n4ap" width="100" height="50" style="color:#0E1626"><use data-hf-id="hf-l2h2" href="#ic-car" width="100" height="50"/></svg><div data-hf-id="hf-l371" style="font:500 30px Inter;color:#4A5568;margin-left:30px">Drivers faster than ever. AI is a patient tutor.</div></div>
+<div data-hf-id="hf-rewt" class="card" style="position:relative;height:150px;padding:28px 40px;display:flex;align-items:center;gap:30px;border-color:#0BB5A4"><div data-hf-id="hf-dzex" class="mono tl" style="width:340px;font-size:28px;font-weight:600">JUNIORS</div><svg data-hf-id="hf-hf2t" width="100" height="50" style="color:#0E1626"><use data-hf-id="hf-obm2" href="#ic-car" width="100" height="50"/></svg><div data-hf-id="hf-n39y" class="num org" style="font-size:56px">→</div><svg data-hf-id="hf-iqd3" width="60" height="60" style="color:#0BB5A4"><use data-hf-id="hf-57j6" href="#ic-plane" width="60" height="60"/></svg><div data-hf-id="hf-tal2" style="font:500 30px Inter;color:#4A5568;margin-left:70px">Delivery Pilots. Own outcomes, not tickets.</div></div>
+<div data-hf-id="hf-yilv" class="card" style="position:relative;height:150px;padding:28px 40px;display:flex;align-items:center;gap:30px"><div data-hf-id="hf-nlik" class="mono" style="width:340px;font-size:28px;font-weight:600">SENIORS</div><svg data-hf-id="hf-pwc7" width="60" height="60" style="color:#0BB5A4"><use data-hf-id="hf-zl8m" href="#ic-plane" width="60" height="60"/></svg><div data-hf-id="hf-nhkz" class="num org" style="font-size:56px">→</div><div data-hf-id="hf-u69j" class="mono" style="font-size:28px;font-weight:600;width:300px">COMMANDER</div><div data-hf-id="hf-v22r" style="font:500 30px Inter;color:#4A5568;margin-left:30px">Run fleets of pilots and agents.</div></div>
+<div data-hf-id="hf-y4au" class="card" style="position:relative;height:150px;padding:28px 40px;display:flex;align-items:center;gap:30px"><div data-hf-id="hf-6jsv" class="mono" style="width:340px;font-size:28px;font-weight:600">MANAGERS</div><div data-hf-id="hf-cdst" class="num org" style="font-size:56px;margin-left:150px">→</div><div data-hf-id="hf-hbfl" class="mono" style="font-size:28px;font-weight:600;width:300px">AIR TRAFFIC CONTROL</div><div data-hf-id="hf-6hjv" style="font:500 30px Inter;color:#4A5568;margin-left:30px">Strategy, priorities, safety.</div></div>
+</div>
+</section>
+
+<section data-hf-id="hf-7dpv" id="s15" class="scene clip" data-start="650" data-duration="70" data-track-index="0">
+<div data-hf-id="hf-9lka" class="kick">10:50 · THE BUSINESS REALITY</div>
+<div data-hf-id="hf-r5mg" class="tc">GATHER THE RIGHT RESOURCES</div>
+<div data-hf-id="hf-r808" class="h" style="font-size:72px">Invest in pilots now, or <em data-hf-id="hf-v8cg">face a senior shortage</em>.</div>
+<svg data-hf-id="hf-02y2" width="1100" height="520" viewBox="0 0 1100 520" style="position:absolute;left:96px;top:380px">
+<line data-hf-id="hf-rifn" x1="0" y1="500" x2="1100" y2="500" stroke="#0E1626" stroke-width="3"/>
+<path data-hf-id="hf-7yxo" d="M0 300 C250 380 450 320 1050 40" fill="none" stroke="#0BB5A4" stroke-width="12" stroke-linecap="round"/>
+<path data-hf-id="hf-9zz1" d="M0 300 C250 380 450 380 1050 330" fill="none" stroke="#FF5B1F" stroke-width="12" stroke-linecap="round" stroke-dasharray="4 22"/>
+<line data-hf-id="hf-qo1n" x1="1050" y1="60" x2="1050" y2="320" stroke="#0E1626" stroke-width="3" stroke-dasharray="6 8"/>
+<text data-hf-id="hf-bf7v" x="1030" y="260" text-anchor="end" font-family="JetBrains Mono" font-size="26" font-weight="700" fill="#0E1626">SENIOR SHORTAGE</text>
+<text data-hf-id="hf-76ru" x="0" y="550" font-family="JetBrains Mono" font-size="24" fill="#8A93A3">2026</text>
+<text data-hf-id="hf-11il" x="1100" y="550" text-anchor="end" font-family="JetBrains Mono" font-size="24" fill="#8A93A3">≈2031</text>
+<text data-hf-id="hf-w6d4" x="260" y="250" font-family="JetBrains Mono" font-size="26" font-weight="700" fill="#0BB5A4">KEEP INVESTING</text>
+<text data-hf-id="hf-f6p7" x="500" y="440" font-family="JetBrains Mono" font-size="26" font-weight="700" fill="#FF5B1F">FREEZE</text>
+</svg>
+<div data-hf-id="hf-70n8" style="position:absolute;left:1260px;top:380px;width:564px;display:flex;flex-direction:column;gap:22px">
+<div data-hf-id="hf-ihye" class="card" style="position:relative;padding:28px 36px"><h3 data-hf-id="hf-f5b1" style="font-size:40px;margin:0">The right people</h3></div>
+<div data-hf-id="hf-o7vu" class="card" style="position:relative;padding:28px 36px"><h3 data-hf-id="hf-uvyt" style="font-size:40px;margin:0">The right agent tooling</h3></div>
+<div data-hf-id="hf-om6v" class="card" style="position:relative;padding:28px 36px"><h3 data-hf-id="hf-pmuk" style="font-size:40px;margin:0">The right skills</h3></div>
+<div data-hf-id="hf-1zr9" class="sub" style="position:relative;left:0;font-size:30px;margin-top:10px">Today's juniors are tomorrow's seniors.</div>
+</div>
+</section>
+
+<section data-hf-id="hf-4sfv" id="s16" class="scene clip" data-start="720" data-duration="80" data-track-index="0">
+<div data-hf-id="hf-sqzq" class="kick">12:00 · WHAT IS A DELIVERY PILOT?</div>
+<div data-hf-id="hf-bzd5" class="tc">COBALTS</div>
+<div data-hf-id="hf-pptr" class="h">The <strong data-hf-id="hf-t9qm">COBALTS</strong> pilot</div>
+<div data-hf-id="hf-5o90" style="position:absolute;left:96px;top:330px;width:1728px;display:flex;gap:24px">
+<div data-hf-id="hf-d1tj" class="card" style="position:relative;width:322px;height:560px;padding:30px"><div data-hf-id="hf-1ei8" class="num tl" style="font-size:150px">C</div><h3 data-hf-id="hf-gbi0" style="margin-top:30px">Creator</h3><p data-hf-id="hf-uw0s">Content, demos and docs that show the work.</p></div>
+<div data-hf-id="hf-3053" class="card" style="position:relative;width:322px;height:560px;padding:30px"><div data-hf-id="hf-zsih" class="num tl" style="font-size:150px">O/B</div><h3 data-hf-id="hf-qs1r" style="margin-top:30px">Builder</h3><p data-hf-id="hf-a9b8">Builds and runs agents end to end.</p></div>
+<div data-hf-id="hf-2lu2" class="card" style="position:relative;width:322px;height:560px;padding:30px"><div data-hf-id="hf-rdxp" class="num tl" style="font-size:150px">L</div><h3 data-hf-id="hf-oyzt" style="margin-top:30px">Leader</h3><p data-hf-id="hf-1jm5">Owns the stakeholder and the delivery.</p></div>
+<div data-hf-id="hf-27j1" class="card" style="position:relative;width:322px;height:560px;padding:30px"><div data-hf-id="hf-4z9h" class="num tl" style="font-size:150px">T</div><h3 data-hf-id="hf-5rbt" style="margin-top:30px">Treasurer</h3><p data-hf-id="hf-kurd">Token spend, cloud cost and ROI.</p></div>
+<div data-hf-id="hf-4zo8" class="card" style="position:relative;width:322px;height:560px;padding:30px"><div data-hf-id="hf-7reo" class="num tl" style="font-size:150px">S</div><h3 data-hf-id="hf-mhay" style="margin-top:30px">Strategist</h3><p data-hf-id="hf-pudi">Picks what to build next, and why.</p></div>
+</div>
+</section>
+
+<section data-hf-id="hf-09j4" id="s17" class="scene dark clip" data-start="800" data-duration="70" data-track-index="0">
+<div data-hf-id="hf-kk4s" class="kick">13:20 · A DAY IN THE LIFE</div>
+<div data-hf-id="hf-7euo" class="tc">FLIGHT PLAN</div>
+<div data-hf-id="hf-x2ih" class="h">A day in the life of a pilot</div>
+<svg data-hf-id="hf-anif" width="1728" height="420" viewBox="0 0 1728 420" style="position:absolute;left:96px;top:400px">
+<path data-hf-id="hf-t1zr" d="M60 300 C300 300 300 120 520 120 S760 300 980 300 S1220 120 1440 120 L1668 120" fill="none" stroke="#0BB5A4" stroke-width="6" stroke-dasharray="3 20" stroke-linecap="round"/>
+<g data-hf-id="hf-mrbq" font-family="JetBrains Mono" font-size="26" font-weight="700" fill="#0BB5A4">
+<circle data-hf-id="hf-crna" cx="60" cy="300" r="22" fill="#0BB5A4"/><text data-hf-id="hf-x071" x="60" y="385" text-anchor="middle" fill="#EAF2F5">WRITE SPEC</text>
+<circle data-hf-id="hf-trco" cx="290" cy="215" r="22" fill="#0BB5A4"/><text data-hf-id="hf-n060" x="290" y="335" text-anchor="middle" fill="#EAF2F5">SEND TO AGENTS</text>
+<circle data-hf-id="hf-u3rd" cx="520" cy="120" r="22" fill="#0BB5A4"/><text data-hf-id="hf-kh9w" x="520" y="70" text-anchor="middle" fill="#EAF2F5">REVIEW OUTPUT</text>
+<circle data-hf-id="hf-mq77" cx="980" cy="300" r="22" fill="#0BB5A4"/><text data-hf-id="hf-97r8" x="980" y="385" text-anchor="middle" fill="#EAF2F5">CHECK COSTS</text>
+<circle data-hf-id="hf-5h4x" cx="1210" cy="215" r="22" fill="#0BB5A4"/><text data-hf-id="hf-b2vl" x="1210" y="335" text-anchor="middle" fill="#EAF2F5">DEMO</text>
+<circle data-hf-id="hf-rep9" cx="1440" cy="120" r="22" fill="#0BB5A4"/><text data-hf-id="hf-tawx" x="1440" y="70" text-anchor="middle" fill="#EAF2F5">LAND RELEASE</text>
+</g>
+<use data-hf-id="hf-j1l3" href="#ic-plane" x="1620" y="85" width="80" height="80" style="color:#EAF2F5" transform="rotate(90 1660 125)"/>
+</svg>
+</section>
+
+<section data-hf-id="hf-t4gs" id="s18" class="scene clip" data-start="870" data-duration="120" data-track-index="0">
+<div data-hf-id="hf-yfln" class="kick">14:30 · YOUR 90-DAY FLIGHT PLAN</div>
+<div data-hf-id="hf-xcpe" class="tc">3 LEGS · 12 WEEKS</div>
+<div data-hf-id="hf-igfu" class="h">Your 90-day flight plan</div>
+<div data-hf-id="hf-nunr" style="position:absolute;left:96px;top:330px;width:1728px;height:10px;background:linear-gradient(90deg,#0E1626 0%,#0BB5A4 100%);border-radius:5px"></div>
+<div data-hf-id="hf-u07r" class="card" style="left:96px;top:380px;width:552px;height:540px"><div data-hf-id="hf-4lz8" class="mono org" style="font-size:26px;font-weight:600">WEEKS 1–4</div><h3 data-hf-id="hf-12hs" style="margin-top:26px;font-size:54px">Learn to write specs</h3><p data-hf-id="hf-jevi" style="margin-top:20px">Not just code. Module 1.1:</p><div data-hf-id="hf-e3gp" class="mono" style="margin-top:20px;font-size:26px;line-height:1.7;font-weight:600">Role · Context<br data-hf-id="hf-x5px">Task · Constraints</div></div>
+<div data-hf-id="hf-d51w" class="card" style="left:684px;top:380px;width:552px;height:540px"><div data-hf-id="hf-aab0" class="mono org" style="font-size:26px;font-weight:600">WEEKS 5–8</div><h3 data-hf-id="hf-mpxy" style="margin-top:26px;font-size:54px">Build one agent, end to end</h3><p data-hf-id="hf-y5wc" style="margin-top:20px">Run it. Publish its logs.</p></div>
+<div data-hf-id="hf-waqe" class="card" style="left:1272px;top:380px;width:552px;height:540px;border-color:#0BB5A4"><div data-hf-id="hf-2ntb" class="mono tl" style="font-size:26px;font-weight:600">WEEKS 9–12</div><h3 data-hf-id="hf-m8q5" style="margin-top:26px;font-size:54px">Get certified</h3><p data-hf-id="hf-naj7" style="margin-top:20px">A frontier-lab certification such as CCA-F, as proof you can fly.</p></div>
+</section>
+
+<section data-hf-id="hf-olnb" id="s19" class="scene dark clip" data-start="990" data-duration="40" data-track-index="0">
+<div data-hf-id="hf-kukd" class="kick">16:30 · JOIN DELIVERY PILOT</div>
+<div data-hf-id="hf-etk2" class="tc">YOUR SEAT IN THE COCKPIT</div>
+<div data-hf-id="hf-0qnb" class="h" style="font-size:110px">Delivery <strong data-hf-id="hf-9r9k">Pilot</strong></div>
+<div data-hf-id="hf-ym9q" class="sub" style="top:290px;font-size:40px">Where you train to become one.</div>
+<div data-hf-id="hf-r834" style="position:absolute;left:96px;top:420px;width:1728px;display:flex;gap:24px">
+<div data-hf-id="hf-6qsu" class="card" style="position:relative;width:411px;height:380px;padding:30px"><div data-hf-id="hf-zs9c" class="num tl" style="font-size:90px">$0</div><h3 data-hf-id="hf-2cqe" style="margin-top:20px">Free for students</h3><p data-hf-id="hf-f43o">Your seat costs nothing.</p></div>
+<div data-hf-id="hf-q2ia" class="card" style="position:relative;width:411px;height:380px;padding:30px"><div data-hf-id="hf-q7iu" class="num tl" style="font-size:90px">▶</div><h3 data-hf-id="hf-vi55" style="margin-top:20px">Full course on YouTube</h3><p data-hf-id="hf-ulfn">Free, start to finish.</p></div>
+<div data-hf-id="hf-qgtb" class="card" style="position:relative;width:411px;height:380px;padding:30px"><div data-hf-id="hf-63ry" class="num tl" style="font-size:90px">◎</div><h3 data-hf-id="hf-a6op" style="margin-top:20px">The Skool room</h3><p data-hf-id="hf-k4xs">Build, review and certify together.</p></div>
+<div data-hf-id="hf-qv4c" class="card" style="position:relative;width:411px;height:380px;padding:30px"><div data-hf-id="hf-qbk4" class="num tl" style="font-size:90px">✈</div><h3 data-hf-id="hf-tuv4" style="margin-top:20px">Real bots, real companies</h3><p data-hf-id="hf-74lb">Certified pilots build them.</p></div>
+</div>
+<div data-hf-id="hf-tz2w" class="chip" style="left:96px;top:900px;font-size:30px">github.com/rifaterdemsahin/junior-to-pilot</div>
+</section>
+
+<section data-hf-id="hf-a4wp" id="s20" class="scene dark clip" data-start="1030" data-duration="20" data-track-index="0">
+<div data-hf-id="hf-cpwb" class="kick">17:10 · CLOSING LINE</div>
+<div data-hf-id="hf-dhau" class="tc">SEE YOU IN THE COCKPIT</div>
+<div data-hf-id="hf-21ud" style="position:absolute;left:96px;top:270px;font:800 112px/1.12 Outfit,sans-serif;letter-spacing:-.02em;display:flex;flex-direction:column;gap:20px">
+<div data-hf-id="hf-ebkq" style="display:flex;align-items:center;gap:40px;color:#8A93A3"><svg data-hf-id="hf-5zbi" width="190" height="110" style="color:#8A93A3"><use data-hf-id="hf-3ieb" href="#ic-bike" width="190" height="110"/></svg>Riders get carried.</div>
+<div data-hf-id="hf-gue2" style="display:flex;align-items:center;gap:40px;color:#EAF2F5"><svg data-hf-id="hf-7fm2" width="190" height="110" style="color:#EAF2F5"><use data-hf-id="hf-5w5s" href="#ic-car" width="190" height="110"/></svg>Drivers get there.</div>
+<div data-hf-id="hf-nbjn" style="display:flex;align-items:center;gap:40px;color:#0BB5A4"><svg data-hf-id="hf-eryh" width="190" height="110" style="color:#0BB5A4"><use data-hf-id="hf-f0o5" href="#ic-plane" width="110" height="110" x="40"/></svg>Pilots go the distance.</div>
+</div>
+<div data-hf-id="hf-ivlp" class="sub" style="top:900px;font-size:48px;color:#EAF2F5">See you in the cockpit. ✈</div>
+</section>
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+window.__timelines["main"]=tl;
+tl.seek(0);
+</script>
+</body>
+</html>

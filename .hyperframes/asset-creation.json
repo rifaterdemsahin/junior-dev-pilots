@@ -1,0 +1,508 @@
+[
+  {
+    "id": "5dcd0155-eb02-445d-94e5-cb188ce7d1b3",
+    "input": {
+      "kind": "voice",
+      "prompt": "Remember. <break time=\"1.2s\"/> Riders get carried. <break time=\"1.8s\"/> Drivers get there. <break time=\"1.8s\"/> Pilots go the distance. <break time=\"1.2s\"/> See you in the cockpit.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225437530,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 05796c2f.wav",
+        "kind": "audio",
+        "seconds": 6.60312925170068,
+        "size": 582440,
+        "sha": "09c5b2da65b7235bebfe9f6a72a6bdd4735a56ed9c229183d068e487403bc9cf"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "990387cd-1337-466b-8a50-eb5cf890e340",
+    "input": {
+      "kind": "voice",
+      "prompt": "Delivery Pilot is where you train to become one. It's free for students: if you're studying, your seat in the cockpit costs nothing. The full course is free on YouTube. The Skool room is where we build, review and certify together. And certified pilots go on to build real bots for real companies. The link is in the description.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225429412,
+    "files": [
+      {
+        "path": "assets/HeyGen voice eb7a7c96.wav",
+        "kind": "audio",
+        "seconds": 19.34437641723356,
+        "size": 1706218,
+        "sha": "7eacb3a4b3df3f7cd0266dd093adfcbb83e52240e7c25f4104a59b5064ed463c"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "128f7fc8-3f10-46b9-995e-3ca29db3b4df",
+    "input": {
+      "kind": "voice",
+      "prompt": "So how do you get there? Here's your ninety-day flight plan, in three legs. Weeks one to four: learn to write specs, not just code. Module one point one gives you a simple structure: role, context, task and constraints. Tell the agent who it is, what it knows, what to do, and what it must not do. Write ten specs, run them, and see how the output changes when your wording changes. By the end of month one, you should be able to describe any feature clearly enough that an agent can build it. Weeks five to eight: build one agent that runs end to end. Pick a small, real problem, like triaging issues or summarizing pull requests. Run it on real input, and publish its logs, so anyone can see what it did, what it cost, and where it failed. Those logs are your portfolio. They prove you can run the machine, not just talk about it. Weeks nine to twelve: earn proof that you can fly. Get a frontier-lab certification, such as CCA-F. A certificate on its own isn't magic, but next to your specs and your published agent logs, it's a strong signal to anyone hiring. Three legs. Twelve weeks. One new seat.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225415397,
+    "files": [
+      {
+        "path": "assets/HeyGen voice f963743b.wav",
+        "kind": "audio",
+        "seconds": 69.71725623582766,
+        "size": 6149106,
+        "sha": "b6f2d2f08592f4e7ef17488a7c7fe70c03088ccb98ea549c580b868592ac6954"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "57688678-1253-4db8-8de6-093f5cc88564",
+    "input": {
+      "kind": "voice",
+      "prompt": "Here's a day in the life of a Delivery Pilot. It starts with coffee, and then you write the spec. Next, send that spec to your agents, and let them do the heavy lifting. Then review the output. Does it solve the real problem, or only the ticket? Check the costs: token spend, cloud bills, and whether the return is there. Demo it to the stakeholder, show them the work, and take their feedback. And finally, land the release, safely. That's the loop. Notice there's no step called type all the code by hand.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225406149,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 24798f8b.wav",
+        "kind": "audio",
+        "seconds": 31.32780045351474,
+        "size": 2763156,
+        "sha": "3f5d54cc1802eb8800ababd972497edac744721d20d93f4a94dd9dffde2ab494"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "a8c60db9-a47c-4c7e-a8f2-f0d63040700f",
+    "input": {
+      "kind": "voice",
+      "prompt": "So what is a Delivery Pilot, day to day? I call the framework COBALTS. C is for Creator. Creators make content, demos and docs that show the work, because work nobody can see doesn't count. O and B make the Builder. Builders build and run agents end to end, from the first prompt to production. L is for Leader. The leader owns the stakeholder and the delivery, and is the person everyone calls when something matters. T is for Treasurer. Treasurers watch token spend, cloud cost and return on investment, because profitable delivery is the job. And S is for Strategist, who picks what to build next, and why. Five roles, one pilot.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225396253,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 452feeeb.wav",
+        "kind": "audio",
+        "seconds": 42.07020408163265,
+        "size": 3710636,
+        "sha": "2d23caf38605f07babc4ddd7b355d5e0f100c6ae1c47f3624f72dc9e0e1c67d1"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "2cc9a22d-7a99-4ce2-9af8-2590bf7acd72",
+    "input": {
+      "kind": "voice",
+      "prompt": "Now, the business reality. To stay profitable through the J-curve, companies have to gather resources. Look at the two lines. Keep investing in pilots now, and the line climbs. Freeze, and it flattens out. The companies that freeze will face a senior shortage around 2031, because today's juniors are tomorrow's seniors. If you stop hiring juniors, you stop making seniors. To keep climbing, a company needs three things. The right people. The right agent tooling. And the right skills. Remember: today's juniors are tomorrow's seniors.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225386060,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 7eefef50.wav",
+        "kind": "audio",
+        "seconds": 33.14213151927438,
+        "size": 2923180,
+        "sha": "9c5cb2a247d28981cdb62f46cb8eba958653e5e8c6f1140dfd9ffbf3ec1c379b"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "92abeeff-d291-4331-9f90-56d07d909888",
+    "input": {
+      "kind": "voice",
+      "prompt": "Here's the hopeful part: nobody gets demoted. Everyone moves up a seat. Students and career switchers go from rider to driver faster than ever, because AI is a patient tutor that never gets tired of your questions. Ask the same thing ten times, and nobody sighs. Juniors go from driver to Delivery Pilot. You stop owning tickets, and start owning outcomes. That's a bigger job, and a better one, from day one. Seniors become flight commanders. They run fleets of pilots and agents, and their judgment gets multiplied across far more work. And managers become air traffic control: strategy, priorities and safety. Making sure everyone is flying the right routes, and nobody collides. Every seat moves up one level. That's what an upgrade looks like.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225375210,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 03aa18b4.wav",
+        "kind": "audio",
+        "seconds": 46.087868480725625,
+        "size": 4064994,
+        "sha": "d5c09dcec43a79efe8d5226288f8810535971539a3915a8ad32475c30d525702"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "52d1fa01-99a5-4ffc-ac34-c2d9f10dd510",
+    "input": {
+      "kind": "voice",
+      "prompt": "A pilot doesn't flap the wings. A pilot plans the route, trusts the instruments, watches for risk, and lands safely. First, plan the route. Before any agent runs, the flight plan exists: what are we building, for whom, and what does done look like? A clear spec is the difference between a smooth trip and circling forever. Second, trust the instruments. Tests, logs, dashboards and cost meters tell you what's really happening. A pilot doesn't stare out the window and guess. They read the gauges, and they believe them. Third, watch for risk. Agents are confident, even when they're wrong. The pilot spots the warning light early: a security hole, a runaway bill, a stakeholder who's about to be surprised. And fourth, land safely. A release isn't done when the code merges. It's done when it's live, stable, and the stakeholder is happy. That's why pilots cover distances no driver can. One Delivery Pilot can deliver what used to take a whole team.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225361408,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 4a2e0e05.wav",
+        "kind": "audio",
+        "seconds": 59.969750566893424,
+        "size": 5289376,
+        "sha": "9b37dd12d67d63b29956cc5e1885569f1d021ae9831e7bd02449cb8a875a4513"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "1ef1dd57-7b46-4aa7-83c3-d60df2b43269",
+    "input": {
+      "kind": "voice",
+      "prompt": "Now, the analogy: rider, driver, pilot. A rider uses AI like a passenger. They copy answers from a chatbot and hope they work. Their range is around the block. A driver is the classic developer: hands on the wheel, writing most of the code, with AI as the satnav. Drivers go from city to city. And a pilot is what I'm calling a Delivery Pilot. They set the flight plan, which is the spec. They run the agents on autopilot, watch the instruments, and take control when it matters. Their range? Vast distances. To be clear, Delivery Pilot is my own framing, not a job title employers post yet. It's a prediction based on evidence, and you should treat it that way. Riders get carried. Drivers get there. Pilots go the distance.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225350110,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 6d99cf96.wav",
+        "kind": "audio",
+        "seconds": 44.803650793650796,
+        "size": 3951726,
+        "sha": "19fb3eea3590cf414c25e470827cf84e5df5aa82a2250575c5d81ea155025740"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "2f44f808-ab48-4e75-9325-19eadcda1c54",
+    "input": {
+      "kind": "voice",
+      "prompt": "The pipeline was never the hard part. Green builds, passing tests, merged pull requests: that part is solved, and AI does it now. In my own onboarding and reliability work, the hard part was always getting a market participant live. Safely. On time. With real money and real people depending on it. That's delivery. And that's the job that's left for a human.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225313985,
+    "files": [
+      {
+        "path": "assets/HeyGen voice d29fd5c9.wav",
+        "kind": "audio",
+        "seconds": 23.976757369614514,
+        "size": 2114794,
+        "sha": "26f441b93f3344316f7e7abdeb2c49a5b2473c8759276e351bb6da8319fd125f"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "abdea594-8a0c-43cc-8350-72ce1edd4ad9",
+    "input": {
+      "kind": "voice",
+      "prompt": "Humans got delivery. Here's what stays human. First, deciding what to build, and why. That's judgment no pipeline can supply. Second, writing the spec the agents follow. Your words become their instructions. Third, judging whether the output is actually right, not just whether the tests pass. Fourth, keeping delivery profitable. Cost, time and risk all have to add up. And fifth, owning the relationship with the stakeholder, from the first request to the final demo. Notice that none of these are about typing code faster. CI became AI's job. Delivery became yours.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225278701,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 4b8daf3a.wav",
+        "kind": "audio",
+        "seconds": 37.13596371882086,
+        "size": 3275436,
+        "sha": "ce733fbbc57c7ebacc3401aba06a47ae780175a12ecde8335ec806832ae40d29"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "4de819ad-5cb6-47c8-ae80-5ad2e12d8229",
+    "input": {
+      "kind": "voice",
+      "prompt": "Here's what changed. AI took continuous integration. First, it writes the first draft of the code, so nobody starts from a blank page anymore. Second, it runs the tests and fixes the lint errors before a human ever sees them. Third, it re-runs the pipeline every time something fails, as many times as it takes. Fourth, it opens pull requests and resolves the simple merge conflicts on its own. And fifth, it triages first-line incidents, so the pager goes to the agent first. That's the whole checklist that used to keep a junior busy, waiting for a senior to review their work. Look at the screen: everything is green, and no human was needed for any of it. But notice what's missing from that list. Nobody decided what to build, or why. Nobody judged whether the output was actually right. Nobody owned the conversation with the stakeholder.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225237200,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 99d4d0ed.wav",
+        "kind": "audio",
+        "seconds": 51.171519274376415,
+        "size": 4513372,
+        "sha": "ec364d770436eab11c0e2b2c72441b4168185d98f6f5779b7cd9962af91bbc8a"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "ccc83d78-eb54-44f4-b519-3dc6a9ae13b7",
+    "input": {
+      "kind": "voice",
+      "prompt": "Now, the signs of the upswing. The Linux Foundation reports a twenty-seven percent tech hiring surge in Europe, driven by AI. IBM says it's tripling entry-level hires in 2026, and full disclosure, I work at IBM. Cognizant is quadrupling its US graduate pipeline. Cloudflare went from about sixty internships to over eleven hundred. The bottom of the J feels like the end. It's actually the launch point.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225204519,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 82dca81c.wav",
+        "kind": "audio",
+        "seconds": 25.219024943310657,
+        "size": 2224362,
+        "sha": "7386b438017b9993b772bce4ebfb6914d1d65508cd25ef949aa01eeb38922963"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "24209f2d-912b-4435-a09a-837d913e650d",
+    "input": {
+      "kind": "voice",
+      "prompt": "One more honest note. LinkedIn's Economic Graph team found that interest rates explain most of the swings in software hiring over the past decade. How much of today's drop is AI? That's still unclear.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225176712,
+    "files": [
+      {
+        "path": "assets/HeyGen voice d59872e8.wav",
+        "kind": "audio",
+        "seconds": 11.212290249433106,
+        "size": 988968,
+        "sha": "2afac550f5933927dcedce548ce63cc1fb221b26ae1355a1595dd554b96ea7ac"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "27542d3d-2db2-4e09-aa95-7b15fe4b46c9",
+    "input": {
+      "kind": "voice",
+      "prompt": "So why am I still optimistic? Because of a well-known idea called the Productivity J-curve, from Brynjolfsson, Rock and Syverson. When a general-purpose technology arrives, productivity and hiring dip first. Companies spend on tools, rebuild processes and retrain people before the gains show up. We're in that dip right now. And let me be honest: this is a model, not a promise. The dip is measured. The upswing is the bet.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225143418,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 236b0dbc.wav",
+        "kind": "audio",
+        "seconds": 26.670272108843537,
+        "size": 2352362,
+        "sha": "696dde7a8964191e5eeb2604889a5c6d9a7b70653c4e319c9b75a56e1c549d66"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "45f106ba-4393-4e44-a67d-7881191e2035",
+    "input": {
+      "kind": "voice",
+      "prompt": "Harvard looked at sixty-two million workers across two hundred and eighty-five thousand US firms. After adopting generative AI, firms cut junior developer employment by nine to ten percent within six quarters. Senior employment kept rising. So AI isn't removing developers evenly. It's changing who gets hired first. That gap is the dip we're living through.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225113001,
+    "files": [
+      {
+        "path": "assets/HeyGen voice e5e5ad67.wav",
+        "kind": "audio",
+        "seconds": 22.253990929705214,
+        "size": 1962846,
+        "sha": "fd83f09efac63079255a0c7afedee608bc7a430dd19e85247d1ea29ebd182c4c"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "0872fef6-a880-4600-80ab-a33e9dbf5163",
+    "input": {
+      "kind": "voice",
+      "prompt": "It isn't just the UK. Globally, new-grad and entry-level hiring at the biggest tech firms is about sixty-five percent below 2019, according to SignalFire's 2026 report. Same story, bigger scale: fewer doors at the bottom of the ladder.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225085160,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 5ef86502.wav",
+        "kind": "audio",
+        "seconds": 14.59140589569161,
+        "size": 1287006,
+        "sha": "5e8fbb57a18c125e49664d1b287f7b500e72b7c08e30d36e4380580445166725"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "f5090afa-f4e2-4eeb-8106-344d2c07d0b5",
+    "input": {
+      "kind": "voice",
+      "prompt": "Let's start with the numbers, because they're real. UK entry-level technology roles fell forty-six percent in 2024, and projections reach fifty-three percent by the end of 2026. Those figures come through secondary reports, so check the original sources before you quote them. Even so, the direction is clear. The old way into this industry is narrowing, and that hurts if you're a junior, a student, or a career switcher. But it's only half of the picture.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225051269,
+    "files": [
+      {
+        "path": "assets/HeyGen voice f4d03a51.wav",
+        "kind": "audio",
+        "seconds": 27.476462585034014,
+        "size": 2423468,
+        "sha": "269036e3ec6c8dcae8753f4093a3eef4cd43c7cebd751fef5dce1d7e23113b61"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "8fd2d640-25be-46a1-b7aa-4ef47b6e2f0b",
+    "input": {
+      "kind": "voice",
+      "prompt": "Freeze the graph at its lowest point, and draw a J over it. That shape is the whole story of this video. The bottom is not the end of the line.",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795225024362,
+    "files": [
+      {
+        "path": "assets/HeyGen voice adc81f5d.wav",
+        "kind": "audio",
+        "seconds": 8.901904761904762,
+        "size": 785192,
+        "sha": "973870ca8ee2aa739cf9aed7c1cd5957325cc79069ef96e9c6c1669082f5af1e"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "d9d0ad1f-88c4-4e35-945e-f09eb2cda52c",
+    "input": {
+      "kind": "voice",
+      "prompt": "UK entry-level tech roles are down by about half. So why am I more optimistic about junior careers than I've ever been?",
+      "voice_id": "eae6fca42aae4b78b992533e96ab43c9",
+      "language": "en"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795224998112,
+    "files": [
+      {
+        "path": "assets/HeyGen voice f1932b5b.wav",
+        "kind": "audio",
+        "seconds": 6.696009070294784,
+        "size": 590632,
+        "sha": "797dfbf77d110b44229a5766e7b85b88122ec7dc0e7e1ce875380660e1410907"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "53890f72-d63c-46da-bb05-b28e0a28103f",
+    "input": {
+      "kind": "music",
+      "prompt": "Calm, modern instrumental underscore for a tech career explainer video. Soft warm pads, gentle pulsing synth arpeggio, light electronic pulse, subtle hopeful lift. No vocals, no drums fills, steady and unobtrusive so a person can talk over it. Seamless loop that starts and ends on the same quiet pad.",
+      "duration_seconds": 180,
+      "instrumental": true,
+      "bpm": 92,
+      "intensity": 2
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795224579281,
+    "files": [
+      {
+        "path": "assets/HeyGen music d22856e5.mp3",
+        "kind": "audio",
+        "seconds": 174.23675,
+        "size": 4189398,
+        "sha": "fd0f1fd47027ff7e53a1fa36bbc3f6975becebb12a21cbd91ba07b9dfc50ae49"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  }
+]

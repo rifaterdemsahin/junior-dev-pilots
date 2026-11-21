@@ -1,0 +1,28 @@
+assets/HeyGen voice 6d99cf96.wav · 44.8 s · not separated
+voice: 19 lines, 0 pauses, mean 3.3 words/s, median pitch 107 Hz
+effects: 2 in 2 sounds (S1 ×1, S2 ×1)
+
+0.3–3.6    voice    "Now, the analogy: rider, driver, pilot."  1.8 words/s (mean 3.3)
+3.9–6.2    voice    "A rider uses AI like a passenger."  3.1 words/s (mean 3.3)
+6.4–9.0    voice    "They copy answers from a chatbot and hope they work."  3.8 words/s (mean 3.3)  falling end
+9.3–10.7   voice    "Their range is around the block."  4.1 words/s (mean 3.3)
+10.9–14.7  voice    "A driver is the classic developer: hands on the wheel, writing most of the"  3.7 words/s (mean 3.3)  falling end
+14.8–17.0  voice    "code, with AI as the satnav."  2.7 words/s (mean 3.3)  pitch 87 Hz (median 107)
+17.4–19.0  voice    "Drivers go from city to city."  3.6 words/s (mean 3.3)  pitch 131 Hz (median 107)
+19.3–21.7  voice    "And a pilot is what I'm calling a Delivery Pilot."  4.1 words/s (mean 3.3)  rising end
+22.0–24.2  voice    "They set the flight plan, which is the spec."  4.1 words/s (mean 3.3)  pitch 182 Hz (median 107)
+24.5–28.0  voice    "They run the agents on autopilot, watch the instruments, and take control"  3.4 words/s (mean 3.3)  pitch 151 Hz (median 107)  rising end
+28.1       effect   (S1): mid, attack 40 ms, tail 0.2 s, peak -9 dBFS, +21 dB over what played before
+28.3–29.0  voice    "when it matters."  3.9 words/s (mean 3.3)
+29.3–30.0  voice    "Their range?"  2.9 words/s (mean 3.3)  pitch 222 Hz (median 107)
+30.3–31.5  voice    "Vast distances."  1.6 words/s (mean 3.3)
+31.9–36.2  voice    "To be clear, Delivery Pilot is my own framing, not a job title employers post"  3.5 words/s (mean 3.3)  falling end
+36.4–36.7  voice    "yet."  2.9 words/s (mean 3.3)
+36.9–40.3  voice    "It's a prediction based on evidence, and you should treat it that way."  3.8 words/s (mean 3.3)  pitch 138 Hz (median 107)  rising end
+40.6–41.8  voice    "Riders get carried."  2.6 words/s (mean 3.3)
+41.8       effect   (S2): mid, attack 10 ms, tail 0.1 s, peak -29 dBFS, -3 dB over what played before
+42.0–43.0  voice    "Drivers get there."  2.9 words/s (mean 3.3)
+43.2–44.6  voice    "Pilots go the distance."  2.9 words/s (mean 3.3)
+
+! not separated into stems: the stems service answered 402: **HyperFrames generation needs a HyperFrames plan.** HeyGen plans don't include it. Or add a HeyGen API key. This call is refused and the run goes on: go on without this media and say in one line at the end what you left out. [See plans](hf:place:plan)
+! without stems, effects under speech are not found and music is not read

@@ -1,0 +1,291 @@
+{
+  "audio": "assets/HeyGen voice e5e5ad67.wav",
+  "language": null,
+  "words": [
+    {
+      "text": "Harvard",
+      "start": 0.299,
+      "end": 0.64
+    },
+    {
+      "text": "looked",
+      "start": 0.683,
+      "end": 0.8107
+    },
+    {
+      "text": "at",
+      "start": 0.896,
+      "end": 0.981
+    },
+    {
+      "text": "sixty-",
+      "start": 1.024,
+      "end": 1.451
+    },
+    {
+      "text": "two",
+      "start": 1.451,
+      "end": 1.664
+    },
+    {
+      "text": "million",
+      "start": 1.707,
+      "end": 1.92
+    },
+    {
+      "text": "workers",
+      "start": 2.176,
+      "end": 2.6027
+    },
+    {
+      "text": "across",
+      "start": 2.731,
+      "end": 2.944
+    },
+    {
+      "text": "two",
+      "start": 3.029,
+      "end": 3.2
+    },
+    {
+      "text": "hundred",
+      "start": 3.243,
+      "end": 3.3707
+    },
+    {
+      "text": "and",
+      "start": 3.499,
+      "end": 3.584
+    },
+    {
+      "text": "eighty-",
+      "start": 3.627,
+      "end": 3.797
+    },
+    {
+      "text": "five",
+      "start": 3.797,
+      "end": 4.0107
+    },
+    {
+      "text": "thousand",
+      "start": 4.139,
+      "end": 4.352
+    },
+    {
+      "text": "US",
+      "start": 4.608,
+      "end": 4.7787
+    },
+    {
+      "text": "firms.",
+      "start": 4.949,
+      "end": 5.589
+    },
+    {
+      "text": "After",
+      "start": 5.931,
+      "end": 6.0587
+    },
+    {
+      "text": "adopting",
+      "start": 6.187,
+      "end": 6.5707
+    },
+    {
+      "text": "generative",
+      "start": 6.656,
+      "end": 6.997
+    },
+    {
+      "text": "AI,",
+      "start": 7.168,
+      "end": 7.659
+    },
+    {
+      "text": "firms",
+      "start": 7.893,
+      "end": 8.192
+    },
+    {
+      "text": "cut",
+      "start": 8.32,
+      "end": 8.4907
+    },
+    {
+      "text": "junior",
+      "start": 8.533,
+      "end": 8.917
+    },
+    {
+      "text": "developer",
+      "start": 8.96,
+      "end": 9.2587
+    },
+    {
+      "text": "employment",
+      "start": 9.387,
+      "end": 9.856
+    },
+    {
+      "text": "by",
+      "start": 9.984,
+      "end": 10.069
+    },
+    {
+      "text": "nine",
+      "start": 10.112,
+      "end": 10.4107
+    },
+    {
+      "text": "to",
+      "start": 10.539,
+      "end": 10.624
+    },
+    {
+      "text": "ten",
+      "start": 10.667,
+      "end": 10.837
+    },
+    {
+      "text": "percent",
+      "start": 10.923,
+      "end": 11.0507
+    },
+    {
+      "text": "within",
+      "start": 11.435,
+      "end": 11.5627
+    },
+    {
+      "text": "six",
+      "start": 11.733,
+      "end": 11.9467
+    },
+    {
+      "text": "quarters.",
+      "start": 12.075,
+      "end": 12.603
+    },
+    {
+      "text": "Senior",
+      "start": 12.747,
+      "end": 13.0457
+    },
+    {
+      "text": "employment",
+      "start": 13.088,
+      "end": 13.472
+    },
+    {
+      "text": "kept",
+      "start": 13.558,
+      "end": 13.728
+    },
+    {
+      "text": "rising.",
+      "start": 13.814,
+      "end": 14.432
+    },
+    {
+      "text": "So",
+      "start": 14.752,
+      "end": 14.88
+    },
+    {
+      "text": "AI",
+      "start": 14.923,
+      "end": 15.2217
+    },
+    {
+      "text": "isn't",
+      "start": 15.35,
+      "end": 15.563
+    },
+    {
+      "text": "removing",
+      "start": 15.606,
+      "end": 15.904
+    },
+    {
+      "text": "developers",
+      "start": 16.075,
+      "end": 16.3737
+    },
+    {
+      "text": "evenly.",
+      "start": 16.502,
+      "end": 17.099
+    },
+    {
+      "text": "It's",
+      "start": 17.398,
+      "end": 17.5257
+    },
+    {
+      "text": "changing",
+      "start": 17.568,
+      "end": 17.7817
+    },
+    {
+      "text": "who",
+      "start": 17.995,
+      "end": 18.251
+    },
+    {
+      "text": "gets",
+      "start": 18.294,
+      "end": 18.464
+    },
+    {
+      "text": "hired",
+      "start": 18.592,
+      "end": 18.891
+    },
+    {
+      "text": "first.",
+      "start": 18.934,
+      "end": 19.531
+    },
+    {
+      "text": "That",
+      "start": 19.872,
+      "end": 20.043
+    },
+    {
+      "text": "gap",
+      "start": 20.086,
+      "end": 20.3417
+    },
+    {
+      "text": "is",
+      "start": 20.47,
+      "end": 20.555
+    },
+    {
+      "text": "the",
+      "start": 20.598,
+      "end": 20.683
+    },
+    {
+      "text": "dip",
+      "start": 20.726,
+      "end": 20.939
+    },
+    {
+      "text": "we're",
+      "start": 21.024,
+      "end": 21.152
+    },
+    {
+      "text": "living",
+      "start": 21.195,
+      "end": 21.28
+    },
+    {
+      "text": "through.",
+      "start": 21.451,
+      "end": 22.053990929705215
+    }
+  ]
+}

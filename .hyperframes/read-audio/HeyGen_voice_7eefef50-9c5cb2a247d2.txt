@@ -1,0 +1,22 @@
+assets/HeyGen voice 7eefef50.wav · 33.1 s · not separated
+voice: 13 lines, 1 pauses, mean 2.9 words/s, median pitch 114 Hz
+effects: 1 in 1 sounds (S1 ×1)
+
+0.3–1.9    voice    "Now, the business reality."  2.6 words/s (mean 2.9)
+2.2–6.0    voice    "To stay profitable through the J- curve, companies have to gather resources."  3.2 words/s (mean 2.9)  falling end
+6.3–7.3    voice    "Look at the two lines."  5.3 words/s (mean 2.9)  pitch 136 Hz (median 114)
+7.5–10.3   voice    "Keep investing in pilots now, and the line climbs."  3.3 words/s (mean 2.9)  pitch 136 Hz (median 114)  falling end
+10.4–12.2  voice    "Freeze, and it flattens out."  2.9 words/s (mean 2.9)  pitch 151 Hz (median 114)  falling end
+12.4–16.6  voice    "The companies that freeze will face a senior shortage around 2031, because"  2.6 words/s (mean 2.9)
+16.7–18.8  voice    "today's juniors are tomorrow's seniors."  2.4 words/s (mean 2.9)  rising end
+19.0–21.8  voice    "If you stop hiring juniors, you stop making seniors."  3.2 words/s (mean 2.9)  pitch 154 Hz (median 114)  falling end
+22.1–24.7  voice    "To keep climbing, a company needs three things."  3 words/s (mean 2.9)  pitch 154 Hz (median 114)  falling end
+25.1–26.0  voice    "The right people."  3.3 words/s (mean 2.9)
+26.3–27.7  voice    "The right agent tooling."  2.9 words/s (mean 2.9)
+27.7       effect   (S1): mid, attack 4 ms, tail 0.1 s, peak -34 dBFS, -7 dB over what played before
+28.0–29.2  voice    "And the right skills."  3.3 words/s (mean 2.9)
+29.2–29.7  pause    0.5 s, silent
+29.7–32.9  voice    "Remember: today's juniors are tomorrow's seniors."  1.8 words/s (mean 2.9)  pitch 91 Hz (median 114)  falling end
+
+! not separated into stems: the stems service answered 402: HyperFrames generation needs a HyperFrames plan: the person already saw this in this chat. Don't stop, ask or repeat it, and don't call HeyGen's tools again this turn; finish without that media and say in one line at the end what was left out, ending with [See plans](hf:place:plan).
+! without stems, effects under speech are not found and music is not read

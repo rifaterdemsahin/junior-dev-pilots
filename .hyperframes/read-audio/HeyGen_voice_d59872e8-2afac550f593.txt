@@ -1,0 +1,20 @@
+assets/HeyGen voice d59872e8.wav · 11.3 s
+overall: From 0.25 to 11.25 seconds, the soundtrack consists solely of a solo male speaker with a British accent delivering a clear, professional narration. He begins with a short introductory phrase, pauses briefly around 1.00 second, and then continues with a steady, informative statement until 7.00 seconds. At 7.00 seconds, his pitch rises slightly to pose a question, followed by another pause around 9.00 seconds before he concludes with a short, definitive phrase from 9.00 to 11.25 seconds. The audio is completely dry and isolated, with no background music or sound effects present.
+voice-free mix: .hyperframes/read-audio/stems/2afac550f593/no-vocals.wav
+stems: .hyperframes/read-audio/stems/2afac550f593/
+
+vocals  -17 dB · 0.25–11.25
+  A solo male speaker with a British accent delivers a clear, professional narration throughout the clip. He begins at 00:00 with a short introductory phrase, followed by a brief pause at 00:01 before continuing with a steady, informative statement until 00:07. At 00:07, his pitch rises slightly to pose a question, pausing again around 00:09. He concludes the recording with a short, definitive phrase from 00:09 to 00:11. The audio is completely dry and isolated, containing no background music, sound effects, or bleed from other stems.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 5 lines, 0 pauses, mean 3.5 words/s, median pitch 114 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–1.4    voice    "One more honest note."  3.5 words/s (mean 3.5)  pitch 186 Hz (median 114)
+1.7–5.0    voice    "LinkedIn's Economic Graph team found that interest rates explain most"  3.1 words/s (mean 3.5)
+5.1–7.7    voice    "of the swings in software hiring over the past decade."  3.9 words/s (mean 3.5)  pitch 94 Hz (median 114)  rising end
+7.8–10.0   voice    "How much of today's drop is AI?"  3.3 words/s (mean 3.5)  falling end
+10.3–11.0  voice    "That's still unclear."  4.1 words/s (mean 3.5)

@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice adc81f5d.wav",
+  "sha": "973870ca8ee2aa739cf9aed7c1cd5957325cc79069ef96e9c6c1669082f5af1e",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Freeze",
+      "start": 0.299,
+      "end": 0.64
+    },
+    {
+      "id": "w1",
+      "text": "the",
+      "start": 0.725,
+      "end": 0.8107
+    },
+    {
+      "id": "w2",
+      "text": "graph",
+      "start": 0.853,
+      "end": 1.024
+    },
+    {
+      "id": "w3",
+      "text": "at",
+      "start": 1.28,
+      "end": 1.323
+    },
+    {
+      "id": "w4",
+      "text": "its",
+      "start": 1.365,
+      "end": 1.408
+    },
+    {
+      "id": "w5",
+      "text": "lowest",
+      "start": 1.536,
+      "end": 1.792
+    },
+    {
+      "id": "w6",
+      "text": "point,",
+      "start": 1.877,
+      "end": 2.261
+    },
+    {
+      "id": "w7",
+      "text": "and",
+      "start": 2.432,
+      "end": 2.645
+    },
+    {
+      "id": "w8",
+      "text": "draw",
+      "start": 2.688,
+      "end": 2.901
+    },
+    {
+      "id": "w9",
+      "text": "a",
+      "start": 2.944,
+      "end": 3.029
+    },
+    {
+      "id": "w10",
+      "text": "J",
+      "start": 3.072,
+      "end": 3.285
+    },
+    {
+      "id": "w11",
+      "text": "over",
+      "start": 3.413,
+      "end": 3.541
+    },
+    {
+      "id": "w12",
+      "text": "it.",
+      "start": 3.669,
+      "end": 4.117
+    },
+    {
+      "id": "w13",
+      "text": "That",
+      "start": 4.48,
+      "end": 4.6507
+    },
+    {
+      "id": "w14",
+      "text": "shape",
+      "start": 4.693,
+      "end": 4.949
+    },
+    {
+      "id": "w15",
+      "text": "is",
+      "start": 5.077,
+      "end": 5.1627
+    },
+    {
+      "id": "w16",
+      "text": "the",
+      "start": 5.205,
+      "end": 5.2907
+    },
+    {
+      "id": "w17",
+      "text": "whole",
+      "start": 5.333,
+      "end": 5.589
+    },
+    {
+      "id": "w18",
+      "text": "story",
+      "start": 5.717,
+      "end": 5.973
+    },
+    {
+      "id": "w19",
+      "text": "of",
+      "start": 6.101,
+      "end": 6.144
+    },
+    {
+      "id": "w20",
+      "text": "this",
+      "start": 6.187,
+      "end": 6.3147
+    },
+    {
+      "id": "w21",
+      "text": "video.",
+      "start": 6.357,
+      "end": 6.869
+    },
+    {
+      "id": "w22",
+      "text": "The",
+      "start": 7.253,
+      "end": 7.296
+    },
+    {
+      "id": "w23",
+      "text": "bottom",
+      "start": 7.339,
+      "end": 7.552
+    },
+    {
+      "id": "w24",
+      "text": "is",
+      "start": 7.723,
+      "end": 7.8507
+    },
+    {
+      "id": "w25",
+      "text": "not",
+      "start": 7.893,
+      "end": 8.064
+    },
+    {
+      "id": "w26",
+      "text": "the",
+      "start": 8.149,
+      "end": 8.235
+    },
+    {
+      "id": "w27",
+      "text": "end",
+      "start": 8.277,
+      "end": 8.3627
+    },
+    {
+      "id": "w28",
+      "text": "of",
+      "start": 8.405,
+      "end": 8.448
+    },
+    {
+      "id": "w29",
+      "text": "the",
+      "start": 8.491,
+      "end": 8.576
+    },
+    {
+      "id": "w30",
+      "text": "line.",
+      "start": 8.619,
+      "end": 8.789
+    }
+  ],
+  "generatedWordsHash": "78802ceb27b48c98d40a80de8dc2ab844121492ce6f3fef62308731a0c5ee437",
+  "createdAt": "2026-11-21T01:37:08.783Z"
+}

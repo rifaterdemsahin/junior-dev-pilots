@@ -1,0 +1,1363 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 22,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 528 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split coherent scenes or layers into separate .html files under compositions/, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 20 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s01\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s01",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s01\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s02\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s02",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s02\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s03\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s03",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s03\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s04\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s04",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s04\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s05\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s05",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s05\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s06\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s06",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s06\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s07\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s07",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s07\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s08\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s08",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s08\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s09\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s09",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s09\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s10\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s10",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s10\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s11\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s11",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s11\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s12\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s12",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s12\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s13\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s13",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s13\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s14\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s14",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s14\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s15\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s15",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s15\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s16\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s16",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s16\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s17\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s17",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s17\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s18\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s18",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s18\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s19\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s19",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s19\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s20\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s20",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s20\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 45.05,
+        "selector": "#s03 > div:nth-of-type(9)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 66.11,
+          "top": 1021.09,
+          "right": 1083.15,
+          "bottom": 1053.16,
+          "width": 1017.04,
+          "height": 32.07
+        },
+        "containerSelector": "#s04 > div:nth-of-type(8)",
+        "text": "VERIFY BEFORE AIR: DEV COMMUNITY POST → TRACE ORIGINAL UK SOURCE",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {
+          "data-hf-id": "hf-5zm3"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 66.11,
+          "y": 1021.09,
+          "width": 1017.04,
+          "height": 32.07
+        },
+        "firstSeen": 45.05,
+        "lastSeen": 45.05,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          45.05
+        ]
+      }
+    ],
+    "duration": 620.9,
+    "samples": [
+      34.494,
+      103.483,
+      172.472,
+      241.461,
+      310.45,
+      379.439,
+      448.428,
+      517.417,
+      586.406
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      34.494,
+      172.472,
+      310.45,
+      448.428,
+      586.406
+    ],
+    "checked": 46,
+    "passed": 46
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"SENIOR\" (1 word) is on screen 0.26 s (±0.03 s), under its 0.40 s floor: hold it about 0.5 s + 0.3 s a word (0.80 s here) before it leaves or changes; see references/motion.md.",
+        "text": "SENIOR",
+        "selector": "#s05 > div:nth-of-type(4) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1495.82,
+          "y": 434.49,
+          "width": 81.93000000000006,
+          "height": 30
+        },
+        "time": 82.86,
+        "words": 1,
+        "seconds": 0.259,
+        "floorSeconds": 0.4,
+        "measured": [
+          {
+            "time": 79.815,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 80.852,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 81.888,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 82.925,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 83.961,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 84.998,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 86.035,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"JUNIOR\" (1 word) is on screen 0.19 s (±0.03 s), under its 0.40 s floor: hold it about 0.5 s + 0.3 s a word (0.80 s here) before it leaves or changes; see references/motion.md.",
+        "text": "JUNIOR",
+        "selector": "#s05 > div:nth-of-type(5) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1495.82,
+          "y": 724.12,
+          "width": 81.93000000000006,
+          "height": 30
+        },
+        "time": 82.925,
+        "words": 1,
+        "seconds": 0.194,
+        "floorSeconds": 0.4,
+        "measured": [
+          {
+            "time": 79.815,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 80.852,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 81.888,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 82.925,
+            "opacity": 1,
+            "heightPx": 30
+          },
+          {
+            "time": 83.961,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 84.998,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 86.035,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 92 text elements stay under it for 0.5 s or more, the smallest \"\"DELIVERY PILOT\" IS WHAT I'M CALLING IT\" at 21 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "\"DELIVERY PILOT\" IS WHAT I'M CALLING IT",
+        "selector": "#s12 > div:nth-of-type(7)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1314.79,
+          "y": 1032.23,
+          "width": 479.89,
+          "height": 26.66
+        },
+        "time": 294.383,
+        "times": [
+          1.037,
+          1.037,
+          8.292,
+          17.622,
+          17.622,
+          17.622,
+          19.695,
+          19.695,
+          19.695,
+          19.695,
+          45.609,
+          45.609,
+          45.609,
+          60.121,
+          61.157,
+          61.157,
+          62.194,
+          62.194,
+          68.413,
+          71.523,
+          83.961,
+          83.961,
+          95.364,
+          102.62,
+          105.729,
+          110.912,
+          110.912,
+          110.912,
+          118.168,
+          118.168,
+          122.314,
+          122.314,
+          124.387,
+          130.607,
+          133.716,
+          136.826,
+          139.936,
+          148.228,
+          148.228,
+          200.056,
+          200.056,
+          203.166,
+          209.385,
+          214.568,
+          218.714,
+          224.934,
+          237.372,
+          237.372,
+          237.372,
+          248.775,
+          262.25,
+          262.25,
+          265.36,
+          265.36,
+          272.616,
+          272.616,
+          280.908,
+          280.908,
+          294.383,
+          307.859,
+          307.859,
+          326.517,
+          338.955,
+          367.979,
+          367.979,
+          414.624,
+          414.624,
+          419.807,
+          419.807,
+          421.88,
+          424.99,
+          429.136,
+          447.794,
+          448.831,
+          490.293,
+          491.33,
+          494.44,
+          496.513,
+          500.659,
+          504.805,
+          509.988,
+          515.171,
+          522.427,
+          522.427,
+          526.573,
+          531.756,
+          552.487,
+          574.255,
+          592.913,
+          592.913,
+          612.608,
+          612.608
+        ],
+        "fontPx": 20.51,
+        "floorPx": 28,
+        "seconds": 12.439,
+        "elements": [
+          {
+            "selector": "#s12 > div:nth-of-type(7)",
+            "text": "\"DELIVERY PILOT\" IS WHAT I'M CALLING IT",
+            "fontPx": 20.51,
+            "time": 294.383,
+            "seconds": 12.439
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(4) > div:nth-of-type(2)",
+            "text": "RANGE: AROUND THE BLOCK",
+            "fontPx": 22.07,
+            "time": 265.36,
+            "seconds": 41.462
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(8) > div:nth-of-type(1)",
+            "text": "ROLES REMAINING (2023 = 100)",
+            "fontPx": 22.08,
+            "time": 19.695,
+            "seconds": 25.914
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(8) > div:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "2023",
+            "fontPx": 22.08,
+            "time": 19.695,
+            "seconds": 25.914
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(8) > div:nth-of-type(3) > span:nth-of-type(2)",
+            "text": "2024",
+            "fontPx": 22.08,
+            "time": 19.695,
+            "seconds": 25.914
+          },
+          {
+            "selector": "div.mono > span:nth-of-type(3)",
+            "text": "2026 est.",
+            "fontPx": 22.08,
+            "time": 19.695,
+            "seconds": 25.914
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "EUROPE · LINUX FOUNDATION",
+            "fontPx": 22.08,
+            "time": 124.387,
+            "seconds": 23.842
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(5) > div:nth-of-type(2)",
+            "text": "RANGE: CITY TO CITY",
+            "fontPx": 22.19,
+            "time": 272.616,
+            "seconds": 34.206
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "IBM · 2026",
+            "fontPx": 22.27,
+            "time": 130.607,
+            "seconds": 17.622
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "JUNIOR",
+            "fontPx": 22.28,
+            "time": 68.413,
+            "seconds": 15.549
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(6) > div:nth-of-type(2)",
+            "text": "RANGE: VAST DISTANCES",
+            "fontPx": 22.3,
+            "time": 280.908,
+            "seconds": 25.914
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "SENIOR",
+            "fontPx": 22.38,
+            "time": 71.523,
+            "seconds": 12.439
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "COGNIZANT · US",
+            "fontPx": 22.45,
+            "time": 136.826,
+            "seconds": 11.403
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(7) > div:nth-of-type(1)",
+            "text": "CLOUDFLARE",
+            "fontPx": 22.54,
+            "time": 139.936,
+            "seconds": 8.293
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(6)",
+            "text": "VERIFY BEFORE AIR: PULL THE ORIGINAL HARVARD PAPER",
+            "fontPx": 24.01,
+            "time": 60.121,
+            "seconds": 23.841
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(9)",
+            "text": "VERIFY BEFORE AIR: DEV COMMUNITY POST → TRACE ORIGINAL UK SOURCE",
+            "fontPx": 24.03,
+            "time": 17.622,
+            "seconds": 27.987
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "THE PIPELINE",
+            "fontPx": 24.03,
+            "time": 237.372,
+            "seconds": 24.878
+          },
+          {
+            "selector": "#s04 > div:nth-of-type(8)",
+            "text": "VERIFY BEFORE AIR: CHECK THE SIGNALFIRE REPORT, NOT THE BLOG QUOTING IT",
+            "fontPx": 24.05,
+            "time": 45.609,
+            "seconds": 15.549
+          },
+          {
+            "selector": "#s05 > svg:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "AI ADOPTED",
+            "fontPx": 24.08,
+            "time": 62.194,
+            "seconds": 20.731
+          },
+          {
+            "selector": "#s05 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "+6 QUARTERS",
+            "fontPx": 24.08,
+            "time": 62.194,
+            "seconds": 21.768
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "RIDER",
+            "fontPx": 24.08,
+            "time": 265.36,
+            "seconds": 41.462
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "2026",
+            "fontPx": 24.16,
+            "time": 419.807,
+            "seconds": 27.988
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "≈2031",
+            "fontPx": 24.16,
+            "time": 419.807,
+            "seconds": 27.988
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "DRIVER",
+            "fontPx": 24.21,
+            "time": 272.616,
+            "seconds": 34.206
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "DELIVERY PILOT",
+            "fontPx": 24.32,
+            "time": 280.908,
+            "seconds": 25.914
+          },
+          {
+            "selector": "#s06 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "TOOLS · NEW PROCESSES · RETRAINING",
+            "fontPx": 24.38,
+            "time": 95.364,
+            "seconds": 15.548
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(8)",
+            "text": "DISCLOSURE: I WORK AT IBM",
+            "fontPx": 24.39,
+            "time": 133.716,
+            "seconds": 14.513
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "THE HARD PART",
+            "fontPx": 24.41,
+            "time": 248.775,
+            "seconds": 13.475
+          },
+          {
+            "selector": "#s07 > svg:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "RATES",
+            "fontPx": 24.57,
+            "time": 118.168,
+            "seconds": 4.147
+          },
+          {
+            "selector": "#s07 > svg:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "HIRING",
+            "fontPx": 24.57,
+            "time": 118.168,
+            "seconds": 4.147
+          },
+          {
+            "selector": "#s06 > div:nth-of-type(4)",
+            "text": "A MODEL, NOT A PROMISE: THE DIP IS MEASURED. THE UPSWING IS THE BET.",
+            "fontPx": 24.6,
+            "time": 102.62,
+            "seconds": 8.292
+          },
+          {
+            "selector": "#s06 > svg:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "GAINS SHOW UP",
+            "fontPx": 24.7,
+            "time": 105.729,
+            "seconds": 5.183
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(4) > div:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 25.8,
+            "time": 218.714,
+            "seconds": 18.659
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(1)",
+            "text": "08:41 · YOUR 90-DAY FLIGHT PLAN",
+            "fontPx": 26.01,
+            "time": 522.427,
+            "seconds": 70.486
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(2)",
+            "text": "3 LEGS · 12 WEEKS",
+            "fontPx": 26.01,
+            "time": 522.427,
+            "seconds": 70.486
+          },
+          {
+            "selector": "#s09 > div:nth-of-type(1)",
+            "text": "02:27 · AI TOOK CONTINUOUS INTEGRATION",
+            "fontPx": 26.02,
+            "time": 148.228,
+            "seconds": 51.829
+          },
+          {
+            "selector": "#s09 > div:nth-of-type(2)",
+            "text": "AI DOES, AND RE-RUNS",
+            "fontPx": 26.02,
+            "time": 148.228,
+            "seconds": 51.829
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(1)",
+            "text": "04:21 · THE ANALOGY",
+            "fontPx": 26.02,
+            "time": 262.25,
+            "seconds": 44.572
+          },
+          {
+            "selector": "#s12 > div:nth-of-type(2)",
+            "text": "RIDER → DRIVER → PILOT",
+            "fontPx": 26.02,
+            "time": 262.25,
+            "seconds": 45.609
+          },
+          {
+            "selector": "#s13 > div:nth-of-type(1)",
+            "text": "05:06 · THE PILOT",
+            "fontPx": 26.02,
+            "time": 307.859,
+            "seconds": 60.121
+          },
+          {
+            "selector": "#s13 > div:nth-of-type(2)",
+            "text": "ONE PILOT, WHAT USED TO TAKE A TEAM",
+            "fontPx": 26.02,
+            "time": 307.859,
+            "seconds": 60.121
+          },
+          {
+            "selector": "#s14 > div:nth-of-type(1)",
+            "text": "06:06 · EVERYONE GOT UPGRADED",
+            "fontPx": 26.02,
+            "time": 367.979,
+            "seconds": 46.646
+          },
+          {
+            "selector": "#s14 > div:nth-of-type(2)",
+            "text": "NOBODY GOT DEMOTED",
+            "fontPx": 26.02,
+            "time": 367.979,
+            "seconds": 46.646
+          },
+          {
+            "selector": "#s16 > div:nth-of-type(1)",
+            "text": "07:27 · WHAT IS A DELIVERY PILOT?",
+            "fontPx": 26.02,
+            "time": 447.794,
+            "seconds": 42.5
+          },
+          {
+            "selector": "#s17 > div:nth-of-type(1)",
+            "text": "08:09 · A DAY IN THE LIFE",
+            "fontPx": 26.02,
+            "time": 490.293,
+            "seconds": 32.134
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(1)",
+            "text": "00:16 · THE UK NUMBERS",
+            "fontPx": 26.03,
+            "time": 17.622,
+            "seconds": 27.987
+          },
+          {
+            "selector": "#s03 > div:nth-of-type(2)",
+            "text": "THE BOTTOM OF THE J",
+            "fontPx": 26.03,
+            "time": 17.622,
+            "seconds": 27.987
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(1)",
+            "text": "02:01 · SIGNS OF THE UPSWING",
+            "fontPx": 26.03,
+            "time": 122.314,
+            "seconds": 25.915
+          },
+          {
+            "selector": "#s08 > div:nth-of-type(2)",
+            "text": "THE BOTTOM OF THE J IS THE LAUNCH POINT",
+            "fontPx": 26.03,
+            "time": 122.314,
+            "seconds": 25.915
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(1)",
+            "text": "03:18 · HUMANS GOT DELIVERY",
+            "fontPx": 26.03,
+            "time": 200.056,
+            "seconds": 37.317
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(2)",
+            "text": "WHAT STAYS HUMAN",
+            "fontPx": 26.03,
+            "time": 200.056,
+            "seconds": 37.317
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(1)",
+            "text": "03:56 · MY STORY · ONBOARDING",
+            "fontPx": 26.03,
+            "time": 237.372,
+            "seconds": 24.878
+          },
+          {
+            "selector": "#s11 > div:nth-of-type(2)",
+            "text": "PLACEHOLDER: USE AN OBP OR SRE STORY",
+            "fontPx": 26.03,
+            "time": 237.372,
+            "seconds": 24.878
+          },
+          {
+            "selector": "#s15 > div:nth-of-type(1)",
+            "text": "06:53 · THE BUSINESS REALITY",
+            "fontPx": 26.03,
+            "time": 414.624,
+            "seconds": 33.171
+          },
+          {
+            "selector": "#s15 > div:nth-of-type(2)",
+            "text": "GATHER THE RIGHT RESOURCES",
+            "fontPx": 26.03,
+            "time": 414.624,
+            "seconds": 33.171
+          },
+          {
+            "selector": "#s06 > div:nth-of-type(1)",
+            "text": "01:22 · THE PRODUCTIVITY J-CURVE",
+            "fontPx": 26.04,
+            "time": 83.961,
+            "seconds": 26.951
+          },
+          {
+            "selector": "#s06 > div:nth-of-type(2)",
+            "text": "BRYNJOLFSSON · ROCK · SYVERSON",
+            "fontPx": 26.04,
+            "time": 83.961,
+            "seconds": 26.951
+          },
+          {
+            "selector": "#s16 > div:nth-of-type(2)",
+            "text": "COBALTS",
+            "fontPx": 26.04,
+            "time": 448.831,
+            "seconds": 41.463
+          },
+          {
+            "selector": "#s04 > div:nth-of-type(1)",
+            "text": "00:44 · GLOBAL",
+            "fontPx": 26.05,
+            "time": 45.609,
+            "seconds": 14.512
+          },
+          {
+            "selector": "#s04 > div:nth-of-type(2)",
+            "text": "SIGNALFIRE 2026",
+            "fontPx": 26.05,
+            "time": 45.609,
+            "seconds": 15.549
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(1)",
+            "text": "00:59 · HARVARD STUDY",
+            "fontPx": 26.05,
+            "time": 61.157,
+            "seconds": 21.768
+          },
+          {
+            "selector": "#s05 > div:nth-of-type(2)",
+            "text": "62M WORKERS · 285K US FIRMS",
+            "fontPx": 26.05,
+            "time": 61.157,
+            "seconds": 22.805
+          },
+          {
+            "selector": "#s17 > div:nth-of-type(2)",
+            "text": "FLIGHT PLAN",
+            "fontPx": 26.05,
+            "time": 491.33,
+            "seconds": 31.097
+          },
+          {
+            "selector": "#s19 > div:nth-of-type(1)",
+            "text": "09:51 · JOIN DELIVERY PILOT",
+            "fontPx": 26.06,
+            "time": 592.913,
+            "seconds": 19.695
+          },
+          {
+            "selector": "#s19 > div:nth-of-type(2)",
+            "text": "YOUR SEAT IN THE COCKPIT",
+            "fontPx": 26.06,
+            "time": 592.913,
+            "seconds": 19.695
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "WEEKS 1–4",
+            "fontPx": 26.07,
+            "time": 526.573,
+            "seconds": 66.34
+          },
+          {
+            "selector": "#s07 > div:nth-of-type(1)",
+            "text": "01:49 · THE HONEST CAVEAT",
+            "fontPx": 26.08,
+            "time": 110.912,
+            "seconds": 11.403
+          },
+          {
+            "selector": "#s07 > div:nth-of-type(2)",
+            "text": "LINKEDIN ECONOMIC GRAPH · FEB 2026",
+            "fontPx": 26.08,
+            "time": 110.912,
+            "seconds": 11.403
+          },
+          {
+            "selector": "#s07 > div:nth-of-type(3) > div:nth-of-type(1)",
+            "text": "ONE HONEST SENTENCE",
+            "fontPx": 26.08,
+            "time": 110.912,
+            "seconds": 11.403
+          },
+          {
+            "selector": "#s02 > div:nth-of-type(1)",
+            "text": "00:07 · HOOK · THE TURN",
+            "fontPx": 26.1,
+            "time": 8.292,
+            "seconds": 9.33
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26.1,
+            "time": 203.166,
+            "seconds": 34.207
+          },
+          {
+            "selector": "#s20 > div:nth-of-type(1)",
+            "text": "10:11 · CLOSING LINE",
+            "fontPx": 26.11,
+            "time": 612.608,
+            "seconds": 8.292
+          },
+          {
+            "selector": "#s20 > div:nth-of-type(2)",
+            "text": "SEE YOU IN THE COCKPIT",
+            "fontPx": 26.11,
+            "time": 612.608,
+            "seconds": 8.292
+          },
+          {
+            "selector": "#s01 > div:nth-of-type(1)",
+            "text": "00:00 · HOOK",
+            "fontPx": 26.12,
+            "time": 1.037,
+            "seconds": 7.256
+          },
+          {
+            "selector": "#s01 > div:nth-of-type(2)",
+            "text": "UK ENTRY-LEVEL TECH",
+            "fontPx": 26.12,
+            "time": 1.037,
+            "seconds": 7.256
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(5) > div:nth-of-type(2)",
+            "text": "Role · ContextTask · Constraints",
+            "fontPx": 26.13,
+            "time": 531.756,
+            "seconds": 61.157
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "WRITE SPEC",
+            "fontPx": 26.14,
+            "time": 494.44,
+            "seconds": 27.987
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "SEND TO AGENTS",
+            "fontPx": 26.19,
+            "time": 496.513,
+            "seconds": 25.914
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(4)",
+            "text": "KEEP INVESTING",
+            "fontPx": 26.22,
+            "time": 421.88,
+            "seconds": 25.915
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26.25,
+            "time": 209.385,
+            "seconds": 27.988
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(5)",
+            "text": "FREEZE",
+            "fontPx": 26.31,
+            "time": 424.99,
+            "seconds": 22.805
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "REVIEW OUTPUT",
+            "fontPx": 26.31,
+            "time": 500.659,
+            "seconds": 21.768
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26.37,
+            "time": 214.568,
+            "seconds": 22.805
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(6) > div:nth-of-type(1)",
+            "text": "WEEKS 5–8",
+            "fontPx": 26.4,
+            "time": 552.487,
+            "seconds": 40.426
+          },
+          {
+            "selector": "#s15 > svg:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "SENIOR SHORTAGE",
+            "fontPx": 26.42,
+            "time": 429.136,
+            "seconds": 18.659
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(4)",
+            "text": "CHECK COSTS",
+            "fontPx": 26.43,
+            "time": 504.805,
+            "seconds": 17.622
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(5)",
+            "text": "DEMO",
+            "fontPx": 26.57,
+            "time": 509.988,
+            "seconds": 12.439
+          },
+          {
+            "selector": "#s10 > div:nth-of-type(4) > div:nth-of-type(5) > div:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26.59,
+            "time": 224.934,
+            "seconds": 12.439
+          },
+          {
+            "selector": "#s13 > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "TRUST THE INSTRUMENTS",
+            "fontPx": 26.59,
+            "time": 326.517,
+            "seconds": 1.037
+          },
+          {
+            "selector": "#s18 > div:nth-of-type(7) > div:nth-of-type(1)",
+            "text": "WEEKS 9–12",
+            "fontPx": 26.68,
+            "time": 574.255,
+            "seconds": 18.658
+          },
+          {
+            "selector": "#s17 > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(6)",
+            "text": "LAND RELEASE",
+            "fontPx": 26.72,
+            "time": 515.171,
+            "seconds": 7.256
+          },
+          {
+            "selector": "#s13 > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1)",
+            "text": "WATCH FOR RISK",
+            "fontPx": 27.21,
+            "time": 338.955,
+            "seconds": 1.037
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 1.0369999999999777,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

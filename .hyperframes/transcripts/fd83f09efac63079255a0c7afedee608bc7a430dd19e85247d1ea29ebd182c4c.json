@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice e5e5ad67.wav",
+  "sha": "fd83f09efac63079255a0c7afedee608bc7a430dd19e85247d1ea29ebd182c4c",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Harvard",
+      "start": 0.299,
+      "end": 0.64
+    },
+    {
+      "id": "w1",
+      "text": "looked",
+      "start": 0.683,
+      "end": 0.8107
+    },
+    {
+      "id": "w2",
+      "text": "at",
+      "start": 0.896,
+      "end": 0.981
+    },
+    {
+      "id": "w3",
+      "text": "sixty-",
+      "start": 1.024,
+      "end": 1.451
+    },
+    {
+      "id": "w4",
+      "text": "two",
+      "start": 1.451,
+      "end": 1.664
+    },
+    {
+      "id": "w5",
+      "text": "million",
+      "start": 1.707,
+      "end": 1.92
+    },
+    {
+      "id": "w6",
+      "text": "workers",
+      "start": 2.176,
+      "end": 2.6027
+    },
+    {
+      "id": "w7",
+      "text": "across",
+      "start": 2.731,
+      "end": 2.944
+    },
+    {
+      "id": "w8",
+      "text": "two",
+      "start": 3.029,
+      "end": 3.2
+    },
+    {
+      "id": "w9",
+      "text": "hundred",
+      "start": 3.243,
+      "end": 3.3707
+    },
+    {
+      "id": "w10",
+      "text": "and",
+      "start": 3.499,
+      "end": 3.584
+    },
+    {
+      "id": "w11",
+      "text": "eighty-",
+      "start": 3.627,
+      "end": 3.797
+    },
+    {
+      "id": "w12",
+      "text": "five",
+      "start": 3.797,
+      "end": 4.0107
+    },
+    {
+      "id": "w13",
+      "text": "thousand",
+      "start": 4.139,
+      "end": 4.352
+    },
+    {
+      "id": "w14",
+      "text": "US",
+      "start": 4.608,
+      "end": 4.7787
+    },
+    {
+      "id": "w15",
+      "text": "firms.",
+      "start": 4.949,
+      "end": 5.589
+    },
+    {
+      "id": "w16",
+      "text": "After",
+      "start": 5.931,
+      "end": 6.0587
+    },
+    {
+      "id": "w17",
+      "text": "adopting",
+      "start": 6.187,
+      "end": 6.5707
+    },
+    {
+      "id": "w18",
+      "text": "generative",
+      "start": 6.656,
+      "end": 6.997
+    },
+    {
+      "id": "w19",
+      "text": "AI,",
+      "start": 7.168,
+      "end": 7.659
+    },
+    {
+      "id": "w20",
+      "text": "firms",
+      "start": 7.893,
+      "end": 8.192
+    },
+    {
+      "id": "w21",
+      "text": "cut",
+      "start": 8.32,
+      "end": 8.4907
+    },
+    {
+      "id": "w22",
+      "text": "junior",
+      "start": 8.533,
+      "end": 8.917
+    },
+    {
+      "id": "w23",
+      "text": "developer",
+      "start": 8.96,
+      "end": 9.2587
+    },
+    {
+      "id": "w24",
+      "text": "employment",
+      "start": 9.387,
+      "end": 9.856
+    },
+    {
+      "id": "w25",
+      "text": "by",
+      "start": 9.984,
+      "end": 10.069
+    },
+    {
+      "id": "w26",
+      "text": "nine",
+      "start": 10.112,
+      "end": 10.4107
+    },
+    {
+      "id": "w27",
+      "text": "to",
+      "start": 10.539,
+      "end": 10.624
+    },
+    {
+      "id": "w28",
+      "text": "ten",
+      "start": 10.667,
+      "end": 10.837
+    },
+    {
+      "id": "w29",
+      "text": "percent",
+      "start": 10.923,
+      "end": 11.0507
+    },
+    {
+      "id": "w30",
+      "text": "within",
+      "start": 11.435,
+      "end": 11.5627
+    },
+    {
+      "id": "w31",
+      "text": "six",
+      "start": 11.733,
+      "end": 11.9467
+    },
+    {
+      "id": "w32",
+      "text": "quarters.",
+      "start": 12.075,
+      "end": 12.603
+    },
+    {
+      "id": "w33",
+      "text": "Senior",
+      "start": 12.747,
+      "end": 13.0457
+    },
+    {
+      "id": "w34",
+      "text": "employment",
+      "start": 13.088,
+      "end": 13.472
+    },
+    {
+      "id": "w35",
+      "text": "kept",
+      "start": 13.558,
+      "end": 13.728
+    },
+    {
+      "id": "w36",
+      "text": "rising.",
+      "start": 13.814,
+      "end": 14.432
+    },
+    {
+      "id": "w37",
+      "text": "So",
+      "start": 14.752,
+      "end": 14.88
+    },
+    {
+      "id": "w38",
+      "text": "AI",
+      "start": 14.923,
+      "end": 15.2217
+    },
+    {
+      "id": "w39",
+      "text": "isn't",
+      "start": 15.35,
+      "end": 15.563
+    },
+    {
+      "id": "w40",
+      "text": "removing",
+      "start": 15.606,
+      "end": 15.904
+    },
+    {
+      "id": "w41",
+      "text": "developers",
+      "start": 16.075,
+      "end": 16.3737
+    },
+    {
+      "id": "w42",
+      "text": "evenly.",
+      "start": 16.502,
+      "end": 17.099
+    },
+    {
+      "id": "w43",
+      "text": "It's",
+      "start": 17.398,
+      "end": 17.5257
+    },
+    {
+      "id": "w44",
+      "text": "changing",
+      "start": 17.568,
+      "end": 17.7817
+    },
+    {
+      "id": "w45",
+      "text": "who",
+      "start": 17.995,
+      "end": 18.251
+    },
+    {
+      "id": "w46",
+      "text": "gets",
+      "start": 18.294,
+      "end": 18.464
+    },
+    {
+      "id": "w47",
+      "text": "hired",
+      "start": 18.592,
+      "end": 18.891
+    },
+    {
+      "id": "w48",
+      "text": "first.",
+      "start": 18.934,
+      "end": 19.531
+    },
+    {
+      "id": "w49",
+      "text": "That",
+      "start": 19.872,
+      "end": 20.043
+    },
+    {
+      "id": "w50",
+      "text": "gap",
+      "start": 20.086,
+      "end": 20.3417
+    },
+    {
+      "id": "w51",
+      "text": "is",
+      "start": 20.47,
+      "end": 20.555
+    },
+    {
+      "id": "w52",
+      "text": "the",
+      "start": 20.598,
+      "end": 20.683
+    },
+    {
+      "id": "w53",
+      "text": "dip",
+      "start": 20.726,
+      "end": 20.939
+    },
+    {
+      "id": "w54",
+      "text": "we're",
+      "start": 21.024,
+      "end": 21.152
+    },
+    {
+      "id": "w55",
+      "text": "living",
+      "start": 21.195,
+      "end": 21.28
+    },
+    {
+      "id": "w56",
+      "text": "through.",
+      "start": 21.451,
+      "end": 22.053990929705215
+    }
+  ],
+  "generatedWordsHash": "b2c537f16b4c38dd35e9dd8c9973ea79251e762712b84437b3f25fc23da9069d",
+  "createdAt": "2026-11-21T01:38:37.939Z"
+}

@@ -1,0 +1,666 @@
+{
+  "audio": "assets/HeyGen voice 6d99cf96.wav",
+  "language": null,
+  "words": [
+    {
+      "text": "Now,",
+      "start": 0.299,
+      "end": 0.597
+    },
+    {
+      "text": "the",
+      "start": 0.725,
+      "end": 0.853
+    },
+    {
+      "text": "analogy:",
+      "start": 0.896,
+      "end": 1.365
+    },
+    {
+      "text": "rider,",
+      "start": 1.579,
+      "end": 2.112
+    },
+    {
+      "text": "driver,",
+      "start": 2.261,
+      "end": 2.752
+    },
+    {
+      "text": "pilot.",
+      "start": 2.901,
+      "end": 3.627
+    },
+    {
+      "text": "A",
+      "start": 3.925,
+      "end": 4.0107
+    },
+    {
+      "text": "rider",
+      "start": 4.053,
+      "end": 4.352
+    },
+    {
+      "text": "uses",
+      "start": 4.395,
+      "end": 4.608
+    },
+    {
+      "text": "AI",
+      "start": 4.779,
+      "end": 5.12
+    },
+    {
+      "text": "like",
+      "start": 5.248,
+      "end": 5.376
+    },
+    {
+      "text": "a",
+      "start": 5.419,
+      "end": 5.504
+    },
+    {
+      "text": "passenger.",
+      "start": 5.547,
+      "end": 6.187
+    },
+    {
+      "text": "They",
+      "start": 6.4,
+      "end": 6.528
+    },
+    {
+      "text": "copy",
+      "start": 6.571,
+      "end": 6.741
+    },
+    {
+      "text": "answers",
+      "start": 6.869,
+      "end": 7.2107
+    },
+    {
+      "text": "from",
+      "start": 7.296,
+      "end": 7.381
+    },
+    {
+      "text": "a",
+      "start": 7.424,
+      "end": 7.4667
+    },
+    {
+      "text": "chatbot",
+      "start": 7.509,
+      "end": 7.9787
+    },
+    {
+      "text": "and",
+      "start": 8.107,
+      "end": 8.149
+    },
+    {
+      "text": "hope",
+      "start": 8.192,
+      "end": 8.32
+    },
+    {
+      "text": "they",
+      "start": 8.405,
+      "end": 8.4907
+    },
+    {
+      "text": "work.",
+      "start": 8.533,
+      "end": 9.003
+    },
+    {
+      "text": "Their",
+      "start": 9.259,
+      "end": 9.3867
+    },
+    {
+      "text": "range",
+      "start": 9.429,
+      "end": 9.6427
+    },
+    {
+      "text": "is",
+      "start": 9.856,
+      "end": 9.8987
+    },
+    {
+      "text": "around",
+      "start": 10.027,
+      "end": 10.1547
+    },
+    {
+      "text": "the",
+      "start": 10.24,
+      "end": 10.325
+    },
+    {
+      "text": "block.",
+      "start": 10.368,
+      "end": 10.728
+    },
+    {
+      "text": "A",
+      "start": 10.916,
+      "end": 11.0018
+    },
+    {
+      "text": "driver",
+      "start": 11.044,
+      "end": 11.3858
+    },
+    {
+      "text": "is",
+      "start": 11.471,
+      "end": 11.5138
+    },
+    {
+      "text": "the",
+      "start": 11.556,
+      "end": 11.684
+    },
+    {
+      "text": "classic",
+      "start": 11.727,
+      "end": 12.068
+    },
+    {
+      "text": "developer:",
+      "start": 12.111,
+      "end": 12.623
+    },
+    {
+      "text": "hands",
+      "start": 12.794,
+      "end": 13.0498
+    },
+    {
+      "text": "on",
+      "start": 13.178,
+      "end": 13.263
+    },
+    {
+      "text": "the",
+      "start": 13.306,
+      "end": 13.391
+    },
+    {
+      "text": "wheel,",
+      "start": 13.434,
+      "end": 13.754
+    },
+    {
+      "text": "writing",
+      "start": 13.946,
+      "end": 14.159
+    },
+    {
+      "text": "most",
+      "start": 14.33,
+      "end": 14.458
+    },
+    {
+      "text": "of",
+      "start": 14.586,
+      "end": 14.628
+    },
+    {
+      "text": "the",
+      "start": 14.671,
+      "end": 14.7138
+    },
+    {
+      "text": "code,",
+      "start": 14.756,
+      "end": 15.119
+    },
+    {
+      "text": "with",
+      "start": 15.311,
+      "end": 15.4818
+    },
+    {
+      "text": "AI",
+      "start": 15.567,
+      "end": 15.8658
+    },
+    {
+      "text": "as",
+      "start": 16.036,
+      "end": 16.079
+    },
+    {
+      "text": "the",
+      "start": 16.122,
+      "end": 16.207
+    },
+    {
+      "text": "satnav.",
+      "start": 16.25,
+      "end": 16.996
+    },
+    {
+      "text": "Drivers",
+      "start": 17.359,
+      "end": 17.743
+    },
+    {
+      "text": "go",
+      "start": 17.786,
+      "end": 17.9138
+    },
+    {
+      "text": "from",
+      "start": 17.999,
+      "end": 18.084
+    },
+    {
+      "text": "city",
+      "start": 18.17,
+      "end": 18.34
+    },
+    {
+      "text": "to",
+      "start": 18.468,
+      "end": 18.5538
+    },
+    {
+      "text": "city.",
+      "start": 18.596,
+      "end": 19.044
+    },
+    {
+      "text": "And",
+      "start": 19.322,
+      "end": 19.407
+    },
+    {
+      "text": "a",
+      "start": 19.45,
+      "end": 19.492
+    },
+    {
+      "text": "pilot",
+      "start": 19.535,
+      "end": 19.919
+    },
+    {
+      "text": "is",
+      "start": 19.962,
+      "end": 20.047
+    },
+    {
+      "text": "what",
+      "start": 20.09,
+      "end": 20.218
+    },
+    {
+      "text": "I'm",
+      "start": 20.26,
+      "end": 20.388
+    },
+    {
+      "text": "calling",
+      "start": 20.431,
+      "end": 20.559
+    },
+    {
+      "text": "a",
+      "start": 20.73,
+      "end": 20.772
+    },
+    {
+      "text": "Delivery",
+      "start": 20.815,
+      "end": 21.028
+    },
+    {
+      "text": "Pilot.",
+      "start": 21.156,
+      "end": 21.732
+    },
+    {
+      "text": "They",
+      "start": 21.967,
+      "end": 22.1378
+    },
+    {
+      "text": "set",
+      "start": 22.18,
+      "end": 22.308
+    },
+    {
+      "text": "the",
+      "start": 22.351,
+      "end": 22.436
+    },
+    {
+      "text": "flight",
+      "start": 22.479,
+      "end": 22.6498
+    },
+    {
+      "text": "plan,",
+      "start": 22.735,
+      "end": 23.098
+    },
+    {
+      "text": "which",
+      "start": 23.247,
+      "end": 23.332
+    },
+    {
+      "text": "is",
+      "start": 23.418,
+      "end": 23.46
+    },
+    {
+      "text": "the",
+      "start": 23.503,
+      "end": 23.631
+    },
+    {
+      "text": "spec.",
+      "start": 23.674,
+      "end": 24.171
+    },
+    {
+      "text": "They",
+      "start": 24.498,
+      "end": 24.6257
+    },
+    {
+      "text": "run",
+      "start": 24.668,
+      "end": 24.796
+    },
+    {
+      "text": "the",
+      "start": 24.839,
+      "end": 24.924
+    },
+    {
+      "text": "agents",
+      "start": 24.967,
+      "end": 25.2657
+    },
+    {
+      "text": "on",
+      "start": 25.351,
+      "end": 25.436
+    },
+    {
+      "text": "autopilot,",
+      "start": 25.479,
+      "end": 26.226
+    },
+    {
+      "text": "watch",
+      "start": 26.375,
+      "end": 26.503
+    },
+    {
+      "text": "the",
+      "start": 26.588,
+      "end": 26.716
+    },
+    {
+      "text": "instruments,",
+      "start": 26.759,
+      "end": 27.271
+    },
+    {
+      "text": "and",
+      "start": 27.442,
+      "end": 27.612
+    },
+    {
+      "text": "take",
+      "start": 27.655,
+      "end": 27.8257
+    },
+    {
+      "text": "control",
+      "start": 27.868,
+      "end": 27.996
+    },
+    {
+      "text": "when",
+      "start": 28.252,
+      "end": 28.38
+    },
+    {
+      "text": "it",
+      "start": 28.423,
+      "end": 28.4657
+    },
+    {
+      "text": "matters.",
+      "start": 28.508,
+      "end": 29.02
+    },
+    {
+      "text": "Their",
+      "start": 29.276,
+      "end": 29.404
+    },
+    {
+      "text": "range?",
+      "start": 29.447,
+      "end": 29.959
+    },
+    {
+      "text": "Vast",
+      "start": 30.258,
+      "end": 30.599
+    },
+    {
+      "text": "distances.",
+      "start": 30.812,
+      "end": 31.495
+    },
+    {
+      "text": "To",
+      "start": 31.879,
+      "end": 31.922
+    },
+    {
+      "text": "be",
+      "start": 31.964,
+      "end": 32.0497
+    },
+    {
+      "text": "clear,",
+      "start": 32.092,
+      "end": 32.519
+    },
+    {
+      "text": "Delivery",
+      "start": 32.732,
+      "end": 33.0737
+    },
+    {
+      "text": "Pilot",
+      "start": 33.159,
+      "end": 33.5
+    },
+    {
+      "text": "is",
+      "start": 33.543,
+      "end": 33.628
+    },
+    {
+      "text": "my",
+      "start": 33.671,
+      "end": 33.799
+    },
+    {
+      "text": "own",
+      "start": 33.842,
+      "end": 33.9697
+    },
+    {
+      "text": "framing,",
+      "start": 34.098,
+      "end": 34.546
+    },
+    {
+      "text": "not",
+      "start": 34.695,
+      "end": 34.866
+    },
+    {
+      "text": "a",
+      "start": 34.908,
+      "end": 34.951
+    },
+    {
+      "text": "job",
+      "start": 34.994,
+      "end": 35.164
+    },
+    {
+      "text": "title",
+      "start": 35.25,
+      "end": 35.463
+    },
+    {
+      "text": "employers",
+      "start": 35.591,
+      "end": 35.975
+    },
+    {
+      "text": "post",
+      "start": 36.018,
+      "end": 36.188
+    },
+    {
+      "text": "yet.",
+      "start": 36.359,
+      "end": 36.708
+    },
+    {
+      "text": "It's",
+      "start": 36.929,
+      "end": 37.1
+    },
+    {
+      "text": "a",
+      "start": 37.142,
+      "end": 37.185
+    },
+    {
+      "text": "prediction",
+      "start": 37.228,
+      "end": 37.4839
+    },
+    {
+      "text": "based",
+      "start": 37.74,
+      "end": 37.91
+    },
+    {
+      "text": "on",
+      "start": 37.996,
+      "end": 38.081
+    },
+    {
+      "text": "evidence,",
+      "start": 38.166,
+      "end": 38.55
+    },
+    {
+      "text": "and",
+      "start": 38.806,
+      "end": 39.02
+    },
+    {
+      "text": "you",
+      "start": 39.062,
+      "end": 39.105
+    },
+    {
+      "text": "should",
+      "start": 39.148,
+      "end": 39.2759
+    },
+    {
+      "text": "treat",
+      "start": 39.319,
+      "end": 39.5319
+    },
+    {
+      "text": "it",
+      "start": 39.575,
+      "end": 39.6599
+    },
+    {
+      "text": "that",
+      "start": 39.703,
+      "end": 39.8305
+    },
+    {
+      "text": "way.",
+      "start": 39.873,
+      "end": 40.321
+    },
+    {
+      "text": "Riders",
+      "start": 40.599,
+      "end": 40.9825
+    },
+    {
+      "text": "get",
+      "start": 41.068,
+      "end": 41.1959
+    },
+    {
+      "text": "carried.",
+      "start": 41.239,
+      "end": 41.772
+    },
+    {
+      "text": "Drivers",
+      "start": 41.964,
+      "end": 42.3479
+    },
+    {
+      "text": "get",
+      "start": 42.433,
+      "end": 42.561
+    },
+    {
+      "text": "there.",
+      "start": 42.647,
+      "end": 42.988
+    },
+    {
+      "text": "Pilots",
+      "start": 43.201,
+      "end": 43.6279
+    },
+    {
+      "text": "go",
+      "start": 43.713,
+      "end": 43.841
+    },
+    {
+      "text": "the",
+      "start": 43.884,
+      "end": 43.969
+    },
+    {
+      "text": "distance.",
+      "start": 44.012,
+      "end": 44.60365079365079
+    }
+  ]
+}

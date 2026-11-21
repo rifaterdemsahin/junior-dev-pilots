@@ -1,0 +1,751 @@
+{
+  "audio": "assets/HeyGen voice 99d4d0ed.wav",
+  "language": null,
+  "words": [
+    {
+      "text": "Here's",
+      "start": 0.299,
+      "end": 0.5547
+    },
+    {
+      "text": "what",
+      "start": 0.597,
+      "end": 0.64
+    },
+    {
+      "text": "changed.",
+      "start": 0.683,
+      "end": 1.152
+    },
+    {
+      "text": "AI",
+      "start": 1.365,
+      "end": 1.92
+    },
+    {
+      "text": "took",
+      "start": 2.048,
+      "end": 2.2187
+    },
+    {
+      "text": "continuous",
+      "start": 2.304,
+      "end": 2.816
+    },
+    {
+      "text": "integration.",
+      "start": 2.944,
+      "end": 3.669
+    },
+    {
+      "text": "First,",
+      "start": 4.011,
+      "end": 4.459
+    },
+    {
+      "text": "it",
+      "start": 4.651,
+      "end": 4.864
+    },
+    {
+      "text": "writes",
+      "start": 4.907,
+      "end": 5.077
+    },
+    {
+      "text": "the",
+      "start": 5.163,
+      "end": 5.248
+    },
+    {
+      "text": "first",
+      "start": 5.291,
+      "end": 5.5467
+    },
+    {
+      "text": "draft",
+      "start": 5.632,
+      "end": 5.845
+    },
+    {
+      "text": "of",
+      "start": 5.973,
+      "end": 6.016
+    },
+    {
+      "text": "the",
+      "start": 6.059,
+      "end": 6.101
+    },
+    {
+      "text": "code,",
+      "start": 6.144,
+      "end": 6.528
+    },
+    {
+      "text": "so",
+      "start": 6.741,
+      "end": 6.869
+    },
+    {
+      "text": "nobody",
+      "start": 6.912,
+      "end": 7.04
+    },
+    {
+      "text": "starts",
+      "start": 7.211,
+      "end": 7.424
+    },
+    {
+      "text": "from",
+      "start": 7.552,
+      "end": 7.595
+    },
+    {
+      "text": "a",
+      "start": 7.637,
+      "end": 7.68
+    },
+    {
+      "text": "blank",
+      "start": 7.723,
+      "end": 7.893
+    },
+    {
+      "text": "page",
+      "start": 8.021,
+      "end": 8.192
+    },
+    {
+      "text": "anymore.",
+      "start": 8.32,
+      "end": 8.896
+    },
+    {
+      "text": "Second,",
+      "start": 9.301,
+      "end": 9.749
+    },
+    {
+      "text": "it",
+      "start": 9.941,
+      "end": 10.1547
+    },
+    {
+      "text": "runs",
+      "start": 10.197,
+      "end": 10.453
+    },
+    {
+      "text": "the",
+      "start": 10.496,
+      "end": 10.624
+    },
+    {
+      "text": "tests",
+      "start": 10.667,
+      "end": 11.0507
+    },
+    {
+      "text": "and",
+      "start": 11.179,
+      "end": 11.221
+    },
+    {
+      "text": "fixes",
+      "start": 11.264,
+      "end": 11.648
+    },
+    {
+      "text": "the",
+      "start": 11.691,
+      "end": 11.776
+    },
+    {
+      "text": "lint",
+      "start": 11.819,
+      "end": 11.989
+    },
+    {
+      "text": "errors",
+      "start": 12.117,
+      "end": 12.3307
+    },
+    {
+      "text": "before",
+      "start": 12.416,
+      "end": 12.544
+    },
+    {
+      "text": "a",
+      "start": 12.715,
+      "end": 12.757
+    },
+    {
+      "text": "human",
+      "start": 12.8,
+      "end": 12.9707
+    },
+    {
+      "text": "ever",
+      "start": 13.099,
+      "end": 13.269
+    },
+    {
+      "text": "sees",
+      "start": 13.397,
+      "end": 13.6107
+    },
+    {
+      "text": "them.",
+      "start": 13.739,
+      "end": 13.965
+    },
+    {
+      "text": "Third,",
+      "start": 14.105,
+      "end": 14.553
+    },
+    {
+      "text": "it",
+      "start": 14.703,
+      "end": 14.9587
+    },
+    {
+      "text": "re-",
+      "start": 15.001,
+      "end": 15.257
+    },
+    {
+      "text": "runs",
+      "start": 15.257,
+      "end": 15.428
+    },
+    {
+      "text": "the",
+      "start": 15.513,
+      "end": 15.5987
+    },
+    {
+      "text": "pipeline",
+      "start": 15.641,
+      "end": 16.068
+    },
+    {
+      "text": "every",
+      "start": 16.153,
+      "end": 16.409
+    },
+    {
+      "text": "time",
+      "start": 16.537,
+      "end": 16.708
+    },
+    {
+      "text": "something",
+      "start": 16.793,
+      "end": 16.964
+    },
+    {
+      "text": "fails,",
+      "start": 17.135,
+      "end": 17.583
+    },
+    {
+      "text": "as",
+      "start": 17.817,
+      "end": 17.86
+    },
+    {
+      "text": "many",
+      "start": 17.903,
+      "end": 18.0307
+    },
+    {
+      "text": "times",
+      "start": 18.116,
+      "end": 18.2867
+    },
+    {
+      "text": "as",
+      "start": 18.372,
+      "end": 18.415
+    },
+    {
+      "text": "it",
+      "start": 18.457,
+      "end": 18.5
+    },
+    {
+      "text": "takes.",
+      "start": 18.543,
+      "end": 19.119
+    },
+    {
+      "text": "Fourth,",
+      "start": 19.481,
+      "end": 19.993
+    },
+    {
+      "text": "it",
+      "start": 20.121,
+      "end": 20.3347
+    },
+    {
+      "text": "opens",
+      "start": 20.377,
+      "end": 20.633
+    },
+    {
+      "text": "pull",
+      "start": 20.719,
+      "end": 20.932
+    },
+    {
+      "text": "requests",
+      "start": 21.017,
+      "end": 21.4867
+    },
+    {
+      "text": "and",
+      "start": 21.572,
+      "end": 21.6147
+    },
+    {
+      "text": "resolves",
+      "start": 21.657,
+      "end": 21.9987
+    },
+    {
+      "text": "the",
+      "start": 22.084,
+      "end": 22.212
+    },
+    {
+      "text": "simple",
+      "start": 22.255,
+      "end": 22.468
+    },
+    {
+      "text": "merge",
+      "start": 22.639,
+      "end": 22.8947
+    },
+    {
+      "text": "conflicts",
+      "start": 22.98,
+      "end": 23.449
+    },
+    {
+      "text": "on",
+      "start": 23.492,
+      "end": 23.577
+    },
+    {
+      "text": "its",
+      "start": 23.62,
+      "end": 23.6627
+    },
+    {
+      "text": "own.",
+      "start": 23.748,
+      "end": 24.196
+    },
+    {
+      "text": "And",
+      "start": 24.516,
+      "end": 24.729
+    },
+    {
+      "text": "fifth,",
+      "start": 24.815,
+      "end": 25.156
+    },
+    {
+      "text": "it",
+      "start": 25.284,
+      "end": 25.5828
+    },
+    {
+      "text": "triages",
+      "start": 25.625,
+      "end": 26.009
+    },
+    {
+      "text": "first-",
+      "start": 26.223,
+      "end": 26.607
+    },
+    {
+      "text": "line",
+      "start": 26.607,
+      "end": 26.777
+    },
+    {
+      "text": "incidents,",
+      "start": 26.863,
+      "end": 27.417
+    },
+    {
+      "text": "so",
+      "start": 27.631,
+      "end": 27.759
+    },
+    {
+      "text": "the",
+      "start": 27.801,
+      "end": 27.844
+    },
+    {
+      "text": "pager",
+      "start": 27.887,
+      "end": 28.057
+    },
+    {
+      "text": "goes",
+      "start": 28.228,
+      "end": 28.356
+    },
+    {
+      "text": "to",
+      "start": 28.441,
+      "end": 28.484
+    },
+    {
+      "text": "the",
+      "start": 28.527,
+      "end": 28.569
+    },
+    {
+      "text": "agent",
+      "start": 28.612,
+      "end": 28.825
+    },
+    {
+      "text": "first.",
+      "start": 28.911,
+      "end": 29.465
+    },
+    {
+      "text": "That's",
+      "start": 29.764,
+      "end": 29.977
+    },
+    {
+      "text": "the",
+      "start": 30.02,
+      "end": 30.105
+    },
+    {
+      "text": "whole",
+      "start": 30.148,
+      "end": 30.233
+    },
+    {
+      "text": "checklist",
+      "start": 30.276,
+      "end": 30.745
+    },
+    {
+      "text": "that",
+      "start": 30.831,
+      "end": 30.916
+    },
+    {
+      "text": "used",
+      "start": 30.959,
+      "end": 31.0868
+    },
+    {
+      "text": "to",
+      "start": 31.129,
+      "end": 31.2148
+    },
+    {
+      "text": "keep",
+      "start": 31.257,
+      "end": 31.385
+    },
+    {
+      "text": "a",
+      "start": 31.428,
+      "end": 31.4708
+    },
+    {
+      "text": "junior",
+      "start": 31.513,
+      "end": 31.897
+    },
+    {
+      "text": "busy,",
+      "start": 31.94,
+      "end": 32.303
+    },
+    {
+      "text": "waiting",
+      "start": 32.537,
+      "end": 32.7508
+    },
+    {
+      "text": "for",
+      "start": 32.964,
+      "end": 33.092
+    },
+    {
+      "text": "a",
+      "start": 33.135,
+      "end": 33.177
+    },
+    {
+      "text": "senior",
+      "start": 33.22,
+      "end": 33.604
+    },
+    {
+      "text": "to",
+      "start": 33.647,
+      "end": 33.7748
+    },
+    {
+      "text": "review",
+      "start": 33.817,
+      "end": 33.9028
+    },
+    {
+      "text": "their",
+      "start": 34.073,
+      "end": 34.201
+    },
+    {
+      "text": "work.",
+      "start": 34.244,
+      "end": 34.747
+    },
+    {
+      "text": "Look",
+      "start": 35.079,
+      "end": 35.2067
+    },
+    {
+      "text": "at",
+      "start": 35.249,
+      "end": 35.335
+    },
+    {
+      "text": "the",
+      "start": 35.377,
+      "end": 35.42
+    },
+    {
+      "text": "screen:",
+      "start": 35.463,
+      "end": 35.911
+    },
+    {
+      "text": "everything",
+      "start": 36.145,
+      "end": 36.657
+    },
+    {
+      "text": "is",
+      "start": 36.7,
+      "end": 36.7427
+    },
+    {
+      "text": "green,",
+      "start": 36.828,
+      "end": 37.297
+    },
+    {
+      "text": "and",
+      "start": 37.553,
+      "end": 37.724
+    },
+    {
+      "text": "no",
+      "start": 37.767,
+      "end": 37.937
+    },
+    {
+      "text": "human",
+      "start": 38.023,
+      "end": 38.2787
+    },
+    {
+      "text": "was",
+      "start": 38.449,
+      "end": 38.5347
+    },
+    {
+      "text": "needed",
+      "start": 38.577,
+      "end": 38.748
+    },
+    {
+      "text": "for",
+      "start": 38.876,
+      "end": 39.004
+    },
+    {
+      "text": "any",
+      "start": 39.047,
+      "end": 39.132
+    },
+    {
+      "text": "of",
+      "start": 39.26,
+      "end": 39.3027
+    },
+    {
+      "text": "it.",
+      "start": 39.345,
+      "end": 39.793
+    },
+    {
+      "text": "But",
+      "start": 40.113,
+      "end": 40.241
+    },
+    {
+      "text": "notice",
+      "start": 40.284,
+      "end": 40.4547
+    },
+    {
+      "text": "what's",
+      "start": 40.583,
+      "end": 40.753
+    },
+    {
+      "text": "missing",
+      "start": 40.796,
+      "end": 40.9667
+    },
+    {
+      "text": "from",
+      "start": 41.223,
+      "end": 41.3507
+    },
+    {
+      "text": "that",
+      "start": 41.393,
+      "end": 41.521
+    },
+    {
+      "text": "list.",
+      "start": 41.564,
+      "end": 41.991
+    },
+    {
+      "text": "Nobody",
+      "start": 42.247,
+      "end": 42.6307
+    },
+    {
+      "text": "decided",
+      "start": 42.673,
+      "end": 42.972
+    },
+    {
+      "text": "what",
+      "start": 43.143,
+      "end": 43.356
+    },
+    {
+      "text": "to",
+      "start": 43.399,
+      "end": 43.5267
+    },
+    {
+      "text": "build,",
+      "start": 43.569,
+      "end": 43.825
+    },
+    {
+      "text": "or",
+      "start": 43.953,
+      "end": 44.2947
+    },
+    {
+      "text": "why.",
+      "start": 44.337,
+      "end": 44.849
+    },
+    {
+      "text": "Nobody",
+      "start": 45.148,
+      "end": 45.532
+    },
+    {
+      "text": "judged",
+      "start": 45.575,
+      "end": 46.001
+    },
+    {
+      "text": "whether",
+      "start": 46.087,
+      "end": 46.2147
+    },
+    {
+      "text": "the",
+      "start": 46.3,
+      "end": 46.385
+    },
+    {
+      "text": "output",
+      "start": 46.428,
+      "end": 46.769
+    },
+    {
+      "text": "was",
+      "start": 46.812,
+      "end": 46.897
+    },
+    {
+      "text": "actually",
+      "start": 46.94,
+      "end": 47.1107
+    },
+    {
+      "text": "right.",
+      "start": 47.281,
+      "end": 47.78
+    },
+    {
+      "text": "Nobody",
+      "start": 48.065,
+      "end": 48.534
+    },
+    {
+      "text": "owned",
+      "start": 48.577,
+      "end": 48.9607
+    },
+    {
+      "text": "the",
+      "start": 49.046,
+      "end": 49.131
+    },
+    {
+      "text": "conversation",
+      "start": 49.174,
+      "end": 49.643
+    },
+    {
+      "text": "with",
+      "start": 49.899,
+      "end": 49.985
+    },
+    {
+      "text": "the",
+      "start": 50.027,
+      "end": 50.07
+    },
+    {
+      "text": "stakeholder.",
+      "start": 50.113,
+      "end": 50.97151927437642
+    }
+  ]
+}

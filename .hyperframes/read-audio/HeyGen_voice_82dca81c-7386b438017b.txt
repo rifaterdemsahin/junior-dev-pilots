@@ -1,0 +1,25 @@
+assets/HeyGen voice 82dca81c.wav · 25.3 s
+overall: This soundtrack consists solely of spoken narration by a male speaker with a British accent, without any accompanying music or harmonic elements. The voice enters at 0.25 seconds and delivers informational statistics in a clear, professional, and steady conversational tone. Throughout the recording, the speaker maintains consistent dynamics and a measured, articulate pacing, punctuated only by brief natural pauses for breath around 8.0, 14.3, and 21.8 seconds before concluding at 25.0 seconds.
+voice-free mix: .hyperframes/read-audio/stems/7386b438017b/no-vocals.wav
+stems: .hyperframes/read-audio/stems/7386b438017b/
+
+vocals  -18 dB · 0.25–25
+  The vocal stem contains only spoken narration by a male voice with a British accent, without any singing or harmonic elements. The voice begins immediately at 0.0 seconds with a clear, professional, and steady conversational delivery. The rhythm follows natural speech patterns as the speaker delivers informational statistics with a measured, articulate feel. Brief natural pauses for breath occur between sentences, such as around 8.0 seconds, 14.3 seconds, and 21.8 seconds. The dynamics and tone remain completely consistent throughout the entire track until the final phrase concludes at 25.1 seconds.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 9 lines, 1 pauses, mean 3 words/s, median pitch 99 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–2.4    voice    "Now, the signs of the upswing."  2.8 words/s (mean 3)  pitch 140 Hz (median 99)
+2.7–6.2    voice    "The Linux Foundation reports a twenty- seven percent tech hiring surge"  3.2 words/s (mean 3)  falling end
+6.3–8.0    voice    "in Europe, driven by AI."  2.9 words/s (mean 3)
+8.2–12.9   voice    "IBM says it's tripling entry- level hires in 2026, and full disclosure,"  2.4 words/s (mean 3)
+13.0–14.3  voice    "I work at IBM."  3.1 words/s (mean 3)
+14.4–17.3  voice    "Cognizant is quadrupling its US graduate pipeline."  2.4 words/s (mean 3)
+17.6–21.2  voice    "Cloudflare went from about sixty internships to over eleven hundred."  2.7 words/s (mean 3)
+21.2–21.7  pause    0.4 s, silent
+21.7–23.4  voice    "The bottom of the J feels like the end."  5.2 words/s (mean 3)
+23.6–25.0  voice    "It's actually the launch point."  3.6 words/s (mean 3)  pitch 127 Hz (median 99)

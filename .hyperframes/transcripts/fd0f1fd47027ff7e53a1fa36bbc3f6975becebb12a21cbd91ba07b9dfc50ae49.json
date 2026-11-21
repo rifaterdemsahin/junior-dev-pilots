@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen music d22856e5.mp3",
+  "sha": "fd0f1fd47027ff7e53a1fa36bbc3f6975becebb12a21cbd91ba07b9dfc50ae49",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [],
+  "language": "auto",
+  "generatedWordsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "createdAt": "2026-11-21T01:30:15.969Z"
+}

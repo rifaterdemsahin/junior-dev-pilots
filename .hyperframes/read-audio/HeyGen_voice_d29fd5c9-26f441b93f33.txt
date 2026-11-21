@@ -1,0 +1,25 @@
+assets/HeyGen voice d29fd5c9.wav · 24.0 s
+overall: The 24.01-second soundtrack consists entirely of a spoken-word monologue delivered by a clear, resonant male voice with a British accent from 0.25 to 23.75 seconds, with no accompanying music or background sound effects. He begins with a confident and measured cadence, listing technical concepts with brief, natural pauses between phrases. Around 9 seconds, following a slight breath, his tone becomes slightly more personal and reflective while remaining articulate. At 15 seconds, he uses deliberate pauses around the word "safely" for added emphasis before concluding cleanly on a definitive, grounded note at 23.75 seconds.
+voice-free mix: .hyperframes/read-audio/stems/26f441b93f33/no-vocals.wav
+stems: .hyperframes/read-audio/stems/26f441b93f33/
+
+vocals  -17 dB · 0.25–23.75
+  A clear, resonant male voice with a British accent delivers a steady, professional spoken-word monologue throughout the entire track. He begins speaking immediately with a confident and measured cadence, listing technical concepts with brief, natural pauses between phrases. Around 0:09, following a slight breath, he transitions into a slightly more personal and reflective tone while maintaining his articulate delivery. At 0:15, he uses deliberate pauses around the word "safely" to add weight and emphasis to the statement. The monologue concludes cleanly at 0:23 on a definitive, grounded note with no accompanying background noise, effects, or musical bleed.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 10 lines, 0 pauses, mean 3 words/s, median pitch 113 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.4–2.4    voice    "The pipeline was never the hard part."  3.6 words/s (mean 3)
+2.6–8.0    voice    "Green builds, passing tests, merged pull requests: that part is solved,"  2.1 words/s (mean 3)
+8.1–9.6    voice    "and AI does it now."  3.3 words/s (mean 3)
+9.9–13.9   voice    "In my own onboarding and reliability work, the hard part was always getting"  3.2 words/s (mean 3)
+14.0–15.4  voice    "a market participant live."  2.8 words/s (mean 3)  pitch 89 Hz (median 113)
+15.6–16.2  voice    "Safely."  1.6 words/s (mean 3)
+16.4–17.2  voice    "On time."  2.6 words/s (mean 3)
+17.5–20.1  voice    "With real money and real people depending on it."  3.5 words/s (mean 3)  falling end
+20.3–21.1  voice    "That's delivery."  2.4 words/s (mean 3)
+21.4–23.8  voice    "And that's the job that's left for a human."  3.9 words/s (mean 3)  pitch 91 Hz (median 113)

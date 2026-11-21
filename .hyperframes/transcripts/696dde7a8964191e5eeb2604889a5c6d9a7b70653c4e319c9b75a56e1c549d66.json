@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice 236b0dbc.wav",
+  "sha": "696dde7a8964191e5eeb2604889a5c6d9a7b70653c4e319c9b75a56e1c549d66",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "So",
+      "start": 0.341,
+      "end": 0.469
+    },
+    {
+      "id": "w1",
+      "text": "why",
+      "start": 0.512,
+      "end": 0.64
+    },
+    {
+      "id": "w2",
+      "text": "am",
+      "start": 0.683,
+      "end": 0.725
+    },
+    {
+      "id": "w3",
+      "text": "I",
+      "start": 0.768,
+      "end": 0.853
+    },
+    {
+      "id": "w4",
+      "text": "still",
+      "start": 0.896,
+      "end": 1.0667
+    },
+    {
+      "id": "w5",
+      "text": "optimistic?",
+      "start": 1.109,
+      "end": 1.813
+    },
+    {
+      "id": "w6",
+      "text": "Because",
+      "start": 2.176,
+      "end": 2.389
+    },
+    {
+      "id": "w7",
+      "text": "of",
+      "start": 2.432,
+      "end": 2.4747
+    },
+    {
+      "id": "w8",
+      "text": "a",
+      "start": 2.517,
+      "end": 2.6027
+    },
+    {
+      "id": "w9",
+      "text": "well-",
+      "start": 2.645,
+      "end": 2.901
+    },
+    {
+      "id": "w10",
+      "text": "known",
+      "start": 2.901,
+      "end": 3.029
+    },
+    {
+      "id": "w11",
+      "text": "idea",
+      "start": 3.115,
+      "end": 3.285
+    },
+    {
+      "id": "w12",
+      "text": "called",
+      "start": 3.541,
+      "end": 3.712
+    },
+    {
+      "id": "w13",
+      "text": "the",
+      "start": 3.797,
+      "end": 3.8827
+    },
+    {
+      "id": "w14",
+      "text": "Productivity",
+      "start": 3.925,
+      "end": 4.5227
+    },
+    {
+      "id": "w15",
+      "text": "J-",
+      "start": 4.693,
+      "end": 4.992
+    },
+    {
+      "id": "w16",
+      "text": "curve,",
+      "start": 4.992,
+      "end": 5.44
+    },
+    {
+      "id": "w17",
+      "text": "from",
+      "start": 5.632,
+      "end": 5.8027
+    },
+    {
+      "id": "w18",
+      "text": "Brynjolfsson,",
+      "start": 5.845,
+      "end": 6.592
+    },
+    {
+      "id": "w19",
+      "text": "Rock",
+      "start": 6.699,
+      "end": 6.912
+    },
+    {
+      "id": "w20",
+      "text": "and",
+      "start": 6.997,
+      "end": 7.04
+    },
+    {
+      "id": "w21",
+      "text": "Syverson.",
+      "start": 7.083,
+      "end": 7.808
+    },
+    {
+      "id": "w22",
+      "text": "When",
+      "start": 8.064,
+      "end": 8.149
+    },
+    {
+      "id": "w23",
+      "text": "a",
+      "start": 8.192,
+      "end": 8.2347
+    },
+    {
+      "id": "w24",
+      "text": "general-",
+      "start": 8.277,
+      "end": 8.661
+    },
+    {
+      "id": "w25",
+      "text": "purpose",
+      "start": 8.661,
+      "end": 8.832
+    },
+    {
+      "id": "w26",
+      "text": "technology",
+      "start": 9.003,
+      "end": 9.3867
+    },
+    {
+      "id": "w27",
+      "text": "arrives,",
+      "start": 9.557,
+      "end": 10.069
+    },
+    {
+      "id": "w28",
+      "text": "productivity",
+      "start": 10.283,
+      "end": 10.837
+    },
+    {
+      "id": "w29",
+      "text": "and",
+      "start": 11.051,
+      "end": 11.1787
+    },
+    {
+      "id": "w30",
+      "text": "hiring",
+      "start": 11.221,
+      "end": 11.605
+    },
+    {
+      "id": "w31",
+      "text": "dip",
+      "start": 11.733,
+      "end": 11.904
+    },
+    {
+      "id": "w32",
+      "text": "first.",
+      "start": 11.989,
+      "end": 12.518
+    },
+    {
+      "id": "w33",
+      "text": "Companies",
+      "start": 12.79,
+      "end": 13.1737
+    },
+    {
+      "id": "w34",
+      "text": "spend",
+      "start": 13.259,
+      "end": 13.4297
+    },
+    {
+      "id": "w35",
+      "text": "on",
+      "start": 13.515,
+      "end": 13.6
+    },
+    {
+      "id": "w36",
+      "text": "tools,",
+      "start": 13.643,
+      "end": 14.176
+    },
+    {
+      "id": "w37",
+      "text": "rebuild",
+      "start": 14.454,
+      "end": 14.88
+    },
+    {
+      "id": "w38",
+      "text": "processes",
+      "start": 15.008,
+      "end": 15.6057
+    },
+    {
+      "id": "w39",
+      "text": "and",
+      "start": 15.776,
+      "end": 15.904
+    },
+    {
+      "id": "w40",
+      "text": "retrain",
+      "start": 15.99,
+      "end": 16.416
+    },
+    {
+      "id": "w41",
+      "text": "people",
+      "start": 16.544,
+      "end": 16.715
+    },
+    {
+      "id": "w42",
+      "text": "before",
+      "start": 16.843,
+      "end": 16.971
+    },
+    {
+      "id": "w43",
+      "text": "the",
+      "start": 17.099,
+      "end": 17.1417
+    },
+    {
+      "id": "w44",
+      "text": "gains",
+      "start": 17.184,
+      "end": 17.44
+    },
+    {
+      "id": "w45",
+      "text": "show",
+      "start": 17.526,
+      "end": 17.696
+    },
+    {
+      "id": "w46",
+      "text": "up.",
+      "start": 17.739,
+      "end": 18.102
+    },
+    {
+      "id": "w47",
+      "text": "We're",
+      "start": 18.379,
+      "end": 18.507
+    },
+    {
+      "id": "w48",
+      "text": "in",
+      "start": 18.55,
+      "end": 18.635
+    },
+    {
+      "id": "w49",
+      "text": "that",
+      "start": 18.678,
+      "end": 18.763
+    },
+    {
+      "id": "w50",
+      "text": "dip",
+      "start": 18.806,
+      "end": 18.976
+    },
+    {
+      "id": "w51",
+      "text": "right",
+      "start": 19.062,
+      "end": 19.232
+    },
+    {
+      "id": "w52",
+      "text": "now.",
+      "start": 19.275,
+      "end": 19.616
+    },
+    {
+      "id": "w53",
+      "text": "And",
+      "start": 19.787,
+      "end": 20.086
+    },
+    {
+      "id": "w54",
+      "text": "let",
+      "start": 20.128,
+      "end": 20.214
+    },
+    {
+      "id": "w55",
+      "text": "me",
+      "start": 20.256,
+      "end": 20.299
+    },
+    {
+      "id": "w56",
+      "text": "be",
+      "start": 20.342,
+      "end": 20.427
+    },
+    {
+      "id": "w57",
+      "text": "honest:",
+      "start": 20.47,
+      "end": 20.854
+    },
+    {
+      "id": "w58",
+      "text": "this",
+      "start": 21.11,
+      "end": 21.2377
+    },
+    {
+      "id": "w59",
+      "text": "is",
+      "start": 21.28,
+      "end": 21.366
+    },
+    {
+      "id": "w60",
+      "text": "a",
+      "start": 21.408,
+      "end": 21.451
+    },
+    {
+      "id": "w61",
+      "text": "model,",
+      "start": 21.494,
+      "end": 21.856
+    },
+    {
+      "id": "w62",
+      "text": "not",
+      "start": 22.048,
+      "end": 22.176
+    },
+    {
+      "id": "w63",
+      "text": "a",
+      "start": 22.219,
+      "end": 22.2617
+    },
+    {
+      "id": "w64",
+      "text": "promise.",
+      "start": 22.304,
+      "end": 22.838
+    },
+    {
+      "id": "w65",
+      "text": "The",
+      "start": 23.158,
+      "end": 23.243
+    },
+    {
+      "id": "w66",
+      "text": "dip",
+      "start": 23.286,
+      "end": 23.499
+    },
+    {
+      "id": "w67",
+      "text": "is",
+      "start": 23.67,
+      "end": 23.883
+    },
+    {
+      "id": "w68",
+      "text": "measured.",
+      "start": 23.926,
+      "end": 24.502
+    },
+    {
+      "id": "w69",
+      "text": "The",
+      "start": 24.736,
+      "end": 24.8217
+    },
+    {
+      "id": "w70",
+      "text": "upswing",
+      "start": 24.864,
+      "end": 25.3337
+    },
+    {
+      "id": "w71",
+      "text": "is",
+      "start": 25.504,
+      "end": 25.76
+    },
+    {
+      "id": "w72",
+      "text": "the",
+      "start": 25.803,
+      "end": 25.931
+    },
+    {
+      "id": "w73",
+      "text": "bet.",
+      "start": 25.974,
+      "end": 26.47
+    }
+  ],
+  "generatedWordsHash": "a3dcf58ad9c782a755d5685065802623855205d923f91ebe28f2855a8705f0f1",
+  "createdAt": "2026-11-21T01:39:09.056Z"
+}

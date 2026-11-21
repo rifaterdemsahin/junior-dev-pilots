@@ -1,0 +1,26 @@
+assets/HeyGen voice 236b0dbc.wav · 26.7 s
+overall: This 26.7-second soundtrack consists entirely of a clean, close-mic recording of a single male speaker with a British accent, heard from 0.25 to 26.5 seconds, with no background music or sound effects. Recorded in a dry acoustic space, the speaker delivers his lines at a steady, conversational, and informative pace. Brief natural pauses and audible inhalations punctuate the sentences around 7, 13, 18, and 20 seconds. At roughly 20 seconds, his tone drops slightly to adopt a more candid and serious feel for the final remarks.
+voice-free mix: .hyperframes/read-audio/stems/696dde7a8964/no-vocals.wav
+stems: .hyperframes/read-audio/stems/696dde7a8964/
+
+vocals  -17 dB · 0.25–26.5
+  This stem contains a single male spoken voice with a British accent, recorded close to the microphone in a dry acoustic space. The delivery is conversational, measured, and informative, maintaining a steady pace throughout the entire 26.7 seconds. Brief natural pauses and audible inhalations occur between sentences, notably around 0:07, 0:13, 0:18, and 0:20. Around 0:20, the speaker drops his tone slightly to adopt a more candid and serious feel for the final remarks. There are no background instruments, music bleed, or added sound effects present in this clean vocal track.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 11 lines, 0 pauses, mean 3.1 words/s, median pitch 129 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–1.8    voice    "So why am I still optimistic?"  4.1 words/s (mean 3.1)  pitch 190 Hz (median 129)  rising end
+2.2–6.6    voice    "Because of a well- known idea called the Productivity J- curve, from Brynjolfsson,"  2.9 words/s (mean 3.1)  rising end
+6.7–7.8    voice    "Rock and Syverson."  2.7 words/s (mean 3.1)
+8.1–11.9   voice    "When a general- purpose technology arrives, productivity and hiring dip"  2.6 words/s (mean 3.1)  falling end
+12.0–12.5  voice    "first."  1.9 words/s (mean 3.1)
+12.8–17.0  voice    "Companies spend on tools, rebuild processes and retrain people before"  2.4 words/s (mean 3.1)  falling end
+17.1–18.1  voice    "the gains show up."  4 words/s (mean 3.1)
+18.4–19.6  voice    "We're in that dip right now."  4.9 words/s (mean 3.1)
+19.8–22.8  voice    "And let me be honest: this is a model, not a promise."  3.9 words/s (mean 3.1)
+23.2–24.5  voice    "The dip is measured."  3 words/s (mean 3.1)  pitch 89 Hz (median 129)
+24.7–26.5  voice    "The upswing is the bet."  2.9 words/s (mean 3.1)  pitch 82 Hz (median 129)

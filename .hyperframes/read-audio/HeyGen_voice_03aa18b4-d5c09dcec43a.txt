@@ -1,0 +1,22 @@
+assets/HeyGen voice 03aa18b4.wav · 46.1 s · not separated
+voice: 15 lines, 0 pauses, mean 3 words/s, median pitch 113 Hz
+effects: 0 in 0 sounds
+
+0.3–3.1    voice    "Here's the hopeful part: nobody gets demoted."  2.5 words/s (mean 3)  falling end
+3.4–4.9    voice    "Everyone moves up a seat."  3.4 words/s (mean 3)
+5.2–9.1    voice    "Students and career switchers go from rider to driver faster than ever,"  3.1 words/s (mean 3)  falling end
+9.3–12.8   voice    "because AI is a patient tutor that never gets tired of your questions."  3.8 words/s (mean 3)  falling end
+13.1–15.9  voice    "Ask the same thing ten times, and nobody sighs."  3.1 words/s (mean 3)  falling end
+16.2–18.6  voice    "Juniors go from driver to Delivery Pilot."  2.9 words/s (mean 3)  rising end
+18.9–21.4  voice    "You stop owning tickets, and start owning outcomes."  3.2 words/s (mean 3)
+21.7–24.6  voice    "That's a bigger job, and a better one, from day one."  3.7 words/s (mean 3)  pitch 95 Hz (median 113)  falling end
+24.9–26.6  voice    "Seniors become flight commanders."  2.3 words/s (mean 3)
+26.8–30.6  voice    "They run fleets of pilots and agents, and their judgment gets multiplied"  3.2 words/s (mean 3)  falling end
+30.7–32.1  voice    "across far more work."  3 words/s (mean 3)  pitch 91 Hz (median 113)
+32.3–37.3  voice    "And managers become air traffic control: strategy, priorities and safety."  2 words/s (mean 3)
+37.7–41.6  voice    "Making sure everyone is flying the right routes, and nobody collides."  2.8 words/s (mean 3)
+42.0–44.0  voice    "Every seat moves up one level."  3 words/s (mean 3)  falling end
+44.3–45.9  voice    "That's what an upgrade looks like."  3.8 words/s (mean 3)
+
+! not separated into stems: the stems service answered 402: HyperFrames generation needs a HyperFrames plan: the person already saw this in this chat. Don't stop, ask or repeat it, and don't call HeyGen's tools again this turn; finish without that media and say in one line at the end what was left out, ending with [See plans](hf:place:plan).
+! without stems, effects under speech are not found and music is not read

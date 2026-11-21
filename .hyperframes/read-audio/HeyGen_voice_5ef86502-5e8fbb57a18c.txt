@@ -1,0 +1,19 @@
+assets/HeyGen voice 5ef86502.wav · 14.6 s
+overall: The 14.63-second soundtrack features a solo male speaker with a British accent delivering an informational statement in a steady, serious tone from 0.25 to 14.5 seconds. He speaks continuously until pausing briefly around 10 seconds, then concludes with shorter, punchier phrases. There is no background music or sound effects present in the track.
+voice-free mix: .hyperframes/read-audio/stems/5e8fbb57a18c/no-vocals.wav
+stems: .hyperframes/read-audio/stems/5e8fbb57a18c/
+
+vocals  -17 dB · 0.25–14.5
+  A male voice speaks with a British accent in a measured, informational tone throughout the track. He delivers a continuous statement from the beginning until 10 seconds, pausing briefly only between clauses. At 10 seconds, a brief silence marks the end of the main sentence before he resumes with shorter, punchier concluding phrases at 10.6 seconds. The delivery remains steady and serious with no background bleed or sound effects, finishing cleanly at 14.3 seconds.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 4 lines, 0 pauses, mean 2.9 words/s, median pitch 100 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–1.5    voice    "It isn't just the UK."  4.2 words/s (mean 2.9)
+1.7–5.3    voice    "Globally, new- grad and entry- level hiring at the biggest tech firms is"  3.6 words/s (mean 2.9)  rising end
+5.4–10.4   voice    "about sixty- five percent below 2019, according to SignalFire's 2026 report."  1.8 words/s (mean 2.9)
+10.8–14.4  voice    "Same story, bigger scale: fewer doors at the bottom of the ladder."  3.3 words/s (mean 2.9)  pitch 123 Hz (median 100)  falling end

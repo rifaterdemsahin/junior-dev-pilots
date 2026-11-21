@@ -1,0 +1,24 @@
+assets/HeyGen voice f4d03a51.wav · 27.5 s
+overall: From 0.25 to 27.25 seconds, a clear, closely miked male voice speaks in a British accent with a calm, professional, and serious tone. The vocal delivery maintains a steady, measured narrative pace throughout, marked by natural conversational pauses around 2.1, 11.4, 16.2, 18.8, and 25.6 seconds, alongside brief audible breath intakes at 11.5 and 21.8 seconds. The recording remains dry and consistent in volume and character from start to finish, with no musical instruments, singing, or sound effects present.
+voice-free mix: .hyperframes/read-audio/stems/269036e3ec6c/no-vocals.wav
+stems: .hyperframes/read-audio/stems/269036e3ec6c/
+
+vocals  -18 dB · 0.25–27.25
+  From 0 to 27.51 s, this stem holds a clear, closely miked male voice speaking in a British accent with a calm, professional, and serious tone. The vocal delivery maintains a steady, measured narrative pace throughout, marked by natural conversational pauses around 2.1 s, 11.4 s, 16.2 s, 18.8 s, and 25.6 s, along with brief audible breath intakes such as at 11.5 s and 21.8 s. There are no musical instruments, singing, or sound effects present, and the recording stays dry and consistent in volume and character from start to finish.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 9 lines, 0 pauses, mean 3.1 words/s, median pitch 101 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–2.4    voice    "Let's start with the numbers, because they're real."  3.8 words/s (mean 3.1)  falling end
+2.7–7.9    voice    "UK entry- level technology roles fell forty- six percent in 2024, and projections"  2.3 words/s (mean 3.1)  falling end
+8.3–11.1   voice    "reach fifty- three percent by the end of 2026."  2.8 words/s (mean 3.1)
+11.3–14.8  voice    "Those figures come through secondary reports, so check the original sources"  3.2 words/s (mean 3.1)  rising end
+15.0–16.0  voice    "before you quote them."  3.7 words/s (mean 3.1)
+16.3–18.5  voice    "Even so, the direction is clear."  2.8 words/s (mean 3.1)  falling end
+18.8–23.1  voice    "The old way into this industry is narrowing, and that hurts if you're a junior,"  3.5 words/s (mean 3.1)  rising end
+23.2–25.4  voice    "a student, or a career switcher."  2.8 words/s (mean 3.1)  rising end
+25.6–27.3  voice    "But it's only half of the picture."  4.2 words/s (mean 3.1)

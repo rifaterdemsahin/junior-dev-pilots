@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice f1932b5b.wav",
+  "sha": "797dfbf77d110b44229a5766e7b85b88122ec7dc0e7e1ce875380660e1410907",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "UK",
+      "start": 0.256,
+      "end": 0.597
+    },
+    {
+      "id": "w1",
+      "text": "entry-",
+      "start": 0.683,
+      "end": 0.981
+    },
+    {
+      "id": "w2",
+      "text": "level",
+      "start": 0.981,
+      "end": 1.0667
+    },
+    {
+      "id": "w3",
+      "text": "tech",
+      "start": 1.195,
+      "end": 1.408
+    },
+    {
+      "id": "w4",
+      "text": "roles",
+      "start": 1.493,
+      "end": 1.664
+    },
+    {
+      "id": "w5",
+      "text": "are",
+      "start": 1.792,
+      "end": 1.8347
+    },
+    {
+      "id": "w6",
+      "text": "down",
+      "start": 1.877,
+      "end": 2.048
+    },
+    {
+      "id": "w7",
+      "text": "by",
+      "start": 2.133,
+      "end": 2.261
+    },
+    {
+      "id": "w8",
+      "text": "about",
+      "start": 2.347,
+      "end": 2.4747
+    },
+    {
+      "id": "w9",
+      "text": "half.",
+      "start": 2.517,
+      "end": 3.093
+    },
+    {
+      "id": "w10",
+      "text": "So",
+      "start": 3.456,
+      "end": 3.584
+    },
+    {
+      "id": "w11",
+      "text": "why",
+      "start": 3.627,
+      "end": 3.84
+    },
+    {
+      "id": "w12",
+      "text": "am",
+      "start": 3.883,
+      "end": 3.925
+    },
+    {
+      "id": "w13",
+      "text": "I",
+      "start": 3.968,
+      "end": 4.0107
+    },
+    {
+      "id": "w14",
+      "text": "more",
+      "start": 4.053,
+      "end": 4.224
+    },
+    {
+      "id": "w15",
+      "text": "optimistic",
+      "start": 4.267,
+      "end": 4.608
+    },
+    {
+      "id": "w16",
+      "text": "about",
+      "start": 4.864,
+      "end": 4.992
+    },
+    {
+      "id": "w17",
+      "text": "junior",
+      "start": 5.035,
+      "end": 5.376
+    },
+    {
+      "id": "w18",
+      "text": "careers",
+      "start": 5.419,
+      "end": 5.6747
+    },
+    {
+      "id": "w19",
+      "text": "than",
+      "start": 5.803,
+      "end": 5.845
+    },
+    {
+      "id": "w20",
+      "text": "I've",
+      "start": 5.888,
+      "end": 6.016
+    },
+    {
+      "id": "w21",
+      "text": "ever",
+      "start": 6.059,
+      "end": 6.101
+    },
+    {
+      "id": "w22",
+      "text": "been?",
+      "start": 6.229,
+      "end": 6.496
+    }
+  ],
+  "generatedWordsHash": "1fef802c7a2aee76e960db94e46c48cb47665e6980b33468a789ac3a4894672f",
+  "createdAt": "2026-11-21T01:36:42.664Z"
+}
