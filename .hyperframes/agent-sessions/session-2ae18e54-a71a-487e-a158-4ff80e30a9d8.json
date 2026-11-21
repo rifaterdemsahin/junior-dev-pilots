@@ -13,8 +13,11 @@
   "hf-edit-context": {
     "state": {
       "since": 1795225933703,
-      "seen": [],
-      "revision": null,
+      "seen": [
+        "01138f6c-b92d-4c11-93b9-3533a5bfcf0c:f680035a-06af-4ab7-9c5b-d8e2f0eaedc6",
+        "01138f6c-b92d-4c11-93b9-3533a5bfcf0c:761fec29-71cc-433f-85dc-c1cfa9c6f1e5"
+      ],
+      "revision": "761fec29-71cc-433f-85dc-c1cfa9c6f1e5",
       "historyOpen": false,
       "unreadable": null
     }
@@ -26,7 +29,10 @@
       "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/864272e1-487d-478c-968b-c493cef0765e/contact-sheet-2.jpg": "16777230:208951110:120087:1795226159016710213:1795226159016879421",
       "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/eb5edd64-972d-45dc-8b9b-7d4b812e0faf/contact-sheet-1.jpg": "16777230:208951338:250094:1795226163331973253:1795226163332187837",
       "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/eb5edd64-972d-45dc-8b9b-7d4b812e0faf/contact-sheet-2.jpg": "16777230:208951343:117660:1795226163448338800:1795226163448434217",
-      "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html": "16777230:208951516:57848:1795226175070430688:1795226175070605272"
+      "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/index.html": "16777230:208951516:57848:1795226175070430688:1795226175070605272",
+      "/Users/rifaterdemsahin/Library/Application Support/HyperFrames/guides/.host-named/2649c98b5c24d211d2d9109f8caba3b3/studio-plugin/skills/hyperframes/SKILL.md": "16777230:208926917:4104:1795224885455535389:1795224885455535389",
+      "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/assets/HeyGen voice d29fd5c9.transcript.json": "16777230:208933994:5019:1795225319702721539:1795225319703094706",
+      "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/meta.json": "16777230:208884480:91:1795223750697365951:1795223750697993202"
     }
   },
   "hf-ids": {

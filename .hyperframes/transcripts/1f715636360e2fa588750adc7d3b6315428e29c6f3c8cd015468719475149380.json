@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice 3144a7cd.wav",
+  "sha": "1f715636360e2fa588750adc7d3b6315428e29c6f3c8cd015468719475149380",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Remember.",
+      "start": 0.299,
+      "end": 0.875
+    },
+    {
+      "id": "w1",
+      "text": "Riders",
+      "start": 1.152,
+      "end": 1.5787
+    },
+    {
+      "id": "w2",
+      "text": "get",
+      "start": 1.664,
+      "end": 1.792
+    },
+    {
+      "id": "w3",
+      "text": "carried.",
+      "start": 1.835,
+      "end": 2.368
+    },
+    {
+      "id": "w4",
+      "text": "Drivers",
+      "start": 2.56,
+      "end": 2.944
+    },
+    {
+      "id": "w5",
+      "text": "get",
+      "start": 3.029,
+      "end": 3.2
+    },
+    {
+      "id": "w6",
+      "text": "there.",
+      "start": 3.243,
+      "end": 3.605
+    },
+    {
+      "id": "w7",
+      "text": "Pilots",
+      "start": 3.84,
+      "end": 4.224
+    },
+    {
+      "id": "w8",
+      "text": "go",
+      "start": 4.309,
+      "end": 4.437
+    },
+    {
+      "id": "w9",
+      "text": "the",
+      "start": 4.48,
+      "end": 4.5227
+    },
+    {
+      "id": "w10",
+      "text": "distance.",
+      "start": 4.565,
+      "end": 5.077
+    },
+    {
+      "id": "w11",
+      "text": "See",
+      "start": 5.461,
+      "end": 5.675
+    },
+    {
+      "id": "w12",
+      "text": "you",
+      "start": 5.717,
+      "end": 5.76
+    },
+    {
+      "id": "w13",
+      "text": "in",
+      "start": 5.803,
+      "end": 5.845
+    },
+    {
+      "id": "w14",
+      "text": "the",
+      "start": 5.888,
+      "end": 5.973
+    },
+    {
+      "id": "w15",
+      "text": "cockpit.",
+      "start": 6.016,
+      "end": 6.449569160997733
+    }
+  ],
+  "generatedWordsHash": "075d3d3bb5944a2ee50910d44f2b8d82035a54146e44d93518ab6d6878706ea6",
+  "createdAt": "2026-11-21T08:51:02.001Z"
+}

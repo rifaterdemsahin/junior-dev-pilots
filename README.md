@@ -1,10 +1,35 @@
-# junior-dev-pilots
+# ✈️ junior-dev-pilots
 
 # 🎬 Video Plan: Junior Developer Jobs Aren't Dead. They're Becoming Delivery Pilots (2027)
 
-🔗 **Repo:** `github.com/rifaterdemsahin/junior-to-pilot`
-⏱️ **Format:** Long-form, 15–18 min, plus 5 Shorts cut-downs
+🔗 **Repo:** [github.com/rifaterdemsahin/junior-dev-pilots](https://github.com/rifaterdemsahin/junior-dev-pilots)
+⏱️ **Format:** Long-form, 15–18 min (~17.5 min HyperFrames composition), plus 5 Shorts cut-downs
 🎯 **Audience:** Juniors, students, career switchers, and the managers hiring them
+🎞️ **Production Engine:** [HyperFrames](https://hyperframes.heygen.com) (HTML + CSS + GSAP seekable timeline)
+
+![🎨 Mood Board](mood_board.png)
+
+---
+
+## 🛠️ HyperFrames Project Structure & Commands
+
+| Path | Emoji | Description |
+|---|---|---|
+| `index.html` | 🎞️ | Main HyperFrames root video composition & GSAP timeline |
+| `STORYBOARD.md` | 📋 | 20-frame act-by-act visual storyboard (~17.5 min) |
+| `boards/` | 🖼️ | Rendered storyboard stills & visual reference boards |
+| `assets/` | 🎧 | Voiceovers, audio stems, transcripts, and visual media |
+| `renders/` | 🎬 | Final MP4 video exports |
+| `hyperframes.json` / `project.json` | ⚙️ | HyperFrames project & studio configuration |
+
+### ⚡ Quick Commands
+
+```bash
+npm run dev       # 🖥️ Launch HyperFrames Studio preview in browser
+npm run check     # ✅ Run lint, runtime, layout, motion & contrast checks
+npm run render    # 🎬 Render the composition to MP4
+npm run publish   # 🚀 Publish and generate a shareable link
+```
 
 ---
 
@@ -133,7 +158,7 @@ This is the **hope** section. Nobody gets demoted. Everyone moves up a seat:
 
 🎙️ **Closing line:** "Riders get carried. Drivers get there. **Pilots go the distance.** See you in the cockpit. ✈️"
 
-🔗 Link in description: `github.com/rifaterdemsahin/junior-to-pilot`
+🔗 Link in description: [github.com/rifaterdemsahin/junior-dev-pilots](https://github.com/rifaterdemsahin/junior-dev-pilots)
 
 ---
 

@@ -1,0 +1,20 @@
+assets/HeyGen voice caedc5dd.wav · 6.0 s
+overall: This 6.01-second soundtrack consists entirely of a male voice delivering a motivational speech with an Australian accent from 0.25 to 5.75 seconds, with no accompanying music or instruments. The vocal performance is confident, direct, and dry, unfolding in a steady, measured cadence. After an initial breath around 0.6 seconds, the speaker delivers three rhythmic, parallel phrases until 4.5 seconds, followed by another quick breath and a concluding phrase that finishes cleanly at 5.75 seconds.
+voice-free mix: .hyperframes/read-audio/stems/9c3d8f700424/no-vocals.wav
+stems: .hyperframes/read-audio/stems/9c3d8f700424/
+
+vocals  -19 dB · 0.25–5.75
+  A male voice delivers a motivational speech with an Australian accent in a steady, measured cadence. He takes a brief breath around 00:00.6, and then delivers three rhythmic, parallel phrases until 00:04.5. After another quick breath, he finishes with a concluding phrase that ends cleanly just before 00:06. The vocal tone is confident, direct, and dry, with no accompanying music or background bleed.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 5 lines, 0 pauses, mean 3.5 words/s, median pitch 114 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–0.8  voice    "Remember."  2 words/s (mean 3.5)
+1.0–2.2  voice    "Riders get carried."  2.6 words/s (mean 3.5)
+2.4–3.3  voice    "Drivers get there."  3.2 words/s (mean 3.5)
+3.5–4.6  voice    "Pilots go the distance."  3.6 words/s (mean 3.5)
+4.9–5.8  voice    "See you in the cockpit."  5.8 words/s (mean 3.5)

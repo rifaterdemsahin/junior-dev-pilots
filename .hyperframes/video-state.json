@@ -2,7 +2,7 @@
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
   "currentRevision": "761fec29-71cc-433f-85dc-c1cfa9c6f1e5",
-  "pendingChanges": false,
+  "pendingChanges": true,
   "files": {
     "AGENTS.md": {
       "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
@@ -369,12 +369,48 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/09/09c5b2da65b7235bebfe9f6a72a6bdd4735a56ed9c229183d068e487403bc9cf"
     },
     "README.md": {
-      "hash": "caf83625a44ca7bd0a5337a5ce7b7e2e41d056c4d2c9621a591fa088b25626c7",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/ca/caf83625a44ca7bd0a5337a5ce7b7e2e41d056c4d2c9621a591fa088b25626c7"
+      "hash": "b1d0eefdfb179387ef29f014a95d409eb8bb50d901cc7e1b7e984b1d89008753",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b1/b1d0eefdfb179387ef29f014a95d409eb8bb50d901cc7e1b7e984b1d89008753"
     },
     "mood_board.png": {
       "hash": "3279e1d4df4fc17d87f233de5d069d1611c62cfb9dfe85f2860a73dcc2ee674e",
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/32/3279e1d4df4fc17d87f233de5d069d1611c62cfb9dfe85f2860a73dcc2ee674e"
+    },
+    "assets/vo-11.heard.json": {
+      "hash": "58279cb3abc5985cfd9346026a9ad1071ea756b01e459fd7721bc311c02b856e",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/58/58279cb3abc5985cfd9346026a9ad1071ea756b01e459fd7721bc311c02b856e"
+    },
+    "assets/HeyGen voice 3144a7cd.wav": {
+      "hash": "1f715636360e2fa588750adc7d3b6315428e29c6f3c8cd015468719475149380",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/1f/1f715636360e2fa588750adc7d3b6315428e29c6f3c8cd015468719475149380"
+    },
+    "assets/HeyGen voice 3144a7cd.transcript.json": {
+      "hash": "d780e3c07244beb95c274a750339dd8c366c9d709380cd98a7dad0ac46cd9d66",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d7/d780e3c07244beb95c274a750339dd8c366c9d709380cd98a7dad0ac46cd9d66"
+    },
+    "assets/HeyGen voice 136485f9.wav": {
+      "hash": "b31c8694a2aebad44c19a4cc6670d46923ed051c8f8bd0c792cbfffa0659a191",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b3/b31c8694a2aebad44c19a4cc6670d46923ed051c8f8bd0c792cbfffa0659a191"
+    },
+    "assets/HeyGen voice 136485f9.transcript.json": {
+      "hash": "7924a014bb4c5494fc8cdc5f42cb3cb907c41c51f4a7869093296332edc37882",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/79/7924a014bb4c5494fc8cdc5f42cb3cb907c41c51f4a7869093296332edc37882"
+    },
+    "assets/HeyGen voice caedc5dd.wav": {
+      "hash": "9c3d8f70042419dff0118f52e6afaa64d11a40207f803fae459f702cac48864f",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/9c/9c3d8f70042419dff0118f52e6afaa64d11a40207f803fae459f702cac48864f"
+    },
+    "assets/HeyGen voice caedc5dd.transcript.json": {
+      "hash": "433fe2d199ff553e024e3a71fcf3e19b618d91e5486440ef0093111b191d56cf",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/43/433fe2d199ff553e024e3a71fcf3e19b618d91e5486440ef0093111b191d56cf"
+    },
+    "assets/HeyGen voice ca62f76f.wav": {
+      "hash": "9d9555c85b6cf4c3004b75a9a6d37b02e56636cf373ca52819deb822b786bd10",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/9d/9d9555c85b6cf4c3004b75a9a6d37b02e56636cf373ca52819deb822b786bd10"
+    },
+    "assets/HeyGen voice ca62f76f.transcript.json": {
+      "hash": "fad63cf078c862d7620b4d5d9f6b4e518a3a9ebfd74610b2cc225a8764b4dd75",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/fa/fad63cf078c862d7620b4d5d9f6b4e518a3a9ebfd74610b2cc225a8764b4dd75"
     }
   },
   "revisions": {

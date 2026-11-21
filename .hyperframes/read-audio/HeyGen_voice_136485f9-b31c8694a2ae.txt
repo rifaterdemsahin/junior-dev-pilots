@@ -1,0 +1,20 @@
+assets/HeyGen voice 136485f9.wav · 6.0 s
+overall: The 5.96-second soundtrack consists entirely of a male speaker delivering a clear, professional monologue in a calm and assured tone. His voice is heard from 0.25 to 5.75 seconds, featuring a brief pause before his final phrase. There are no musical instruments, background music, or sound effects present anywhere in the clip.
+voice-free mix: .hyperframes/read-audio/stems/b31c8694a2ae/no-vocals.wav
+stems: .hyperframes/read-audio/stems/b31c8694a2ae/
+
+vocals  -18 dB · 0.25–5.75
+  A male speaker delivers a clear, professional monologue in a calm and assured tone throughout the entire clip. He pauses briefly around 0:04 before speaking the final phrase from 0:05 to 0:06. There are no musical instruments, sound effects, or noticeable background bleed present in the stem.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 5 lines, 0 pauses, mean 3.7 words/s, median pitch 99 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–0.8  voice    "Remember."  2 words/s (mean 3.7)
+1.1–2.2  voice    "Riders get carried."  2.8 words/s (mean 3.7)  falling end
+2.4–3.3  voice    "Drivers get there."  3.3 words/s (mean 3.7)
+3.5–4.7  voice    "Pilots go the distance."  3.5 words/s (mean 3.7)
+5.0–5.8  voice    "See you in the cockpit."  6.9 words/s (mean 3.7)  pitch 136 Hz (median 99)

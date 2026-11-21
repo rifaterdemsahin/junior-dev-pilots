@@ -1,0 +1,86 @@
+{
+  "audio": "assets/HeyGen voice 3144a7cd.wav",
+  "language": null,
+  "words": [
+    {
+      "text": "Remember.",
+      "start": 0.299,
+      "end": 0.875
+    },
+    {
+      "text": "Riders",
+      "start": 1.152,
+      "end": 1.5787
+    },
+    {
+      "text": "get",
+      "start": 1.664,
+      "end": 1.792
+    },
+    {
+      "text": "carried.",
+      "start": 1.835,
+      "end": 2.368
+    },
+    {
+      "text": "Drivers",
+      "start": 2.56,
+      "end": 2.944
+    },
+    {
+      "text": "get",
+      "start": 3.029,
+      "end": 3.2
+    },
+    {
+      "text": "there.",
+      "start": 3.243,
+      "end": 3.605
+    },
+    {
+      "text": "Pilots",
+      "start": 3.84,
+      "end": 4.224
+    },
+    {
+      "text": "go",
+      "start": 4.309,
+      "end": 4.437
+    },
+    {
+      "text": "the",
+      "start": 4.48,
+      "end": 4.5227
+    },
+    {
+      "text": "distance.",
+      "start": 4.565,
+      "end": 5.077
+    },
+    {
+      "text": "See",
+      "start": 5.461,
+      "end": 5.675
+    },
+    {
+      "text": "you",
+      "start": 5.717,
+      "end": 5.76
+    },
+    {
+      "text": "in",
+      "start": 5.803,
+      "end": 5.845
+    },
+    {
+      "text": "the",
+      "start": 5.888,
+      "end": 5.973
+    },
+    {
+      "text": "cockpit.",
+      "start": 6.016,
+      "end": 6.449569160997733
+    }
+  ]
+}

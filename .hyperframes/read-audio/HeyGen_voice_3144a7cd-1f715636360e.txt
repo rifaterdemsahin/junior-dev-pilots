@@ -1,0 +1,20 @@
+assets/HeyGen voice 3144a7cd.wav · 6.7 s
+overall: This soundtrack consists solely of an intimate, calm male voice speaking with a British accent from 0.25 to 6.50 seconds, with no musical accompaniment or background noise. The speaker delivers a series of short, distinct phrases at a measured pace with brief pauses in between, maintaining a warm, dry, and up-close vocal tone throughout. He begins with a single word followed by three sequential comparative statements, then takes a quick breath before concluding with a final inviting phrase.
+voice-free mix: .hyperframes/read-audio/stems/1f715636360e/no-vocals.wav
+stems: .hyperframes/read-audio/stems/1f715636360e/
+
+vocals  -17 dB · 0.25–6.5
+  This track features an intimate, calm male voice speaking with a British accent, isolated cleanly from any accompaniment or background noise. He delivers a series of short, distinct phrases at a measured pace with brief pauses in between. He begins with a single word, then delivers three sequential comparative statements starting at 0:00, 0:02, and 0:03. After a quick intake of breath at 0:05, he concludes with a final inviting phrase that finishes just before the end of the clip. The vocal tone remains warm, dry, and up-close throughout the entire recording.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 5 lines, 0 pauses, mean 3.2 words/s, median pitch 103 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–0.9  voice    "Remember."  1.7 words/s (mean 3.2)
+1.1–2.4  voice    "Riders get carried."  2.5 words/s (mean 3.2)  falling end
+2.6–3.6  voice    "Drivers get there."  2.9 words/s (mean 3.2)  falling end
+3.8–5.1  voice    "Pilots go the distance."  3.2 words/s (mean 3.2)
+5.5–6.5  voice    "See you in the cockpit."  5.1 words/s (mean 3.2)  pitch 125 Hz (median 103)

@@ -1,0 +1,20 @@
+assets/vo-11.wav · 24.0 s
+overall: This soundtrack consists solely of a clear, dry, close-miked male voice speaking English in a professional and conversational tone from 0.25 to 23.75 seconds. The narration begins with a steady, measured cadence as the speaker lists technical concepts, then shifts around 10.2 seconds into a more earnest and reflective delivery. By 16.0 seconds, the speech becomes more deliberate and punctuated with short, impactful phrases before concluding cleanly on a definitive statement at 23.75 seconds. There is no background music or sound effects present at any point in the recording.
+voice-free mix: .hyperframes/read-audio/stems/26f441b93f33/no-vocals.wav
+stems: .hyperframes/read-audio/stems/26f441b93f33/
+
+vocals  -17 dB · 0.25–23.75
+  This vocals stem contains a clear, dry, close-miked male voice speaking English in a professional, conversational, and informative tone. The speech begins immediately at 0.0s with a steady, measured cadence, listing technical concepts with brief pauses for emphasis. At 10.2s, the speaker takes a slight breath and shifts into a slightly more earnest and reflective delivery to share a personal perspective. Around 16.0s, the rhythm becomes more deliberate and punctuated, using short, impactful phrases to emphasize key words like "safely" and "on time." The narration concludes cleanly at 23.6s on a definitive final statement, with no background bleed, music, or sound effects present throughout the entire track.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 2 lines, 1 pauses, median pitch 113 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–21.3   voice    (no transcript)  rising end
+21.3–21.8  pause    0.6 s; during it: sound continues at -34 dBFS
+21.8–23.8  voice    (no transcript)  pitch 91 Hz (median 113)
+
+! no transcript: voice lines carry no words; run hyperframes transcribe assets/vo-11.wav and pass --transcript
