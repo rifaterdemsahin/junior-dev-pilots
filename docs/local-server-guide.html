@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Server Guide — HyperFrames Studio (localhost:3002)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0A1020;
+      --surface: #0F1829;
+      --surface-2: rgba(255, 255, 255, 0.04);
+      --border: rgba(11, 181, 164, 0.25);
+      --border-strong: #0BB5A4;
+      --teal: #0BB5A4;
+      --orange: #FF7A2F;
+      --text: #EAF2F5;
+      --muted: #8EA0B8;
+      --body: #B7C7D1;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(ellipse at 85% 5%, rgba(255, 122, 47, 0.10), transparent 45%),
+        radial-gradient(ellipse at 20% 95%, rgba(11, 181, 164, 0.16), transparent 55%),
+        linear-gradient(rgba(11, 181, 164, 0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(11, 181, 164, 0.07) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 64px 64px, 64px 64px;
+      line-height: 1.6;
+      padding: 40px 24px 80px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    .hud {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font: 600 12px/1 'JetBrains Mono', monospace;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .hud-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--orange);
+      box-shadow: 0 0 12px rgba(255, 122, 47, 0.9);
+    }
+
+    h1 {
+      font: 800 clamp(32px, 5vw, 48px)/1.08 'Outfit', sans-serif;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+
+    h1 span { color: var(--teal); }
+
+    .subtitle {
+      color: var(--body);
+      font-size: 17px;
+      max-width: 760px;
+      margin-bottom: 28px;
+    }
+
+    .url-box {
+      background: linear-gradient(135deg, rgba(15, 24, 41, 0.94), rgba(11, 181, 164, 0.08));
+      border: 1.5px solid var(--border-strong);
+      border-radius: 18px;
+      padding: 20px 22px;
+      box-shadow: 0 0 40px rgba(11, 181, 164, 0.16);
+      margin-bottom: 36px;
+    }
+
+    .url-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      font: 600 12px/1 'JetBrains Mono', monospace;
+      letter-spacing: 0.06em;
+    }
+
+    .badge-teal {
+      color: var(--teal);
+      border: 1px solid rgba(11, 181, 164, 0.5);
+      background: rgba(11, 181, 164, 0.1);
+    }
+
+    .badge-orange {
+      color: var(--orange);
+      border: 1px solid rgba(255, 122, 47, 0.6);
+      background: rgba(255, 122, 47, 0.1);
+    }
+
+    .url-code {
+      font: 500 14px/1.6 'JetBrains Mono', monospace;
+      word-break: break-all;
+      background: rgba(6, 10, 22, 0.72);
+      border: 1px solid rgba(234, 242, 245, 0.1);
+      border-radius: 12px;
+      padding: 14px 16px;
+      color: var(--text);
+    }
+
+    .seg-host { color: #0BB5A4; font-weight: 600; }
+    .seg-proj { color: #EAF2F5; font-weight: 600; }
+    .seg-param { color: #FF7A2F; font-weight: 600; }
+    .seg-val { color: #8DD7FF; }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font: 600 13px/1 'JetBrains Mono', monospace;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--teal);
+      color: #07101C;
+      border: 1px solid var(--teal);
+      box-shadow: 0 0 24px rgba(11, 181, 164, 0.3);
+    }
+
+    .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 0 32px rgba(11, 181, 164, 0.5); }
+
+    .btn-outline {
+      background: rgba(15, 24, 41, 0.9);
+      color: var(--text);
+      border: 1px solid rgba(255, 122, 47, 0.65);
+    }
+
+    .btn-outline:hover { transform: translateY(-1px); background: rgba(255, 122, 47, 0.12); }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--body);
+      border: 1px solid rgba(234, 242, 245, 0.14);
+    }
+
+    .btn-ghost:hover { border-color: var(--teal); color: var(--text); }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font: 800 24px/1.2 'Outfit', sans-serif;
+      letter-spacing: -0.01em;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .num {
+      font: 600 13px/1 'JetBrains Mono', monospace;
+      color: var(--orange);
+      border: 1px solid rgba(255, 122, 47, 0.45);
+      background: rgba(255, 122, 47, 0.08);
+      padding: 5px 9px;
+      border-radius: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, rgba(15, 24, 41, 0.88), rgba(255, 255, 255, 0.03));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px 20px;
+    }
+
+    .card.highlight {
+      border-color: rgba(255, 122, 47, 0.55);
+      box-shadow: 0 0 28px rgba(255, 122, 47, 0.10);
+    }
+
+    .card-key {
+      font: 600 14px/1.3 'JetBrains Mono', monospace;
+      color: var(--teal);
+      margin-bottom: 6px;
+      word-break: break-all;
+    }
+
+    .card.highlight .card-key { color: var(--orange); }
+
+    .card-title {
+      font: 700 16px/1.3 'Outfit', sans-serif;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: var(--body);
+    }
+
+    .diagram-card {
+      background: rgba(15, 24, 41, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      overflow-x: auto;
+    }
+
+    .cmd-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .cmd-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      background: rgba(15, 24, 41, 0.9);
+      border: 1px solid rgba(234, 242, 245, 0.12);
+      border-radius: 14px;
+      padding: 14px 16px;
+      flex-wrap: wrap;
+    }
+
+    .cmd-meta {
+      flex: 1 1 300px;
+    }
+
+    .cmd-meta strong {
+      display: block;
+      font-size: 14px;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .cmd-meta code {
+      font: 500 13px/1.4 'JetBrains Mono', monospace;
+      color: var(--teal);
+      word-break: break-all;
+    }
+
+    .copy-btn {
+      background: rgba(11, 181, 164, 0.12);
+      color: var(--teal);
+      border: 1px solid rgba(11, 181, 164, 0.45);
+      border-radius: 999px;
+      padding: 7px 14px;
+      font: 600 12px/1 'JetBrains Mono', monospace;
+      cursor: pointer;
+    }
+
+    .copy-btn:hover { background: rgba(11, 181, 164, 0.24); }
+
+    .note {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-left: 3px solid var(--orange);
+      background: rgba(255, 122, 47, 0.08);
+      border-radius: 0 12px 12px 0;
+      font-size: 14px;
+      color: var(--body);
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(234, 242, 245, 0.1);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font: 500 12px/1.4 'JetBrains Mono', monospace;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hud"><span class="hud-dot"></span><span>LOCAL SERVER BRIEF // HYPERFRAMES STUDIO</span></div>
+    <h1>Understanding <span>localhost:3002</span></h1>
+    <p class="subtitle">
+      A complete breakdown of the local HyperFrames Studio preview server, every parameter in your Studio URL, how live rendering connects to your composition file, and how to jump straight to key beats.
+    </p>
+
+    <div class="url-box">
+      <div class="url-label">
+        <span class="badge badge-teal">● LIVE LOCAL PREVIEW SERVER</span>
+        <span class="badge badge-orange">1080×1920 · 45.8s PORTRAIT SHORT</span>
+      </div>
+      <div class="url-code">
+        <span class="seg-host">http://localhost:3002</span>/<span class="seg-proj">#project/Junior%20Developers%20Become%20Delivery%20Pilots</span>?<span class="seg-param">v</span>=<span class="seg-val">1</span>&amp;<span class="seg-param">comp</span>=<span class="seg-val">compositions%2Fshort-rider-driver-pilot.html</span>&amp;<span class="seg-param">t</span>=<span class="seg-val">0</span>&amp;<span class="seg-param">tab</span>=<span class="seg-val">variables</span>&amp;<span class="seg-param">rc</span>=<span class="seg-val">0</span>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="http://localhost:3002/#project/Junior%20Developers%20Become%20Delivery%20Pilots?v=1&comp=compositions%2Fshort-rider-driver-pilot.html&t=0&tab=variables&rc=0">
+          → Open Exact Studio URL (t=0s)
+        </a>
+        <a class="btn btn-outline" target="_blank" rel="noopener" href="http://localhost:3002/#project/Junior%20Developers%20Become%20Delivery%20Pilots?v=1&comp=compositions%2Fshort-rider-driver-pilot.html&t=1.8&tab=variables&rc=0">
+          Jump: Hook (1.8s)
+        </a>
+        <a class="btn btn-ghost" target="_blank" rel="noopener" href="http://localhost:3002/#project/Junior%20Developers%20Become%20Delivery%20Pilots?v=1&comp=compositions%2Fshort-rider-driver-pilot.html&t=27.5&tab=variables&rc=0">
+          Jump: Pilot Analogy (27.5s)
+        </a>
+        <a class="btn btn-ghost" target="_blank" rel="noopener" href="http://localhost:3002/#project/Junior%20Developers%20Become%20Delivery%20Pilots?v=1&comp=compositions%2Fshort-rider-driver-pilot.html&t=42.5&tab=variables&rc=0">
+          Jump: $0 CTA (42.5s)
+        </a>
+      </div>
+    </div>
+
+    <section>
+      <h2><span class="num">01</span> URL Anatomy — Parameter by Parameter</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="card-key">http://localhost:3002</div>
+          <div class="card-title">Local HyperFrames Preview Server</div>
+          <p>Runs locally on your Mac via <code>hyperframes@0.9.66 preview --background</code>. It serves the Studio web UI, watches your project files for changes, compiles Google Fonts deterministically, and streams local WAV/MP3 assets.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-key">#project/Junior%20Developers%20Become%20Delivery%20Pilots</div>
+          <div class="card-title">Active Project Workspace</div>
+          <p>Client-side hash route pointing Studio to your folder <code>~/.hyperframes-studio/Junior Developers Become Delivery Pilots</code> (URL-encoded spaces become <code>%20</code>).</p>
+        </div>
+
+        <div class="card highlight">
+          <div class="card-key">comp=compositions%2Fshort-rider-driver-pilot.html</div>
+          <div class="card-title">Target Composition File</div>
+          <p>Tells Studio to load your standalone portrait short (<code>compositions/short-rider-driver-pilot.html</code>) onto the stage instead of the default root <code>index.html</code>.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-key">t=0</div>
+          <div class="card-title">Playhead Timestamp (Seconds)</div>
+          <p>Seeks the registered GSAP timeline (<code>window.__timelines["short-rider-driver-pilot"]</code>) directly to <code>0.0s</code>. Changing <code>t=</code> lets you deep-link to any exact frame (e.g. <code>t=27.5</code> or <code>t=42.5</code>).</p>
+        </div>
+
+        <div class="card">
+          <div class="card-key">tab=variables</div>
+          <div class="card-title">Inspector Panel Tab</div>
+          <p>Opens the <strong>Variables</strong> tab in the Studio sidebar so you can inspect and tweak live composition variables/properties without digging into raw HTML.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-key">v=1 &amp; rc=0</div>
+          <div class="card-title">State Schema &amp; Reload Counter</div>
+          <p><code>v=1</code> marks Studio URL state version 1. <code>rc=0</code> tracks reload/revision cache state (<code>0</code> = initial clean load; increments when Studio forces a fresh stage reload).</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="num">02</span> How the Local Server Pipeline Works</h2>
+      <div class="diagram-card">
+        <svg viewBox="0 0 960 220" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HyperFrames Local Server Architecture">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#0BB5A4" />
+            </marker>
+            <marker id="arrow-or" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#FF7A2F" />
+            </marker>
+          </defs>
+
+          <!-- Box 1: Browser -->
+          <rect x="12" y="36" width="210" height="148" rx="16" fill="#0F1829" stroke="#0BB5A4" stroke-width="2" />
+          <text x="32" y="68" fill="#0BB5A4" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600">GOOGLE CHROME</text>
+          <text x="32" y="96" fill="#EAF2F5" font-family="Outfit, sans-serif" font-size="19" font-weight="800">HyperFrames UI</text>
+          <text x="32" y="122" fill="#B7C7D1" font-family="Inter, sans-serif" font-size="12">• Scrubber (t=0..45.8s)</text>
+          <text x="32" y="142" fill="#B7C7D1" font-family="Inter, sans-serif" font-size="12">• Variables &amp; Lint Panel</text>
+          <text x="32" y="162" fill="#B7C7D1" font-family="Inter, sans-serif" font-size="12">• Live GSAP Seek Engine</text>
+
+          <!-- Arrow 1 -->
+          <line x1="222" y1="110" x2="294" y2="110" stroke="#0BB5A4" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+          <text x="258" y="98" text-anchor="middle" fill="#8EA0B8" font-family="JetBrains Mono, monospace" font-size="11">HTTP / WS</text>
+
+          <!-- Box 2: Local Server -->
+          <rect x="300" y="36" width="240" height="148" rx="16" fill="#0F1829" stroke="#FF7A2F" stroke-width="2" />
+          <text x="320" y="68" fill="#FF7A2F" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600">LOCALHOST:3002</text>
+          <text x="320" y="96" fill="#EAF2F5" font-family="Outfit, sans-serif" font-size="19" font-weight="800">Preview Daemon</text>
+          <text x="320" y="122" fill="#B7C7D1" font-family="Inter, sans-serif" font-size="12">• hyperframes@0.9.66</text>
+          <text x="320" y="142" fill="#B7C7D1" font-family="Inter, sans-serif" font-size="12">• File watcher + auto-reload</text>
+          <text x="320" y="162" fill="#B7C7D1" font-family="Inter, sans-serif" font-size="12">• Font &amp; audio asset server</text>
+
+          <!-- Arrow 2 -->
+          <line x1="540" y1="84" x2="616" y2="74" stroke="#0BB5A4" stroke-width="2.5" marker-end="url(#arrow)" />
+          <line x1="540" y1="138" x2="616" y2="148" stroke="#FF7A2F" stroke-width="2.5" marker-end="url(#arrow-or)" />
+
+          <!-- Box 3a: Source Files -->
+          <rect x="622" y="20" width="322" height="82" rx="14" fill="#0F1829" stroke="rgba(11,181,164,0.45)" stroke-width="1.5" />
+          <text x="640" y="47" fill="#0BB5A4" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600">SOURCE COMPOSITION + ASSETS</text>
+          <text x="640" y="70" fill="#EAF2F5" font-family="JetBrains Mono, monospace" font-size="12">compositions/short-rider-driver-pilot.html</text>
+          <text x="640" y="88" fill="#8EA0B8" font-family="Inter, sans-serif" font-size="11">VO + underscore.mp3 + 3 cockpit SFX WAVs</text>
+
+          <!-- Box 3b: Rendered Output -->
+          <rect x="622" y="118" width="322" height="82" rx="14" fill="#0F1829" stroke="rgba(255,122,47,0.45)" stroke-width="1.5" />
+          <text x="640" y="145" fill="#FF7A2F" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600">RENDERED MP4 OUTPUT</text>
+          <text x="640" y="168" fill="#EAF2F5" font-family="JetBrains Mono, monospace" font-size="12">renders/short-rider-driver-pilot.mp4</text>
+          <text x="640" y="186" fill="#8EA0B8" font-family="Inter, sans-serif" font-size="11">1080×1920 · 30fps · delivery quality · -14.9 LUFS</text>
+        </svg>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="num">03</span> Managing the Local Server (CLI Commands)</h2>
+      <div class="cmd-list">
+        <div class="cmd-row">
+          <div class="cmd-meta">
+            <strong>Check if the background preview server is running</strong>
+            <code>npx --yes hyperframes@0.9.66 preview --status</code>
+          </div>
+          <button class="copy-btn" data-copy="npx --yes hyperframes@0.9.66 preview --status">Copy</button>
+        </div>
+
+        <div class="cmd-row">
+          <div class="cmd-meta">
+            <strong>Start (or restart) persistent Studio preview in background</strong>
+            <code>npx --yes hyperframes@0.9.66 preview --background</code>
+          </div>
+          <button class="copy-btn" data-copy="npx --yes hyperframes@0.9.66 preview --background">Copy</button>
+        </div>
+
+        <div class="cmd-row">
+          <div class="cmd-meta">
+            <strong>Stop the background preview server cleanly</strong>
+            <code>npx --yes hyperframes@0.9.66 preview --stop</code>
+          </div>
+          <button class="copy-btn" data-copy="npx --yes hyperframes@0.9.66 preview --stop">Copy</button>
+        </div>
+
+        <div class="cmd-row">
+          <div class="cmd-meta">
+            <strong>Hand off to the HyperFrames Desktop App (auto-stops web preview)</strong>
+            <code>npx --yes hyperframes@0.9.66 open .</code>
+          </div>
+          <button class="copy-btn" data-copy="npx --yes hyperframes@0.9.66 open .">Copy</button>
+        </div>
+
+        <div class="cmd-row">
+          <div class="cmd-meta">
+            <strong>Re-render the standalone portrait short to high-quality MP4</strong>
+            <code>npx --yes hyperframes@0.9.66 render -c compositions/short-rider-driver-pilot.html -q delivery -o renders/short-rider-driver-pilot.mp4</code>
+          </div>
+          <button class="copy-btn" data-copy="npx --yes hyperframes@0.9.66 render -c compositions/short-rider-driver-pilot.html -q delivery -o renders/short-rider-driver-pilot.mp4">Copy</button>
+        </div>
+      </div>
+
+      <div class="note">
+        <strong>Note on Desktop App vs. Browser Studio:</strong> The HyperFrames desktop app cannot edit the project while the background preview server on <code>localhost:3002</code> is running. Running <code>npx --yes hyperframes@0.9.66 open .</code> stops the background preview automatically before opening the desktop app.
+      </div>
+    </section>
+
+    <footer>
+      <span>Workspace: Junior Developers Become Delivery Pilots</span>
+      <span>Server Log: ~/.local/state/hyperframes/previews/a9fa8a0b1ea44c9e.log</span>
+    </footer>
+  </div>
+
+  <script>
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        navigator.clipboard.writeText(btn.dataset.copy).then(() => {
+          const orig = btn.textContent;
+          btn.textContent = 'Copied!';
+          setTimeout(() => { btn.textContent = orig; }, 1400);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

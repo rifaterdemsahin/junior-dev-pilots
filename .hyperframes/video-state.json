@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "547d191a-acff-4a79-9026-ae8c017f9243",
+  "currentRevision": "a6ae687d-6172-4823-92f6-4fc693c4cbf4",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -467,6 +467,10 @@
     "assets/sfx-cta.wav": {
       "hash": "676cbb84f4d50f96c3cad29ed1ad6265c2b7a0707f1a2dd528c9cb89fbd8fb0c",
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/67/676cbb84f4d50f96c3cad29ed1ad6265c2b7a0707f1a2dd528c9cb89fbd8fb0c"
+    },
+    "docs/local-server-guide.html": {
+      "hash": "295aafa49a794c620b028681e75c2dbe35f890bdc23ceeddaaffc4677f08de89",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/29/295aafa49a794c620b028681e75c2dbe35f890bdc23ceeddaaffc4677f08de89"
     }
   },
   "revisions": {
@@ -1154,6 +1158,21 @@
         "compositions/short-rider-driver-pilot.html": {
           "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/83/83cde8636791b9058022aab856899eccf1290317150fd263b5a276ab19ea9847",
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/8a/8a24db95579e0a630a178b44d3382be02df7bba44c692db87043520e21fa3912"
+        }
+      }
+    },
+    "a6ae687d-6172-4823-92f6-4fc693c4cbf4": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795258797860,
+      "endedAt": 1795258799862,
+      "files": {
+        "docs/local-server-guide.html": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/29/295aafa49a794c620b028681e75c2dbe35f890bdc23ceeddaaffc4677f08de89"
         }
       }
     }
