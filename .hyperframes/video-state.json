@@ -951,7 +951,6 @@
         {
           "id": "5494c88f-6e82-4f22-bf3d-c2e732a0fcdc",
           "scope": "project",
-          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/5494c88f-6e82-4f22-bf3d-c2e732a0fcdc.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -981,7 +980,9 @@
           "revision": "f680035a-06af-4ab7-9c5b-d8e2f0eaedc6",
           "inputFingerprint": "03fcc85a6f6265031629d3fdebd2dafaaf349a43b251a2f3c0eee51b205fc35b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "07ee955c-ac8b-41d2-8677-f2bc16dfcc91"
         }
       ]
     },
@@ -1906,5 +1907,18 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "07ee955c-ac8b-41d2-8677-f2bc16dfcc91",
+      "completedAt": 1795251828800,
+      "output": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/renders/Junior Developers Become Delivery Pilots_2026-11-21_09-00-18.mp4",
+      "status": "completed",
+      "revision": "dd157d4d-443f-4aeb-b30f-6c213494683e"
+    },
+    "retainedRevisions": [
+      "dd157d4d-443f-4aeb-b30f-6c213494683e"
+    ]
+  },
+  "pendingArtifactCleanup": []
 }
