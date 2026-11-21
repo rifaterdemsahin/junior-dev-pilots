@@ -1,0 +1,21 @@
+assets/HeyGen voice ca62f76f.wav · 6.6 s
+overall: The 6.64-second soundtrack contains only spoken vocals without any musical accompaniment or sound effects. From 0.25 to 6.5 seconds, a single male voice speaks in a deep, resonant baritone with a calm and authoritative tone. He delivers a series of short, motivational statements in a steady, measured cadence, taking a brief pause around 4.5 seconds before concluding. The recording is completely dry and clean throughout.
+voice-free mix: .hyperframes/read-audio/stems/9d9555c85b6c/no-vocals.wav
+stems: .hyperframes/read-audio/stems/9d9555c85b6c/
+
+vocals  -20 dB · 0.25–6.5
+  This vocals stem features a single male voice speaking in a deep, resonant baritone with a calm and authoritative tone. He delivers a series of short, motivational statements in a steady, measured cadence, starting from the very beginning of the clip. A brief, intentional pause occurs around 0:04.5 before he delivers the final concluding phrase. The recording is completely dry and clean, with no background bleed, vocal harmonies, or sound effects present.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 5 lines, 1 pauses, mean 3.3 words/s, median pitch 87 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–0.9  voice    "Remember."  1.6 words/s (mean 3.3)
+1.2–2.3  voice    "Riders get carried."  2.8 words/s (mean 3.3)
+2.6–3.5  voice    "Drivers get there."  3.1 words/s (mean 3.3)
+3.8–5.1  voice    "Pilots go the distance."  3.1 words/s (mean 3.3)
+5.1–5.5  pause    0.4 s; during it: sound continues at -33 dBFS
+5.5–6.4  voice    "See you in the cockpit."  5.6 words/s (mean 3.3)

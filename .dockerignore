@@ -1,0 +1,10 @@
+.git
+.hyperframes
+.thumbnails
+.waveform-cache
+.claude
+.DS_Store
+renders
+assets/HeyGen*
+assets/*.heard.json
+assets/*.transcript.json

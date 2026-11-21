@@ -1,0 +1,316 @@
+{
+  "audio": "assets/HeyGen voice ab6696f4.wav",
+  "language": null,
+  "words": [
+    {
+      "text": "The",
+      "start": 0.384,
+      "end": 0.4267
+    },
+    {
+      "text": "pipeline",
+      "start": 0.469,
+      "end": 0.853
+    },
+    {
+      "text": "was",
+      "start": 0.939,
+      "end": 1.024
+    },
+    {
+      "text": "never",
+      "start": 1.067,
+      "end": 1.28
+    },
+    {
+      "text": "the",
+      "start": 1.365,
+      "end": 1.4507
+    },
+    {
+      "text": "hard",
+      "start": 1.493,
+      "end": 1.664
+    },
+    {
+      "text": "part.",
+      "start": 1.749,
+      "end": 2.24
+    },
+    {
+      "text": "Green",
+      "start": 2.517,
+      "end": 2.773
+    },
+    {
+      "text": "builds,",
+      "start": 2.901,
+      "end": 3.499
+    },
+    {
+      "text": "passing",
+      "start": 3.669,
+      "end": 3.968
+    },
+    {
+      "text": "tests,",
+      "start": 4.096,
+      "end": 4.757
+    },
+    {
+      "text": "merged",
+      "start": 4.949,
+      "end": 5.248
+    },
+    {
+      "text": "pull",
+      "start": 5.333,
+      "end": 5.504
+    },
+    {
+      "text": "requests:",
+      "start": 5.547,
+      "end": 6.421
+    },
+    {
+      "text": "that",
+      "start": 6.784,
+      "end": 6.912
+    },
+    {
+      "text": "part",
+      "start": 6.955,
+      "end": 7.125
+    },
+    {
+      "text": "is",
+      "start": 7.168,
+      "end": 7.2107
+    },
+    {
+      "text": "solved,",
+      "start": 7.253,
+      "end": 7.787
+    },
+    {
+      "text": "and",
+      "start": 7.979,
+      "end": 8.064
+    },
+    {
+      "text": "AI",
+      "start": 8.107,
+      "end": 8.405
+    },
+    {
+      "text": "does",
+      "start": 8.448,
+      "end": 8.576
+    },
+    {
+      "text": "it",
+      "start": 8.619,
+      "end": 8.704
+    },
+    {
+      "text": "now.",
+      "start": 8.747,
+      "end": 9.216
+    },
+    {
+      "text": "In",
+      "start": 9.515,
+      "end": 9.6
+    },
+    {
+      "text": "my",
+      "start": 9.643,
+      "end": 9.728
+    },
+    {
+      "text": "own",
+      "start": 9.771,
+      "end": 9.8987
+    },
+    {
+      "text": "onboarding",
+      "start": 9.941,
+      "end": 10.411
+    },
+    {
+      "text": "and",
+      "start": 10.539,
+      "end": 10.624
+    },
+    {
+      "text": "reliability",
+      "start": 10.667,
+      "end": 11.0507
+    },
+    {
+      "text": "work,",
+      "start": 11.307,
+      "end": 11.712
+    },
+    {
+      "text": "the",
+      "start": 11.947,
+      "end": 12.032
+    },
+    {
+      "text": "hard",
+      "start": 12.075,
+      "end": 12.245
+    },
+    {
+      "text": "part",
+      "start": 12.288,
+      "end": 12.501
+    },
+    {
+      "text": "was",
+      "start": 12.544,
+      "end": 12.5867
+    },
+    {
+      "text": "always",
+      "start": 12.629,
+      "end": 12.8427
+    },
+    {
+      "text": "getting",
+      "start": 13.056,
+      "end": 13.184
+    },
+    {
+      "text": "a",
+      "start": 13.269,
+      "end": 13.312
+    },
+    {
+      "text": "customer",
+      "start": 13.355,
+      "end": 13.653
+    },
+    {
+      "text": "live.",
+      "start": 13.781,
+      "end": 14.229
+    },
+    {
+      "text": "Safely.",
+      "start": 14.507,
+      "end": 14.943
+    },
+    {
+      "text": "On",
+      "start": 15.038,
+      "end": 15.2086
+    },
+    {
+      "text": "time.",
+      "start": 15.294,
+      "end": 15.763
+    },
+    {
+      "text": "With",
+      "start": 15.977,
+      "end": 16.062
+    },
+    {
+      "text": "real",
+      "start": 16.147,
+      "end": 16.3606
+    },
+    {
+      "text": "money",
+      "start": 16.446,
+      "end": 16.6166
+    },
+    {
+      "text": "and",
+      "start": 16.787,
+      "end": 17.043
+    },
+    {
+      "text": "real",
+      "start": 17.086,
+      "end": 17.342
+    },
+    {
+      "text": "people",
+      "start": 17.427,
+      "end": 17.6406
+    },
+    {
+      "text": "depending",
+      "start": 17.769,
+      "end": 17.982
+    },
+    {
+      "text": "on",
+      "start": 18.153,
+      "end": 18.238
+    },
+    {
+      "text": "it.",
+      "start": 18.281,
+      "end": 18.601
+    },
+    {
+      "text": "That's",
+      "start": 18.835,
+      "end": 19.0486
+    },
+    {
+      "text": "delivery.",
+      "start": 19.091,
+      "end": 19.646
+    },
+    {
+      "text": "And",
+      "start": 19.987,
+      "end": 20.0726
+    },
+    {
+      "text": "that's",
+      "start": 20.115,
+      "end": 20.286
+    },
+    {
+      "text": "the",
+      "start": 20.329,
+      "end": 20.4566
+    },
+    {
+      "text": "job",
+      "start": 20.499,
+      "end": 20.67
+    },
+    {
+      "text": "that's",
+      "start": 20.755,
+      "end": 20.926
+    },
+    {
+      "text": "left",
+      "start": 20.969,
+      "end": 21.0966
+    },
+    {
+      "text": "for",
+      "start": 21.225,
+      "end": 21.31
+    },
+    {
+      "text": "a",
+      "start": 21.353,
+      "end": 21.395
+    },
+    {
+      "text": "human.",
+      "start": 21.438,
+      "end": 21.988820861678004
+    }
+  ]
+}

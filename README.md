@@ -3,6 +3,7 @@
 # 🎬 Video Plan: Junior Developer Jobs Aren't Dead. They're Becoming Delivery Pilots (2027)
 
 🔗 **Repo:** [github.com/rifaterdemsahin/junior-dev-pilots](https://github.com/rifaterdemsahin/junior-dev-pilots)
+🚀 **Live Interactive Player (Fly.io):** [https://junior-dev-pilots.fly.dev/](https://junior-dev-pilots.fly.dev/)
 ⏱️ **Format:** Long-form, 15–18 min (~17.5 min HyperFrames composition), plus 5 Shorts cut-downs
 🎯 **Audience:** Juniors, students, career switchers, and the managers hiring them
 🎞️ **Production Engine:** [HyperFrames](https://hyperframes.heygen.com) (HTML + CSS + GSAP seekable timeline)
@@ -15,11 +16,13 @@
 
 | Path | Emoji | Description |
 |---|---|---|
+| `player.html` | ▶️ | Responsive web player for the HyperFrames timeline & synced audio (deployed on Fly.io) |
 | `index.html` | 🎞️ | Main HyperFrames root video composition & GSAP timeline |
 | `STORYBOARD.md` | 📋 | 20-frame act-by-act visual storyboard (~17.5 min) |
 | `boards/` | 🖼️ | Rendered storyboard stills & visual reference boards |
 | `assets/` | 🎧 | Voiceovers, audio stems, transcripts, and visual media |
 | `renders/` | 🎬 | Final MP4 video exports |
+| `fly.toml` / `Dockerfile` / `nginx.conf` | ☁️ | Fly.io deployment configuration for [junior-dev-pilots.fly.dev](https://junior-dev-pilots.fly.dev/) |
 | `hyperframes.json` / `project.json` | ⚙️ | HyperFrames project & studio configuration |
 
 ### ⚡ Quick Commands

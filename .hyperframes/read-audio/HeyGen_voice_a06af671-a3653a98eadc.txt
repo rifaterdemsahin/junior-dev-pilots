@@ -1,0 +1,31 @@
+assets/HeyGen voice a06af671.wav · 44.2 s
+overall: The 44.17 s soundtrack consists solely of a clear, dry male spoken voice from 0.25 to 44 s, with no accompanying music or instruments. The speaker delivers an informational monologue with a steady, measured cadence and a professional, instructional feel. After introducing a framework, the voice structures the explanation by emphasizing individual letters of an acronym at 5.2, 14.3, 23.0, 30.1, and 38.0 s, separated by brief, natural pauses. The speech maintains a consistent volume throughout before concluding cleanly at 44 s.
+voice-free mix: .hyperframes/read-audio/stems/a3653a98eadc/no-vocals.wav
+stems: .hyperframes/read-audio/stems/a3653a98eadc/
+
+vocals  -18 dB · 0.25–44
+  The vocal stem contains a clear, dry male spoken voice delivering an informational monologue with a steady, measured cadence and an instructional feel. The speaker begins immediately at 0.1s, introducing a framework and spelling out its acronym with brief, natural pauses between sections. At 5.2s, 14.3s, 23.0s, 30.1s, and 38.0s, the voice emphasizes individual letters to structure the explanation, maintaining a consistent volume and professional tone throughout. There are no background vocals, effects, or noticeable bleed from other instruments, and the speech concludes cleanly at 43.8s.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 16 lines, 0 pauses, mean 3 words/s, median pitch 111 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–2.9    voice    "So what is a Delivery Pilot, day to day?"  3.5 words/s (mean 3)  falling end
+3.2–5.2    voice    "I call the framework COBALTS."  2.6 words/s (mean 3)
+5.5–6.9    voice    "C is for Creator."  2.8 words/s (mean 3)  pitch 182 Hz (median 111)
+7.1–11.9   voice    "Creators make content, demos and docs that show the work, because work nobody"  2.7 words/s (mean 3)
+12.0–13.4  voice    "can see doesn't count."  3 words/s (mean 3)  pitch 92 Hz (median 111)
+13.7–16.3  voice    "O is for Operator, and B is for Builder."  3.5 words/s (mean 3)  falling end
+16.3–18.4  voice    "Operators run the agents day to day."  3.4 words/s (mean 3)  falling end
+18.6–22.3  voice    "Builders build them end to end, from the first prompt to production."  3.3 words/s (mean 3)  rising end
+22.6–23.9  voice    "L is for Leader."  3.1 words/s (mean 3)  falling end
+24.2–27.7  voice    "The leader owns the stakeholder and the delivery, and is the person everyone"  3.7 words/s (mean 3)  pitch 133 Hz (median 111)
+27.9–29.4  voice    "calls when something matters."  2.7 words/s (mean 3)  pitch 89 Hz (median 111)
+29.7–31.0  voice    "T is for Treasurer."  3 words/s (mean 3)  pitch 140 Hz (median 111)  rising end
+31.3–35.6  voice    "Treasurers watch token spend, cloud cost and return on investment, because"  2.5 words/s (mean 3)  falling end
+35.7–37.5  voice    "profitable delivery is the job."  2.8 words/s (mean 3)  falling end
+37.7–41.9  voice    "And S is for Strategist, who picks what to build next, and why."  3.2 words/s (mean 3)
+42.1–43.9  voice    "Five roles, one pilot."  2.2 words/s (mean 3)  falling end

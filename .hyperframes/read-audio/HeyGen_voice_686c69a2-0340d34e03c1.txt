@@ -1,0 +1,22 @@
+assets/HeyGen voice 686c69a2.wav · 19.6 s
+overall: This 19.59-second soundtrack consists entirely of spoken narration without any accompanying music or sound effects. From 0.25 to 19.5 seconds, a single close-miked male voice with a British accent speaks in an informative and measured tone. The dry recording features natural pauses for breath and phrasing at around 2.6, 7.6, 10.6, 14.3, and 18.0 seconds before concluding cleanly into silence.
+voice-free mix: .hyperframes/read-audio/stems/0340d34e03c1/no-vocals.wav
+stems: .hyperframes/read-audio/stems/0340d34e03c1/
+
+vocals  -18 dB · 0.25–19.5
+  This stem holds a single, clean male voice speaking in an informative and measured tone with a British accent. The speech begins immediately at 0.0 seconds and continues steadily with brief natural pauses for breath and phrasing at around 2.6 seconds, 7.6 seconds, 10.6 seconds, 14.3 seconds, and 18.0 seconds. The recording is completely dry, close-miked, and free of any background music, sound effects, or bleed from other stems. The narration concludes cleanly at 19.3 seconds, followed by a brief moment of silence until the end of the track.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 7 lines, 0 pauses, mean 3.5 words/s, median pitch 104 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–2.6    voice    "Delivery Pilot is where you train to become one."  3.8 words/s (mean 3.5)  falling end
+2.8–6.7    voice    "It's free for students: if you're studying, your seat in the cockpit costs"  3.4 words/s (mean 3.5)
+6.8–7.3    voice    "nothing."  2.1 words/s (mean 3.5)
+7.6–10.1   voice    "The full course is free on YouTube and Skool."  3.6 words/s (mean 3.5)  falling end
+10.3–13.7  voice    "The Skool room is where we build, review and certify together."  3.2 words/s (mean 3.5)
+14.0–17.6  voice    "And certified pilots go on to build real bots for real companies."  3.3 words/s (mean 3.5)  falling end
+18.0–19.4  voice    "The link is in the description."  4.4 words/s (mean 3.5)

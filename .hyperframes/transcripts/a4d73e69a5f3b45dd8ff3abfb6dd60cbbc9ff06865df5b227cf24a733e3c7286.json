@@ -1,0 +1,383 @@
+{
+  "version": 1,
+  "src": "assets/HeyGen voice ab6696f4.wav",
+  "sha": "a4d73e69a5f3b45dd8ff3abfb6dd60cbbc9ff06865df5b227cf24a733e3c7286",
+  "engine": "heygen",
+  "model": "voices-speech",
+  "words": [
+    {
+      "id": "w0",
+      "text": "The",
+      "start": 0.384,
+      "end": 0.4267
+    },
+    {
+      "id": "w1",
+      "text": "pipeline",
+      "start": 0.469,
+      "end": 0.853
+    },
+    {
+      "id": "w2",
+      "text": "was",
+      "start": 0.939,
+      "end": 1.024
+    },
+    {
+      "id": "w3",
+      "text": "never",
+      "start": 1.067,
+      "end": 1.28
+    },
+    {
+      "id": "w4",
+      "text": "the",
+      "start": 1.365,
+      "end": 1.4507
+    },
+    {
+      "id": "w5",
+      "text": "hard",
+      "start": 1.493,
+      "end": 1.664
+    },
+    {
+      "id": "w6",
+      "text": "part.",
+      "start": 1.749,
+      "end": 2.24
+    },
+    {
+      "id": "w7",
+      "text": "Green",
+      "start": 2.517,
+      "end": 2.773
+    },
+    {
+      "id": "w8",
+      "text": "builds,",
+      "start": 2.901,
+      "end": 3.499
+    },
+    {
+      "id": "w9",
+      "text": "passing",
+      "start": 3.669,
+      "end": 3.968
+    },
+    {
+      "id": "w10",
+      "text": "tests,",
+      "start": 4.096,
+      "end": 4.757
+    },
+    {
+      "id": "w11",
+      "text": "merged",
+      "start": 4.949,
+      "end": 5.248
+    },
+    {
+      "id": "w12",
+      "text": "pull",
+      "start": 5.333,
+      "end": 5.504
+    },
+    {
+      "id": "w13",
+      "text": "requests:",
+      "start": 5.547,
+      "end": 6.421
+    },
+    {
+      "id": "w14",
+      "text": "that",
+      "start": 6.784,
+      "end": 6.912
+    },
+    {
+      "id": "w15",
+      "text": "part",
+      "start": 6.955,
+      "end": 7.125
+    },
+    {
+      "id": "w16",
+      "text": "is",
+      "start": 7.168,
+      "end": 7.2107
+    },
+    {
+      "id": "w17",
+      "text": "solved,",
+      "start": 7.253,
+      "end": 7.787
+    },
+    {
+      "id": "w18",
+      "text": "and",
+      "start": 7.979,
+      "end": 8.064
+    },
+    {
+      "id": "w19",
+      "text": "AI",
+      "start": 8.107,
+      "end": 8.405
+    },
+    {
+      "id": "w20",
+      "text": "does",
+      "start": 8.448,
+      "end": 8.576
+    },
+    {
+      "id": "w21",
+      "text": "it",
+      "start": 8.619,
+      "end": 8.704
+    },
+    {
+      "id": "w22",
+      "text": "now.",
+      "start": 8.747,
+      "end": 9.216
+    },
+    {
+      "id": "w23",
+      "text": "In",
+      "start": 9.515,
+      "end": 9.6
+    },
+    {
+      "id": "w24",
+      "text": "my",
+      "start": 9.643,
+      "end": 9.728
+    },
+    {
+      "id": "w25",
+      "text": "own",
+      "start": 9.771,
+      "end": 9.8987
+    },
+    {
+      "id": "w26",
+      "text": "onboarding",
+      "start": 9.941,
+      "end": 10.411
+    },
+    {
+      "id": "w27",
+      "text": "and",
+      "start": 10.539,
+      "end": 10.624
+    },
+    {
+      "id": "w28",
+      "text": "reliability",
+      "start": 10.667,
+      "end": 11.0507
+    },
+    {
+      "id": "w29",
+      "text": "work,",
+      "start": 11.307,
+      "end": 11.712
+    },
+    {
+      "id": "w30",
+      "text": "the",
+      "start": 11.947,
+      "end": 12.032
+    },
+    {
+      "id": "w31",
+      "text": "hard",
+      "start": 12.075,
+      "end": 12.245
+    },
+    {
+      "id": "w32",
+      "text": "part",
+      "start": 12.288,
+      "end": 12.501
+    },
+    {
+      "id": "w33",
+      "text": "was",
+      "start": 12.544,
+      "end": 12.5867
+    },
+    {
+      "id": "w34",
+      "text": "always",
+      "start": 12.629,
+      "end": 12.8427
+    },
+    {
+      "id": "w35",
+      "text": "getting",
+      "start": 13.056,
+      "end": 13.184
+    },
+    {
+      "id": "w36",
+      "text": "a",
+      "start": 13.269,
+      "end": 13.312
+    },
+    {
+      "id": "w37",
+      "text": "customer",
+      "start": 13.355,
+      "end": 13.653
+    },
+    {
+      "id": "w38",
+      "text": "live.",
+      "start": 13.781,
+      "end": 14.229
+    },
+    {
+      "id": "w39",
+      "text": "Safely.",
+      "start": 14.507,
+      "end": 14.943
+    },
+    {
+      "id": "w40",
+      "text": "On",
+      "start": 15.038,
+      "end": 15.2086
+    },
+    {
+      "id": "w41",
+      "text": "time.",
+      "start": 15.294,
+      "end": 15.763
+    },
+    {
+      "id": "w42",
+      "text": "With",
+      "start": 15.977,
+      "end": 16.062
+    },
+    {
+      "id": "w43",
+      "text": "real",
+      "start": 16.147,
+      "end": 16.3606
+    },
+    {
+      "id": "w44",
+      "text": "money",
+      "start": 16.446,
+      "end": 16.6166
+    },
+    {
+      "id": "w45",
+      "text": "and",
+      "start": 16.787,
+      "end": 17.043
+    },
+    {
+      "id": "w46",
+      "text": "real",
+      "start": 17.086,
+      "end": 17.342
+    },
+    {
+      "id": "w47",
+      "text": "people",
+      "start": 17.427,
+      "end": 17.6406
+    },
+    {
+      "id": "w48",
+      "text": "depending",
+      "start": 17.769,
+      "end": 17.982
+    },
+    {
+      "id": "w49",
+      "text": "on",
+      "start": 18.153,
+      "end": 18.238
+    },
+    {
+      "id": "w50",
+      "text": "it.",
+      "start": 18.281,
+      "end": 18.601
+    },
+    {
+      "id": "w51",
+      "text": "That's",
+      "start": 18.835,
+      "end": 19.0486
+    },
+    {
+      "id": "w52",
+      "text": "delivery.",
+      "start": 19.091,
+      "end": 19.646
+    },
+    {
+      "id": "w53",
+      "text": "And",
+      "start": 19.987,
+      "end": 20.0726
+    },
+    {
+      "id": "w54",
+      "text": "that's",
+      "start": 20.115,
+      "end": 20.286
+    },
+    {
+      "id": "w55",
+      "text": "the",
+      "start": 20.329,
+      "end": 20.4566
+    },
+    {
+      "id": "w56",
+      "text": "job",
+      "start": 20.499,
+      "end": 20.67
+    },
+    {
+      "id": "w57",
+      "text": "that's",
+      "start": 20.755,
+      "end": 20.926
+    },
+    {
+      "id": "w58",
+      "text": "left",
+      "start": 20.969,
+      "end": 21.0966
+    },
+    {
+      "id": "w59",
+      "text": "for",
+      "start": 21.225,
+      "end": 21.31
+    },
+    {
+      "id": "w60",
+      "text": "a",
+      "start": 21.353,
+      "end": 21.395
+    },
+    {
+      "id": "w61",
+      "text": "human.",
+      "start": 21.438,
+      "end": 21.988820861678004
+    }
+  ],
+  "generatedWordsHash": "c4868064a7ea137f8624bff3228ad0b4b4de2fd836d2fc898d6df3e494400bf0",
+  "createdAt": "2026-11-21T08:53:55.113Z"
+}

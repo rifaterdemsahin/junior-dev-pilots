@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✈️ Junior Developers Become Delivery Pilots (2027)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #070b14;
+    --panel: #0e1626;
+    --border: rgba(11, 181, 164, 0.25);
+    --teal: #0bb5a4;
+    --orange: #e5470e;
+    --ink: #eaf2f5;
+    --muted: #8fa3b0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow: hidden;
+  }
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(14, 22, 38, 0.92);
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+    flex-shrink: 0;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--teal);
+    border: 1px solid var(--border);
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: rgba(11, 181, 164, 0.08);
+  }
+  .header-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .header-links a, .header-links button {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.04);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .header-links a:hover, .header-links button:hover {
+    border-color: var(--teal);
+    background: rgba(11, 181, 164, 0.12);
+  }
+  .stage-wrap {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px;
+    background: radial-gradient(circle at 50% 40%, #101b30 0%, #070b14 75%);
+  }
+  .stage-box {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    transform-origin: center center;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(11, 181, 164, 0.25);
+    background: #F3F0E8;
+  }
+  .stage-box iframe {
+    width: 1920px;
+    height: 1080px;
+    border: none;
+    display: block;
+    pointer-events: none;
+  }
+  .play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(7, 11, 20, 0.55);
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+    transition: opacity 0.25s;
+    z-index: 10;
+  }
+  .play-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .big-play {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: var(--teal);
+    color: #070b14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    box-shadow: 0 0 60px rgba(11, 181, 164, 0.55);
+    transition: transform 0.2s;
+  }
+  .play-overlay:hover .big-play { transform: scale(1.07); }
+  .play-hint {
+    margin-top: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 28px;
+    color: #eaf2f5;
+    letter-spacing: 0.08em;
+  }
+  .controls {
+    background: rgba(14, 22, 38, 0.96);
+    border-top: 1px solid var(--border);
+    padding: 12px 20px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .scrubber-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    min-width: 96px;
+  }
+  input[type="range"] {
+    flex: 1;
+    accent-color: var(--teal);
+    cursor: pointer;
+    height: 6px;
+  }
+  .btn-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .btn-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ctrl-btn {
+    background: rgba(255,255,255,0.06);
+    color: var(--ink);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .ctrl-btn:hover {
+    border-color: var(--teal);
+    background: rgba(11, 181, 164, 0.15);
+  }
+  .ctrl-btn.primary {
+    background: var(--teal);
+    color: #070b14;
+    border-color: var(--teal);
+    font-weight: 700;
+  }
+  .ctrl-btn.primary:hover {
+    background: #14d4c0;
+  }
+  select.scene-select {
+    background: rgba(255,255,255,0.06);
+    color: var(--ink);
+    border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 8px;
+    padding: 7px 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    max-width: 340px;
+    cursor: pointer;
+  }
+  select.scene-select option {
+    background: #0e1626;
+    color: #eaf2f5;
+  }
+  @media (max-width: 720px) {
+    .badge { display: none; }
+    select.scene-select { max-width: 180px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <span>✈️ Junior Developers Become Delivery Pilots (2027)</span>
+      <span class="badge">HYPERFRAMES PLAYER</span>
+    </div>
+    <div class="header-links">
+      <a href="/mood_board.png" target="_blank">🎨 Mood Board</a>
+      <a href="https://github.com/rifaterdemsahin/junior-dev-pilots" target="_blank">🐙 GitHub</a>
+    </div>
+  </header>
+
+  <div class="stage-wrap" id="stageWrap">
+    <div class="stage-box" id="stageBox">
+      <iframe id="compFrame" src="/index.html" title="Junior Developers Become Delivery Pilots"></iframe>
+      <div class="play-overlay" id="playOverlay">
+        <div class="big-play">▶</div>
+        <div class="play-hint">CLICK TO LAUNCH FLIGHT DECK (WITH AUDIO)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="scrubber-row">
+      <span class="time" id="timeDisplay">00:00 / 10:20</span>
+      <input type="range" id="scrubber" min="0" max="620.9" step="0.05" value="0">
+    </div>
+    <div class="btn-row">
+      <div class="btn-group">
+        <button class="ctrl-btn primary" id="playBtn">▶ Play</button>
+        <button class="ctrl-btn" id="prevBtn">⏮ Prev</button>
+        <button class="ctrl-btn" id="nextBtn">⏭ Next</button>
+        <button class="ctrl-btn" id="muteBtn">🔊 Audio</button>
+      </div>
+      <div class="btn-group">
+        <select class="scene-select" id="sceneSelect" aria-label="Jump to scene"></select>
+        <button class="ctrl-btn" id="fsBtn">⛶ Fullscreen</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const SCENES = [
+  { id: 's01', start: 0.0,   label: '01 · Hook: UK Entry-Level Tech (−50%)' },
+  { id: 's02', start: 7.2,   label: '02 · The Turn: Draw a J Over It' },
+  { id: 's03', start: 16.7,  label: '03 · UK Numbers (−46% → −53%)' },
+  { id: 's04', start: 44.7,  label: '04 · Global SignalFire (−65%)' },
+  { id: 's05', start: 59.8,  label: '05 · Harvard Study: Junior vs Senior' },
+  { id: 's06', start: 82.6,  label: '06 · The Productivity J-Curve' },
+  { id: 's07', start: 109.8, label: '07 · Honesty Beat: Interest Rates' },
+  { id: 's08', start: 121.5, label: '08 · Signs of the Upswing' },
+  { id: 's09', start: 147.2, label: '09 · What AI Does Now (CI)' },
+  { id: 's10', start: 198.9, label: '10 · What Stays Human (Delivery)' },
+  { id: 's11', start: 236.5, label: '11 · The Hard Part: Going Live' },
+  { id: 's12', start: 261.0, label: '12 · Rider → Driver → Pilot' },
+  { id: 's13', start: 306.3, label: '13 · The Pilot’s Instruments' },
+  { id: 's14', start: 366.8, label: '14 · Everyone Moves Up a Seat' },
+  { id: 's15', start: 413.4, label: '15 · Business Reality & 2031 Shortage' },
+  { id: 's16', start: 447.0, label: '16 · COBALTS Framework' },
+  { id: 's17', start: 489.6, label: '17 · A Day in the Life' },
+  { id: 's18', start: 521.4, label: '18 · Your 90-Day Flight Plan' },
+  { id: 's19', start: 591.6, label: '19 · Join Delivery Pilot' },
+  { id: 's20', start: 611.4, label: '20 · Closing: See You in the Cockpit' }
+];
+
+const TOTAL_DURATION = 620.9;
+const stageWrap = document.getElementById('stageWrap');
+const stageBox = document.getElementById('stageBox');
+const compFrame = document.getElementById('compFrame');
+const playOverlay = document.getElementById('playOverlay');
+const playBtn = document.getElementById('playBtn');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const muteBtn = document.getElementById('muteBtn');
+const fsBtn = document.getElementById('fsBtn');
+const scrubber = document.getElementById('scrubber');
+const timeDisplay = document.getElementById('timeDisplay');
+const sceneSelect = document.getElementById('sceneSelect');
+
+SCENES.forEach((s, idx) => {
+  const opt = document.createElement('option');
+  opt.value = idx;
+  opt.textContent = s.label;
+  sceneSelect.appendChild(opt);
+});
+
+let currentTime = 0;
+let isPlaying = false;
+let isMuted = false;
+let lastFrameTs = null;
+let timeline = null;
+let sceneEls = [];
+let audioEls = [];
+
+function fitStage() {
+  const pad = 24;
+  const availW = Math.max(320, stageWrap.clientWidth - pad);
+  const availH = Math.max(180, stageWrap.clientHeight - pad);
+  const scale = Math.min(availW / 1920, availH / 1080);
+  stageBox.style.transform = `scale(${scale})`;
+}
+window.addEventListener('resize', fitStage);
+fitStage();
+
+function fmtTime(sec) {
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+
+function updateSceneVisibility(t) {
+  for (const item of sceneEls) {
+    const active = t >= item.start && t < item.end;
+    item.el.style.visibility = active ? 'visible' : 'hidden';
+    item.el.style.zIndex = active ? String(10 + item.idx) : '1';
+  }
+}
+
+function syncAudio(t, forceSeek = false) {
+  for (const a of audioEls) {
+    const active = isPlaying && t >= a.start && t < a.end;
+    a.el.muted = isMuted;
+    a.el.volume = a.volume;
+    if (active) {
+      const target = t - a.start;
+      if (forceSeek || Math.abs(a.el.currentTime - target) > 0.35) {
+        try { a.el.currentTime = Math.max(0, target); } catch (_) {}
+      }
+      if (a.el.paused) {
+        a.el.play().catch(() => {});
+      }
+    } else {
+      if (!a.el.paused) {
+        a.el.pause();
+      }
+    }
+  }
+}
+
+function seekTo(t, forceAudioSeek = true) {
+  currentTime = Math.max(0, Math.min(TOTAL_DURATION, t));
+  if (timeline) {
+    timeline.seek(currentTime, false);
+  }
+  updateSceneVisibility(currentTime);
+  syncAudio(currentTime, forceAudioSeek);
+  scrubber.value = currentTime;
+  timeDisplay.textContent = `${fmtTime(currentTime)} / ${fmtTime(TOTAL_DURATION)}`;
+
+  let activeIdx = 0;
+  for (let i = 0; i < SCENES.length; i++) {
+    if (currentTime >= SCENES[i].start) activeIdx = i;
+  }
+  if (sceneSelect.value !== String(activeIdx)) {
+    sceneSelect.value = String(activeIdx);
+  }
+}
+
+function tick(ts) {
+  if (isPlaying) {
+    if (lastFrameTs !== null) {
+      const dt = Math.min(0.1, (ts - lastFrameTs) / 1000);
+      currentTime += dt;
+      if (currentTime >= TOTAL_DURATION) {
+        currentTime = TOTAL_DURATION;
+        setPlaying(false);
+      }
+      seekTo(currentTime, false);
+    }
+    lastFrameTs = ts;
+  } else {
+    lastFrameTs = null;
+  }
+  requestAnimationFrame(tick);
+}
+
+function setPlaying(play) {
+  isPlaying = play;
+  playBtn.textContent = play ? '⏸ Pause' : '▶ Play';
+  playOverlay.classList.toggle('hidden', play);
+  if (!play) {
+    for (const a of audioEls) {
+      if (!a.el.paused) a.el.pause();
+    }
+  } else {
+    if (currentTime >= TOTAL_DURATION - 0.1) currentTime = 0;
+    syncAudio(currentTime, true);
+  }
+}
+
+compFrame.addEventListener('load', () => {
+  const doc = compFrame.contentDocument;
+  const win = compFrame.contentWindow;
+  if (!doc || !win) return;
+
+  // Inject Google Fonts so typography renders crisply on every OS
+  const link = doc.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Outfit:wght@700;800&display=swap';
+  doc.head.appendChild(link);
+
+  sceneEls = Array.from(doc.querySelectorAll('section.scene.clip')).map((el, idx) => {
+    const start = parseFloat(el.dataset.start || '0');
+    const dur = parseFloat(el.dataset.duration || '10');
+    return { el, start, end: start + dur, idx };
+  });
+
+  audioEls = Array.from(doc.querySelectorAll('audio.clip')).map(el => {
+    const start = parseFloat(el.dataset.start || '0');
+    const dur = parseFloat(el.dataset.duration || '10');
+    const volume = parseFloat(el.dataset.volume || '0.85');
+    el.preload = 'auto';
+    return { el, start, end: start + dur, volume };
+  });
+
+  const waitForTimeline = () => {
+    if (win.__timelines && win.__timelines.main) {
+      timeline = win.__timelines.main;
+      seekTo(0, true);
+      requestAnimationFrame(tick);
+    } else {
+      setTimeout(waitForTimeline, 50);
+    }
+  };
+  waitForTimeline();
+});
+
+playOverlay.addEventListener('click', () => setPlaying(true));
+playBtn.addEventListener('click', () => setPlaying(!isPlaying));
+scrubber.addEventListener('input', e => seekTo(parseFloat(e.target.value), true));
+sceneSelect.addEventListener('change', e => {
+  const idx = parseInt(e.target.value, 10);
+  seekTo(SCENES[idx].start + 0.05, true);
+});
+prevBtn.addEventListener('click', () => {
+  let idx = parseInt(sceneSelect.value, 10);
+  if (currentTime - SCENES[idx].start > 2) {
+    seekTo(SCENES[idx].start + 0.05, true);
+  } else {
+    idx = Math.max(0, idx - 1);
+    seekTo(SCENES[idx].start + 0.05, true);
+  }
+});
+nextBtn.addEventListener('click', () => {
+  const idx = Math.min(SCENES.length - 1, parseInt(sceneSelect.value, 10) + 1);
+  seekTo(SCENES[idx].start + 0.05, true);
+});
+muteBtn.addEventListener('click', () => {
+  isMuted = !isMuted;
+  muteBtn.textContent = isMuted ? '🔇 Muted' : '🔊 Audio';
+  syncAudio(currentTime, false);
+});
+fsBtn.addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+  } else {
+    document.exitFullscreen().catch(() => {});
+  }
+});
+window.addEventListener('keydown', e => {
+  if (e.code === 'Space' && document.activeElement.tagName !== 'SELECT') {
+    e.preventDefault();
+    setPlaying(!isPlaying);
+  } else if (e.code === 'ArrowRight') {
+    seekTo(currentTime + 5, true);
+  } else if (e.code === 'ArrowLeft') {
+    seekTo(currentTime - 5, true);
+  }
+});
+</script>
+</body>
+</html>

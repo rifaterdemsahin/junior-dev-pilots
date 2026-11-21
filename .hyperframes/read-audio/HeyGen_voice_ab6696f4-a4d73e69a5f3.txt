@@ -1,0 +1,25 @@
+assets/HeyGen voice ab6696f4.wav · 22.2 s
+overall: This 22.23-second soundtrack features only a clear, dry, close-miked male voice speaking from 0.25 to 22 seconds. He delivers his thoughts in a measured, conversational cadence with a calm and reflective tone. Brief pauses occur around 6, 9, 15, and 19 seconds, with audible breath intakes marking the transitions at 6, 9, and 19 seconds. There is no background music or sound effects present.
+voice-free mix: .hyperframes/read-audio/stems/a4d73e69a5f3/no-vocals.wav
+stems: .hyperframes/read-audio/stems/a4d73e69a5f3/
+
+vocals  -17 dB · 0.25–22
+  This vocals stem contains a clear, dry, close-miked male voice speaking in a measured, conversational cadence with a calm and reflective tone. He speaks continuously from the start, pausing briefly around 0:06, 0:09, 0:15, and 0:19 to separate his thoughts. Audible breath intakes mark the transitions between sentences at 0:06, 0:09, and 0:19, and the vocal remains completely isolated with no background bleed or sound effects.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 10 lines, 0 pauses, mean 3.2 words/s, median pitch 104 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.4–2.2    voice    "The pipeline was never the hard part."  3.8 words/s (mean 3.2)
+2.5–7.8    voice    "Green builds, passing tests, merged pull requests: that part is solved,"  2.1 words/s (mean 3.2)  rising end
+8.0–9.2    voice    "and AI does it now."  4 words/s (mean 3.2)
+9.5–13.2   voice    "In my own onboarding and reliability work, the hard part was always getting"  3.5 words/s (mean 3.2)
+13.3–14.2  voice    "a customer live."  3.1 words/s (mean 3.2)  pitch 82 Hz (median 104)
+14.5–14.9  voice    "Safely."  2.3 words/s (mean 3.2)
+15.0–15.8  voice    "On time."  2.8 words/s (mean 3.2)
+16.0–18.6  voice    "With real money and real people depending on it."  3.4 words/s (mean 3.2)  falling end
+18.8–19.6  voice    "That's delivery."  2.5 words/s (mean 3.2)
+20.0–22.0  voice    "And that's the job that's left for a human."  4.5 words/s (mean 3.2)  falling end

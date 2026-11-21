@@ -1,0 +1,20 @@
+assets/vo-20.wav · 6.6 s
+overall: The soundtrack consists solely of a clean recording of a male voice with a British accent speaking in a measured, conversational tone from 0.25 to 6.5 seconds. He delivers a motivational line in a rhythmic, three-part cadence before taking a brief pause and concluding with a calm sign-off phrase. There is no background music, instrumentation, or sound effects present anywhere in the track.
+voice-free mix: .hyperframes/read-audio/stems/09c5b2da65b7/no-vocals.wav
+stems: .hyperframes/read-audio/stems/09c5b2da65b7/
+
+vocals  -17 dB · 0.25–6.5
+  The audio is a clean, isolated recording of a male voice speaking in a measured, conversational tone with a British accent. He delivers a motivational line in a rhythmic, three-part cadence from the start until 00:04. After a brief pause around 00:05, he concludes with a short, calm sign-off phrase. There are no background instruments, sound effects, or noticeable bleed from other stems present in the track.
+(descriptions are a model listening to each stem: what the sound is and what its effects sound like. Their times are approximate; the measured spans above and the timed lines below are exact.)
+
+bgm prompt: none, the recording has no music
+
+voice: 2 lines, 1 pauses, median pitch 103 Hz
+effects: 0 in 0 sounds
+music: none
+
+0.3–5.2  voice    (no transcript)
+5.2–5.7  pause    0.5 s; during it: sound continues at -47 dBFS
+5.7–6.5  voice    (no transcript)  rising end
+
+! no transcript: voice lines carry no words; run hyperframes transcribe assets/vo-20.wav and pass --transcript

@@ -1,5 +1,74 @@
 [
   {
+    "id": "9dfa66eb-8f94-44b1-97c7-41768db3cec0",
+    "input": {
+      "kind": "voice",
+      "prompt": "Delivery Pilot is where you train to become one. It's free for students: if you're studying, your seat in the cockpit costs nothing. The full course is free on YouTube and Skool. The Skool room is where we build, review and certify together. And certified pilots go on to build real bots for real companies. The link is in the description.",
+      "voice_id": "80b17a1be1594e578b92c0ddf4a37fc8"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795251329206,
+    "files": [
+      {
+        "path": "assets/HeyGen voice 686c69a2.wav",
+        "kind": "audio",
+        "seconds": 19.564965986394558,
+        "size": 1725674,
+        "sha": "0340d34e03c16554c00440d84201d2f69d4ee2d178395381caf0f3a28a36266d"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "30b53b98-7319-4699-b3cf-c79b944dc585",
+    "input": {
+      "kind": "voice",
+      "prompt": "So what is a Delivery Pilot, day to day? I call the framework COBALTS. C is for Creator. Creators make content, demos and docs that show the work, because work nobody can see doesn't count. O is for Operator, and B is for Builder. Operators run the agents day to day. Builders build them end to end, from the first prompt to production. L is for Leader. The leader owns the stakeholder and the delivery, and is the person everyone calls when something matters. T is for Treasurer. Treasurers watch token spend, cloud cost and return on investment, because profitable delivery is the job. And S is for Strategist, who picks what to build next, and why. Five roles, one pilot.",
+      "voice_id": "80b17a1be1594e578b92c0ddf4a37fc8"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795251270444,
+    "files": [
+      {
+        "path": "assets/HeyGen voice a06af671.wav",
+        "kind": "audio",
+        "seconds": 44.14390022675737,
+        "size": 3893536,
+        "sha": "a3653a98eadc381c3ab524fb93387b6fd5d2f2d3a8d871abb52b7123c6c7c91c"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
+    "id": "d0797f83-81a0-48da-a758-f8f3c5777418",
+    "input": {
+      "kind": "voice",
+      "prompt": "The pipeline was never the hard part. Green builds, passing tests, merged pull requests: that part is solved, and AI does it now. In my own onboarding and reliability work, the hard part was always getting a customer live. Safely. On time. With real money and real people depending on it. That's delivery. And that's the job that's left for a human.",
+      "voice_id": "80b17a1be1594e578b92c0ddf4a37fc8"
+    },
+    "via": "tool",
+    "state": "done",
+    "createdAt": 1795251231030,
+    "files": [
+      {
+        "path": "assets/HeyGen voice ab6696f4.wav",
+        "kind": "audio",
+        "seconds": 22.188820861678003,
+        "size": 1957098,
+        "sha": "a4d73e69a5f3b45dd8ff3abfb6dd60cbbc9ff06865df5b227cf24a733e3c7286"
+      }
+    ],
+    "message": null,
+    "need": null,
+    "folder": "16777230:208867088:1795223270732391274"
+  },
+  {
     "id": "f53cc04c-fdb2-4092-aad8-a64df324e057",
     "input": {
       "kind": "voice",
@@ -15,7 +84,8 @@
         "kind": "audio",
         "seconds": 6.60312925170068,
         "size": 582440,
-        "sha": "9d9555c85b6cf4c3004b75a9a6d37b02e56636cf373ca52819deb822b786bd10"
+        "sha": "9d9555c85b6cf4c3004b75a9a6d37b02e56636cf373ca52819deb822b786bd10",
+        "missing": true
       }
     ],
     "message": null,
@@ -38,7 +108,8 @@
         "kind": "audio",
         "seconds": 5.976190476190476,
         "size": 527144,
-        "sha": "9c3d8f70042419dff0118f52e6afaa64d11a40207f803fae459f702cac48864f"
+        "sha": "9c3d8f70042419dff0118f52e6afaa64d11a40207f803fae459f702cac48864f",
+        "missing": true
       }
     ],
     "message": null,
@@ -61,7 +132,8 @@
         "kind": "audio",
         "seconds": 5.929750566893424,
         "size": 523048,
-        "sha": "b31c8694a2aebad44c19a4cc6670d46923ed051c8f8bd0c792cbfffa0659a191"
+        "sha": "b31c8694a2aebad44c19a4cc6670d46923ed051c8f8bd0c792cbfffa0659a191",
+        "missing": true
       }
     ],
     "message": null,
@@ -84,7 +156,8 @@
         "kind": "audio",
         "seconds": 6.649569160997732,
         "size": 586536,
-        "sha": "1f715636360e2fa588750adc7d3b6315428e29c6f3c8cd015468719475149380"
+        "sha": "1f715636360e2fa588750adc7d3b6315428e29c6f3c8cd015468719475149380",
+        "missing": true
       }
     ],
     "message": null,
