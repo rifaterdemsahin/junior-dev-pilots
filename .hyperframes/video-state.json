@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "ffb235d9-a5ea-4aa2-9470-41d7f8972ab4",
+  "currentRevision": "547d191a-acff-4a79-9026-ae8c017f9243",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -453,8 +453,8 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/52/520ea696f50d1ebf01c2211fb1b77a49810b50993a2ea4830ba9f773f5558438"
     },
     "compositions/short-rider-driver-pilot.html": {
-      "hash": "3140832fb2776ef018373bd66f3eef11377acaeef4e1c7cdb63b3e1ebb939224",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/31/3140832fb2776ef018373bd66f3eef11377acaeef4e1c7cdb63b3e1ebb939224"
+      "hash": "8a24db95579e0a630a178b44d3382be02df7bba44c692db87043520e21fa3912",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/8a/8a24db95579e0a630a178b44d3382be02df7bba44c692db87043520e21fa3912"
     },
     "assets/sfx-whoosh.wav": {
       "hash": "a10a55656558a7fc074277ee3ed8b6a22116315d8b49711ee7d0c98377a4c98d",
@@ -1126,12 +1126,42 @@
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/a1/a10a55656558a7fc074277ee3ed8b6a22116315d8b49711ee7d0c98377a4c98d"
         }
       }
+    },
+    "ea89556e-e4b0-437d-9c65-421ea606f016": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795258322935,
+      "endedAt": 1795258324936,
+      "files": {
+        "compositions/short-rider-driver-pilot.html": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/31/3140832fb2776ef018373bd66f3eef11377acaeef4e1c7cdb63b3e1ebb939224",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/83/83cde8636791b9058022aab856899eccf1290317150fd263b5a276ab19ea9847"
+        }
+      }
+    },
+    "547d191a-acff-4a79-9026-ae8c017f9243": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795258348162,
+      "endedAt": 1795258354443,
+      "files": {
+        "compositions/short-rider-driver-pilot.html": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/83/83cde8636791b9058022aab856899eccf1290317150fd263b5a276ab19ea9847",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/8a/8a24db95579e0a630a178b44d3382be02df7bba44c692db87043520e21fa3912"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
-      "id": "b491072f-0b81-44b8-b41f-74f9483d0a20"
+      "revision": "547d191a-acff-4a79-9026-ae8c017f9243",
+      "id": "c3c4fbca-d0e6-46a0-9320-791195b2ead8"
     },
     "revisions": {
       "18f24328-7873-4a30-abbe-2f29d1d3d90a": [],
@@ -1177,7 +1207,6 @@
         {
           "id": "2ad94938-a8c7-492e-a70c-6b5a7efaee72",
           "scope": "project",
-          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/2ad94938-a8c7-492e-a70c-6b5a7efaee72.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -1207,7 +1236,9 @@
           "revision": "570857ef-c8b6-4185-b646-05abceb1cc34",
           "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "209e34e4-f037-4a25-962e-c408b7cec1bf"
         }
       ],
       "d8c91037-6a9c-43bf-9673-07c60e27f1d5": [
@@ -1278,6 +1309,43 @@
           "contentHash": "24b755d6337b7b2e33afe836f32ce7b928812a1096c2d5dce59db54cafbedcde",
           "revision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
           "inputFingerprint": "89a2a69ee6ea2dad79ff6c6e254ddd5ff5346f1fb166970a30b02f1bef261387",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "547d191a-acff-4a79-9026-ae8c017f9243": [
+        {
+          "id": "c3c4fbca-d0e6-46a0-9320-791195b2ead8",
+          "scope": "project",
+          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/c3c4fbca-d0e6-46a0-9320-791195b2ead8.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": false,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": true
+            }
+          },
+          "createdAt": 1795258380789,
+          "contentHash": "b71f32bc0ca53c9575f2b274d0ab383a4cb914d7d8133ca22eceddbcba74ef3c",
+          "revision": "547d191a-acff-4a79-9026-ae8c017f9243",
+          "inputFingerprint": "1c190f975f829a81c0dc82ad552c50fb260785eb90c548dab682966f7d84b78f",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }
@@ -2463,15 +2531,15 @@
   },
   "renders": {
     "latest": {
-      "id": "02a08d11-62c3-4123-a38d-5ed8e314ddd3",
-      "completedAt": 1795258230027,
-      "output": "/Users/rifaterdemsahin/.gemini/antigravity-cli/brain/5ea6d3e8-232e-4daa-9d16-6cf8e5328db5/scratch/before-draft.mp4",
+      "id": "209e34e4-f037-4a25-962e-c408b7cec1bf",
+      "completedAt": 1795258427469,
+      "output": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/renders/short-rider-driver-pilot.mp4",
       "status": "completed",
-      "revision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5"
+      "revision": "547d191a-acff-4a79-9026-ae8c017f9243"
     },
     "retainedRevisions": [
-      "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
-      "570857ef-c8b6-4185-b646-05abceb1cc34"
+      "547d191a-acff-4a79-9026-ae8c017f9243",
+      "d8c91037-6a9c-43bf-9673-07c60e27f1d5"
     ]
   },
   "pendingArtifactCleanup": []
