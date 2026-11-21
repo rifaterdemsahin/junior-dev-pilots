@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "71103028-5292-49d2-98cc-a1ddc8d9068e",
+  "currentRevision": "1f7a3199-0733-42d3-ae45-96ea7e287368",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -487,6 +487,14 @@
     "assets/short-hook-vo.transcript.json": {
       "hash": "ccae4ad24b4ec7a7f63f10e7ef352cb6c752a7546b7c7475312ee75e5c5c27a1",
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cc/ccae4ad24b4ec7a7f63f10e7ef352cb6c752a7546b7c7475312ee75e5c5c27a1"
+    },
+    "assets/short-v4-voice.wav": {
+      "hash": "40a32c4549ca6fe222899210c8ab3ef202154072044906d52c456834e2be56c3",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/40/40a32c4549ca6fe222899210c8ab3ef202154072044906d52c456834e2be56c3"
+    },
+    "assets/short-v4-voice.transcript.json": {
+      "hash": "2cb60b024c3e4796f0a17234dc49891e7faa3b30c747fec9f4733f69265e7781",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/2c/2cb60b024c3e4796f0a17234dc49891e7faa3b30c747fec9f4733f69265e7781"
     }
   },
   "revisions": {
@@ -1324,6 +1332,51 @@
         "compositions/short-rider-driver-pilot-v3.html": {
           "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b4/b42a726d21479e779b41755c837448affbd5d5eb81607b280a52d220f8699886",
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d2/d2143b712774e5cf41eed15dd9bbd2fc1617933d1821b17b3dce7e59bdf04b4e"
+        }
+      }
+    },
+    "93163ba8-072c-4fa5-b7ee-0c54ef5a36fc": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795260012027,
+      "endedAt": 1795260015556,
+      "files": {
+        "assets/short-v4-voice.wav": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/40/40a32c4549ca6fe222899210c8ab3ef202154072044906d52c456834e2be56c3"
+        }
+      }
+    },
+    "78901f63-253c-4adf-83c8-5e0ce63708e8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795260017225,
+      "endedAt": 1795260019226,
+      "files": {
+        "assets/short-v4-voice.transcript.json": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b1/b171e341fa1fb42e41d9e35f644a97a569543d940118719f119a88363edabfa2"
+        }
+      }
+    },
+    "1f7a3199-0733-42d3-ae45-96ea7e287368": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795260020846,
+      "endedAt": 1795260022847,
+      "files": {
+        "assets/short-v4-voice.transcript.json": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b1/b171e341fa1fb42e41d9e35f644a97a569543d940118719f119a88363edabfa2",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/2c/2cb60b024c3e4796f0a17234dc49891e7faa3b30c747fec9f4733f69265e7781"
         }
       }
     }
