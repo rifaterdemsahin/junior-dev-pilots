@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "dfcf9000-160e-4a40-89a7-ccd9f0af0104",
+  "currentRevision": "ad1c9f6b-5fd7-43ed-ba54-1b948df42f9d",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -473,8 +473,8 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/29/295aafa49a794c620b028681e75c2dbe35f890bdc23ceeddaaffc4677f08de89"
     },
     "compositions/short-rider-driver-pilot-v2.html": {
-      "hash": "cf035b795a3f7a30595bfd592097332a05c9c1b73b42b4d070ce59575565c461",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cf/cf035b795a3f7a30595bfd592097332a05c9c1b73b42b4d070ce59575565c461"
+      "hash": "fa2921567dc460764035fb42538f2d24f3639ed6cc5bdabe077afa05e847ae61",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/fa/fa2921567dc460764035fb42538f2d24f3639ed6cc5bdabe077afa05e847ae61"
     }
   },
   "revisions": {
@@ -1192,6 +1192,21 @@
         "compositions/short-rider-driver-pilot-v2.html": {
           "before": null,
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cf/cf035b795a3f7a30595bfd592097332a05c9c1b73b42b4d070ce59575565c461"
+        }
+      }
+    },
+    "ad1c9f6b-5fd7-43ed-ba54-1b948df42f9d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795259084389,
+      "endedAt": 1795259086390,
+      "files": {
+        "compositions/short-rider-driver-pilot-v2.html": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cf/cf035b795a3f7a30595bfd592097332a05c9c1b73b42b4d070ce59575565c461",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/fa/fa2921567dc460764035fb42538f2d24f3639ed6cc5bdabe077afa05e847ae61"
         }
       }
     }

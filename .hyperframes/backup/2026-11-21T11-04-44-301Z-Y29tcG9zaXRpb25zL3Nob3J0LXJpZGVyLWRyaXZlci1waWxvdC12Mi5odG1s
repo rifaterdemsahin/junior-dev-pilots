@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#0A1020}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Inter,sans-serif;color:#EAF2F5;background-color:#0A1020;background-image:linear-gradient(rgba(11,181,164,.085) 2px,transparent 2px),linear-gradient(90deg,rgba(11,181,164,.085) 2px,transparent 2px);background-size:64px 64px}
+.glow{position:absolute;left:-260px;top:980px;width:1600px;height:1100px;background:radial-gradient(ellipse at 50% 42%,rgba(11,181,164,.24),rgba(11,181,164,0) 66%);pointer-events:none}
+.glow-or{position:absolute;left:420px;top:-160px;width:900px;height:900px;background:radial-gradient(circle at 50% 50%,rgba(255,122,47,.14),rgba(255,122,47,0) 62%);pointer-events:none}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 46%,rgba(10,16,32,0) 52%,rgba(5,9,20,.68) 100%);pointer-events:none;z-index:1}
+
+/* Top HUD & Progress */
+.hud{position:absolute;left:96px;top:164px;width:820px;display:flex;align-items:center;justify-content:space-between;font:600 22px/1 'JetBrains Mono',monospace;letter-spacing:.13em;color:#8EA0B8;z-index:4}
+.hud-left{display:flex;align-items:center;gap:12px}
+.hud-dot{width:11px;height:11px;border-radius:50%;background:#FF7A2F;box-shadow:0 0 14px rgba(255,122,47,.95)}
+.hud-tag{padding:6px 14px;border:1.5px solid rgba(255,122,47,.55);border-radius:999px;color:#FF7A2F;background:rgba(255,122,47,.1);font-size:20px}
+
+/* Headers */
+.hd{position:absolute;left:96px;top:222px;width:820px;font:800 88px/1.0 Outfit,sans-serif;letter-spacing:-.025em;color:#EAF2F5;z-index:4}
+.tl{color:#0BB5A4}
+.or{color:#FF7A2F}
+
+/* Hook Intro Overlay */
+.hook-banner{position:absolute;left:96px;top:418px;width:820px;padding:18px 26px;border:2px solid rgba(255,122,47,.6);border-radius:20px;background:linear-gradient(90deg,rgba(255,122,47,.16),rgba(15,24,41,.92));display:flex;align-items:center;justify-content:space-between;z-index:5;box-shadow:0 0 36px rgba(255,122,47,.18)}
+.hook-kicker{font:700 32px/1.1 Outfit,sans-serif;letter-spacing:-.01em;color:#EAF2F5}
+.hook-pill{padding:8px 18px;border-radius:999px;background:#FF7A2F;color:#0A1020;font:700 22px/1 'JetBrains Mono',monospace;letter-spacing:.08em}
+
+/* Hook Lanes & Callouts */
+.hl{position:absolute;left:96px;width:820px;height:0;border-top:5px dotted rgba(234,242,245,.32);z-index:2}
+.h-streak{position:absolute;left:96px;height:10px;border-radius:999px;transform-origin:0% 50%;z-index:3}
+.h-tag{position:absolute;right:164px;padding:8px 20px;border-radius:12px;font:700 26px/1 'JetBrains Mono',monospace;letter-spacing:.06em;z-index:5;opacity:0}
+.h-tag.t1{top:554px;color:#8EA0B8;border:2px solid rgba(142,160,184,.45);background:rgba(15,24,41,.9)}
+.h-tag.t2{top:794px;color:#EAF2F5;border:2px solid rgba(234,242,245,.45);background:rgba(15,24,41,.9)}
+.h-tag.t3{top:1034px;color:#0BB5A4;border:2px solid #0BB5A4;background:rgba(11,181,164,.14);box-shadow:0 0 28px rgba(11,181,164,.3)}
+
+/* Vehicles */
+.veh{position:absolute;left:128px;z-index:7}
+.veh svg{display:block}
+
+/* Three Vertical-Fit Tier Cards */
+.cd{position:absolute;left:96px;width:820px;height:244px;border:2px solid rgba(11,181,164,.28);border-radius:30px;background:linear-gradient(135deg,rgba(15,24,41,.9),rgba(255,255,255,.04));z-index:3}
+.cd.pl{border-color:#0BB5A4;background:linear-gradient(135deg,rgba(11,181,164,.14),rgba(15,24,41,.94) 60%,rgba(255,122,47,.07));box-shadow:0 0 64px rgba(11,181,164,.3),inset 0 1px 0 rgba(255,255,255,.14)}
+.nm{position:absolute;left:32px;top:18px;font:800 48px/1.1 Outfit,sans-serif;letter-spacing:-.015em}
+.ds{position:absolute;left:32px;top:78px;font:500 30px/1.22 Inter,sans-serif;color:#B7C7D1;white-space:nowrap}
+.ds span{opacity:.35}
+.tk{position:absolute;left:32px;top:156px;width:756px;height:0;border-top:4px dashed rgba(234,242,245,.22)}
+.tr{position:absolute;left:82px;top:153px;height:10px;border-radius:5px;transform-origin:0% 50%}
+.rg{position:absolute;right:32px;top:194px;font:600 28px/1 'JetBrains Mono',monospace;letter-spacing:.07em}
+.mp{position:absolute;right:26px;top:18px;padding:7px 20px;border:2px solid #FF7A2F;border-radius:999px;font:600 26px/1 'JetBrains Mono',monospace;color:#FF7A2F;background:rgba(255,122,47,.12);box-shadow:0 0 22px rgba(255,122,47,.2)}
+
+/* CTA Hero Elements */
+.big{position:absolute;left:96px;top:704px;font:400 272px/1 'Archivo Black',sans-serif;letter-spacing:-.03em;color:#0BB5A4;text-shadow:0 0 64px rgba(11,181,164,.42);z-index:4}
+.fs{position:absolute;left:100px;top:988px;font:800 60px/1.1 Outfit,sans-serif;color:#EAF2F5;z-index:4}
+.sk{position:absolute;left:100px;top:1076px;padding:14px 30px;border:2.5px solid #FF7A2F;border-radius:999px;font:600 34px/1 'JetBrains Mono',monospace;color:#EAF2F5;background:rgba(15,24,41,.94);box-shadow:0 0 34px rgba(255,122,47,.28);z-index:4}
+
+/* Animated Kinetic Captions */
+#cap{position:absolute;left:96px;top:1244px;width:820px;height:164px;z-index:20}
+.cg{position:absolute;left:0;top:0;width:820px;height:164px;display:flex;flex-wrap:wrap;gap:6px .28em;align-items:center;justify-content:center;align-content:center;text-align:center;font:800 64px/1.12 Outfit,sans-serif;color:#EAF2F5;opacity:0;visibility:hidden;overflow:visible;padding:16px 26px;border-radius:26px;background:rgba(10,16,32,.74);border:1.5px solid rgba(11,181,164,.24);box-shadow:0 14px 40px rgba(0,0,0,.45);text-shadow:0 4px 20px rgba(10,16,32,.95)}
+.cg span{display:inline-block;transform-origin:50% 60%;padding:0 3px;border-radius:10px}
+
+/* Bottom Cockpit Flight Deck Bar (balances lower vertical canvas inside safe zone) */
+.deck{position:absolute;left:96px;top:1458px;width:820px;z-index:4}
+.deck-track{width:100%;height:8px;border-radius:999px;background:rgba(234,242,245,.12);overflow:hidden;margin-bottom:18px}
+.deck-fill{width:100%;height:100%;border-radius:999px;background:linear-gradient(90deg,#8EA0B8,#0BB5A4 65%,#FF7A2F);transform-origin:0% 50%;transform:scaleX(0)}
+.deck-steps{display:flex;justify-content:space-between;font:600 22px/1 'JetBrains Mono',monospace;letter-spacing:.1em;color:#5D708A}
+.deck-step{display:flex;align-items:center;gap:10px;opacity:.45}
+.deck-pip{width:10px;height:10px;border-radius:50%;background:currentColor}
+</style>
+</head>
+<body>
+<div data-hf-id="hf-v2-root" id="root" data-composition-id="short-rider-driver-pilot-v2" data-start="0" data-duration="45.8" data-width="1080" data-height="1920">
+<svg data-hf-id="hf-v2-icons" width="0" height="0" style="position:absolute"><defs>
+<symbol id="ic-bike" viewBox="0 0 80 48"><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="34" r="11"/><circle cx="66" cy="34" r="11"/><path d="M14 34 L30 34 L42 12 L58 12 M30 34 L52 34 L42 12 M52 34 L62 14 M42 12 L40 6 L33 6 M58 12 L66 34"/></g></symbol>
+<symbol id="ic-car" viewBox="0 0 96 48"><path fill="currentColor" d="M4 34 L4 27 Q4 22 10 21 L24 19 L34 8 Q36 6 40 6 L62 6 Q66 6 68 8 L78 19 L88 21 Q93 22 93 27 L93 34 Z"/><circle cx="24" cy="36" r="9" fill="currentColor" stroke="#0F1829" stroke-width="4"/><circle cx="73" cy="36" r="9" fill="currentColor" stroke="#0F1829" stroke-width="4"/></symbol>
+<symbol id="ic-plane" viewBox="0 0 64 64"><path fill="currentColor" d="M32 2 Q35 2 36 8 L37 24 L61 38 L61 44 L37 37 L36 53 L44 58 L44 62 L32 59 L20 62 L20 58 L28 53 L27 37 L3 44 L3 38 L27 24 L28 8 Q29 2 32 2 Z"/></symbol>
+</defs></svg>
+
+<div class="glow"></div>
+<div class="glow-or"></div>
+<div class="vig"></div>
+
+<!-- Top HUD -->
+<div class="hud" data-layout-ignore>
+  <div class="hud-left"><span class="hud-dot"></span><span>FLIGHT BRIEF // AI DEV TIERS</span></div>
+  <span class="hud-tag">03 LEVELS</span>
+</div>
+
+<!-- Headers -->
+<div class="hd hd1">WHICH ONE<br><span class="tl">ARE YOU?</span></div>
+<div class="hd hd2">JOIN<br><span class="tl">DELIVERY PILOT</span></div>
+
+<!-- Hook Banner & Lanes (0s - 5.2s) -->
+<div class="hook-banner" id="hook-banner">
+  <span class="hook-kicker">STOP CODING LIKE A <span class="or">PASSENGER</span></span>
+  <span class="hook-pill">HOOK</span>
+</div>
+
+<div class="hl" style="top:636px"></div>
+<div class="hl" style="top:876px"></div>
+<div class="hl" style="top:1116px;border-top-color:rgba(11,181,164,.55)"></div>
+
+<div class="h-streak" id="hs1" style="top:631px;width:230px;background:linear-gradient(90deg,rgba(142,160,184,0),#8EA0B8)"></div>
+<div class="h-streak" id="hs2" style="top:871px;width:470px;background:linear-gradient(90deg,rgba(234,242,245,0),#EAF2F5)"></div>
+<div class="h-streak" id="hs3" style="top:1111px;width:820px;background:linear-gradient(90deg,rgba(11,181,164,0),#0BB5A4 65%,#FF7A2F)"></div>
+
+<div class="h-tag t1" id="ht1">01 · GET CARRIED</div>
+<div class="h-tag t2" id="ht2">02 · GET THERE</div>
+<div class="h-tag t3" id="ht3">03 · GO THE DISTANCE</div>
+
+<!-- Vertical-Fit Cards -->
+<div id="c1" class="cd" style="top:420px">
+  <div class="nm" style="color:#8EA0B8">RIDER</div>
+  <div class="ds">Copies chatbot answers and hopes.</div>
+  <div class="tk"></div>
+  <div class="tr" style="width:128px;background:#8EA0B8"></div>
+  <div class="rg" style="color:#8EA0B8">AROUND THE BLOCK</div>
+</div>
+
+<div id="c2" class="cd" style="top:688px">
+  <div class="nm">DRIVER</div>
+  <div class="ds">Hands on the wheel. AI is the satnav.</div>
+  <div class="tk"></div>
+  <div class="tr" style="width:340px;background:#EAF2F5"></div>
+  <div class="rg" style="color:#EAF2F5">CITY TO CITY</div>
+</div>
+
+<div id="c3" class="cd pl" style="top:956px">
+  <div class="nm tl" style="font-size:44px;padding-top:2px">DELIVERY PILOT</div>
+  <div class="mp">MY OWN TERM</div>
+  <div class="ds"><span>Flight plan</span> → <span>Autopilot</span> → <span>Take control</span></div>
+  <div class="tk"></div>
+  <div class="tr" style="width:684px;background:linear-gradient(90deg,#0BB5A4,#2EE6D6 75%,#FF7A2F)"></div>
+  <div class="rg tl">VAST DISTANCES</div>
+</div>
+
+<!-- Vehicles -->
+<div id="v1" class="veh" style="top:547px;width:96px;height:58px;color:#8EA0B8"><svg width="96" height="58" viewBox="0 0 96 58"><use href="#ic-bike" width="96" height="58"/></svg></div>
+<div id="v2" class="veh" style="top:815px;width:96px;height:58px;color:#EAF2F5"><svg width="96" height="58" viewBox="0 0 96 58"><use href="#ic-car" width="96" height="58"/></svg></div>
+<div id="v3" class="veh" style="top:1083px;width:58px;height:58px;color:#0BB5A4"><svg width="58" height="58" viewBox="0 0 58 58" style="transform:rotate(90deg)"><use href="#ic-plane" width="58" height="58"/></svg></div>
+
+<!-- CTA Hero -->
+<div id="dl" class="big">$0</div>
+<div id="fs" class="fs">FREE FOR STUDENTS</div>
+<div id="sk" class="sk"><span class="or">→</span> skool.com/delivery-pilot-8938</div>
+
+<!-- Animated Captions Container -->
+<div id="cap"></div>
+
+<!-- Bottom Flight Deck Progress Bar -->
+<div class="deck" data-layout-ignore>
+  <div class="deck-track"><div class="deck-fill" id="deck-fill"></div></div>
+  <div class="deck-steps">
+    <div class="deck-step" id="st-hook"><span class="deck-pip"></span><span>HOOK</span></div>
+    <div class="deck-step" id="st-rider"><span class="deck-pip"></span><span>RIDER</span></div>
+    <div class="deck-step" id="st-driver"><span class="deck-pip"></span><span>DRIVER</span></div>
+    <div class="deck-step" id="st-pilot"><span class="deck-pip"></span><span>PILOT</span></div>
+    <div class="deck-step" id="st-cta"><span class="deck-pip"></span><span>JOIN $0</span></div>
+  </div>
+</div>
+
+<!-- Audio Mix + Subtle Cockpit SFX -->
+<audio id="short-vo" class="clip" src="assets/short-rdp-voice.wav" data-start="0" data-duration="44.4" data-track-index="20" data-volume="0.95"></audio>
+<audio id="short-bed" class="clip" src="assets/underscore.mp3" data-start="0" data-duration="45.8" data-track-index="21" data-volume="0.13" data-fade-in="0.6" data-fade-out="2"></audio>
+<audio id="sfx-hook-hit" class="clip" src="assets/sfx-tick.wav" data-start="0.3" data-duration="0.09" data-track-index="23" data-volume="0.20"></audio>
+<audio id="sfx-whoosh-1" class="clip" src="assets/sfx-whoosh.wav" data-start="2.9" data-duration="0.45" data-track-index="22" data-volume="0.24"></audio>
+<audio id="sfx-tick-1" class="clip" src="assets/sfx-tick.wav" data-start="27.2" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-tick-2" class="clip" src="assets/sfx-tick.wav" data-start="30.2" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-tick-3" class="clip" src="assets/sfx-tick.wav" data-start="32.6" data-duration="0.09" data-track-index="23" data-volume="0.18"></audio>
+<audio id="sfx-whoosh-2" class="clip" src="assets/sfx-whoosh.wav" data-start="35.0" data-duration="0.45" data-track-index="22" data-volume="0.24"></audio>
+<audio id="sfx-whoosh-3" class="clip" src="assets/sfx-whoosh.wav" data-start="36.6" data-duration="0.45" data-track-index="22" data-volume="0.18"></audio>
+<audio id="sfx-cta" class="clip" src="assets/sfx-cta.wav" data-start="39.76" data-duration="0.45" data-track-index="24" data-volume="0.24"></audio>
+</div>
+
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+const q=s=>Array.from(document.querySelectorAll(s));
+const rise=(sel,at,d)=>tl.fromTo(q(sel),{opacity:0,y:36},{opacity:1,y:0,duration:d||.55,ease:"power3.out"},at);
+
+const CAP=[{"s":0.3,"e":1.66,"w":[["Riders",0.3,0.68],["get",0.77,0.9],["carried.",0.94,1.47]]},{"s":1.66,"e":2.89,"w":[["Drivers",1.66,2.05],["get",2.13,2.26],["there.",2.35,2.69]]},{"s":2.9,"e":4.5,"w":[["Pilots",2.9,3.33],["go",3.41,3.54],["the",3.58,3.67],["distance.",3.71,4.3]]},{"s":5.05,"e":6.32,"w":[["Now,",5.05,5.35],["the",5.47,5.6],["analogy:",5.65,6.12]]},{"s":6.33,"e":8.58,"w":[["rider,",6.33,6.86],["driver,",7.01,7.5],["pilot.",7.65,8.38]]},{"s":8.68,"e":10.17,"w":[["A",8.68,8.76],["rider",8.8,9.1],["uses",9.14,9.36],["AI",9.53,9.87],["like",10.0,10.13]]},{"s":10.17,"e":11.14,"w":[["a",10.17,10.25],["passenger.",10.3,10.94]]},{"s":11.15,"e":12.26,"w":[["They",11.15,11.28],["copy",11.32,11.49],["answers",11.62,11.96],["from",12.05,12.13],["a",12.17,12.22]]},{"s":12.26,"e":13.95,"w":[["chatbot",12.26,12.73],["and",12.86,12.9],["hope",12.94,13.07],["they",13.15,13.24],["work.",13.28,13.75]]},{"s":14.01,"e":15.67,"w":[["Their",14.01,14.14],["range",14.18,14.39],["is",14.61,14.65],["around",14.78,14.9],["the",14.99,15.07],["block.",15.12,15.48]]},{"s":15.67,"e":17.54,"w":[["A",15.67,15.75],["driver",15.79,16.14],["is",16.22,16.26],["the",16.31,16.43],["classic",16.48,16.82],["developer:",16.86,17.37]]},{"s":17.54,"e":18.7,"w":[["hands",17.54,17.8],["on",17.93,18.01],["the",18.06,18.14],["wheel,",18.18,18.5]]},{"s":18.7,"e":20.06,"w":[["writing",18.7,18.91],["most",19.08,19.21],["of",19.34,19.38],["the",19.42,19.46],["code,",19.51,19.87]]},{"s":20.06,"e":21.95,"w":[["with",20.06,20.23],["AI",20.32,20.62],["as",20.79,20.83],["the",20.87,20.96],["satnav.",21.0,21.75]]},{"s":22.11,"e":23.99,"w":[["Drivers",22.11,22.49],["go",22.54,22.66],["from",22.75,22.83],["city",22.92,23.09],["to",23.22,23.3],["city.",23.35,23.79]]},{"s":24.07,"e":25.01,"w":[["And",24.07,24.16],["a",24.2,24.24],["pilot",24.29,24.67],["is",24.71,24.8],["what",24.84,24.97]]},{"s":25.01,"e":26.68,"w":[["I'm",25.01,25.14],["calling",25.18,25.31],["a",25.48,25.52],["Delivery",25.57,25.78],["Pilot.",25.91,26.48]]},{"s":26.72,"e":28.0,"w":[["They",26.72,26.89],["set",26.93,27.06],["the",27.1,27.19],["flight",27.23,27.4],["plan,",27.48,27.85]]},{"s":28.0,"e":29.12,"w":[["which",28.0,28.08],["is",28.17,28.21],["the",28.25,28.38],["spec.",28.42,28.92]]},{"s":29.25,"e":30.23,"w":[["They",29.25,29.38],["run",29.42,29.55],["the",29.59,29.67],["agents",29.72,30.02],["on",30.1,30.19]]},{"s":30.23,"e":32.19,"w":[["autopilot,",30.23,30.98],["watch",31.12,31.25],["the",31.34,31.47],["instruments,",31.51,32.02]]},{"s":32.19,"e":32.95,"w":[["and",32.19,32.36],["take",32.41,32.58],["control",32.62,32.75]]},{"s":33.0,"e":33.97,"w":[["when",33.0,33.13],["it",33.17,33.22],["matters.",33.26,33.77]]},{"s":34.03,"e":34.91,"w":[["Their",34.03,34.15],["range?",34.2,34.71]]},{"s":35.01,"e":36.45,"w":[["Vast",35.01,35.35],["distances.",35.56,36.25]]},{"s":37.25,"e":38.61,"w":[["Delivery",37.25,37.55],["Pilot",37.68,38.02],["is",38.15,38.27],["where",38.32,38.4],["you",38.44,38.57]]},{"s":38.61,"e":39.77,"w":[["train",38.61,38.83],["to",38.91,39.0],["become",39.04,39.08],["one.",39.3,39.6]]},{"s":39.77,"e":41.01,"w":[["It's",39.77,39.94],["free",39.98,40.15],["for",40.19,40.28],["students:",40.32,40.81]]},{"s":41.13,"e":42.19,"w":[["if",41.13,41.22],["you're",41.26,41.39],["studying,",41.43,41.98]]},{"s":42.24,"e":43.31,"w":[["your",42.24,42.41],["seat",42.45,42.62],["in",42.67,42.75],["the",42.8,42.84],["cockpit",42.88,43.22]]},{"s":43.31,"e":44.4,"w":[["costs",43.31,43.61],["nothing.",43.73,44.2]]}];
+
+const POWER_WORDS=new Set(["Pilots","distance.","Delivery","Pilot.","Pilot","Vast","distances.","free","students:","nothing."]);
+const T1=6.33, T2=7.0, T3=7.65;
+
+/* Ambient + Flight Deck Progress */
+tl.fromTo("#root .glow",{opacity:0},{opacity:1,duration:1.1},0);
+tl.fromTo("#root .glow-or",{opacity:0},{opacity:1,duration:1.4},0);
+tl.fromTo("#root",{backgroundPositionY:0},{backgroundPositionY:-240,duration:45.8,ease:"none"},0);
+tl.to("#deck-fill",{scaleX:1,duration:45.8,ease:"none"},0);
+
+/* Deck Step Highlighter */
+const setStep=(id,at)=>{
+  ["#st-hook","#st-rider","#st-driver","#st-pilot","#st-cta"].forEach(s=>{
+    tl.to(s,{opacity:s===id?1:.35,color:s===id?(id==="#st-cta"?"#FF7A2F":"#0BB5A4"):"#5D708A",duration:.3},at);
+  });
+};
+setStep("#st-hook",0);
+setStep("#st-rider",8.5);
+setStep("#st-driver",15.4);
+setStep("#st-pilot",23.8);
+setStep("#st-cta",36.4);
+
+/* Initial States */
+tl.set(".hd2",{opacity:0},0);
+tl.set(".cd,.ds,.rg,.mp,#dl,#fs,#sk",{opacity:0},0);
+tl.set(".h-streak",{scaleX:0,opacity:0},0);
+tl.set("#v1",{x:-20,y:60,scale:2,transformOrigin:"0% 50%",opacity:0},0);
+tl.set("#v2",{x:-20,y:32,scale:2,transformOrigin:"0% 50%",opacity:0},0);
+tl.set("#v3",{x:-20,y:4,scale:2,transformOrigin:"0% 50%",opacity:0},0);
+
+/* === ACT 0: HIGH-IMPACT HOOK (0s - 5.2s) === */
+tl.fromTo(".hud",{opacity:0,y:-14},{opacity:1,y:0,duration:.4,ease:"power2.out"},0);
+tl.fromTo(".hd1",{opacity:0,y:28,scale:.96},{opacity:1,y:0,scale:1,duration:.5,ease:"power3.out"},0.04);
+tl.fromTo("#hook-banner",{opacity:0,y:20,scale:.95},{opacity:1,y:0,scale:1,duration:.45,ease:"back.out(1.6)"},0.12);
+tl.fromTo(".hl",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:.45,ease:"power2.out",stagger:.14},0.18);
+
+/* Bike Hook Beat */
+tl.to("#v1",{opacity:1,duration:.18},0.25);
+tl.to("#v1",{x:210,duration:.95,ease:"power2.out"},0.3);
+tl.fromTo("#hs1",{scaleX:0,opacity:.9},{scaleX:1,opacity:.55,duration:.95,ease:"power2.out"},0.3);
+tl.fromTo("#ht1",{opacity:0,x:24},{opacity:1,x:0,duration:.35,ease:"power3.out"},0.42);
+
+/* Car Hook Beat */
+tl.to("#v2",{opacity:1,duration:.2},1.45);
+tl.to("#v2",{x:450,duration:1.1,ease:"power2.out"},1.55);
+tl.fromTo("#hs2",{scaleX:0,opacity:.95},{scaleX:1,opacity:.65,duration:1.1,ease:"power2.out"},1.55);
+tl.fromTo("#ht2",{opacity:0,x:24},{opacity:1,x:0,duration:.35,ease:"power3.out"},1.68);
+
+/* Plane Hook Beat */
+tl.to("#v3",{opacity:1,duration:.2},2.75);
+tl.to("#v3",{x:1020,duration:1.3,ease:"power2.in"},2.9);
+tl.fromTo("#hs3",{scaleX:0,opacity:1},{scaleX:1,opacity:.85,duration:1.15,ease:"power2.in"},2.9);
+tl.fromTo("#ht3",{opacity:0,scale:.88},{opacity:1,scale:1,duration:.38,ease:"back.out(1.8)"},3.05);
+
+/* Hook Exit + Vehicle Return Glides */
+tl.to(["#hook-banner",".hl",".h-streak",".h-tag"],{opacity:0,y:-16,duration:.38,ease:"power2.in"},4.35);
+tl.set("#v3",{opacity:0,x:0,y:0,scale:1},4.5);
+tl.to("#v1",{x:0,y:0,scale:1,duration:.88,ease:"power3.inOut"},4.5);
+tl.to("#v2",{x:0,y:0,scale:1,duration:.88,ease:"power3.inOut"},4.68);
+
+/* === ACT 1: THE ANALOGY (6.33s - 36.3s) === */
+tl.fromTo("#c1",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},T1);
+tl.fromTo("#c2",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},T2);
+tl.fromTo("#c3",{opacity:0,y:40},{opacity:1,y:0,duration:.5,ease:"power3.out"},T3);
+tl.fromTo("#v3",{opacity:0},{opacity:1,duration:.4},T3);
+
+const focus=(i,at)=>{
+  [1,2,3].forEach(j=>{
+    tl.to(["#c"+j,"#v"+j],{opacity:j===i?1:.38,duration:.4,ease:"power2.out"},at);
+  });
+};
+focus(1,8.5);
+focus(2,15.4);
+focus(3,23.8);
+
+/* Rider */
+rise("#c1 .ds",8.67,.5);
+tl.fromTo("#c1 .rg",{opacity:0},{opacity:1,duration:.4},14.0);
+tl.fromTo("#c1 .tr",{scaleX:0},{scaleX:1,duration:1.2,ease:"power2.out"},14.55);
+tl.to("#v1",{x:128,duration:1.2,ease:"power2.out"},14.55);
+
+/* Driver */
+rise("#c2 .ds",15.67,.5);
+tl.fromTo("#c2 .rg",{opacity:0},{opacity:1,duration:.4},22.1);
+tl.fromTo("#c2 .tr",{scaleX:0},{scaleX:1,duration:1.5,ease:"power2.out"},22.3);
+tl.to("#v2",{x:340,duration:1.5,ease:"power2.out"},22.3);
+
+/* Delivery Pilot */
+rise("#c3 .ds",24.07,.5);
+tl.fromTo("#c3 .mp",{opacity:0,scale:.78,transformOrigin:"100% 50%"},{opacity:1,scale:1,duration:.5,ease:"back.out(2)"},25.57);
+const sp=q("#c3 .ds span");
+tl.to(sp[0],{opacity:1,color:"#0BB5A4",duration:.3},27.2);
+tl.to(sp[1],{opacity:1,color:"#0BB5A4",duration:.3},30.2);
+tl.to(sp[2],{opacity:1,color:"#0BB5A4",duration:.3},32.6);
+tl.fromTo("#c3 .rg",{opacity:0},{opacity:1,duration:.4},34.1);
+tl.fromTo("#c3 .tr",{scaleX:0},{scaleX:1,duration:1.5,ease:"power2.inOut"},35.0);
+tl.to("#v3",{x:684,duration:1.5,ease:"power2.inOut"},35.0);
+
+/* === ACT 2: CTA HERO (36.3s - 45.8s) === */
+tl.to(".hd1",{opacity:0,y:-28,duration:.4},36.3);
+tl.to(["#c1","#c2","#v1","#v2"],{opacity:0,duration:.42},36.4);
+tl.to(["#c3","#v3"],{y:-526,duration:.8,ease:"power3.inOut"},36.6);
+tl.fromTo(".hd2",{opacity:0,y:36},{opacity:1,y:0,duration:.55,ease:"power3.out"},36.9);
+tl.fromTo("#dl",{opacity:0,scale:.6,transformOrigin:"0% 50%"},{opacity:1,scale:1,duration:.55,ease:"back.out(1.8)"},39.76);
+rise("#fs",40.05,.55);
+rise("#sk",41.10,.55);
+tl.to("#sk",{scale:1.05,transformOrigin:"0% 50%",duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"},41.9);
+
+/* === ANIMATED KINETIC CAPTIONS === */
+const capEl=document.getElementById("cap");
+const fit=window.__hyperframes&&window.__hyperframes.fitTextFontSize;
+CAP.forEach(g=>{
+  const el=document.createElement("div");
+  el.className="cg";
+  const spans=g.w.map(w=>{
+    const s=document.createElement("span");
+    s.textContent=w[0];
+    el.appendChild(s);
+    el.appendChild(document.createTextNode(" "));
+    return s;
+  });
+  capEl.appendChild(el);
+  if(fit){
+    const fs=Math.min(64,fit(g.w.map(w=>w[0]).join(" "),{fontFamily:"Outfit",fontWeight:800,maxWidth:750}).fontSize);
+    el.style.fontSize=fs+"px";
+  }
+  /* Phrase spring-in & glide-out */
+  tl.set(el,{visibility:"visible"},g.s);
+  tl.fromTo(el,{opacity:0,y:24,scale:.93},{opacity:1,y:0,scale:1,duration:.16,ease:"back.out(1.6)"},g.s);
+  g.w.forEach((w,i)=>{
+    const hi=POWER_WORDS.has(w[0])?"#FF7A2F":"#0BB5A4";
+    const bg=POWER_WORDS.has(w[0])?"rgba(255,122,47,.16)":"rgba(11,181,164,.14)";
+    tl.to(spans[i],{color:hi,backgroundColor:bg,scale:1.13,y:-4,duration:.08,ease:"power2.out"},w[1]);
+    tl.to(spans[i],{color:"#EAF2F5",backgroundColor:"rgba(0,0,0,0)",scale:1,y:0,duration:.12,ease:"power2.inOut"},w[2]);
+  });
+  tl.to(el,{opacity:0,y:-12,duration:.12,ease:"power2.in"},g.e-.12);
+  tl.set(el,{opacity:0,visibility:"hidden"},g.e);
+});
+
+window.__timelines["short-rider-driver-pilot-v2"]=tl;
+tl.seek(0);
+</script>
+</body>
+</html>
