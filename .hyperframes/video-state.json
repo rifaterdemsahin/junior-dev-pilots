@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "37eb3ab5-892e-4518-9ee5-c754cc925987",
+  "currentRevision": "570857ef-c8b6-4185-b646-05abceb1cc34",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -17,8 +17,8 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
     },
     "index.html": {
-      "hash": "d3d649c389bbbaf77414fe3ee97a578bc0b807985486979ed165b0393228ce79",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d3/d3d649c389bbbaf77414fe3ee97a578bc0b807985486979ed165b0393228ce79"
+      "hash": "a2442ba8e7c61faebdab0d7270f60aa2b818b75c53008fac1f3db402cbe3ad4c",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/a2/a2442ba8e7c61faebdab0d7270f60aa2b818b75c53008fac1f3db402cbe3ad4c"
     },
     "meta.json": {
       "hash": "b3328d25dbf48d2e445f98c2d14e02497bc2b1932c69434d3502ea1e9ec6387e",
@@ -429,8 +429,8 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/f1/f1365f6936b9df8b68ef0d45a3fe2b2ee2d27584a9de47f83aaa3f4a64c4b77f"
     },
     "thumbnails.html": {
-      "hash": "6d621c74d3c7bdee4db9df7a130185d58f5b3ecb6c071d4fa0752896e652cd03",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/6d/6d621c74d3c7bdee4db9df7a130185d58f5b3ecb6c071d4fa0752896e652cd03"
+      "hash": "14bfd8a16453f3f1f9fdb7705144bd99b57f831ff93a77e70d602df46518ec73",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/14/14bfd8a16453f3f1f9fdb7705144bd99b57f831ff93a77e70d602df46518ec73"
     },
     "thumbnails/thumb-3.png": {
       "hash": "8d16f3dfcf59f0b5cbe3f5ffe1627ce009c6566c74be207b0876f7ff23d294d1",
@@ -1026,12 +1026,42 @@
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/71/71751aa634c1d21a9591da3948fc24e2630884e76d539fdc7cd5d6739a59de97"
         }
       }
+    },
+    "62a362ef-0c15-4434-ad32-f1498404156d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795252919451,
+      "endedAt": 1795252923651,
+      "files": {
+        "thumbnails.html": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/6d/6d621c74d3c7bdee4db9df7a130185d58f5b3ecb6c071d4fa0752896e652cd03",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/14/14bfd8a16453f3f1f9fdb7705144bd99b57f831ff93a77e70d602df46518ec73"
+        }
+      }
+    },
+    "570857ef-c8b6-4185-b646-05abceb1cc34": {
+      "actor": {
+        "kind": "agent",
+        "name": "Framey"
+      },
+      "label": "1. pointed 00:00 · HOOK: remove all these top parts from the video which is the video metadata\n2. pointed github.com/rifaterdemsa…: update this to the skool link https://www.skool.com/delivery-pilot-8938",
+      "startedAt": 1795253169045,
+      "endedAt": 1795253185878.9377,
+      "files": {
+        "index.html": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d3/d3d649c389bbbaf77414fe3ee97a578bc0b807985486979ed165b0393228ce79",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/a2/a2442ba8e7c61faebdab0d7270f60aa2b818b75c53008fac1f3db402cbe3ad4c"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": null,
-      "id": "e5381217-c2c5-40c1-bc82-d36431aa1ce8"
+      "revision": "570857ef-c8b6-4185-b646-05abceb1cc34",
+      "id": "2ad94938-a8c7-492e-a70c-6b5a7efaee72"
     },
     "revisions": {
       "18f24328-7873-4a30-abbe-2f29d1d3d90a": [],
@@ -1071,6 +1101,43 @@
           "attribution": "recorded-revision",
           "status": "cleaned",
           "cleanedAfterRender": "07ee955c-ac8b-41d2-8677-f2bc16dfcc91"
+        }
+      ],
+      "570857ef-c8b6-4185-b646-05abceb1cc34": [
+        {
+          "id": "2ad94938-a8c7-492e-a70c-6b5a7efaee72",
+          "scope": "project",
+          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/2ad94938-a8c7-492e-a70c-6b5a7efaee72.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "software",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1795253221782,
+          "contentHash": "c793241261e36e2ccc108f501d9f58234bab0b8b63786a7a23ec8a3545c4e534",
+          "revision": "570857ef-c8b6-4185-b646-05abceb1cc34",
+          "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
         }
       ]
     },
@@ -1264,13 +1331,51 @@
         "inputFingerprint": "f12e9f1e2b26643065896df619f3b627dad3448ef61734de35046ccf65497065",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
+      },
+      {
+        "id": "a469f0cf-7323-4c6b-baaa-e7dd983b93e1",
+        "scope": "project",
+        "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/a469f0cf-7323-4c6b-baaa-e7dd983b93e1.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "skipContrastInMotion": true,
+            "strict": false,
+            "snapshots": false,
+            "findingFrames": true,
+            "inspect": true,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "software",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1795253196922,
+        "contentHash": "c793241261e36e2ccc108f501d9f58234bab0b8b63786a7a23ec8a3545c4e534",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
       }
     ]
   },
   "snapshots": {
     "latest": {
       "revision": null,
-      "id": "4c90d650-2c83-417d-b040-08f7422a484d-9"
+      "id": "9d44426f-c040-4e1a-a7f3-c35213389795-1"
     },
     "revisions": {},
     "unversioned": [
@@ -1993,18 +2098,199 @@
         "inputFingerprint": "5fb4f50645f0bc08760e4421ea3d2ef52298a12b7283fed50ce60f89c8c3f8fc",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "234f894f-8ea6-4774-9426-2962b5f5da70-0",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/aef12f27-9257-46dd-960c-1b7f64722b6f/frame-00-at-2s.png",
+        "time": 2,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253201096,
+        "contentHash": "0d8d74eb3e1af93787ece8efebb4f2e8cf388a4b4e0c1028e07adf5a5dfb7646",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "234f894f-8ea6-4774-9426-2962b5f5da70-1",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/aef12f27-9257-46dd-960c-1b7f64722b6f/frame-01-at-12s.png",
+        "time": 12,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253201097,
+        "contentHash": "87a4bdbce4ae793b9f0d0dff4b2f92496e57cc1235a41a7160bc406871749226",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "234f894f-8ea6-4774-9426-2962b5f5da70-2",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/aef12f27-9257-46dd-960c-1b7f64722b6f/frame-02-at-60s.png",
+        "time": 60,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253201097,
+        "contentHash": "33afcc6c7e1267ecddbaed2a91b325d577c794188d3feae826a573b605ce360e",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "234f894f-8ea6-4774-9426-2962b5f5da70-3",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/aef12f27-9257-46dd-960c-1b7f64722b6f/frame-03-at-300s.png",
+        "time": 300,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253201097,
+        "contentHash": "ec17461a5b38e2dc682b13c9785c2daf63401e8a0cd360d05df7fc681af41e64",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "234f894f-8ea6-4774-9426-2962b5f5da70-4",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/aef12f27-9257-46dd-960c-1b7f64722b6f/frame-04-at-520s.png",
+        "time": 520,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253201097,
+        "contentHash": "e0a22d04704e80a61ec369721336a0ead6602382dad1892838d8bb495408fdaf",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "234f894f-8ea6-4774-9426-2962b5f5da70-5",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/aef12f27-9257-46dd-960c-1b7f64722b6f/frame-05-at-600s.png",
+        "time": 600,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253201097,
+        "contentHash": "e246c0d11d0dc5c623ad1ffcaabba1e86b0bcacf3c9a4b53829291969940ea40",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "234f894f-8ea6-4774-9426-2962b5f5da70-6",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/aef12f27-9257-46dd-960c-1b7f64722b6f/frame-06-at-616.75s.png",
+        "time": 616.75,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253201097,
+        "contentHash": "04a45fa5e1d5802f9c5a36957d56a2fd421082e7ef50c06238709344e19330d5",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "9d44426f-c040-4e1a-a7f3-c35213389795-0",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/7bc12f78-0161-4b8b-88d3-fde1c93a026a/frame-00-at-606.5s.png",
+        "time": 606.5,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253208363,
+        "contentHash": "101e4303aceecf3c94a07bd4aac874223dbe7df9c040ce4935c192018c6826fc",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "9d44426f-c040-4e1a-a7f3-c35213389795-1",
+        "image": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/snapshots/7bc12f78-0161-4b8b-88d3-fde1c93a026a/frame-01-at-616.75s.png",
+        "time": 616.75,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "software",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795253208364,
+        "contentHash": "04a45fa5e1d5802f9c5a36957d56a2fd421082e7ef50c06238709344e19330d5",
+        "revision": null,
+        "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
       }
     ]
   },
   "renders": {
     "latest": {
-      "id": "07ee955c-ac8b-41d2-8677-f2bc16dfcc91",
-      "completedAt": 1795251828800,
-      "output": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/renders/Junior Developers Become Delivery Pilots_2026-11-21_09-00-18.mp4",
+      "id": "7cef1e5f-4f84-476e-902e-cb4d7b68363e",
+      "completedAt": 1795253525912,
+      "output": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/renders/Junior Developers Become Delivery Pilots_2026-11-21_09-28-43.mp4",
       "status": "completed",
-      "revision": "dd157d4d-443f-4aeb-b30f-6c213494683e"
+      "revision": "570857ef-c8b6-4185-b646-05abceb1cc34"
     },
     "retainedRevisions": [
+      "570857ef-c8b6-4185-b646-05abceb1cc34",
       "dd157d4d-443f-4aeb-b30f-6c213494683e"
     ]
   },

@@ -13,8 +13,6 @@ body
         #ic-plane symbol
           hf-ya61 path
     #s01 section class="clip scene"
-      hf-usrk div.kick "00:00 · HOOK"
-      hf-phd4 div.tc "UK ENTRY-LEVEL TECH"
       hf-krk5 div.big.org "≈ −50%"
       hf-0do4 div.sub "UK entry-level tech roles are down by about half."
       hf-f8aa svg
@@ -24,8 +22,6 @@ body
         hf-lzkj, hf-vfdh circle
         hf-j55u text "THE LOW POINT"
     #s02 section class="clip scene"
-      hf-4mjk div.kick "00:07 · HOOK · THE TURN"
-      hf-apkh div.tc "J-CURVE"
       hf-vd0q div.big "J"
       hf-xi2q div.h "Why am I than ever?"
         hf-37f0 strong "more optimistic"
@@ -36,8 +32,6 @@ body
         hf-4s1z path.dt
         hf-9mrl, hf-odsf circle
     #s03 section class="clip scene"
-      hf-h19d div.kick "00:16 · THE UK NUMBERS"
-      hf-u9f3 div.tc "THE BOTTOM OF THE J"
       hf-qk10 div.h "UK entry-level tech roles"
       hf-o6y7 div.big.org "−46%"
       hf-bflr div class="sub" "in 2024 · measured"
@@ -53,8 +47,6 @@ body
           hf-ptdi span "2026 est."
       hf-5zm3 div.src "CHECK FROM RESOURCES"
     #s04 section class="clip scene"
-      hf-ubsp div.kick "00:39 · GLOBAL"
-      hf-419z div.tc "SIGNALFIRE 2026"
       hf-ooqi div.h "New-grad hiring at the biggest tech firms"
       hf-g4dk div.big.org "−65%"
       hf-ffr2 div.sub "below 2019 levels"
@@ -65,8 +57,6 @@ body
         hf-7lb8 span "2026"
       hf-kawh div.src "VERIFY BEFORE AIR: CHECK THE SIGNALFIRE REPORT, NOT THE BLOG QUOTING IT"
     #s05 section class="clip scene"
-      hf-87g5 div.kick "00:54 · HARVARD STUDY"
-      hf-hj6r div.tc "62M WORKERS · 285K US FIRMS"
       hf-vwwn div.h "After adopting generative AI, roles fell. roles kept rising."
         hf-128i em "junior"
         hf-7zli strong "Senior"
@@ -84,8 +74,6 @@ body
         hf-bp8k div.num.org "−9–10%"
       hf-hlfx div.src "VERIFY BEFORE AIR: PULL THE ORIGINAL HARVARD PAPER"
     #s06 section class="clip scene"
-      hf-f6cb div.kick "01:17 · THE PRODUCTIVITY J-CURVE"
-      hf-mq6w div.tc "BRYNJOLFSSON · ROCK · SYVERSON"
       hf-foha div.h "New technology: productivity and hiring ."
         hf-nt7i em "dip first"
       hf-x8kq svg
@@ -98,8 +86,6 @@ body
         hf-4j7u text "GAINS SHOW UP"
       hf-2d2k div.chip "A MODEL, NOT A PROMISE: THE DIP IS MEASURED. THE UPSWING IS THE BET."
     #s07 section class="clip scene"
-      hf-keay div.kick "01:44 · THE HONEST CAVEAT"
-      hf-suto div.tc "LINKEDIN ECONOMIC GRAPH · FEB 2026"
       hf-yq7u div.card
         hf-irxj div.mono.org "ONE HONEST SENTENCE"
         hf-6yxe div "Interest rates explain most of the swings in software hiring this decade."
@@ -110,8 +96,6 @@ body
         hf-wxca text "RATES"
         hf-6mtl text "HIRING"
     #s08 section class="clip scene"
-      hf-zuc3 div.kick "01:56 · SIGNS OF THE UPSWING"
-      hf-7ey3 div.tc "THE BOTTOM OF THE J IS THE LAUNCH POINT"
       hf-77l4 div.h "The upswing is already ."
         hf-oadq strong "showing up"
       hf-32x1 div class="card"
@@ -132,8 +116,6 @@ body
         hf-irv9 p "internships"
       hf-adqi div.chip "DISCLOSURE: I WORK AT IBM"
     #s09 section class="clip scene"
-      hf-t5b9 div.kick "02:22 · AI TOOK CONTINUOUS INTEGRATION"
-      hf-n0u5 div.tc "AI DOES, AND RE-RUNS"
       hf-mwp3 div.h "AI took ."
         hf-ga6m em "continuous integration"
       hf-7p2a div
@@ -158,8 +140,6 @@ body
           hf-vq0i h3 "Triages first-line incidents"
       hf-mueg div.sub "All green. No human needed for any of it."
     #s10 section class="clip scene"
-      hf-w8c8 div.kick "03:13 · HUMANS GOT DELIVERY"
-      hf-5x3m div.tc "WHAT STAYS HUMAN"
       hf-bvye div.h "Humans got ."
         hf-ivfm strong "delivery"
       hf-dkgl div
@@ -181,7 +161,6 @@ body
       hf-778b div.sub "\"CI became AI's job. \""
         hf-g8x6 span.tl "Delivery became yours."
     #s11 section class="clip scene"
-      hf-86xc div.kick "03:51 · MY STORY · ONBOARDING"
       hf-ke1l div.h "The pipeline was never the hard part."
       hf-v6rb div class="card"
         hf-ynbt div.gr.mono "THE PIPELINE"
@@ -193,8 +172,6 @@ body
         hf-9z4e div.num "Getting a customer live."
         hf-91ik p "Safely. On time."
     #s12 section class="clip scene"
-      hf-h32s div.kick "04:14 · THE ANALOGY"
-      hf-7k83 div.tc "RIDER → DRIVER → PILOT"
       hf-g0dq div.h "Rider. Driver."
         hf-x28i strong "Pilot."
       hf-16rq div class="card"
@@ -226,8 +203,6 @@ body
           hf-6sil div
       hf-kw6e div.chip "\"DELIVERY PILOT\" IS WHAT I'M CALLING IT"
     #s13 section class="clip dark scene"
-      hf-hyn6 div.kick "04:59 · THE PILOT"
-      hf-qefm div.tc "ONE PILOT, WHAT USED TO TAKE A TEAM"
       hf-e5kp div.h "A pilot doesn't flap the wings."
       hf-ktic div.sub "Plans the route. Trusts the instruments. Watches for risk. Lands safely."
       hf-vekf div
@@ -261,8 +236,6 @@ body
             hf-mj9j use
           hf-dtf1 div.mono.tl "LAND SAFELY"
     #s14 section class="clip scene"
-      hf-wu1e div.kick "06:00 · EVERYONE GOT UPGRADED"
-      hf-934i div.tc "NOBODY GOT DEMOTED"
       hf-0taa div.h "Everyone moves up ."
         hf-7qai strong "a seat"
       hf-g60x div
@@ -295,8 +268,6 @@ body
           hf-hbfl div class="mono" "AIR TRAFFIC CONTROL"
           hf-6hjv div "Strategy, priorities, safety."
     #s15 section class="clip scene"
-      hf-9lka div.kick "06:46 · THE BUSINESS REALITY"
-      hf-r5mg div.tc "GATHER THE RIGHT RESOURCES"
       hf-r808 div.h "Invest in pilots now, or ."
         hf-v8cg em "face a senior shortage"
       hf-02y2 svg
@@ -318,8 +289,6 @@ body
           hf-pmuk h3 "The right skills"
         hf-1zr9 div.sub "Today's juniors are tomorrow's seniors."
     #s16 section class="clip scene"
-      hf-sqzq div.kick "07:20 · WHAT IS A DELIVERY PILOT?"
-      hf-bzd5 div.tc "COBALTS"
       hf-pptr div.h "The pilot"
         hf-t9qm strong "COBALTS"
       hf-5o90 div
@@ -344,8 +313,6 @@ body
           hf-mhay h3 "Strategist"
           hf-pudi p "Picks what to build next, and why."
     #s17 section class="clip dark scene"
-      hf-kk4s div.kick "08:05 · A DAY IN THE LIFE"
-      hf-7euo div.tc "FLIGHT PLAN"
       hf-x2ih div.h "A day in the life of a pilot"
       hf-anif svg
         hf-t1zr path
@@ -364,8 +331,6 @@ body
           hf-tawx text "LAND RELEASE"
         hf-j1l3 use
     #s18 section class="clip scene"
-      hf-yfln div.kick "08:37 · YOUR 90-DAY FLIGHT PLAN"
-      hf-xcpe div.tc "3 LEGS · 12 WEEKS"
       hf-igfu div.h "Your 90-day flight plan"
       hf-nunr div
       hf-u07r div class="card"
@@ -383,8 +348,6 @@ body
         hf-m8q5 h3 "Get certified"
         hf-naj7 p "A frontier-lab certification such as CCA-F, as proof you can fly."
     #s19 section class="clip dark scene"
-      hf-kukd div.kick "09:47 · JOIN DELIVERY PILOT"
-      hf-etk2 div.tc "YOUR SEAT IN THE COCKPIT"
       hf-0qnb div.h "Delivery"
         hf-9r9k strong "Pilot"
       hf-ym9q div.sub "Where you train to become one."
@@ -405,10 +368,8 @@ body
           hf-qbk4 div.num.tl "✈"
           hf-tuv4 h3 "Real bots, real companies"
           hf-74lb p "Certified pilots build them."
-      hf-tz2w div.chip "github.com/rifaterdemsahin/junior-to-pilot"
+      hf-tz2w div.chip "skool.com/delivery-pilot-8938"
     #s20 section class="clip dark scene"
-      hf-cpwb div.kick "10:07 · CLOSING LINE"
-      hf-dhau div.tc "SEE YOU IN THE COCKPIT"
       hf-21ud div
         hf-ebkq div "Riders get carried."
           hf-5zbi svg
