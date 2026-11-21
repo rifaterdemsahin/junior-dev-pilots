@@ -1,0 +1,27 @@
+TITLE
+Ship 10× Faster With AI: Rider, Driver or Delivery Pilot? ✈️
+
+ALT TITLES
+Rider, Driver or Pilot? How Junior Devs Ship 10× Faster
+Stop Coding Like a Passenger 🚲🚗✈️
+
+DESCRIPTION
+Ship ten times faster and stay in complete control. 🚀
+
+There are 3 ways junior developers use AI. Which one are you?
+
+🚲 RIDER: copies chatbot answers and hopes they work. Range: around the block.
+🚗 DRIVER: hands on the wheel, AI as the satnav. Range: city to city.
+✈️ DELIVERY PILOT: sets the flight plan (the spec), runs AI agents on autopilot, watches the instruments, and takes control when it matters. Range: vast distances.
+
+Delivery Pilot is where you train to become one, and it's 100% FREE for students. 🎓
+If you're studying, your seat in the cockpit costs nothing.
+
+👉 Join here: https://www.skool.com/delivery-pilot-8938
+
+Your cockpit includes:
+✅ Flight plans: spec-first builds
+✅ AI agents: autopilot workflows
+✅ $0 for all students
+
+#AI #JuniorDeveloper #AIAgents #SoftwareEngineering #Coding #LearnToCode #DeliveryPilot #Shorts
