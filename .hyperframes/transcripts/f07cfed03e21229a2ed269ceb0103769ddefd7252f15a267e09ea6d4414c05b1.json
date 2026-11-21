@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "src": "assets/short-hook-vo.wav",
+  "sha": "f07cfed03e21229a2ed269ceb0103769ddefd7252f15a267e09ea6d4414c05b1",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "What's",
+      "start": 0.04,
+      "end": 0.22,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "in",
+      "start": 0.28,
+      "end": 0.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "it",
+      "start": 0.36,
+      "end": 0.46,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "for",
+      "start": 0.5,
+      "end": 0.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "you?",
+      "start": 0.72,
+      "end": 0.94,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "Ship",
+      "start": 1.24,
+      "end": 1.44,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "ten",
+      "start": 1.48,
+      "end": 1.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w7",
+      "text": "times",
+      "start": 1.74,
+      "end": 2.06,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w8",
+      "text": "faster",
+      "start": 2.1,
+      "end": 2.44,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w9",
+      "text": "with",
+      "start": 2.48,
+      "end": 2.56,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w10",
+      "text": "AI",
+      "start": 2.66,
+      "end": 2.78,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w11",
+      "text": "agents",
+      "start": 2.84,
+      "end": 3.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w12",
+      "text": "and",
+      "start": 3.52,
+      "end": 3.68,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w13",
+      "text": "claim",
+      "start": 3.72,
+      "end": 3.96,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w14",
+      "text": "your",
+      "start": 4.019,
+      "end": 4.14,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w15",
+      "text": "free",
+      "start": 4.18,
+      "end": 4.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w16",
+      "text": "student",
+      "start": 4.46,
+      "end": 4.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w17",
+      "text": "seat",
+      "start": 4.86,
+      "end": 5.14,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "3cd5d62e42d79ee9f5dee9d06aae9f39938597b897825ceefb1d2e80b0ac3550",
+  "createdAt": "2026-11-21T11:13:45.165Z"
+}

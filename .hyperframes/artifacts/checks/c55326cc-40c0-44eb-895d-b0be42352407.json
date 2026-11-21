@@ -5,7 +5,7 @@
   "lint": {
     "ok": true,
     "errorCount": 0,
-    "warningCount": 37,
+    "warningCount": 53,
     "infoCount": 0,
     "findings": [
       {
@@ -491,6 +491,262 @@
       {
         "code": "nested_media_start_basis_ambiguous",
         "severity": "warning",
+        "message": "<audio id=\"short-hook-vo\"> has data-start=\"0.2\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#short-hook-vo",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"0.2\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"short-vo\"> has data-start=\"6.2\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#short-vo",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"6.2\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-wiifm-1\"> has data-start=\"0.1\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-wiifm-1",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"0.1\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-wiifm-2\"> has data-start=\"1.6\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-wiifm-2",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"1.6\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-wiifm-3\"> has data-start=\"2.6\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-wiifm-3",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"2.6\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-wiifm-4\"> has data-start=\"3.6\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-wiifm-4",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"3.6\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-wiifm-out\"> has data-start=\"5.75\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-wiifm-out",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"5.75\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-whoosh-1\"> has data-start=\"9.1\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-whoosh-1",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"9.1\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-tick-1\"> has data-start=\"33.4\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-tick-1",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"33.4\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-tick-2\"> has data-start=\"36.4\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-tick-2",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"36.4\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-tick-3\"> has data-start=\"38.8\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-tick-3",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"38.8\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-whoosh-2\"> has data-start=\"41.2\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-whoosh-2",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"41.2\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-whoosh-3\"> has data-start=\"42.8\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-whoosh-3",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"42.8\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-cta\"> has data-start=\"45.96\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-cta",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"45.96\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
+        "message": "<audio id=\"sfx-payoff\"> has data-start=\"51.0\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
+        "selector": "#sfx-payoff",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Keep data-start=\"51.0\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
+      },
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 327 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/compositions/short-rider-driver-pilot-v3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split this sub-composition further into smaller .html files, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      },
+      {
+        "code": "nested_media_start_basis_ambiguous",
+        "severity": "warning",
         "message": "<audio id=\"sfx-whoosh-1\"> has data-start=\"2.9\" inside a sub-composition. Nested media timing is local to its composition by default; a nonzero value can be confused with a legacy root-global timestamp.",
         "selector": "#sfx-whoosh-1",
         "dataAttributes": {},
@@ -601,7 +857,7 @@
         "fixHint": "Keep data-start=\"39.76\" if it is composition-local. If this is a legacy root-global timestamp, add data-hf-media-start-basis=\"global\"; otherwise convert it to local time by subtracting the host start."
       }
     ],
-    "filesScanned": 3
+    "filesScanned": 4
   },
   "runtime": {
     "ok": true,

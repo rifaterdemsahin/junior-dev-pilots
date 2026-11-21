@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "4345b668-8552-4395-b2cf-4899fa3a4615",
+  "currentRevision": "71103028-5292-49d2-98cc-a1ddc8d9068e",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -477,12 +477,16 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/fa/fa2921567dc460764035fb42538f2d24f3639ed6cc5bdabe077afa05e847ae61"
     },
     "compositions/short-rider-driver-pilot-v3.html": {
-      "hash": "b42a726d21479e779b41755c837448affbd5d5eb81607b280a52d220f8699886",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b4/b42a726d21479e779b41755c837448affbd5d5eb81607b280a52d220f8699886"
+      "hash": "d2143b712774e5cf41eed15dd9bbd2fc1617933d1821b17b3dce7e59bdf04b4e",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d2/d2143b712774e5cf41eed15dd9bbd2fc1617933d1821b17b3dce7e59bdf04b4e"
     },
     "assets/short-hook-vo.wav": {
-      "hash": "10f3038f0e631937c327ad584ff93bd6277d673d3874930fe24c283b8d4d52df",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/10/10f3038f0e631937c327ad584ff93bd6277d673d3874930fe24c283b8d4d52df"
+      "hash": "f07cfed03e21229a2ed269ceb0103769ddefd7252f15a267e09ea6d4414c05b1",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/f0/f07cfed03e21229a2ed269ceb0103769ddefd7252f15a267e09ea6d4414c05b1"
+    },
+    "assets/short-hook-vo.transcript.json": {
+      "hash": "ccae4ad24b4ec7a7f63f10e7ef352cb6c752a7546b7c7475312ee75e5c5c27a1",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cc/ccae4ad24b4ec7a7f63f10e7ef352cb6c752a7546b7c7475312ee75e5c5c27a1"
     }
   },
   "revisions": {
@@ -1247,12 +1251,87 @@
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/10/10f3038f0e631937c327ad584ff93bd6277d673d3874930fe24c283b8d4d52df"
         }
       }
+    },
+    "7676ca3f-ae2d-4d3a-9e2b-9101adec1522": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795259585066,
+      "endedAt": 1795259587068,
+      "files": {
+        "assets/short-hook-vo.wav": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/10/10f3038f0e631937c327ad584ff93bd6277d673d3874930fe24c283b8d4d52df",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/0a/0a150bb831f7a6024c285368c78021b521873b1039d34ee4cb31d74ed10fc5a1"
+        }
+      }
+    },
+    "ac4585c2-5790-45a2-b620-c62016b7d7d8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795259588246,
+      "endedAt": 1795259590248,
+      "files": {
+        "assets/short-hook-vo.transcript.json": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/ce/ce4e70bccc37193aa92fa11b706a6ba1a8ed0bfc172a99cd970520307d827c5a"
+        }
+      }
+    },
+    "8e46e991-6526-49aa-98f2-ba321b8ef0d2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795259621997,
+      "endedAt": 1795259623998,
+      "files": {
+        "assets/short-hook-vo.wav": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/0a/0a150bb831f7a6024c285368c78021b521873b1039d34ee4cb31d74ed10fc5a1",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/f0/f07cfed03e21229a2ed269ceb0103769ddefd7252f15a267e09ea6d4414c05b1"
+        }
+      }
+    },
+    "f00b30b4-385c-4a32-a95e-fa8ba1bf10c5": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795259625205,
+      "endedAt": 1795259627205,
+      "files": {
+        "assets/short-hook-vo.transcript.json": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/ce/ce4e70bccc37193aa92fa11b706a6ba1a8ed0bfc172a99cd970520307d827c5a",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cc/ccae4ad24b4ec7a7f63f10e7ef352cb6c752a7546b7c7475312ee75e5c5c27a1"
+        }
+      }
+    },
+    "71103028-5292-49d2-98cc-a1ddc8d9068e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795259636207,
+      "endedAt": 1795259639423,
+      "files": {
+        "compositions/short-rider-driver-pilot-v3.html": {
+          "before": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b4/b42a726d21479e779b41755c837448affbd5d5eb81607b280a52d220f8699886",
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/d2/d2143b712774e5cf41eed15dd9bbd2fc1617933d1821b17b3dce7e59bdf04b4e"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": "8065ebd1-8ed0-4f8c-b088-4f3ed8bb1d4c",
-      "id": "64f7c0de-8f8e-498d-b69e-b3f86178ae1c"
+      "revision": "71103028-5292-49d2-98cc-a1ddc8d9068e",
+      "id": "c55326cc-40c0-44eb-895d-b0be42352407"
     },
     "revisions": {
       "18f24328-7873-4a30-abbe-2f29d1d3d90a": [],
@@ -1448,7 +1527,6 @@
         {
           "id": "ee17a2c6-8712-418e-a95f-037498d7e3bf",
           "scope": "project",
-          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/ee17a2c6-8712-418e-a95f-037498d7e3bf.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -1478,7 +1556,9 @@
           "revision": "dfcf9000-160e-4a40-89a7-ccd9f0af0104",
           "inputFingerprint": "a8338f6a84087b6906b3cd39d80165d59e4f0a2fcb80c970eeb3ff0074c581cd",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "bf6272a8-db3b-4d35-b433-189c99b0b16f"
         }
       ],
       "8065ebd1-8ed0-4f8c-b088-4f3ed8bb1d4c": [
@@ -1514,6 +1594,43 @@
           "contentHash": "977907ad549c55e5cb70089ee67b46d147578c521d1af0de38dd5ad57b9c76de",
           "revision": "8065ebd1-8ed0-4f8c-b088-4f3ed8bb1d4c",
           "inputFingerprint": "95216308b19034c812a76a0f8665e9b8a2f97d3f9a43b227cdc3ad7f340691fd",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "71103028-5292-49d2-98cc-a1ddc8d9068e": [
+        {
+          "id": "c55326cc-40c0-44eb-895d-b0be42352407",
+          "scope": "project",
+          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/c55326cc-40c0-44eb-895d-b0be42352407.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": false,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": true
+            }
+          },
+          "createdAt": 1795259666080,
+          "contentHash": "0269d148e07c1173825697c8523e3d2263a0f4cbc5f28b9ca29a4dc81991f4ac",
+          "revision": "71103028-5292-49d2-98cc-a1ddc8d9068e",
+          "inputFingerprint": "41a4481355241ace6e89cbc7dd7e57bc973c29a2a192209b14069f0f87f88231",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }
@@ -2699,15 +2816,15 @@
   },
   "renders": {
     "latest": {
-      "id": "6f715e5e-dda9-4584-8d92-970402f9be3f",
-      "completedAt": 1795259459352,
+      "id": "bf6272a8-db3b-4d35-b433-189c99b0b16f",
+      "completedAt": 1795259725291,
       "output": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/renders/short-rider-driver-pilot-v3.mp4",
       "status": "completed",
-      "revision": "8065ebd1-8ed0-4f8c-b088-4f3ed8bb1d4c"
+      "revision": "71103028-5292-49d2-98cc-a1ddc8d9068e"
     },
     "retainedRevisions": [
-      "8065ebd1-8ed0-4f8c-b088-4f3ed8bb1d4c",
-      "dfcf9000-160e-4a40-89a7-ccd9f0af0104"
+      "71103028-5292-49d2-98cc-a1ddc8d9068e",
+      "8065ebd1-8ed0-4f8c-b088-4f3ed8bb1d4c"
     ]
   },
   "pendingArtifactCleanup": []
