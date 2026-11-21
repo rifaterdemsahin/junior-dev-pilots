@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "01138f6c-b92d-4c11-93b9-3533a5bfcf0c",
-  "currentRevision": "a6ae687d-6172-4823-92f6-4fc693c4cbf4",
+  "currentRevision": "dfcf9000-160e-4a40-89a7-ccd9f0af0104",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -471,6 +471,10 @@
     "docs/local-server-guide.html": {
       "hash": "295aafa49a794c620b028681e75c2dbe35f890bdc23ceeddaaffc4677f08de89",
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/29/295aafa49a794c620b028681e75c2dbe35f890bdc23ceeddaaffc4677f08de89"
+    },
+    "compositions/short-rider-driver-pilot-v2.html": {
+      "hash": "cf035b795a3f7a30595bfd592097332a05c9c1b73b42b4d070ce59575565c461",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cf/cf035b795a3f7a30595bfd592097332a05c9c1b73b42b4d070ce59575565c461"
     }
   },
   "revisions": {
@@ -1175,12 +1179,27 @@
           "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/29/295aafa49a794c620b028681e75c2dbe35f890bdc23ceeddaaffc4677f08de89"
         }
       }
+    },
+    "dfcf9000-160e-4a40-89a7-ccd9f0af0104": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795258936676,
+      "endedAt": 1795258938676,
+      "files": {
+        "compositions/short-rider-driver-pilot-v2.html": {
+          "before": null,
+          "after": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/cf/cf035b795a3f7a30595bfd592097332a05c9c1b73b42b4d070ce59575565c461"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": "547d191a-acff-4a79-9026-ae8c017f9243",
-      "id": "c3c4fbca-d0e6-46a0-9320-791195b2ead8"
+      "revision": "dfcf9000-160e-4a40-89a7-ccd9f0af0104",
+      "id": "ee17a2c6-8712-418e-a95f-037498d7e3bf"
     },
     "revisions": {
       "18f24328-7873-4a30-abbe-2f29d1d3d90a": [],
@@ -1264,7 +1283,6 @@
         {
           "id": "b2628676-846e-44e2-be91-be08539a9d60",
           "scope": "project",
-          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/b2628676-846e-44e2-be91-be08539a9d60.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -1294,12 +1312,13 @@
           "revision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
           "inputFingerprint": "89a2a69ee6ea2dad79ff6c6e254ddd5ff5346f1fb166970a30b02f1bef261387",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "f29e1d59-5b10-4538-abea-4dca79a1052b"
         },
         {
           "id": "b491072f-0b81-44b8-b41f-74f9483d0a20",
           "scope": "project",
-          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/b491072f-0b81-44b8-b41f-74f9483d0a20.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -1329,7 +1348,9 @@
           "revision": "d8c91037-6a9c-43bf-9673-07c60e27f1d5",
           "inputFingerprint": "89a2a69ee6ea2dad79ff6c6e254ddd5ff5346f1fb166970a30b02f1bef261387",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "f29e1d59-5b10-4538-abea-4dca79a1052b"
         }
       ],
       "547d191a-acff-4a79-9026-ae8c017f9243": [
@@ -1365,6 +1386,43 @@
           "contentHash": "b71f32bc0ca53c9575f2b274d0ab383a4cb914d7d8133ca22eceddbcba74ef3c",
           "revision": "547d191a-acff-4a79-9026-ae8c017f9243",
           "inputFingerprint": "1c190f975f829a81c0dc82ad552c50fb260785eb90c548dab682966f7d84b78f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "dfcf9000-160e-4a40-89a7-ccd9f0af0104": [
+        {
+          "id": "ee17a2c6-8712-418e-a95f-037498d7e3bf",
+          "scope": "project",
+          "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/ee17a2c6-8712-418e-a95f-037498d7e3bf.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": false,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": true
+            }
+          },
+          "createdAt": 1795258961417,
+          "contentHash": "29cadaece2eb0ab46f59fe65a8ba247a1abe180dfef1b4165fe07b0af96b656a",
+          "revision": "dfcf9000-160e-4a40-89a7-ccd9f0af0104",
+          "inputFingerprint": "a8338f6a84087b6906b3cd39d80165d59e4f0a2fcb80c970eeb3ff0074c581cd",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }
@@ -2550,15 +2608,15 @@
   },
   "renders": {
     "latest": {
-      "id": "209e34e4-f037-4a25-962e-c408b7cec1bf",
-      "completedAt": 1795258427469,
-      "output": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/renders/short-rider-driver-pilot.mp4",
+      "id": "f29e1d59-5b10-4538-abea-4dca79a1052b",
+      "completedAt": 1795259007927,
+      "output": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/renders/short-rider-driver-pilot-v2.mp4",
       "status": "completed",
-      "revision": "547d191a-acff-4a79-9026-ae8c017f9243"
+      "revision": "dfcf9000-160e-4a40-89a7-ccd9f0af0104"
     },
     "retainedRevisions": [
-      "547d191a-acff-4a79-9026-ae8c017f9243",
-      "d8c91037-6a9c-43bf-9673-07c60e27f1d5"
+      "dfcf9000-160e-4a40-89a7-ccd9f0af0104",
+      "547d191a-acff-4a79-9026-ae8c017f9243"
     ]
   },
   "pendingArtifactCleanup": []
