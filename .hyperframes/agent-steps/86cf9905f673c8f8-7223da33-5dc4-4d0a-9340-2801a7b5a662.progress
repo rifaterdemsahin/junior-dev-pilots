@@ -1,7 +1,0 @@
-[hyperframes] check: the report is saved to /Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/scratch/short/.hyperframes/artifacts/checks/89df2536-47ba-401d-87d3-b64db2ef15a8.json when the check ends, unless a warning says it could not be saved
-[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to /Users/rifaterdemsahin/.cache/hyperframes/fonts/inter)
-[INFO] [Compiler] Fetched 10 font face(s) for "JetBrains Mono" from Google Fonts (cached to /Users/rifaterdemsahin/.cache/hyperframes/fonts/jetbrains-mono)
-[INFO] [Compiler] Fetched 9 font face(s) for "Outfit" from Google Fonts (cached to /Users/rifaterdemsahin/.cache/hyperframes/fonts/outfit)
-[INFO] [Compiler] Fetched 1 font face(s) for "Archivo Black" from Google Fonts (cached to /Users/rifaterdemsahin/.cache/hyperframes/fonts/archivo-black)
-[INFO] [Compiler] Injected deterministic @font-face rules for 4 requested font families
-[hyperframes] check: starting Chrome

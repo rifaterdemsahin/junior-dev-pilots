@@ -453,8 +453,8 @@
       "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/52/520ea696f50d1ebf01c2211fb1b77a49810b50993a2ea4830ba9f773f5558438"
     },
     "compositions/short-rider-driver-pilot.html": {
-      "hash": "a6be1c7a0133630b663af70a8fa83cdcccafaf100bd23d9859106bccd88c8123",
-      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/a6/a6be1c7a0133630b663af70a8fa83cdcccafaf100bd23d9859106bccd88c8123"
+      "hash": "b73e87a1ec7515af4fc9c51c3c9ca37dc5ca49c9a7905e83ff9586f6fcca4324",
+      "content": "/Users/rifaterdemsahin/.cache/hyperframes/history/01138f6c-b92d-4c11-93b9-3533a5bfcf0c/blobs/b7/b73e87a1ec7515af4fc9c51c3c9ca37dc5ca49c9a7905e83ff9586f6fcca4324"
     }
   },
   "revisions": {
@@ -1072,8 +1072,8 @@
   },
   "checks": {
     "latest": {
-      "revision": "570857ef-c8b6-4185-b646-05abceb1cc34",
-      "id": "2ad94938-a8c7-492e-a70c-6b5a7efaee72"
+      "revision": null,
+      "id": "69c2e799-aa92-4eb2-a59e-3cf9c2ecd936"
     },
     "revisions": {
       "18f24328-7873-4a30-abbe-2f29d1d3d90a": [],
@@ -1379,6 +1379,44 @@
         "contentHash": "c793241261e36e2ccc108f501d9f58234bab0b8b63786a7a23ec8a3545c4e534",
         "revision": null,
         "inputFingerprint": "a47ae29476dc261b34c569347aa87573b7f011ecce89b3589ea6bd38900ca187",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "69c2e799-aa92-4eb2-a59e-3cf9c2ecd936",
+        "scope": "project",
+        "report": "/Users/rifaterdemsahin/.hyperframes-studio/Junior Developers Become Delivery Pilots/.hyperframes/artifacts/checks/69c2e799-aa92-4eb2-a59e-3cf9c2ecd936.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "skipContrastInMotion": true,
+            "strict": false,
+            "snapshots": false,
+            "findingFrames": true,
+            "inspect": true,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "software",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1795257030084,
+        "contentHash": "c793241261e36e2ccc108f501d9f58234bab0b8b63786a7a23ec8a3545c4e534",
+        "revision": null,
+        "inputFingerprint": "19a1b847f0d7ed3b09582a40a532e691c24c55674a1716f51b18bf0229fa0604",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }
